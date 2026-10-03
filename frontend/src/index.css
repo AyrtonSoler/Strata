@@ -269,3 +269,23 @@ html, body { overflow-x: clip; }
 }
 
 .tm-icon { background: none !important; border: none !important; }
+
+/* Time Machine: focused building */
+@keyframes tm-focus-ring {
+  0% { transform: translate(-50%, -50%) scale(1); opacity: 0.9; }
+  100% { transform: translate(-50%, -50%) scale(3.2); opacity: 0; }
+}
+.tm-focus .tm-pt { transform: scale(1.5); box-shadow: 0 0 0 3px #fff, 0 0 0 5px #1d1d1f; }
+.tm-focus::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 14px;
+  height: 14px;
+  border-radius: 9999px;
+  border: 2px solid #1d1d1f;
+  animation: tm-focus-ring 1.6s ease-out infinite;
+  pointer-events: none;
+}
+@media (prefers-reduced-motion: reduce) { .tm-focus::before { animation: none; } }

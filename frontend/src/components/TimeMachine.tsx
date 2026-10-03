@@ -3,6 +3,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { MapContainer, Marker, Popup, TileLayer, useMap } from 'react-leaflet'
 import { api } from '../lib/api'
 import type { Strings } from '../lib/i18n'
+import { DatePicker, Select } from './controls'
 import { Card, RESULT_COLOR, Segmented, type Shade } from './ui'
 
 interface Point {
@@ -98,6 +99,25 @@ function FitRegion({ region }: { region: Region }) {
   return null
 }
 
+function FlyTo({ target }: { target: { lat: number; lon: number; stamp: number } | null }) {
+  const map = useMap()
+  useEffect(() => {
+    if (!target) return
+    // Run after any region fit so the building wins.
+    const id = window.setTimeout(() => map.flyTo([target.lat, target.lon], 15, { duration: 1.1 }), 950)
+    return () => window.clearTimeout(id)
+  }, [map, target])
+  return null
+}
+
+interface Hit {
+  address_id: string
+  street_address: string
+  jurisdiction_city: string | null
+  postal_city: string
+  state: string
+}
+
 function Tween({ value }: { value: number }) {
   const [shown, setShown] = useState(value)
   const from = useRef(value)
@@ -147,6 +167,9 @@ export default function TimeMachine({
   const [playing, setPlaying] = useState(false)
   const [toast, setToast] = useState<Toast | null>(null)
   const [changed, setChanged] = useState<{ ids: Set<string>; stamp: number }>({ ids: new Set(), stamp: 0 })
+  const [focus, setFocus] = useState<{ id: string; lat: number; lon: number; stamp: number } | null>(null)
+  const [q, setQ] = useState('')
+  const [hits, setHits] = useState<Hit[]>([])
   const dayRef = useRef(dayF)
   const dwellUntil = useRef(0)
   const prevKey = useRef<string | null>(null)
@@ -168,6 +191,15 @@ export default function TimeMachine({
   useEffect(() => {
     api<Timeline>('/timeline').then(setTimeline)
   }, [])
+
+  useEffect(() => {
+    if (!q.trim()) {
+      setHits([])
+      return
+    }
+    const id = setTimeout(() => api<Hit[]>(`/addresses?limit=6&q=${encodeURIComponent(q)}`).then(setHits).catch(() => setHits([])), 140)
+    return () => clearTimeout(id)
+  }, [q])
 
   useEffect(() => {
     if (!timeline) return
@@ -261,19 +293,31 @@ export default function TimeMachine({
     [seek],
   )
 
+  const focusOn = (hit: Hit) => {
+    const p = data?.points.find((x) => x.id === hit.address_id)
+    setQ('')
+    setHits([])
+    if (!p) return
+    const r = REGION_OF[hit.jurisdiction_city ?? ''] ?? REGION_OF[hit.state]
+    if (r) setRegion(r)
+    setFocus({ id: p.id, lat: p.lat, lon: p.lon, stamp: Date.now() })
+  }
+  const focusPoint = focus ? data?.points.find((x) => x.id === focus.id) : undefined
+
   const markers = useMemo(
     () =>
       data?.points.map((p) => {
         const shade = p.r[lens] ?? 'none'
         const color = RESULT_COLOR[shade]
         const isNew = changed.ids.has(p.id)
+        const isFocus = focus?.id === p.id
         const icon = divIcon({
           className: 'tm-icon',
           iconSize: [14, 14],
-          html: `<span class="tm-wrap ${isNew ? 'tm-changed' : ''}" style="--ring:${color}"><span class="tm-pt" style="background:${color}"></span></span>`,
+          html: `<span class="tm-wrap ${isNew ? 'tm-changed' : ''} ${isFocus ? 'tm-focus' : ''}" style="--ring:${color}"><span class="tm-pt" style="background:${color}"></span></span>`,
         })
         return (
-          <Marker key={`${p.id}-${isNew ? changed.stamp : 0}`} position={[p.lat, p.lon]} icon={icon}>
+          <Marker key={`${p.id}-${isNew ? changed.stamp : 0}-${isFocus ? focus?.stamp : 0}`} position={[p.lat, p.lon]} icon={icon} zIndexOffset={isFocus ? 1000 : 0}>
             <Popup>
               <p className="text-[14px] font-semibold">{p.street}</p>
               <p className="text-[12px] text-muted">
@@ -289,11 +333,12 @@ export default function TimeMachine({
           </Marker>
         )
       }) ?? [],
-    [data, lens, changed, categories, onOpenAddress, s],
+    [data, lens, changed, focus, categories, onOpenAddress, s],
   )
 
   const counts = data?.counts[lens] ?? {}
-  const pretty = new Date(START + day * DAY).toLocaleDateString(s.asOf === 'As of' ? 'en-US' : 'es-MX', {
+  const es = s.asOf !== 'As of'
+  const pretty = new Date(START + day * DAY).toLocaleDateString(es ? 'es-MX' : 'en-US', {
     month: 'long',
     day: 'numeric',
     year: 'numeric',
@@ -325,6 +370,7 @@ export default function TimeMachine({
               />
               <TileLayer url="https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Reference/MapServer/tile/{z}/{y}/{x}" maxZoom={16} />
               <FitRegion region={region} />
+              <FlyTo target={focus} />
               {markers}
             </MapContainer>
 
@@ -339,20 +385,70 @@ export default function TimeMachine({
 
             <div className="glass absolute left-4 top-4 z-[500] w-[270px] rounded-2xl p-5 shadow-[0_8px_30px_rgba(0,0,0,0.10)]">
               <p className="eyebrow">{s.asOf}</p>
-              <p key={snapKey} className="page-in text-[26px] font-semibold capitalize leading-tight tracking-tight">
-                {pretty}
-              </p>
-              <select
-                value={lens}
-                onChange={(e) => setLens(e.target.value)}
-                className="mt-3 w-full rounded-lg border border-hairline bg-white/80 px-2.5 py-1.5 text-[13px] font-medium focus:outline-none"
-              >
-                {Object.entries(categories).map(([k, v]) => (
-                  <option key={k} value={k}>
-                    {v}
-                  </option>
-                ))}
-              </select>
+              <DatePicker
+                value={iso}
+                onChange={(v) => seek(dayOf(v))}
+                min="2024-01-01"
+                max="2028-12-31"
+                align="left"
+                lang={es ? 'es' : 'en'}
+                presets={keyDates.filter((k) => k > '2025-06-01').slice(0, 6).map((k) => [k, k] as [string, string])}
+                trigger={(open) => (
+                  <span className="group flex items-center gap-2">
+                    <span key={snapKey} className="page-in text-[26px] font-semibold capitalize leading-tight tracking-tight group-hover:text-accent">
+                      {pretty}
+                    </span>
+                    <svg width="12" height="12" viewBox="0 0 12 12" className={`mt-1 text-faint transition-transform group-hover:text-accent ${open ? 'rotate-180' : ''}`}>
+                      <path d="M2.5 4.5 6 8l3.5-3.5" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
+                  </span>
+                )}
+              />
+              <Select className="mt-3" value={lens} onChange={setLens} options={Object.entries(categories) as [string, string][]} />
+              <div className="relative mt-2">
+                <div className="flex items-center gap-2 rounded-xl bg-white/90 px-3 ring-1 ring-hairline focus-within:ring-accent">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#86868b" strokeWidth="2.6" strokeLinecap="round">
+                    <circle cx="11" cy="11" r="7" />
+                    <path d="m20 20-3.5-3.5" />
+                  </svg>
+                  <input
+                    value={q}
+                    onChange={(e) => setQ(e.target.value)}
+                    placeholder={es ? 'Buscar una dirección' : 'Find an address'}
+                    className="w-full bg-transparent py-2 text-[13px] focus:outline-none"
+                  />
+                </div>
+                {hits.length > 0 && (
+                  <ul className="sheet-up absolute inset-x-0 z-[1200] mt-1.5 overflow-hidden rounded-2xl bg-white/95 p-1.5 shadow-[0_16px_40px_rgba(0,0,0,0.16)] ring-1 ring-black/5 backdrop-blur-xl">
+                    {hits.map((h) => (
+                      <li key={h.address_id}>
+                        <button onClick={() => focusOn(h)} className="w-full rounded-xl px-3 py-1.5 text-left hover:bg-fill">
+                          <span className="block truncate text-[13px] font-medium">{h.street_address}</span>
+                          <span className="block text-[11px] text-muted">{h.jurisdiction_city ?? `${h.postal_city}, ${h.state}`}</span>
+                        </button>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </div>
+              {focusPoint && (
+                <div className="expand mt-3 rounded-xl bg-white/80 p-3 ring-1 ring-hairline/70">
+                  <p className="truncate text-[13px] font-semibold">{focusPoint.street}</p>
+                  <p className="text-[11px] text-muted">{focusPoint.city}</p>
+                  <p className="mt-1.5 flex items-center gap-1.5 text-[12px]">
+                    <span className="h-2 w-2 rounded-full" style={{ background: RESULT_COLOR[focusPoint.r[lens] ?? 'none'] }} />
+                    {(focusPoint.r[lens] ?? 'none') === 'none' ? s.none : s.results[focusPoint.r[lens] as Exclude<Shade, 'none'>]}
+                  </p>
+                  <div className="mt-1.5 flex gap-3 text-[12px] font-medium">
+                    <button onClick={() => onOpenAddress(focusPoint.id)} className="text-accent hover:underline">
+                      {s.openLookup} →
+                    </button>
+                    <button onClick={() => setFocus(null)} className="text-muted hover:text-ink" aria-label="Clear">
+                      ✕
+                    </button>
+                  </div>
+                </div>
+              )}
               <ul className="mt-3 space-y-1.5">
                 {ORDER.filter((k) => counts[k]).map((k) => (
                   <li key={k} className="flex items-center justify-between text-[13px]">

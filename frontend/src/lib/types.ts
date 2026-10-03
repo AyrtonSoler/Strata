@@ -114,6 +114,12 @@ export interface Rule {
   overrides: string[]
   source_origin: string | null
   retrieved_at: string | null
+  penalty?: string | null
+  extraction_origins?: string[]
+  confidence_signals?: string[]
+  verification?: { verdict?: string; review_reasons?: string[]; requirement_supported?: string; issue?: string | null }
+  title_es?: string | null
+  requirement_es?: string | null
 }
 
 export interface ChangeTest {

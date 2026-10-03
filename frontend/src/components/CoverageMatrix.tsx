@@ -29,11 +29,29 @@ export default function CoverageMatrix({ grid, rules, categories, onPick }: Prop
   return (
     <Card className="overflow-hidden">
       <div className="px-7 pb-4 pt-6">
-        <h3 className="text-[21px] font-semibold tracking-tight">Coverage at a glance</h3>
-        <p className="text-[14px] text-muted">
-          Every jurisdiction × category the system was asked about. Numbers are rules in force; “None” means the law says there is no rule at that level; “—” means
-          the corpus is silent (the state layer governs).
-        </p>
+        <div className="flex flex-wrap items-end justify-between gap-4">
+          <div>
+            <h3 className="text-[21px] font-semibold tracking-tight">Coverage at a glance</h3>
+            <p className="text-[14px] text-muted">Which protections exist where. Select any cell to see its rules.</p>
+          </div>
+          <div className="flex flex-wrap items-center gap-x-4 gap-y-1.5 text-[12px] text-muted">
+            <span className="flex items-center gap-1.5">
+              <span className="rounded-md bg-applies-bg px-1.5 font-semibold text-applies">2</span> Rules in force
+            </span>
+            <span className="flex items-center gap-1.5">
+              <span className="rounded-md bg-future-bg px-1.5 font-semibold text-future">Soon</span> Takes effect later
+            </span>
+            <span className="flex items-center gap-1.5">
+              <span className="rounded-md bg-pending-bg px-1.5 font-semibold text-pending">Bill</span> Pending
+            </span>
+            <span className="flex items-center gap-1.5">
+              <span className="rounded-md bg-fill px-1.5 font-semibold text-ink-2">None</span> No local rule
+            </span>
+            <span className="flex items-center gap-1.5">
+              <span className="font-semibold text-faint">—</span> State law governs
+            </span>
+          </div>
+        </div>
       </div>
       <div className="overflow-x-auto border-t border-hairline/60">
         <table className="min-w-full text-[13px]">

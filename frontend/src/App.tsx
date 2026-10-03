@@ -4,6 +4,7 @@ import ChangesView from './components/ChangesView'
 import LookupView from './components/LookupView'
 import RulesView from './components/RulesView'
 import TimeMachine, { type TimeState } from './components/TimeMachine'
+import { DatePicker } from './components/controls'
 import { Segmented, StrataMark } from './components/ui'
 import { api } from './lib/api'
 import { t, type Lang } from './lib/i18n'
@@ -90,15 +91,22 @@ export default function App() {
           </nav>
           <div className="ml-auto flex items-center gap-3 md:ml-0">
             {tab === 'lookup' && (
-              <label className="hidden items-center gap-2 text-[13px] text-muted sm:flex">
+              <div className="hidden items-center gap-2 text-[13px] text-muted sm:flex">
                 {s.asOf}
-                <input
-                  type="date"
+                <DatePicker
                   value={asOf}
-                  onChange={(e) => e.target.value && setAsOf(e.target.value)}
-                  className="rounded-lg border border-hairline bg-white/80 px-2 py-1 text-[13px] text-ink focus:outline-none focus:ring-2 focus:ring-accent/30"
+                  onChange={setAsOf}
+                  lang={lang}
+                  min="2024-01-01"
+                  max="2028-12-31"
+                  presets={[
+                    ['2026-10-01', lang === 'es' ? 'Fecha base' : 'Default date'],
+                    ['2025-12-31', 'Dec 31, 2025'],
+                    ['2026-01-02', 'Jan 2, 2026'],
+                    ['2027-07-02', 'Jul 2, 2027'],
+                  ]}
                 />
-              </label>
+              </div>
             )}
             <Segmented
               size="sm"

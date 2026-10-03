@@ -1,0 +1,21 @@
+{
+ "doc_id": "D039",
+ "chunk": 0,
+ "meta": {
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011Cffi66g15wKSBSBqoEaFp",
+  "stop_reason": "end_turn",
+  "input_tokens": 1162,
+  "output_tokens": 434,
+  "cost_usd": 0.0074
+ },
+ "rules": [],
+ "no_rule_findings": [
+  {
+   "jurisdiction": "Los Angeles, CA",
+   "category": "algorithmic_rent_setting",
+   "finding": "The document is a city council motion instructing a city department to study and report on the feasibility of banning algorithmic rent-setting software; it does not itself enact, propose as a bill, or adopt any ban or restriction.",
+   "quoted_span": "I THEREFORE MOVE that the City Council instruct the Los Angeles Housing Department to \nreport on the number of ownership and management entities that are using algorithm-based \nsoftware to establish rents and the feasibility of instituting a ban on the use of this software to set \nrents in the City."
+  }
+ ]
+}

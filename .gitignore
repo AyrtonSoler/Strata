@@ -1,0 +1,35 @@
+# IDE
+.idea/
+.vscode/
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+dist/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data: the starter pack and fetched third-party pages are re-downloadable
+# (see README); only the pieces the deployed API needs are committed.
+data/pack/*
+!data/pack/dev/
+!data/pack/schema/
+!data/pack/corpus/
+data/extra/*.txt
+data/drive_latest/
+data/rehearsal/
+data/work/extract_run.log
+
+# Organizer briefs (not ours to redistribute)
+docs/challenges/

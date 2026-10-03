@@ -1,0 +1,21 @@
+{
+ "doc_id": "D031",
+ "chunk": 0,
+ "meta": {
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011Cffi62EM3TKcB1ZwUFWPE",
+  "stop_reason": "end_turn",
+  "input_tokens": 2229,
+  "output_tokens": 153,
+  "cost_usd": 0.0067
+ },
+ "rules": [],
+ "no_rule_findings": [
+  {
+   "jurisdiction": "Cambridge, MA",
+   "category": "just_cause_eviction",
+   "finding": "The Ordinance explicitly states it does not prevent or limit a landlord's ability to evict; it only requires providing an informational guide, not a just-cause requirement.",
+   "quoted_span": "This Ordinance does not prevent a landlord from initiating an eviction action if otherwise allowed by law."
+  }
+ ]
+}

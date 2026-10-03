@@ -1,0 +1,14 @@
+{
+ "doc_id": "D075",
+ "chunk": 0,
+ "meta": {
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CffipdX4Y4gPex2h3d83E",
+  "stop_reason": "end_turn",
+  "input_tokens": 570,
+  "output_tokens": 21,
+  "cost_usd": 0.0021
+ },
+ "rules": [],
+ "no_rule_findings": []
+}

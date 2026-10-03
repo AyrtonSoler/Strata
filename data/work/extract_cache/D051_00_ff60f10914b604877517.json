@@ -1,0 +1,21 @@
+{
+ "doc_id": "D051",
+ "chunk": 0,
+ "meta": {
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011Cffip8ATpESNTx74W1ipz",
+  "stop_reason": "end_turn",
+  "input_tokens": 1468,
+  "output_tokens": 721,
+  "cost_usd": 0.0194
+ },
+ "rules": [],
+ "no_rule_findings": [
+  {
+   "jurisdiction": "MA",
+   "category": "just_cause_eviction",
+   "finding": "Massachusetts law allows termination of a tenancy at will by either party with three months' notice, without requiring any specific cause; only notice periods are specified, not just-cause limitations.",
+   "quoted_span": "Estates at will may be determined by either party by three months' notice in writing for that purpose given to the other party"
+  }
+ ]
+}

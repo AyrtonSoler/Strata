@@ -1,0 +1,44 @@
+{
+ "doc_id": "D076",
+ "chunk": 0,
+ "meta": {
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011Cffi9smiV4GjdsR5fzrWQ",
+  "stop_reason": "end_turn",
+  "input_tokens": 8363,
+  "output_tokens": 818,
+  "cost_usd": 0.0256
+ },
+ "rules": [
+  {
+   "category": "algorithmic_rent_setting",
+   "jurisdiction": "San Diego, CA",
+   "level": "city",
+   "instrument_status": "pending",
+   "title": "Prohibition of Anti-Competitive Automated Rent Price-Fixing Ordinance",
+   "requirement": "The ordinance would ban selling, licensing, or providing algorithmic rent-setting software to landlords, and would ban landlords from using such software to set rental rates or occupancy levels for residential rental property in San Diego. Tenants could sue for injunctive relief, damages, or civil penalties up to $1,000 per violation.",
+   "key_value": "Ban on sale/use of algorithmic devices; penalties up to $1,000 per violation",
+   "coverage_conditions": "Applies to landlords and persons providing algorithmic devices used to set rental rates or occupancy levels for residential rental property in the City of San Diego.",
+   "exemptions": "Does not include software publishing reports from aggregated historical nonpublic competitor data more than 90 days old or public information, without future rate recommendations; or software used to set rates/income limits under affordable housing program guidelines.",
+   "effective_date": null,
+   "enacted_date": null,
+   "citation": "San Diego Mun. Code §§ 98.1101-98.1104 (proposed)",
+   "quoted_span": "It is unlawful for a landlord to use an algorithmic device to set rental rates or occupancy levels for residential rental property.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": "whether the rental rates/income limits are set in accordance with local, state, or federal affordable housing program guidelines",
+    "yields_to_local": false
+   },
+   "conflict_note": "Document is a staff report and draft ordinance with blank 'DATE OF FINAL PASSAGE' field, indicating the ordinance had not yet been adopted as of this text; status treated as pending.",
+   "confidence": 0.75
+  }
+ ],
+ "no_rule_findings": []
+}

@@ -1,0 +1,73 @@
+{
+ "doc_id": "D042",
+ "chunk": 0,
+ "meta": {
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CffjduTKigRYm168iQVHJ",
+  "stop_reason": "end_turn",
+  "input_tokens": 2098,
+  "output_tokens": 1059,
+  "cost_usd": 0.0244
+ },
+ "rules": [
+  {
+   "category": "rent_increase_limits",
+   "jurisdiction": "Los Angeles, CA",
+   "level": "city",
+   "instrument_status": "enacted",
+   "title": "RSO Annual Rent Increase Cap",
+   "requirement": "For rental units covered by the Los Angeles Rent Stabilization Ordinance, landlords may raise rent by at most the annual allowable percentage set by the city, currently 3%, plus certain fee surcharges.",
+   "key_value": "3%",
+   "coverage_conditions": "Applies to rental units subject to the City of Los Angeles Rent Stabilization Ordinance (RSO).",
+   "exemptions": "Non-RSO properties are not covered by this cap.",
+   "effective_date": "2025-07-01",
+   "enacted_date": null,
+   "citation": "L.A.M.C. § 151.06",
+   "quoted_span": "Annual rent increases for rental units subject to the City of Los Angeles Rent Stabilization Ordinance (RSO), effective July 1, 2025, through June 30, 2026 is 3%.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": "whether the unit is registered as subject to the RSO (determined via zimas.lacity.org lookup)",
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.9
+  },
+  {
+   "category": "rent_increase_limits",
+   "jurisdiction": "Los Angeles, CA",
+   "level": "city",
+   "instrument_status": "enacted",
+   "title": "RSO and SCEP Fee Pass-Through Surcharges",
+   "requirement": "In addition to the annual rent increase, landlords may pass through to tenants a monthly RSO surcharge of $1.61 and a monthly SCEP surcharge of $2.83, each for 12 months per year, with proper written notice and after registering the units.",
+   "key_value": "$1.61 RSO + $2.83 SCEP per month",
+   "coverage_conditions": "Applies to units subject to the RSO where landlord has registered the units and given written notice.",
+   "exemptions": null,
+   "effective_date": "2022-01-01",
+   "enacted_date": null,
+   "citation": "L.A.M.C. § 151.06",
+   "quoted_span": "Effective January 1, 2022, the SCEP fee is a total of $67.94 per unit which landlords may collect from tenants at a rate of $2.83 per month for 12 months each year with a proper written notice.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": "whether the landlord has registered the units and given proper written notice",
+    "yields_to_local": false
+   },
+   "conflict_note": "The RSO surcharge has a separate effective date of January 1, 2020 stated in the same document for the RSO fee component.",
+   "confidence": 0.75
+  }
+ ],
+ "no_rule_findings": []
+}

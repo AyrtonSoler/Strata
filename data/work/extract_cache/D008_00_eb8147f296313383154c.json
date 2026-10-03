@@ -1,0 +1,44 @@
+{
+ "doc_id": "D008",
+ "chunk": 0,
+ "meta": {
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011Cffi3ZMHRTxdVnvP1Fr5i",
+  "stop_reason": "end_turn",
+  "input_tokens": 959,
+  "output_tokens": 751,
+  "cost_usd": 0.0102
+ },
+ "rules": [
+  {
+   "category": "rent_increase_limits",
+   "jurisdiction": "Berkeley, CA",
+   "level": "city",
+   "instrument_status": "enacted",
+   "title": "2026 Annual General Adjustment (AGA) Order",
+   "requirement": "Berkeley landlords with rent-controlled units may increase the 2025 permanent rent ceiling by 1.0%, but not before January 1, 2026. This increase does not apply to tenancies that began on or after January 1, 2025 and whose rents were set under the Costa-Hawkins Rental Housing Act.",
+   "key_value": "1.0%",
+   "coverage_conditions": "Applies to units subject to Berkeley rent stabilization with permanent rent ceilings; excludes tenancies beginning on or after January 1, 2025 whose rents were set under Costa-Hawkins (i.e., units exempt from rent ceiling because of vacancy decontrol).",
+   "exemptions": "Tenancies that began on or after January 1, 2025 and had rents set pursuant to the Costa-Hawkins Rental Housing Act are not subject to this AGA increase.",
+   "effective_date": "2026-01-01",
+   "enacted_date": "2025-10-16",
+   "citation": "Berkeley Mun. Code § 13.76.110A",
+   "quoted_span": "At its regular meeting on October 16, 2025, the Berkeley Rent Stabilization Board adopted the Annual General Adjustment (AGA) Order for Year 2026 which will allow eligible landlords to increase the 2025 permanent rent ceilings by 1.0% no earlier than January 1, 2026.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": "whether the unit's rent is subject to a permanent rent ceiling under Berkeley rent stabilization or instead set under Costa-Hawkins vacancy decontrol (tenancy began on or after Jan 1, 2025)",
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.85
+  }
+ ],
+ "no_rule_findings": []
+}

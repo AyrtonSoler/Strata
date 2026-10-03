@@ -1,0 +1,44 @@
+{
+ "doc_id": "D057",
+ "chunk": 0,
+ "meta": {
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CffipKDUbJNL7dXJuQqVM",
+  "stop_reason": "end_turn",
+  "input_tokens": 1196,
+  "output_tokens": 769,
+  "cost_usd": 0.0108
+ },
+ "rules": [
+  {
+   "category": "application_screening_fees",
+   "jurisdiction": "MA",
+   "level": "state",
+   "instrument_status": "enacted",
+   "title": "Real estate brokers and salesmen; persons finding dwelling accommodations for fee; contracts; payment of fee",
+   "requirement": "A broker fee for finding a rental home can only be charged to the person who actually hired the broker (either the landlord or the tenant), not automatically passed on to the tenant.",
+   "key_value": "Fee paid only by party who engaged broker",
+   "coverage_conditions": "Applies to any licensed real estate broker or salesperson finding dwelling accommodations for a fee for prospective tenants or landlords.",
+   "exemptions": null,
+   "effective_date": "2025-08-01",
+   "enacted_date": null,
+   "citation": "M.G.L. c. 112, § 87DDD 1/2",
+   "quoted_span": "Any fee shall only be paid by the party, lessor or tenant who originally engaged and entered into a contract with the licensed broker or salesperson.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": false
+   },
+   "conflict_note": "Text notes an earlier version effective until August 1, 2025, which did not include the fee-payment-party provision; the amended version adding that sentence takes effect August 1, 2025 per 2025, c.9, Sec. 43 (see also Sec. 136).",
+   "confidence": 0.72
+  }
+ ],
+ "no_rule_findings": []
+}

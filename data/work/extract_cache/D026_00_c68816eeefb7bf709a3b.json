@@ -1,0 +1,44 @@
+{
+ "doc_id": "D026",
+ "chunk": 0,
+ "meta": {
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011Cffi5djWAjtc1wwT1rnyz",
+  "stop_reason": "end_turn",
+  "input_tokens": 2655,
+  "output_tokens": 654,
+  "cost_usd": 0.0126
+ },
+ "rules": [
+  {
+   "category": "application_screening_fees",
+   "jurisdiction": "CA",
+   "level": "state",
+   "instrument_status": "enacted",
+   "title": "Application Screening Fee Cap",
+   "requirement": "Landlords can charge a fee to cover the cost of screening a rental applicant, but the fee cannot exceed actual out-of-pocket costs and is capped at $30 per applicant (adjustable for inflation). Landlords must follow specific procedures for considering applications in order and refunding fees when applicants are not considered, and must provide an itemized receipt.",
+   "key_value": "$30 per applicant (CPI-adjusted since 1998)",
+   "coverage_conditions": "Applies to all landlords charging an application screening fee to a rental applicant in California.",
+   "exemptions": null,
+   "effective_date": "2026-01-01",
+   "enacted_date": "2025",
+   "citation": "Cal. Civ. Code § 1950.6",
+   "quoted_span": "In no case shall the amount of the application screening fee charged by the landlord or their agent be greater than thirty dollars ($30) per applicant. The thirty dollar ($30) application screening fee may be adjusted annually by the landlord or their agent commensurate with an increase in the Consumer Price Index, beginning on January 1, 1998.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": false
+   },
+   "conflict_note": "This text is the amended version effective January 1, 2026 (Stats. 2025, Ch. 67, Sec. 29, AB 1170); the $30 base figure dates to 1998 and is subject to annual CPI adjustment, so the actual current cap may differ from the stated $30.",
+   "confidence": 0.95
+  }
+ ],
+ "no_rule_findings": []
+}

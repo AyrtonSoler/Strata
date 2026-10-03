@@ -1,0 +1,44 @@
+{
+ "doc_id": "D067",
+ "chunk": 5,
+ "meta": {
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011Cffi8vEH3i1ufwkqE4XAk",
+  "stop_reason": "end_turn",
+  "input_tokens": 7716,
+  "output_tokens": 1576,
+  "cost_usd": 0.0319
+ },
+ "rules": [
+  {
+   "category": "just_cause_eviction",
+   "jurisdiction": "NJ",
+   "level": "state",
+   "instrument_status": "enacted",
+   "title": "New Jersey Anti-Eviction Act",
+   "requirement": "A landlord may only evict a residential tenant for one of the specific statutory good-cause reasons (such as nonpayment of rent, disorderly conduct, property damage, lease violations, or removal from the rental market), and in most cases must first serve a required notice (Notice to Cease and/or Notice to Quit) before filing suit.",
+   "key_value": "Good cause required; notice periods range from 3 days to 3 months depending on cause",
+   "coverage_conditions": "Applies to most residential rental properties including single-family homes, mobile homes and land in a mobile home park, apartment buildings and complexes, and rooming and boarding homes.",
+   "exemptions": "Does not apply to two- or three-unit owner-occupied premises with two or fewer rental units; does not apply to hotel, motel, or guest house occupants who are transient or seasonal guests (unless they have no alternate residence and reside there continually); does not apply to a unit held in trust for a developmentally disabled immediate family member who permanently occupies the unit.",
+   "effective_date": null,
+   "enacted_date": null,
+   "citation": "N.J.S.A. 2A:18-53 to 2A:18-61.12",
+   "quoted_span": "A landlord must have good cause to evict a tenant (N.J.S.A. 2A:18-53).",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": 2,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": "whether a unit is held in trust for and permanently occupied by a developmentally disabled immediate family member, or is used for transient/seasonal hotel, motel, or guest house occupancy",
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.85
+  }
+ ],
+ "no_rule_findings": []
+}

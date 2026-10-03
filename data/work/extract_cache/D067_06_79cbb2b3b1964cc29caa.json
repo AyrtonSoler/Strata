@@ -1,0 +1,73 @@
+{
+ "doc_id": "D067",
+ "chunk": 6,
+ "meta": {
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011Cffi8z3UX7Usf1hTPKPpv",
+  "stop_reason": "end_turn",
+  "input_tokens": 7765,
+  "output_tokens": 2772,
+  "cost_usd": 0.044
+ },
+ "rules": [
+  {
+   "category": "just_cause_eviction",
+   "jurisdiction": "NJ",
+   "level": "state",
+   "instrument_status": "enacted",
+   "title": "New Jersey Anti-Eviction Act - Good Cause Eviction Grounds",
+   "requirement": "A landlord can only evict a residential tenant for specific legally listed reasons (such as nonpayment of rent, lease violations, owner retirement of the property, condominium conversion, criminal conduct on the premises, or refusal of reasonable lease changes), each with its own required Notice to Quit period before a court eviction suit can be filed.",
+   "key_value": null,
+   "coverage_conditions": "Applies to residential tenancies statewide; owner-occupied two- and three-family dwellings are subject to a narrower, separate list of causes and notice periods under N.J.S.A. 2A:18-61.2(a).",
+   "exemptions": "Owner-occupied two- and three-family dwellings have a separate, more limited set of causes and notice requirements; certain protected tenancy statuses (Senior Citizens and Disabled Protected Tenancy Act) limit removal in conversion cases.",
+   "effective_date": null,
+   "enacted_date": null,
+   "citation": "N.J.S.A. 2A:18-61.1 et seq.",
+   "quoted_span": "Tenants of landlord-occupied two- and three-family dwellings can be removed only when a court issues an order for eviction.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": "whether the building is a landlord-occupied two- or three-family dwelling, which triggers a different, narrower set of permissible eviction causes and notice periods",
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.78
+  },
+  {
+   "category": "just_cause_eviction",
+   "jurisdiction": "NJ",
+   "level": "state",
+   "instrument_status": "enacted",
+   "title": "Reprisal / Anti-Retaliation Protection for Tenants",
+   "requirement": "A landlord cannot evict, substantially change lease terms, or refuse to renew a lease in retaliation for a tenant exercising certain civil rights, such as enforcing lease or legal rights, complaining to authorities about code violations, or participating in a tenant organization.",
+   "key_value": null,
+   "coverage_conditions": "Applies to all rental properties used for dwelling purposes, including mobile homes.",
+   "exemptions": "Owner-occupied two- or three-family dwellings are excluded from this anti-reprisal protection.",
+   "effective_date": null,
+   "enacted_date": null,
+   "citation": "N.J.S.A. 2A:42-10.10",
+   "quoted_span": "A landlord cannot take reprisal action against a tenant by eviction, substantial alteration of a lease or its terms, or refusal to renew a lease when a tenant exercises certain civil rights (N.J.S.A. 2A:42-10.10).",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": 3,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.75
+  }
+ ],
+ "no_rule_findings": []
+}

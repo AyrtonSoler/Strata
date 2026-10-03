@@ -1,0 +1,44 @@
+{
+ "doc_id": "D049",
+ "chunk": 1,
+ "meta": {
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011Cffi79WBmA9iLthqfpQwz",
+  "stop_reason": "end_turn",
+  "input_tokens": 6457,
+  "output_tokens": 1400,
+  "cost_usd": 0.0277
+ },
+ "rules": [
+  {
+   "category": "screening_restrictions",
+   "jurisdiction": "MA",
+   "level": "state",
+   "instrument_status": "enacted",
+   "title": "Prohibition on Discrimination Against Recipients of Public Assistance or Housing Subsidies",
+   "requirement": "Landlords and others providing rental housing or credit cannot refuse to rent to, or otherwise discriminate against, a tenant because they receive public assistance (including medical assistance) or a housing subsidy such as a Section 8 voucher or rental assistance.",
+   "key_value": null,
+   "coverage_conditions": "Applies to any person furnishing credit, services, or rental accommodations.",
+   "exemptions": null,
+   "effective_date": null,
+   "enacted_date": null,
+   "citation": "M.G.L. c. 151B, § 4(10)",
+   "quoted_span": "For any person furnishing credit, services or rental accommodations to discriminate against any individual who is a recipient of federal, state, or local public assistance, including medical assistance, or who is a tenant receiving federal, state, or local housing subsidies, including rental assistance or rental supplements, because the individual is such a recipient, or because of any requirement of such public assistance, rental assistance, or housing subsidy program.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.85
+  }
+ ],
+ "no_rule_findings": []
+}

@@ -1,0 +1,44 @@
+{
+ "doc_id": "D050",
+ "chunk": 0,
+ "meta": {
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011Cffip8Dw5aT9hCe3akNYr",
+  "stop_reason": "end_turn",
+  "input_tokens": 993,
+  "output_tokens": 768,
+  "cost_usd": 0.0189
+ },
+ "rules": [
+  {
+   "category": "just_cause_eviction",
+   "jurisdiction": "MA",
+   "level": "state",
+   "instrument_status": "enacted",
+   "title": "Notice to Quit for Nonpayment of Rent",
+   "requirement": "If a tenant fails to pay rent, the landlord must give at least 14 days' written notice to quit before the lease can be terminated, unless the tenant pays or tenders all rent due with interest and costs before the answer is due in court.",
+   "key_value": "14 days' notice",
+   "coverage_conditions": "Applies to written leases where tenant has neglected or refused to pay rent due.",
+   "exemptions": "If the nonpayment was caused by delay in a government subsistence or rental payment, the court must continue the hearing and may treat the tenancy as not terminated if rent is later tendered.",
+   "effective_date": null,
+   "enacted_date": null,
+   "citation": "M.G.L. c. 186, § 11",
+   "quoted_span": "Upon the neglect or refusal to pay the rent due under a written lease, fourteen days' notice to quit, given in writing by the landlord to the tenant, shall be sufficient to determine the lease, unless the tenant, on or before the day the answer is due, in an action by the landlord to recover possession of the premises, pays or tenders to the landlord or to his attorney all rent then due, with interest and costs of suit.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.7
+  }
+ ],
+ "no_rule_findings": []
+}

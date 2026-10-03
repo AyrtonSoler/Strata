@@ -1,0 +1,44 @@
+{
+ "doc_id": "D023",
+ "chunk": 0,
+ "meta": {
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011Cffi4nfjvumvkvztcCj8f",
+  "stop_reason": "end_turn",
+  "input_tokens": 7515,
+  "output_tokens": 1529,
+  "cost_usd": 0.0311
+ },
+ "rules": [
+  {
+   "category": "just_cause_eviction",
+   "jurisdiction": "CA",
+   "level": "state",
+   "instrument_status": "enacted",
+   "title": "California Tenant Protection Act – Just Cause Eviction Requirement",
+   "requirement": "After a tenant has lived in a rental unit for 12 months (or 24 months if additional adults were added), the landlord cannot end the tenancy without a legally specified 'just cause' reason, stated in writing. For no-fault terminations (like owner move-in, demolition, or withdrawal from rental market), the landlord must pay the tenant one month's rent as relocation assistance or waive the final month's rent.",
+   "key_value": "12 months continuous occupancy triggers protection; relocation assistance/rent waiver = 1 month's rent",
+   "coverage_conditions": "Applies to residential real property after 12 months (or 24 months with added adult tenants) of continuous lawful occupancy, subject to listed exemptions for property type, ownership structure, and building age.",
+   "exemptions": "Transient/tourist hotels; nonprofit hospitals, religious facilities, extended care/residential care facilities; dormitories and K-12 schools; owner-occupied shared bathroom/kitchen housing; single-family owner-occupied residences renting ≤2 units/bedrooms; duplexes with owner occupying one unit; housing issued a certificate of occupancy within the previous 15 years (unless mobilehome); certain alienable single properties not owned by a REIT, corporation, or LLC with a corporate member (with required notice); deed-restricted or subsidized affordable housing for very low/low/moderate income persons.",
+   "effective_date": "2020-01-01",
+   "enacted_date": null,
+   "citation": "Cal. Civ. Code § 1946.2",
+   "quoted_span": "Notwithstanding any other law, after a tenant has continuously and lawfully occupied a residential real property for 12 months, the owner of the residential real property shall not terminate a tenancy without just cause, which shall be stated in the written notice to terminate tenancy.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": "certificate_of_occupancy",
+    "exclude_if_newer_than_years": 15,
+    "owner_exemption_max_units": 2,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": "whether the housing is deed-restricted/subsidized affordable housing, or whether the owner is a natural person vs. REIT/corporation/LLC with corporate member (for the alienable-property exemption)",
+    "yields_to_local": false
+   },
+   "conflict_note": "Effective date of 2020-01-01 is inferred from repeated references to tenancies/leases existing or commenced 'on or after July 1, 2020' and notice deadlines of 'no later than August 1, 2020,' consistent with the Tenant Protection Act of 2019's general January 1, 2020 effective date, though this specific section does not state its own effective date in the quoted text.",
+   "confidence": 0.75
+  }
+ ],
+ "no_rule_findings": []
+}

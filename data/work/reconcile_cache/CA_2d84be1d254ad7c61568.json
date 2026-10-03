@@ -1,0 +1,408 @@
+{
+ "groups": [
+  {
+   "member_ids": [
+    "c0000",
+    "c0093"
+   ],
+   "primary_id": "c0000",
+   "canonical_citation": "Berkeley Mun. Code ch. 13.63",
+   "effective_date": "2026-01-01",
+   "instrument_status": "enacted",
+   "conflict_flag": true,
+   "conflict_note": "Official ordinance text does not state a separate effective date beyond Council passage (Nov 18, 2025); a secondary source estimates an effective date of January 2026.",
+   "interaction": "Overlaps with the CA Cartwright Act (Bus. & Prof. Code §16729) banning algorithmic pricing collusion statewide; the local ordinance adds city-specific civil penalties and a private right of action.",
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0001"
+   ],
+   "primary_id": "c0001",
+   "canonical_citation": "Berkeley Mun. Code § 13.106",
+   "effective_date": null,
+   "instrument_status": "enacted",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": "State law (Gov. Code §12955/Civil Rights Council regs) restricts but does not entirely bar use of criminal history; Berkeley's ordinance imposes a stricter, near-total local ban.",
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0002",
+    "c0007",
+    "c0012"
+   ],
+   "primary_id": "c0007",
+   "canonical_citation": "Berkeley Mun. Code ch. 13.76 (Rent Stabilization and Good Cause for Eviction Ordinance, as amended by Measure BB)",
+   "effective_date": null,
+   "instrument_status": "enacted",
+   "conflict_flag": true,
+   "conflict_note": "Sources give different effective dates for different components (e.g., relocation payment increases effective 2026-01-01; Measure BB passed the Nov 2024 election without one stated effective date for the nonpayment threshold change).",
+   "interaction": "Because this is a local just-cause ordinance adopted before Sept 1, 2019, it displaces the default state just-cause requirement under Civ. Code §1946.2 for covered Berkeley units.",
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0004",
+    "c0005"
+   ],
+   "primary_id": "c0004",
+   "canonical_citation": "Berkeley Mun. Code ch. 13.78 (§§13.78.010, 13.78.016)",
+   "effective_date": null,
+   "instrument_status": "enacted",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": "Works alongside the state screening-fee cap under Civ. Code §1950.6; requires disclosure of the state cap and adds a separate local prohibition on non-refundable renewal/roommate fees.",
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0006",
+    "c0010",
+    "c0011"
+   ],
+   "primary_id": "c0010",
+   "canonical_citation": "Berkeley Mun. Code § 13.76.110A (Rent Stabilization Ordinance, as amended by Measure BB)",
+   "effective_date": "2026-01-01",
+   "instrument_status": "enacted",
+   "conflict_flag": false,
+   "conflict_note": "Measure BB (Nov 2024) capped the Annual General Adjustment formula at 5%; the 2026 Rent Board order sets the actual AGA at 1.0%, both under the same ch. 13.76 regime.",
+   "interaction": "The state AB 1482 rent cap does not apply to units covered by Berkeley's local rent control ordinance, which imposes its own stricter annual cap.",
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0009"
+   ],
+   "primary_id": "c0009",
+   "canonical_citation": "Berkeley Mun. Code ch. 13.76 (Rent Stabilization Ordinance - Security Deposit Interest)",
+   "effective_date": null,
+   "instrument_status": "enacted",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": "Supplements the state deposit cap (Civ. Code §1950.5) by requiring interest payments on deposits for rent-controlled units.",
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0003",
+    "c0028",
+    "c0097"
+   ],
+   "primary_id": "c0028",
+   "canonical_citation": "Cal. Civ. Code § 1950.6",
+   "effective_date": "2026-01-01",
+   "instrument_status": "enacted",
+   "conflict_flag": false,
+   "conflict_note": "Base cap is $30 (1998), CPI-adjusted annually; the 2026 cap is $68.96.",
+   "interaction": "Applies statewide; local ordinances such as Berkeley's require disclosure of this cap but cannot set a different cap amount.",
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0019",
+    "c0020",
+    "c0029",
+    "c0095"
+   ],
+   "primary_id": "c0029",
+   "canonical_citation": "Cal. Gov. Code § 12955 (FEHA, as amended by SB 329)",
+   "effective_date": "2020-01-01",
+   "instrument_status": "enacted",
+   "conflict_flag": true,
+   "conflict_note": "SB 329 (effective 2020-01-01) established source-of-income protections; a later amendment described in one source (effective 2024-01-01) added a requirement to accept alternative income proof for subsidized tenants; sources cite different effective dates for different amendments to the same code section.",
+   "interaction": "Applies statewide to all landlords regardless of local ordinances; no local override identified.",
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0021",
+    "c0094"
+   ],
+   "primary_id": "c0094",
+   "canonical_citation": "Cal. Code Regs. tit. 2 (Civil Rights Council Criminal History Regulations); Cal. Gov. Code § 12955",
+   "effective_date": "2020-01-01",
+   "instrument_status": "enacted",
+   "conflict_flag": true,
+   "conflict_note": "One source lacks a specific statutory/regulatory citation and infers authority from general FEHA; exact regulatory citation is uncertain across sources.",
+   "interaction": "Berkeley's Fair Chance Access to Housing Ordinance imposes a stricter, near-total ban on criminal history inquiries beyond this state regulation's limits.",
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0096"
+   ],
+   "primary_id": "c0096",
+   "canonical_citation": "Cal. Gov. Code § 12955 (as amended by SB 267)",
+   "effective_date": null,
+   "instrument_status": "enacted",
+   "conflict_flag": false,
+   "conflict_note": "Effective date not stated in source; SB 267 was enacted in 2023, presumed effective 2024-01-01.",
+   "interaction": null,
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0022",
+    "c0098"
+   ],
+   "primary_id": "c0022",
+   "canonical_citation": "Cal. Bus. & Prof. Code § 16729",
+   "effective_date": "2026-01-01",
+   "instrument_status": "enacted",
+   "conflict_flag": false,
+   "conflict_note": "No explicit effective date in statutory text; California bills without urgency clauses typically take effect Jan 1 following enactment, consistent with a secondary source's stated 2026-01-01 date.",
+   "interaction": "Operates alongside (not preempting) local algorithmic rent-setting bans in Berkeley, San Diego, and Santa Ana, which add housing-specific penalties and private rights of action.",
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0023",
+    "c0024"
+   ],
+   "primary_id": "c0024",
+   "canonical_citation": "Cal. Civ. Code § 1946.2 (Tenant Protection Act of 2019, as amended)",
+   "effective_date": "2024-04-01",
+   "instrument_status": "enacted",
+   "conflict_flag": true,
+   "conflict_note": "Underlying section originally effective 2020-01-01; the version addressing interaction with local ordinances became operative 2024-04-01; a later amendment is effective 2026-01-01; the section is set to self-repeal 2030-01-01.",
+   "interaction": "Does not apply where a local just-cause ordinance adopted on or before Sept 1, 2019 (or a more protective later one) governs instead, e.g., in Berkeley, San Francisco, Los Angeles, San Diego, and Santa Ana.",
+   "yields_to_local": true
+  },
+  {
+   "member_ids": [
+    "c0025",
+    "c0035"
+   ],
+   "primary_id": "c0025",
+   "canonical_citation": "Cal. Civ. Code § 1947.12 (Tenant Protection Act of 2019 / AB 1482)",
+   "effective_date": "2024-04-01",
+   "instrument_status": "enacted",
+   "conflict_flag": false,
+   "conflict_note": "Operative date differs from original enactment (Jan 1, 2020); section is repealed as of Jan 1, 2030.",
+   "interaction": "Does not apply to units covered by a more protective local rent control ordinance, such as those in Berkeley, San Francisco, Los Angeles, and Santa Ana.",
+   "yields_to_local": true
+  },
+  {
+   "member_ids": [
+    "c0008",
+    "c0026",
+    "c0027"
+   ],
+   "primary_id": "c0026",
+   "canonical_citation": "Cal. Civ. Code § 1950.5",
+   "effective_date": "2024-07-01",
+   "instrument_status": "enacted",
+   "conflict_flag": false,
+   "conflict_note": "Deposit-amount cap effective 2024-07-01 (AB 12); separate itemization/nonrefundable provisions amended by AB 414 effective 2026-01-01.",
+   "interaction": "Local ordinances (e.g., Berkeley) may add additional requirements such as interest payment on deposits, supplementing but not conflicting with this state cap.",
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0034",
+    "c0037",
+    "c0038",
+    "c0041",
+    "c0042",
+    "c0043"
+   ],
+   "primary_id": "c0037",
+   "canonical_citation": "L.A.M.C. §§151.09, 165.03, 165.05, 165.06 (Rent Stabilization Ordinance & Just Cause Ordinance)",
+   "effective_date": null,
+   "instrument_status": "enacted",
+   "conflict_flag": true,
+   "conflict_note": "Relocation assistance amounts vary annually (current figures for 7/1/2026-6/30/2027) and overlap with state Housing Crisis Act requirements, which may require higher payments for lower-income tenants displaced for new construction (Resident Protections Ordinance, effective 2025-02-11).",
+   "interaction": "As a local just-cause ordinance adopted before Sept 1, 2019, this ordinance displaces the state Tenant Protection Act default; where state Housing Crisis Act relocation requirements exceed local RSO/JCO amounts, landlords must pay the higher amount.",
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0036",
+    "c0039",
+    "c0040"
+   ],
+   "primary_id": "c0039",
+   "canonical_citation": "L.A.M.C. § 151.06 (Rent Stabilization Ordinance)",
+   "effective_date": "2025-07-01",
+   "instrument_status": "enacted",
+   "conflict_flag": false,
+   "conflict_note": "Annual allowable percentage changes each year (3% for 7/1/2025-6/30/2026); separate surcharge pass-throughs (RSO/SCEP fees) have different effective dates (2020, 2022).",
+   "interaction": "The state AB 1482 rent cap does not apply to units covered by this local RSO, which has its own stricter annual cap and separate fee surcharges.",
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0108"
+   ],
+   "primary_id": "c0108",
+   "canonical_citation": "L.A.M.C. § 45.67",
+   "effective_date": null,
+   "instrument_status": "enacted",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": "Supplements state FEHA source-of-income protections with city-specific anti-discrimination enforcement provisions.",
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0109"
+   ],
+   "primary_id": "c0109",
+   "canonical_citation": "L.A.M.C. § 151.06.02",
+   "effective_date": "1990-11-01",
+   "instrument_status": "enacted",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": "Adds an interest-payment requirement for rent-stabilized units beyond the state deposit cap under Civ. Code §1950.5.",
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0073",
+    "c0074",
+    "c0075",
+    "c0126",
+    "c0127"
+   ],
+   "primary_id": "c0073",
+   "canonical_citation": "San Diego Mun. Code §§98.0700-98.0707 (Residential Tenant Protection Ordinance)",
+   "effective_date": "2023-06-24",
+   "instrument_status": "enacted",
+   "conflict_flag": false,
+   "conflict_note": "Section 98.0706 was amended 2024-02-27 (effective 2024-03-28); the original ordinance was effective 2023-06-24.",
+   "interaction": "Operates alongside and consistent with the state Tenant Protection Act (Civ. Code §1946.2), adding local relocation assistance and buyout protections; as a local just-cause ordinance it displaces the default state rule for covered units.",
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0076",
+    "c0077"
+   ],
+   "primary_id": "c0077",
+   "canonical_citation": "San Diego Mun. Code § 98.1103",
+   "effective_date": null,
+   "instrument_status": "enacted",
+   "conflict_flag": true,
+   "conflict_note": "A draft staff report left the final passage date blank, suggesting the ordinance may still have been pending at drafting, but the same code section confirms enactment; treated as enacted since an official code citation exists.",
+   "interaction": "Operates alongside the state Cartwright Act's ban on common pricing algorithms, adding city-specific penalties and a private right of action.",
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0078",
+    "c0082",
+    "c0083",
+    "c0086",
+    "c0087"
+   ],
+   "primary_id": "c0078",
+   "canonical_citation": "S.F. Admin. Code ch. 37 (§§37.9, 37.9A, 37.9C)",
+   "effective_date": null,
+   "instrument_status": "enacted",
+   "conflict_flag": false,
+   "conflict_note": "Relocation payment amounts adjust annually (current figures for 3/1/2026-2/28/2027).",
+   "interaction": "As a local just-cause ordinance adopted before Sept 1, 2019, this ordinance displaces the state Tenant Protection Act default for covered units.",
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0079",
+    "c0080",
+    "c0084"
+   ],
+   "primary_id": "c0080",
+   "canonical_citation": "S.F. Admin. Code § 37.3",
+   "effective_date": "2026-03-01",
+   "instrument_status": "enacted",
+   "conflict_flag": false,
+   "conflict_note": "Rate is set annually; units built after June 13, 1979 or governed by Costa-Hawkins are exempt from this cap though still subject to just-cause protections.",
+   "interaction": "The state AB 1482 rent cap does not apply to units covered by this local rent control ordinance.",
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0081"
+   ],
+   "primary_id": "c0081",
+   "canonical_citation": "S.F. Admin. Code § 37.10C",
+   "effective_date": "2024-10-14",
+   "instrument_status": "enacted",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": "Operates alongside the state Cartwright Act amendment banning common pricing algorithms statewide.",
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0085"
+   ],
+   "primary_id": "c0085",
+   "canonical_citation": "S.F. Admin. Code § 37.9A(e)",
+   "effective_date": "2026-03-01",
+   "instrument_status": "enacted",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": "Supplements the state deposit cap (Civ. Code §1950.5) by requiring annual interest payment on deposits at a locally-set rate.",
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0088",
+    "c0091"
+   ],
+   "primary_id": "c0091",
+   "canonical_citation": "Santa Ana Mun. Code, Rent Stabilization Ordinance",
+   "effective_date": "2021-11-19",
+   "instrument_status": "enacted",
+   "conflict_flag": false,
+   "conflict_note": "Current allowable increase percentage adjusts annually (2.87% for 9/1/2026-8/31/2027).",
+   "interaction": "The state AB 1482 rent cap does not apply to units covered by this local rent control ordinance.",
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0089",
+    "c0092"
+   ],
+   "primary_id": "c0092",
+   "canonical_citation": "Santa Ana Mun. Code, Just Cause Eviction Ordinance",
+   "effective_date": "2021-11-19",
+   "instrument_status": "enacted",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": "As a local just-cause ordinance adopted before Sept 1, 2019, this ordinance displaces the state Tenant Protection Act default for covered units.",
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0090"
+   ],
+   "primary_id": "c0090",
+   "canonical_citation": "Santa Ana Rent Stabilization and Just Cause Eviction Ordinance (Registration Fee Pass-Through Cap)",
+   "effective_date": null,
+   "instrument_status": "enacted",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": null,
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0128",
+    "c0129"
+   ],
+   "primary_id": "c0128",
+   "canonical_citation": "Santa Ana Ordinance (Algorithmic Rent-Setting Software Ban)",
+   "effective_date": null,
+   "instrument_status": "enacted",
+   "conflict_flag": true,
+   "conflict_note": "One source describes the ordinance as pending a final vote scheduled March 3, 2026 (after first reading Feb 17, 2026); another describes it as already enacted/in effect; treated as enacted per final adoption, with uncertainty about the exact effective date.",
+   "interaction": "Operates alongside the state Cartwright Act's ban on common pricing algorithms, adding city-specific penalties.",
+   "yields_to_local": false
+  }
+ ],
+ "reject_ids": [],
+ "no_rule_ids": []
+}

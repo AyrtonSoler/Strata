@@ -1,0 +1,102 @@
+{
+ "doc_id": "D084",
+ "chunk": 0,
+ "meta": {
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CffjeXdBqLPBgwmyxjqXa",
+  "stop_reason": "end_turn",
+  "input_tokens": 1663,
+  "output_tokens": 1499,
+  "cost_usd": 0.0191
+ },
+ "rules": [
+  {
+   "category": "rent_increase_limits",
+   "jurisdiction": "Santa Ana, CA",
+   "level": "city",
+   "instrument_status": "enacted",
+   "title": "Rent Stabilization and Just Cause Eviction Ordinance - Maximum Allowable Rent Increase",
+   "requirement": "Your landlord can only raise your rent by a limited amount each year, based on a percentage cap or a portion of CPI, whichever is less. The current maximum allowable increase is 2.87% for September 2026 through August 2027.",
+   "key_value": "Lesser of 3% or 80% of CPI change (currently 2.87% for 9/1/2026-8/31/2027)",
+   "coverage_conditions": "Applies to rental units covered by the Santa Ana Rent Stabilization and Just Cause Eviction Ordinance.",
+   "exemptions": null,
+   "effective_date": "2026-09-01",
+   "enacted_date": null,
+   "citation": "Santa Ana Rent Stabilization and Just Cause Eviction Ordinance",
+   "quoted_span": "The increase cannot be more than 3% of your current rent or 80% of the Consumer Price Index (CPI) change, whichever is less.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.85
+  },
+  {
+   "category": "just_cause_eviction",
+   "jurisdiction": "Santa Ana, CA",
+   "level": "city",
+   "instrument_status": "enacted",
+   "title": "Rent Stabilization and Just Cause Eviction Ordinance - Just Cause Protections",
+   "requirement": "Landlords must have a valid, legally recognized reason to evict a tenant, such as non-payment of rent, lease violations, or owner move-in. Tenants evicted for certain no-fault reasons may be entitled to relocation assistance.",
+   "key_value": null,
+   "coverage_conditions": "Applies to rental units covered by the Santa Ana Rent Stabilization and Just Cause Eviction Ordinance.",
+   "exemptions": null,
+   "effective_date": null,
+   "enacted_date": null,
+   "citation": "Santa Ana Rent Stabilization and Just Cause Eviction Ordinance",
+   "quoted_span": "Your landlord must have a valid reason to evict you. This could be for not paying rent, breaking the lease, or if the landlord wants to move into the property themselves.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.8
+  },
+  {
+   "category": "security_deposits",
+   "jurisdiction": "Santa Ana, CA",
+   "level": "city",
+   "instrument_status": "enacted",
+   "title": "Rent Stabilization and Just Cause Eviction Ordinance - Registration Fee Pass-Through Cap",
+   "requirement": "Landlords may pass through a registration fee to tenants but cannot charge more than $50 per rental unit; if they overcharge, they must reimburse the tenant the overpayment.",
+   "key_value": "$50 per rental unit",
+   "coverage_conditions": "Applies to rental units covered by the Santa Ana Rent Stabilization and Just Cause Eviction Ordinance where landlord charges a pass-through registration fee.",
+   "exemptions": null,
+   "effective_date": null,
+   "enacted_date": null,
+   "citation": "Santa Ana Rent Stabilization and Just Cause Eviction Ordinance",
+   "quoted_span": "If a landlord charges a tenant a pass-through fee greater than $50, the landlord shall reimburse the tenant for the registration fee pass-through overpayment.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.6
+  }
+ ],
+ "no_rule_findings": []
+}

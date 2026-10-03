@@ -1,0 +1,73 @@
+{
+ "doc_id": "D011",
+ "chunk": 0,
+ "meta": {
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011Cffi3wZFf7vYy3zxUk4BM",
+  "stop_reason": "end_turn",
+  "input_tokens": 1546,
+  "output_tokens": 1350,
+  "cost_usd": 0.0173
+ },
+ "rules": [
+  {
+   "category": "rent_increase_limits",
+   "jurisdiction": "Boston, MA",
+   "level": "city",
+   "instrument_status": "failed",
+   "title": "An Act petition for a special law authorizing the city of Boston to implement rent stabilization and tenant eviction protections",
+   "requirement": "This bill would have authorized the city of Boston to create its own rent stabilization program, but the bill was not enacted and was instead accompanied by a study order, effectively ending its progress in this session.",
+   "key_value": null,
+   "coverage_conditions": "Would have applied to rental housing within the city of Boston if enacted.",
+   "exemptions": null,
+   "effective_date": null,
+   "enacted_date": null,
+   "citation": "Mass. H.3744 (2023-2024)",
+   "quoted_span": "An Act petition for a special law authorizing the city of Boston to implement rent stabilization and tenant eviction protections",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": false
+   },
+   "conflict_note": "Bill did not pass; final legislative action was 'Accompanied a study order, see H5035' on 9/9/2024, indicating it was shelved rather than enacted or formally voted down.",
+   "confidence": 0.55
+  },
+  {
+   "category": "just_cause_eviction",
+   "jurisdiction": "Boston, MA",
+   "level": "city",
+   "instrument_status": "failed",
+   "title": "An Act petition for a special law authorizing the city of Boston to implement rent stabilization and tenant eviction protections",
+   "requirement": "This bill would have authorized the city of Boston to adopt tenant eviction protections (just-cause style rules), but it was not enacted and was instead accompanied by a study order.",
+   "key_value": null,
+   "coverage_conditions": "Would have applied to rental housing within the city of Boston if enacted.",
+   "exemptions": null,
+   "effective_date": null,
+   "enacted_date": null,
+   "citation": "Mass. H.3744 (2023-2024)",
+   "quoted_span": "that the city of Boston be authorized to implement rent stabilization and tenant eviction protections.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": false
+   },
+   "conflict_note": "Bill did not pass; final legislative action was 'Accompanied a study order, see H5035' on 9/9/2024, indicating it was shelved rather than enacted or formally voted down.",
+   "confidence": 0.5
+  }
+ ],
+ "no_rule_findings": []
+}

@@ -1,0 +1,44 @@
+{
+ "doc_id": "D024",
+ "chunk": 0,
+ "meta": {
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011Cffi1p6yZdFG4Ad9xa6g4",
+  "stop_reason": "end_turn",
+  "input_tokens": 5704,
+  "output_tokens": 876,
+  "cost_usd": 0.0209
+ },
+ "rules": [
+  {
+   "category": "rent_increase_limits",
+   "jurisdiction": "CA",
+   "level": "state",
+   "instrument_status": "enacted",
+   "title": "California Statewide Rent Cap (AB 1482 / Civ. Code § 1947.12)",
+   "requirement": "Landlords cannot raise rent on covered residential units by more than 5% plus local CPI change, or 10%, whichever is lower, in any 12-month period, and no more than two increases in that period.",
+   "key_value": "5% + CPI, max 10%",
+   "coverage_conditions": "Applies to residential real property generally, subject to listed exemptions (deed-restricted affordable housing, dorms/schools, locally rent-controlled housing with stricter caps, housing with certificate of occupancy within prior 15 years, certain owner-occupied duplexes, and certain non-corporate single-family/condo owners with required notice).",
+   "exemptions": "Deed-restricted affordable housing; dormitories; housing subject to stricter local rent control; housing issued certificate of occupancy within previous 15 years (unless mobilehome); alienable single-family/condo property owned by a non-REIT/non-corporation/non-LLC-with-corporate-member with required tenant notice; owner-occupied duplexes where owner occupies one unit.",
+   "effective_date": "2024-04-01",
+   "enacted_date": "2024-01-01",
+   "citation": "Cal. Civ. Code § 1947.12",
+   "quoted_span": "an owner of residential real property shall not, over the course of any 12-month period, increase the gross rental rate for a dwelling or a unit more than 5 percent plus the percentage change in the cost of living, or 10 percent, whichever is lower, of the lowest gross rental rate charged for that dwelling or unit at any time during the 12 months prior to the effective date of the increase.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": "certificate_of_occupancy",
+    "exclude_if_newer_than_years": 15,
+    "owner_exemption_max_units": 2,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": "whether the unit is deed-restricted/subsidized affordable housing; whether the owner is a natural person/non-corporate entity for single-family/condo exemption; whether tenant received required statutory notice of exemption",
+    "yields_to_local": true
+   },
+   "conflict_note": "Section states it is repealed as of January 1, 2030; operative date differs from enactment date (enacted/effective Jan 1, 2024, operative April 1, 2024).",
+   "confidence": 0.95
+  }
+ ],
+ "no_rule_findings": []
+}

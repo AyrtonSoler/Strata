@@ -1,0 +1,44 @@
+{
+ "doc_id": "D025",
+ "chunk": 0,
+ "meta": {
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011Cffi5GjCwtSzQ4rP37Ttv",
+  "stop_reason": "end_turn",
+  "input_tokens": 7358,
+  "output_tokens": 1430,
+  "cost_usd": 0.0298
+ },
+ "rules": [
+  {
+   "category": "security_deposits",
+   "jurisdiction": "CA",
+   "level": "state",
+   "instrument_status": "enacted",
+   "title": "Security Deposit Limits (Civil Code § 1950.5)",
+   "requirement": "Landlords generally may not demand a security deposit of more than one month's rent (on top of the first month's rent). Small landlords who are natural persons and own no more than two rental properties totaling four units or fewer may charge up to two months' rent as security, except this higher amount cannot be charged to a service member.",
+   "key_value": "1 month's rent cap; 2 months' rent for small landlords (natural person owning ≤2 properties/≤4 units)",
+   "coverage_conditions": "Applies to security charged for residential rental agreements where the property is used as the tenant's dwelling.",
+   "exemptions": "Advance payment of not less than six months' rent allowed if lease term is six months or longer; small landlord exception for natural persons/LLCs of natural persons owning ≤2 properties totaling ≤4 units (does not apply to service members); exception does not apply to security collected before July 1, 2024.",
+   "effective_date": "2024-07-01",
+   "enacted_date": null,
+   "citation": "Cal. Civ. Code § 1950.5(c)",
+   "quoted_span": "a landlord shall not demand or receive security, however denominated, in an amount or value in excess of an amount equal to one month’s rent, in addition to any rent for the first month paid on or before initial occupancy.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": 4,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": "whether the tenant is a service member, which affects allowable deposit amount and disclosure requirements",
+    "yields_to_local": false
+   },
+   "conflict_note": "Subdivision (c)(6) states the small-landlord higher deposit subdivision does not apply to security collected or demanded before July 1, 2024, implying that exception's effective date, while the base one-month cap under (c)(1) is the longstanding default rule.",
+   "confidence": 0.85
+  }
+ ],
+ "no_rule_findings": []
+}

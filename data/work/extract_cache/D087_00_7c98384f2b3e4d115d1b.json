@@ -1,0 +1,44 @@
+{
+ "doc_id": "D087",
+ "chunk": 0,
+ "meta": {
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CffiErVxpqRwCaEEt7kcQ",
+  "stop_reason": "end_turn",
+  "input_tokens": 2077,
+  "output_tokens": 944,
+  "cost_usd": 0.0143
+ },
+ "rules": [
+  {
+   "category": "algorithmic_rent_setting",
+   "jurisdiction": "Santa Ana, CA",
+   "level": "city",
+   "instrument_status": "pending",
+   "title": "Santa Ana Algorithmic Rent-Setting Software Ban",
+   "requirement": "Landlords and software providers would be prohibited from selling, licensing, providing, or using algorithmic rent-setting software that uses nonpublic competitor data (like real-time rents, lease renewals, and occupancy levels) to set rental prices for residential rental property in Santa Ana. Tenants could sue for injunctive relief, damages, or civil penalties up to $1,000 per violation plus attorney's fees.",
+   "key_value": "Civil penalties up to $1,000 per violation",
+   "coverage_conditions": "Applies to residential rental property within Santa Ana city limits.",
+   "exemptions": "Does not apply to pricing software that relies solely on publicly available data, aggregate historical data, or tools used to comply with affordable housing program requirements.",
+   "effective_date": null,
+   "enacted_date": null,
+   "citation": "Santa Ana Ordinance (algorithmic rent-setting ban, pending final vote March 3, 2026; not yet codified)",
+   "quoted_span": "The ordinance, approved on Tuesday, Feb. 17, for a first reading and set for a final vote on March 3, prohibits the sale, licensing, provision and use of certain algorithmic rent-setting software for residential rental properties.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": "whether the software relies solely on publicly available or aggregate historical data, or is used to comply with affordable housing program requirements",
+    "yields_to_local": false
+   },
+   "conflict_note": "Article indicates ordinance passed first reading Feb 17, 2026 with final vote scheduled March 3, 2026; status at time of article drafting is pending, not yet finally enacted.",
+   "confidence": 0.75
+  }
+ ],
+ "no_rule_findings": []
+}

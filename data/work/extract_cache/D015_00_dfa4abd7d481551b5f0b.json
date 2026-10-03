@@ -1,0 +1,102 @@
+{
+ "doc_id": "D015",
+ "chunk": 0,
+ "meta": {
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CffiBBXLP8Bf9BKb73cZW",
+  "stop_reason": "end_turn",
+  "input_tokens": 1764,
+  "output_tokens": 1885,
+  "cost_usd": 0.0231
+ },
+ "rules": [
+  {
+   "category": "screening_restrictions",
+   "jurisdiction": "CA",
+   "level": "state",
+   "instrument_status": "enacted",
+   "title": "Civil Rights Council criminal history screening regulations",
+   "requirement": "Landlords face strict limits on how they can use an applicant's criminal history, including a ban on blanket bans on applicants with a criminal record and a ban on considering arrests that did not lead to conviction.",
+   "key_value": null,
+   "coverage_conditions": "Applies to landlords conducting criminal background checks on rental applicants in California.",
+   "exemptions": null,
+   "effective_date": "2020-01-01",
+   "enacted_date": "2019",
+   "citation": "Cal. Code Regs. tit. 2 (Civil Rights Council criminal history regulations)",
+   "quoted_span": "Blanket bans on applicants with a criminal record are prohibited, as are policies that consider arrests without convictions.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.55
+  },
+  {
+   "category": "screening_restrictions",
+   "jurisdiction": "CA",
+   "level": "state",
+   "instrument_status": "enacted",
+   "title": "SB 329 - Source of income protection (Section 8 vouchers)",
+   "requirement": "Landlords cannot refuse to rent to applicants because they use a government housing subsidy such as a Section 8 voucher; 'No Section 8' policies are illegal.",
+   "key_value": null,
+   "coverage_conditions": "Applies to landlords and rental property owners statewide under the Fair Employment and Housing Act.",
+   "exemptions": null,
+   "effective_date": "2020-01-01",
+   "enacted_date": "2019",
+   "citation": "Cal. Gov. Code § 12955",
+   "quoted_span": "In 2019, the California Legislature adopted SB 329, which updated the definition of “source of income” used in the Fair Employment and Housing Act (FEHA) to include government housing subsidy programs, such as Section 8.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.8
+  },
+  {
+   "category": "screening_restrictions",
+   "jurisdiction": "CA",
+   "level": "state",
+   "instrument_status": "enacted",
+   "title": "SB 267 - Credit history restriction for voucher holders",
+   "requirement": "Landlords may not use an applicant's credit history as part of the application process if the applicant has a government rental subsidy (like Section 8), unless they offer the applicant a chance to provide alternative proof they can pay their share of rent.",
+   "key_value": null,
+   "coverage_conditions": "Applies to rental property owners screening applicants who hold a government rental subsidy.",
+   "exemptions": null,
+   "effective_date": null,
+   "enacted_date": null,
+   "citation": "Cal. Gov. Code § 12955 (as amended by SB 267)",
+   "quoted_span": "In addition, last year’s SB 267 amended FEHA to prohibit rental property owners from using a person’s credit history as part of the application process – if they have a government rental subsidy, such as Section 8 — without offering the applicant the option to provide alternative evidence of a verifiable legal means to pay their portion of the rent.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": false
+   },
+   "conflict_note": "Effective date not stated; article is undated beyond 'last year' reference to SB 267.",
+   "confidence": 0.65
+  }
+ ],
+ "no_rule_findings": []
+}

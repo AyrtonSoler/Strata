@@ -1,0 +1,44 @@
+{
+ "doc_id": "D016",
+ "chunk": 0,
+ "meta": {
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011Cffi4FeSKR8Hk9NQ7fV41",
+  "stop_reason": "end_turn",
+  "input_tokens": 6665,
+  "output_tokens": 1578,
+  "cost_usd": 0.0298
+ },
+ "rules": [
+  {
+   "category": "screening_restrictions",
+   "jurisdiction": "CA",
+   "level": "state",
+   "instrument_status": "enacted",
+   "title": "FEHA Source of Income Protection for Rental Housing",
+   "requirement": "California landlords cannot refuse to rent to, or treat differently, an applicant or tenant because of how they pay rent, including use of a Section 8 housing choice voucher, rental assistance, SSI/SSDI disability benefits, or wages.",
+   "key_value": null,
+   "coverage_conditions": "Applies to most housing providers and housing-related services statewide; exceptions exist for an owner occupying the home and renting to one additional person.",
+   "exemptions": "When an owner is occupying a home and is renting to one additional person, the owner may exclude applicants based on protected characteristics (though discriminatory advertising is still prohibited).",
+   "effective_date": null,
+   "enacted_date": null,
+   "citation": "Cal. Gov. Code § 12955",
+   "quoted_span": "California law protects tenants from discrimination based on how a tenant will be paying rent (“source of income”). This includes the State of California’s COVID-19 Rent Relief Program, Housing Choice (Section 8) vouchers, (SSI) social security disability benefits, or wages earned from a job.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": "Whether the owner occupies the home and is renting to only one additional person (owner-occupant exemption)",
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.72
+  }
+ ],
+ "no_rule_findings": []
+}

@@ -1,0 +1,44 @@
+{
+ "doc_id": "D073",
+ "chunk": 0,
+ "meta": {
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011Cffi9SsmBvFJBhRpqWMBw",
+  "stop_reason": "end_turn",
+  "input_tokens": 7906,
+  "output_tokens": 1772,
+  "cost_usd": 0.0343
+ },
+ "rules": [
+  {
+   "category": "just_cause_eviction",
+   "jurisdiction": "San Diego, CA",
+   "level": "city",
+   "instrument_status": "enacted",
+   "title": "Just Cause Required for Termination of Tenancy",
+   "requirement": "Landlords in San Diego generally cannot end a tenancy without a legally listed 'just cause' reason, either tenant-at-fault (like nonpayment of rent or lease violation) or no-fault (like owner move-in, demolition, or substantial remodel), and many no-fault reasons require relocation assistance to the tenant.",
+   "key_value": null,
+   "coverage_conditions": "Applies to most residential rental properties/tenancies in San Diego of more than 30 days duration, subject to listed exemptions (e.g., single-family owner-occupied homes, duplexes with owner occupying one unit, deed-restricted affordable housing, properties issued a certificate of occupancy within the previous 15 years, and certain non-corporate-owned alienable properties with required tenant notice).",
+   "exemptions": "Transient/tourist hotel occupancy; short-term residential occupancy; deed-restricted affordable housing (with Section 8 carve-out); mobilehomes under Mobilehome Residency Law; nonprofit/religious/care facility housing; school dormitories; shared-facility tenancies with resident landlord; owner-occupied single-family residences (with limited rentable rooms/ADUs); duplexes where landlord occupies one unit; housing issued a certificate of occupancy within the previous 15 years (unless a mobilehome); and certain alienable properties not owned by a REIT, corporation, or corporate-member LLC, with required tenant notice.",
+   "effective_date": "2023-06-24",
+   "enacted_date": "2023-05-25",
+   "citation": "San Diego Mun. Code § 98.0704",
+   "quoted_span": "A landlord shall not terminate a tenancy without just cause. For purposes of this Division, just cause includes at-fault just cause and no-fault just cause.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": "certificate_of_occupancy",
+    "exclude_if_newer_than_years": 15,
+    "owner_exemption_max_units": 2,
+    "owner_exemption_any_size": true,
+    "other_unknown_factor": "whether the housing is deed-restricted/subsidized affordable housing; whether the landlord is a REIT, corporation, or LLC with a corporate member (for the alienable-property exemption); whether the tenant shares bathroom/kitchen facilities with a resident landlord",
+    "yields_to_local": false
+   },
+   "conflict_note": "This local ordinance operates alongside (and references) California Civil Code § 1946.2 statewide just cause protections; the Division states its purpose is to require just cause 'consistent with' the state law while providing additional/stricter local protections.",
+   "confidence": 0.9
+  }
+ ],
+ "no_rule_findings": []
+}

@@ -1,0 +1,44 @@
+{
+ "doc_id": "D023",
+ "chunk": 1,
+ "meta": {
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011Cffi4y54kPrK2KHiTfZgi",
+  "stop_reason": "end_turn",
+  "input_tokens": 1545,
+  "output_tokens": 1649,
+  "cost_usd": 0.0203
+ },
+ "rules": [
+  {
+   "category": "just_cause_eviction",
+   "jurisdiction": "CA",
+   "level": "state",
+   "instrument_status": "enacted",
+   "title": "California Tenant Protection Act – Just Cause for Termination of Tenancy",
+   "requirement": "Once all tenants have lawfully occupied a rental unit for 12 months (or at least one tenant for 24 months), a landlord must state a just cause in any notice to terminate the tenancy, and failure to comply voids the termination notice. This rule does not apply where a local just-cause ordinance adopted on or before September 1, 2019, or a more protective local ordinance adopted after that date, governs instead.",
+   "key_value": null,
+   "coverage_conditions": "Applies to residential real property (dwellings/units intended for human habitation, including mobilehome park units) once tenants have met the 12/24-month occupancy threshold; does not apply where a qualifying local just-cause ordinance applies instead.",
+   "exemptions": "Does not apply to residential real property subject to a local just-cause ordinance adopted on or before September 1, 2019 (local ordinance governs), or to a more protective local ordinance adopted/amended after that date meeting specified criteria; does not apply to a homeowner of a mobilehome as defined in Section 798.9.",
+   "effective_date": "2024-04-01",
+   "enacted_date": "2025",
+   "citation": "Cal. Civ. Code § 1946.2",
+   "quoted_span": "(A) Residential real property subject to a local ordinance requiring just cause for termination of a residential tenancy adopted on or before September 1, 2019, in which case the local ordinance shall apply.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": "whether a local just-cause eviction ordinance (adopted on or before Sept 1, 2019, or a later ordinance found to be more protective) governs the property instead of this section",
+    "yields_to_local": true
+   },
+   "conflict_note": "The section states it 'shall become operative on April 1, 2024' but the current amendment (Stats. 2025, Ch. 203, AB 1529) is noted as 'Effective January 1, 2026'; the section is also set to self-repeal January 1, 2030.",
+   "confidence": 0.8
+  }
+ ],
+ "no_rule_findings": []
+}

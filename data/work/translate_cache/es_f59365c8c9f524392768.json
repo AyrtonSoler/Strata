@@ -1,0 +1,309 @@
+{
+ "items": [
+  {
+   "id": "r-0001",
+   "title_es": "Límite estatal de alquiler en California (AB 1482 / Código Civil § 1947.12)",
+   "requirement_es": "Los arrendadores no pueden aumentar el alquiler de las unidades residenciales cubiertas más de un 5% más el cambio del IPC local, o un 10%, lo que sea menor, en cualquier período de 12 meses, y no se permiten más de dos aumentos en ese período."
+  },
+  {
+   "id": "r-0002",
+   "title_es": "Ley de Protección al Inquilino de California – Causa justa para terminar el arrendamiento",
+   "requirement_es": "Una vez que todos los inquilinos hayan ocupado legalmente una unidad de alquiler durante 12 meses (o al menos un inquilino durante 24 meses), el arrendador debe indicar una causa justa en cualquier aviso de terminación del arrendamiento, y si no lo hace, el aviso de terminación queda anulado. Esta regla no se aplica cuando una ordenanza local de causa justa adoptada el 1 de septiembre de 2019 o antes, o una ordenanza local más protectora adoptada después de esa fecha, rige en su lugar."
+  },
+  {
+   "id": "r-0003",
+   "title_es": "Límites del depósito de seguridad (Código Civil § 1950.5)",
+   "requirement_es": "En general, los arrendadores no pueden exigir un depósito de seguridad superior al alquiler de un mes (además del alquiler del primer mes). Los pequeños arrendadores que sean personas naturales y posean no más de dos propiedades de alquiler con un total de cuatro unidades o menos pueden cobrar hasta dos meses de alquiler como depósito, excepto que este monto mayor no se puede cobrar a un miembro del servicio militar."
+  },
+  {
+   "id": "r-0004",
+   "title_es": "Límite de la tarifa de evaluación de solicitud",
+   "requirement_es": "Los arrendadores pueden cobrar una tarifa para cubrir el costo de evaluar a un solicitante de alquiler, pero la tarifa no puede exceder los costos reales de su bolsillo y está limitada a $30 por solicitante (ajustable por inflación). Los arrendadores deben seguir procedimientos específicos para considerar las solicitudes en orden y reembolsar las tarifas cuando los solicitantes no sean considerados, y deben proporcionar un recibo detallado."
+  },
+  {
+   "id": "r-0005",
+   "title_es": "Regulaciones del Consejo de Derechos Civiles sobre la evaluación de antecedentes penales",
+   "requirement_es": "Los arrendadores enfrentan límites estrictos sobre cómo pueden usar el historial penal de un solicitante, incluyendo la prohibición de rechazos generales a solicitantes con antecedentes penales y la prohibición de considerar arrestos que no derivaron en condena."
+  },
+  {
+   "id": "r-0006",
+   "title_es": "Ley de Empleo y Vivienda Justa de California - Discriminación por vivienda (fuente de ingresos / historial crediticio)",
+   "requirement_es": "Los arrendadores no pueden negarse a alquilar a inquilinos porque pagan con un vale de vivienda u otra fuente de ingresos legal, y cuando un inquilino tiene un subsidio de alquiler del gobierno, el arrendador debe permitirle presentar una prueba alternativa de capacidad de pago (como recibos de sueldo o estados de cuenta bancarios) en lugar de basarse únicamente en el historial crediticio."
+  },
+  {
+   "id": "r-0007",
+   "title_es": "SB 267 - Restricción del historial crediticio para titulares de vales",
+   "requirement_es": "Los arrendadores no pueden usar el historial crediticio de un solicitante como parte del proceso de solicitud si el solicitante tiene un subsidio de alquiler del gobierno (como la Sección 8), a menos que le den la oportunidad de presentar una prueba alternativa de que puede pagar su parte del alquiler."
+  },
+  {
+   "id": "r-0008",
+   "title_es": "AB-325 Ley Cartwright: infracciones (prohibición de algoritmos comunes de fijación de precios)",
+   "requirement_es": "Es ilegal usar o distribuir un algoritmo común de fijación de precios que coordine precios entre competidores o coaccione a alguien a adoptar un precio o condición recomendados por dicho algoritmo, incluso para vivienda de alquiler u otros productos/servicios."
+  },
+  {
+   "id": "r-0009",
+   "title_es": "Orden de Ajuste General Anual (AGA) 2026",
+   "requirement_es": "Los arrendadores de Berkeley con unidades bajo control de alquileres pueden aumentar el techo de alquiler permanente de 2025 en un 1.0%, pero no antes del 1 de enero de 2026. Este aumento no se aplica a arrendamientos que hayan comenzado el 1 de enero de 2025 o después y cuyos alquileres se hayan fijado conforme a la Ley Costa-Hawkins de Vivienda de Alquiler."
+  },
+  {
+   "id": "r-0010",
+   "title_es": "Medida BB - Cambios en el desalojo con causa justa (umbral de impago, incumplimiento de contrato, requisitos de notificación)",
+   "requirement_es": "En Berkeley, los inquilinos en unidades cubiertas no pueden ser desalojados por impago de alquiler a menos que adeuden al menos un mes del Alquiler de Mercado Justo para una unidad de tamaño equivalente; los arrendadores ya no pueden desalojar por no firmar un nuevo contrato de plazo fijo; el desalojo por incumplimiento de contrato requiere que el incumplimiento realmente perjudique al arrendador y que se demuestre que el comportamiento del inquilino fue irrazonable; y los avisos de terminación deben dirigir a los inquilinos a la Junta de Alquileres y presentarse ante la Junta dentro de los tres días hábiles posteriores a la notificación al inquilino."
+  },
+  {
+   "id": "r-0011",
+   "title_es": "Requisito de interés sobre el depósito de seguridad en Berkeley",
+   "requirement_es": "Para los arrendamientos en unidades total o parcialmente cubiertas por la Ordenanza de Alquileres de Berkeley, los arrendadores deben pagar a los inquilinos intereses sobre su depósito de seguridad al final de cada año, con un monto prorrateado si el inquilino se muda antes de que termine el año."
+  },
+  {
+   "id": "r-0012",
+   "title_es": "Notificación sobre la limitación estatal de las tarifas de evaluación de inquilinos",
+   "requirement_es": "Antes de cobrar una tarifa de evaluación, un arrendador de Berkeley debe entregar a los solicitantes una declaración clara de sus derechos respecto a las tarifas de evaluación de inquilinos y el límite máximo de tarifa estatal."
+  },
+  {
+   "id": "r-0013",
+   "title_es": "Ordenanza de Acceso Justo a la Vivienda Ronald V. Dellums",
+   "requirement_es": "Los arrendadores de Berkeley no pueden preguntar sobre ni usar el historial penal en publicidad, solicitudes, selección de inquilinos o decisiones sobre el alquiler, y no pueden cobrar depósitos o alquileres más altos basándose en el historial penal."
+  },
+  {
+   "id": "r-0014",
+   "title_es": "Prohibición de la venta o uso de algoritmos de precios coordinados para fijar alquileres o gestionar niveles de ocupación en unidades residenciales",
+   "requirement_es": "Los arrendadores en Berkeley no pueden usar, y las empresas no pueden vender ni proporcionar, software que use datos no públicos de la competencia para coordinar recomendaciones de alquiler o nivel de ocupación entre arrendadores competidores de unidades residenciales."
+  },
+  {
+   "id": "r-0015",
+   "title_es": "Límite de aumento anual de alquiler bajo la RSO",
+   "requirement_es": "Para las unidades de alquiler cubiertas por la Ordenanza de Estabilización de Alquileres de Los Ángeles, los arrendadores pueden aumentar el alquiler como máximo en el porcentaje anual permitido fijado por la ciudad, actualmente el 3%, más ciertos recargos de tarifas."
+  },
+  {
+   "id": "r-0016",
+   "title_es": "Razones legales de la RSO para el desalojo y presentación de avisos",
+   "requirement_es": "Los arrendadores de unidades cubiertas por la RSO solo pueden desalojar a los inquilinos por razones específicas con o sin culpa, y todos los avisos de terminación deben presentarse ante el LAHD dentro de los tres días hábiles posteriores a la notificación al inquilino."
+  },
+  {
+   "id": "r-0017",
+   "title_es": "Requisito de interés sobre el depósito de seguridad en Los Ángeles",
+   "requirement_es": "Los arrendadores de propiedades con alquiler estabilizado en Los Ángeles deben pagar a los inquilinos intereses sobre los depósitos de seguridad, ya sea mensual o anualmente, como pago directo o crédito de alquiler, y deben notificar a los inquilinos por escrito el método elegido."
+  },
+  {
+   "id": "r-0018",
+   "title_es": "Actividades prohibidas - Discriminación por fuente de ingresos",
+   "requirement_es": "Los arrendadores en Los Ángeles no pueden negarse a alquilar, aplicar términos diferentes, tergiversar la disponibilidad ni anunciar preferencias basadas en la fuente de ingresos de un inquilino actual o potencial, incluidos los vales de vivienda."
+  },
+  {
+   "id": "r-0019",
+   "title_es": "Causa justa requerida para terminar el arrendamiento",
+   "requirement_es": "Los arrendadores en San Diego generalmente no pueden terminar un arrendamiento sin una razón de 'causa justa' legalmente establecida, ya sea por falta del inquilino (como impago de alquiler o incumplimiento del contrato) o sin culpa (como ocupación por el propietario, demolición o remodelación sustancial), y muchas razones sin culpa requieren asistencia de reubicación al inquilino."
+  },
+  {
+   "id": "r-0020",
+   "title_es": "Prohibición del uso y venta de dispositivos algorítmicos",
+   "requirement_es": "Los arrendadores no pueden usar software algorítmico para fijar tarifas de alquiler o niveles de ocupación de propiedades residenciales de alquiler, y nadie puede vender o proporcionar dichos dispositivos algorítmicos a los arrendadores. Los inquilinos pueden demandar por daños, medidas cautelares o sanciones civiles de hasta $1,000 por infracción."
+  },
+  {
+   "id": "r-0021",
+   "title_es": "Aumento anual permitido de alquiler 2026-2027",
+   "requirement_es": "Para las unidades bajo control de alquileres de San Francisco, los arrendadores pueden aumentar el alquiler en no más del 1.6% durante el período del 1 de marzo de 2026 al 28 de febrero de 2027."
+  },
+  {
+   "id": "r-0022",
+   "title_es": "Requisitos de causa justa para el desalojo en San Francisco",
+   "requirement_es": "Un arrendador en San Francisco solo puede desalojar a un inquilino de una unidad cubierta si se aplica una de las 17 razones específicas de 'causa justa', como impago de alquiler, ocupación por el propietario, demolición o retiro bajo la Ley Ellis."
+  },
+  {
+   "id": "r-0023",
+   "title_es": "Tasa de interés del depósito de seguridad",
+   "requirement_es": "Los arrendadores deben pagar a los inquilinos intereses sobre los depósitos de seguridad a una tasa fijada anualmente por la Junta de Alquileres."
+  },
+  {
+   "id": "r-0024",
+   "title_es": "Prohibición de dispositivos algorítmicos - Sección 37.10C de la Ordenanza de Alquileres",
+   "requirement_es": "Los arrendadores y las empresas no pueden vender ni usar software que analice datos no públicos de alquiler de la competencia para recomendar alquileres o gestionar niveles de ocupación de unidades residenciales. Los inquilinos o el Fiscal de la Ciudad pueden demandar a los infractores."
+  },
+  {
+   "id": "r-0025",
+   "title_es": "Ordenanza de Estabilización de Alquileres de Santa Ana",
+   "requirement_es": "Los arrendadores en Santa Ana no pueden aumentar el alquiler más de un 3% al año, o el 80% del cambio del IPC si ese valor es menor. Si el IPC es negativo, no se permite ningún aumento."
+  },
+  {
+   "id": "r-0026",
+   "title_es": "Ordenanza de Desalojo con Causa Justa de Santa Ana",
+   "requirement_es": "Después de los primeros 30 días de arrendamiento, un arrendador no puede desalojar a un inquilino sin una causa justa legalmente reconocida, expresada por escrito. Los desalojos sin culpa (como ocupación por el propietario o demolición) requieren 3 meses de asistencia de reubicación o 3 meses de alquiler condonado."
+  },
+  {
+   "id": "r-0027",
+   "title_es": "Ordenanza de Estabilización de Alquileres y Desalojo con Causa Justa - Límite del traspaso de la tarifa de registro",
+   "requirement_es": "Los arrendadores pueden trasladar una tarifa de registro a los inquilinos, pero no pueden cobrar más de $50 por unidad de alquiler; si cobran de más, deben reembolsar al inquilino el monto excedente."
+  },
+  {
+   "id": "r-0028",
+   "title_es": "Prohibición de software de IA para fijar precios de alquiler en Santa Ana",
+   "requirement_es": "Santa Ana prohíbe a los arrendadores y propietarios de apartamentos usar dispositivos algorítmicos o software de IA para fijar los precios de alquiler, con multas por infracciones."
+  },
+  {
+   "id": "r-0029",
+   "title_es": "Petición de iniciativa 25-21: Una iniciativa para proteger a los inquilinos limitando los aumentos de alquiler",
+   "requirement_es": "Una propuesta de iniciativa de votación a nivel estatal habría limitado los aumentos anuales de alquiler para la mayoría de las unidades residenciales de alquiler al menor entre el IPC o el 5%, con exenciones para edificios pequeños ocupados por el propietario, construcciones nuevas, ciertas unidades subsidiadas, alquileres de corto plazo e instalaciones sin fines de lucro/religiosas. La Corte Suprema Judicial de Massachusetts dictaminó que la petición era inconstitucional y la bloqueó de la boleta de noviembre de 2026 porque su exención para instalaciones religiosas violaba la prohibición del Artículo 48 sobre iniciativas relacionadas con la religión."
+  },
+  {
+   "id": "r-0030",
+   "title_es": "Aviso de desalojo por impago de alquiler",
+   "requirement_es": "Si un inquilino no paga el alquiler, el arrendador debe dar un aviso por escrito de al menos 14 días para desalojar antes de que se pueda terminar el contrato, a menos que el inquilino pague o ofrezca pagar todo el alquiler adeudado con intereses y costos antes de la fecha límite para responder en la corte."
+  },
+  {
+   "id": "r-0031",
+   "title_es": "Límites del depósito de seguridad y el último mes de alquiler",
+   "requirement_es": "Un arrendador no puede exigir al inquilino que pague más que el alquiler del primer mes, el alquiler del último mes, un depósito de seguridad equivalente a un mes de alquiler, y el costo de una llave/cerradura al inicio del arrendamiento. Los depósitos de seguridad deben mantenerse en una cuenta separada que genere intereses, con los intereses pagados al inquilino, y deben devolverse dentro de los 30 días posteriores a la mudanza con una lista detallada de cualquier deducción."
+  },
+  {
+   "id": "r-0032",
+   "title_es": "Corredores y agentes inmobiliarios; personas que buscan alojamiento por una tarifa; contratos; pago de la tarifa",
+   "requirement_es": "Una tarifa de corretaje para encontrar una vivienda de alquiler solo puede cobrarse a la persona que realmente contrató al corredor (ya sea el arrendador o el inquilino), no puede trasladarse automáticamente al inquilino."
+  },
+  {
+   "id": "r-0033",
+   "title_es": "Ley de Depósito de Seguridad de Massachusetts - Limitación de cargos previos al arrendamiento",
+   "requirement_es": "Los arrendadores en Massachusetts no pueden cobrar tarifas de solicitud, tarifas por mascotas, tarifas de limpieza ni ningún otro cargo inicial; antes de que comience un arrendamiento solo pueden exigir el pago del alquiler del primer mes, el alquiler del último mes, un depósito de seguridad y una tarifa por cambio de cerradura. Sin embargo, los corredores inmobiliarios con licencia sí pueden cobrar tarifas separadas de solicitud o evaluación."
+  },
+  {
+   "id": "r-0034",
+   "title_es": "Prohibición de discriminación contra receptores de asistencia pública o subsidios de vivienda",
+   "requirement_es": "Los arrendadores y otros que proporcionan vivienda de alquiler o crédito no pueden negarse a alquilar a un inquilino, ni discriminar de otra manera, porque reciba asistencia pública (incluida la asistencia médica) o un subsidio de vivienda como un vale de la Sección 8 o asistencia de alquiler."
+  },
+  {
+   "id": "r-0035",
+   "title_es": "Ley para prevenir la fijación algorítmica de alquileres",
+   "requirement_es": "Este proyecto de ley restringiría el uso de software o dispositivos algorítmicos para fijar o coordinar precios de vivienda de alquiler, pero no ha sido promulgado; aún está pendiente en comité."
+  },
+  {
+   "id": "r-0036",
+   "title_es": "Ley que prohíbe la fijación algorítmica de alquileres",
+   "requirement_es": "Este proyecto de ley prohibiría el uso de dispositivos algorítmicos para fijar precios de alquiler de vivienda en Massachusetts."
+  },
+  {
+   "id": "r-0037",
+   "title_es": "Petición de ley especial que autoriza a la ciudad de Boston a implementar estabilización de alquileres y protecciones de desalojo para inquilinos",
+   "requirement_es": "Este proyecto de ley habría autorizado a la ciudad de Boston a crear su propio programa de estabilización de alquileres, pero no fue promulgado y en su lugar fue acompañado de una orden de estudio, lo que efectivamente puso fin a su avance en esta sesión."
+  },
+  {
+   "id": "r-0038",
+   "title_es": "Ley de Notificación de Estabilidad de Vivienda (HSNA)",
+   "requirement_es": "Los arrendadores y propietarios en proceso de ejecución hipotecaria en Boston deben entregar a los inquilinos un Aviso de Derechos y Recursos de Inquilinos al mismo tiempo que entregan un Aviso de Desalojo o un Aviso de No Renovación del contrato, y deben enviar una copia de ese aviso junto con un Certificado de Cumplimiento/Servicio a la Oficina de Estabilidad de Vivienda de la Ciudad."
+  },
+  {
+   "id": "r-0039",
+   "title_es": "Petición de ley especial que autoriza a la ciudad de Boston a implementar estabilización de alquileres y protecciones de desalojo para inquilinos",
+   "requirement_es": "Este proyecto de ley habría autorizado a la ciudad de Boston a adoptar protecciones de desalojo para inquilinos (reglas de tipo causa justa), pero no fue promulgado y en su lugar fue acompañado de una orden de estudio."
+  },
+  {
+   "id": "r-0040",
+   "title_es": "Política de Selección Justa de Inquilinos de Boston",
+   "requirement_es": "Los proveedores de vivienda cubiertos no pueden usar rechazos generales contra solicitantes con arrestos o condenas; deben considerar el historial penal caso por caso, excluyendo arrestos sin condena, condenas sujetas a alivio judicial, registros juveniles y condenas de más de 5 años de antigüedad (con excepciones limitadas de seguridad). Los proveedores tampoco pueden usar únicamente el puntaje crediticio de un solicitante para aprobar o negar la vivienda."
+  },
+  {
+   "id": "r-0041",
+   "title_es": "Regulaciones de Vivienda Justa de Boston - Protección por fuente de ingresos",
+   "requirement_es": "Los arrendadores en Boston no pueden negarse a alquilar a inquilinos porque usen asistencia de alquiler, incluidos vales de la Sección 8, vales por discapacidad o vales para veteranos."
+  },
+  {
+   "id": "r-0042",
+   "title_es": "Ordenanza de Vivienda Justa de Cambridge",
+   "requirement_es": "Los arrendadores, vendedores y agentes de alquiler en Cambridge no pueden discriminar a los solicitantes de vivienda según la fuente de ingresos, incluidos los vales de la Sección 8 y otros beneficios públicos, entre otras categorías protegidas."
+  },
+  {
+   "id": "r-0043",
+   "title_es": "Ley Anti-Desalojo - Aviso y estándar de aumento de alquiler 'desmedido'",
+   "requirement_es": "Un arrendador solo puede aumentar el alquiler terminando el contrato antiguo y ofreciendo uno nuevo con el alquiler aumentado, después de dar el aviso escrito adecuado. El aumento no debe ser 'desmedido' (tan irrazonable que resulte chocante) y debe cumplir con cualquier ordenanza local de control de alquileres."
+  },
+  {
+   "id": "r-0044",
+   "title_es": "Prohibición de aumento de alquiler por conversión a condominio/cooperativa",
+   "requirement_es": "Si un edificio se convierte en propiedad de condominio, cooperativa o en propiedad absoluta, los arrendadores no pueden aumentar los alquileres para cubrir costos derivados únicamente de la conversión, aunque los aumentos por nuevos servicios o comodidades sí se permiten."
+  },
+  {
+   "id": "r-0045",
+   "title_es": "Ley de Edificios de Viviendas Múltiples de Nueva Construcción - Exención de 30 años del control de alquileres",
+   "requirement_es": "Los edificios residenciales multifamiliares de nueva construcción están exentos de cualquier ordenanza local de control de alquileres durante 30 años después de la finalización de la construcción; los alquileres subsidiados por fondos gubernamentales también pueden estar exentos del control de alquileres local."
+  },
+  {
+   "id": "r-0046",
+   "title_es": "Ley Anti-Desalojo de Nueva Jersey",
+   "requirement_es": "Un arrendador solo puede desalojar a un inquilino residencial por una de las razones específicas de causa justa establecidas por ley (como impago de alquiler, conducta desordenada, daño a la propiedad, incumplimiento del contrato o retiro de la propiedad del mercado de alquiler), y en la mayoría de los casos debe primero entregar el aviso requerido (Aviso de Cese y/o Aviso de Desalojo) antes de presentar una demanda."
+  },
+  {
+   "id": "r-0047",
+   "title_es": "Ley de Arrendamiento Protegido para Ciudadanos Mayores y Personas con Discapacidad",
+   "requirement_es": "Los ciudadanos mayores elegibles, inquilinos con discapacidad permanente o veteranos discapacitados calificados que vivan en un edificio en proceso de conversión a condominio, cooperativa o propiedad absoluta pueden estar protegidos contra el desalojo hasta por 40 años, siempre que el ingreso familiar no supere un umbral establecido."
+  },
+  {
+   "id": "r-0048",
+   "title_es": "Protección contra represalias/anti-represalia para inquilinos",
+   "requirement_es": "Un arrendador no puede desalojar, cambiar sustancialmente los términos del contrato ni negarse a renovar un contrato como represalia por que un inquilino ejerza ciertos derechos civiles, como hacer valer derechos del contrato o legales, quejarse ante las autoridades por infracciones del código, o participar en una organización de inquilinos."
+  },
+  {
+   "id": "r-0049",
+   "title_es": "Ley de Equidad en la Ejecución Hipotecaria - Protecciones de notificación y desalojo para inquilinos en propiedades embargadas",
+   "requirement_es": "La ejecución hipotecaria por sí sola no es motivo de desalojo; un inquilino en una propiedad embargada generalmente conserva su arrendamiento. Si un comprador que desea ocupar personalmente la propiedad como residencia principal la adquiere, el arrendador debe dar al inquilino un aviso de 90 días para desalojar, y los nuevos propietarios deben notificar a los inquilinos en inglés y español que no están obligados a mudarse."
+  },
+  {
+   "id": "r-0050",
+   "title_es": "Ley de Depósito de Seguridad de Nueva Jersey",
+   "requirement_es": "Un arrendador que cobre un depósito de seguridad no puede exigir más de una vez y media el alquiler de un mes, y los aumentos del depósito están limitados. Los intereses generados por el depósito pertenecen al inquilino y el depósito generalmente debe devolverse dentro de los 30 días posteriores a la finalización del arrendamiento."
+  },
+  {
+   "id": "r-0051",
+   "title_es": "Tarifa de solicitud de propiedad de alquiler residencial que no supere $50",
+   "requirement_es": "Los arrendadores o sus agentes no pueden cobrar más de $50 por una tarifa de solicitud o similar para alquilar o subarrendar una propiedad residencial de alquiler. El límite de la tarifa se ajusta anualmente según la inflación."
+  },
+  {
+   "id": "r-0052",
+   "title_es": "Ley contra la Discriminación de Nueva Jersey - fuente de ingresos y otras clases protegidas",
+   "requirement_es": "Los arrendadores no pueden negarse a alquilar ni discriminar de otra manera contra los posibles inquilinos basándose en características protegidas, incluida la fuente de ingresos lícita, el estado familiar y otras categorías listadas."
+  },
+  {
+   "id": "r-0053",
+   "title_es": "Ley de Oportunidad Justa en la Vivienda",
+   "requirement_es": "Los arrendadores no pueden preguntar sobre ni considerar el historial penal de un solicitante hasta después de hacer una oferta condicional, y aun entonces solo pueden considerar categorías limitadas de condenas graves o recientes, no arrestos, registros sellados o delitos menores antiguos."
+  },
+  {
+   "id": "r-0054",
+   "title_es": "Ley para Prohibir la Inflación Algorítmica del Alquiler (FAIR)",
+   "requirement_es": "La ley de Nueva Jersey hace ilegal que los arrendadores usen dispositivos algorítmicos, software o coordinadores que agrupen datos de alquiler competitivamente sensibles (como precios, términos de arrendamiento o niveles de ocupación) entre múltiples propietarios para fijar o recomendar precios de alquiler, términos de arrendamiento o niveles de ocupación. También prohíbe a los arrendadores participar en una 'coordinación de precios paralela' tácita o expresa para aumentar o manipular los alquileres."
+  },
+  {
+   "id": "r-0055",
+   "title_es": "Control de Alquileres de Hoboken - Alquiler base y límite de aumento anual por IPC",
+   "requirement_es": "Los arrendadores solo pueden aumentar el alquiler al vencimiento del contrato o al terminar un arrendamiento periódico, y el aumento anual está limitado al 5% o a la diferencia porcentual del IPC, lo que sea menor. Los aumentos por encima de este límite son nulos y deben reembolsarse al inquilino."
+  },
+  {
+   "id": "r-0056",
+   "title_es": "Prohibición de la fijación algorítmica de precios para alquileres residenciales",
+   "requirement_es": "Los arrendadores que alquilan unidades residenciales en Hoboken tienen prohibido usar software, algoritmos o plataformas de intercambio de datos para recopilar y analizar información no pública de la competencia con el fin de coordinar, recomendar o implementar precios de alquiler, términos de arrendamiento o niveles de ocupación entre arrendadores competidores."
+  },
+  {
+   "id": "r-0057",
+   "title_es": "Ordenanza de Control de Alquileres de Jersey City",
+   "requirement_es": "Jersey City regula cuánto pueden aumentar los arrendadores el alquiler en la mayoría de las unidades de alquiler a través de su Ordenanza de Control de Alquileres, administrada por la Oficina de Relaciones entre Propietarios e Inquilinos. Los edificios de 1 a 4 unidades están exentos del control de alquileres, y pueden aplicarse otras exenciones a solicitud del propietario."
+  },
+  {
+   "id": "r-0058",
+   "title_es": "Código de Jersey City § 218-12 - Prohibición de la coordinación algorítmica de alquileres",
+   "requirement_es": "Los arrendadores en Jersey City tienen prohibido usar servicios de coordinación algorítmica de alquileres para fijar o recomendar alquileres. Las infracciones pueden hacerse cumplir mediante acción de la ciudad y demandas privadas, con multas de hasta $2,000 por día."
+  },
+  {
+   "id": "r-0059",
+   "title_es": "Ordenanza de Control de Alquileres de Newark - Límite de aumento anual de alquiler",
+   "requirement_es": "Los arrendadores en Newark no pueden aumentar el alquiler al renovar el contrato o al terminar un arrendamiento periódico más del cambio porcentual del Índice de Precios al Consumidor durante un período especificado, y en ningún caso el aumento puede superar el 4% en cualquier período de 12 meses."
+  },
+  {
+   "id": "r-0060",
+   "title_es": "Disposiciones Anti-Desplazamiento / Alquiler 'Desmedido'",
+   "requirement_es": "La ley de Newark prohíbe a los arrendadores imponer aumentos de alquiler que sean 'desmedidos', es decir, aumentos excesivamente duros o irrazonables que superen los gastos crecientes del arrendador y no sean comparables a los alquileres de propiedades similares; tales aumentos pueden constituir un desplazamiento ilegal de inquilinos."
+  },
+  {
+   "id": "r-0061",
+   "title_es": "Ban the Box - Restricciones sobre el historial penal en vivienda de alquiler",
+   "requirement_es": "Los arrendadores y agentes inmobiliarios no pueden preguntar sobre ni considerar el historial penal de un solicitante hasta después de que se haya presentado una solicitud formal de alquiler, deben dar aviso antes de realizar una verificación de antecedentes penales, y están limitados en cuánto tiempo hacia atrás y qué tipo de condenas pueden considerar."
+  }
+ ]
+}

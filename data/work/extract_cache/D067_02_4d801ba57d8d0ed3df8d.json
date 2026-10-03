@@ -1,0 +1,73 @@
+{
+ "doc_id": "D067",
+ "chunk": 2,
+ "meta": {
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011Cffi8LaiLD4WcnQxb4UhM",
+  "stop_reason": "end_turn",
+  "input_tokens": 7587,
+  "output_tokens": 1831,
+  "cost_usd": 0.0342
+ },
+ "rules": [
+  {
+   "category": "security_deposits",
+   "jurisdiction": "NJ",
+   "level": "state",
+   "instrument_status": "enacted",
+   "title": "New Jersey Security Deposit Law",
+   "requirement": "A landlord who collects a security deposit cannot require more than one and one-half times one month's rent, and increases to the deposit are capped. Interest earned on the deposit belongs to the tenant and the deposit must generally be returned within 30 days after the tenancy ends.",
+   "key_value": "1.5 months' rent",
+   "coverage_conditions": "Applies to most residential rental properties in New Jersey, including mobile homes.",
+   "exemptions": "Owner-occupied two- or three-family dwellings are exempt unless the tenant makes a written request to the landlord and 30 days pass.",
+   "effective_date": null,
+   "enacted_date": null,
+   "citation": "N.J.S.A. 46:8-21.2",
+   "quoted_span": "The maximum-security deposit to be collected by the landlord cannot be more than one and one-half times one month’s rent ( N.J.S.A. 46:8-21.2 ).",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": 3,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": "whether the dwelling is owner-occupied (two- or three-family)",
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.9
+  },
+  {
+   "category": "screening_restrictions",
+   "jurisdiction": "NJ",
+   "level": "state",
+   "instrument_status": "enacted",
+   "title": "New Jersey Law Against Discrimination - source of income and other protected classes",
+   "requirement": "Landlords may not refuse to rent or otherwise discriminate against prospective tenants based on protected characteristics including source of lawful income, familial status, and other listed categories.",
+   "key_value": null,
+   "coverage_conditions": "Applies to all landlord-tenant relationships in New Jersey.",
+   "exemptions": "Does not apply to two-family owner-occupied dwellings, rooms in an owner or resident-occupied single home, or residences planned exclusively for and occupied by one sex (e.g., YMCA) or age-restricted housing as it pertains to familial status.",
+   "effective_date": null,
+   "enacted_date": null,
+   "citation": "N.J.S.A. 10:5-12(g)-(h); N.J.S.A. 10:5-5(n)",
+   "quoted_span": "The New Jersey Law Against Discrimination (LAD), N.J.S.A. 10:5-12(g) to -(h), prohibits discrimination when selling or renting property and requires equal treatment in the sale or rental of housing regardless of race, creed, color, national origin, ancestry, sex, marital status, civil union status, domestic partnership status, familial status, affectional or sexual orientation, gender  identity or expression, mental and physical disability, nationality, or source of lawful income.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": 2,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": "whether the dwelling is owner-occupied or a single-sex/age-restricted residence",
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.75
+  }
+ ],
+ "no_rule_findings": []
+}

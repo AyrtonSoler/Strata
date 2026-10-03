@@ -1,0 +1,44 @@
+{
+ "doc_id": "D067",
+ "chunk": 1,
+ "meta": {
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011Cffi8JPWPiRd7wHATXJ68",
+  "stop_reason": "end_turn",
+  "input_tokens": 7580,
+  "output_tokens": 981,
+  "cost_usd": 0.0257
+ },
+ "rules": [
+  {
+   "category": "security_deposits",
+   "jurisdiction": "NJ",
+   "level": "state",
+   "instrument_status": "enacted",
+   "title": "New Jersey Security Deposit Law - Maximum Security Deposit",
+   "requirement": "A landlord in New Jersey cannot collect a security deposit of more than one and a half times one month's rent from a tenant.",
+   "key_value": "1.5 months' rent",
+   "coverage_conditions": "Applies to most residential rental properties, including mobile homes; excludes owner-occupied two- or three-family dwellings unless the tenant requests coverage.",
+   "exemptions": "Owner-occupied two- or three-family dwellings, unless the tenant sends a written request to the landlord 30 days before the Security Deposit Law provisions apply.",
+   "effective_date": null,
+   "enacted_date": null,
+   "citation": "N.J.S.A. 46:8-21.2",
+   "quoted_span": "The maximum-security deposit to be collected by the landlord cannot be more than \none and one-half times one month’s rent ( N.J.S.A. 46:8-21.2 ).",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": 3,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": "whether the dwelling is owner-occupied (two- or three-family dwelling)",
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.95
+  }
+ ],
+ "no_rule_findings": []
+}

@@ -1,0 +1,73 @@
+{
+ "doc_id": "D016",
+ "chunk": 1,
+ "meta": {
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011Cffi4dmU4vJqQpRJG5RFa",
+  "stop_reason": "end_turn",
+  "input_tokens": 2063,
+  "output_tokens": 1612,
+  "cost_usd": 0.021
+ },
+ "rules": [
+  {
+   "category": "screening_restrictions",
+   "jurisdiction": "CA",
+   "level": "state",
+   "instrument_status": "enacted",
+   "title": "Source of Income Discrimination Protection",
+   "requirement": "Landlords cannot refuse to rent to a tenant or treat them differently because of how they pay rent, including housing vouchers, rental assistance, disability benefits, or wages.",
+   "key_value": null,
+   "coverage_conditions": "Applies to all housing providers in California renting residential units.",
+   "exemptions": null,
+   "effective_date": null,
+   "enacted_date": null,
+   "citation": "Cal. Gov. Code § 12955",
+   "quoted_span": "California law protects tenants from discrimination based on how a tenant will be paying rent (“source of income”). This includes the State of California’s COVID-19 Rent Relief Program, Housing Choice (Section 8) vouchers, (SSI) social security disability benefits, or wages earned from a job.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.6
+  },
+  {
+   "category": "screening_restrictions",
+   "jurisdiction": "CA",
+   "level": "state",
+   "instrument_status": "enacted",
+   "title": "Limits on Use of Criminal History in Tenant Screening",
+   "requirement": "Landlords may consider criminal history but cannot use arrests without conviction, sealed or expunged records, juvenile records, or blanket bans on all applicants with criminal history; any denial based on a conviction must be directly related to tenancy suitability.",
+   "key_value": null,
+   "coverage_conditions": "Applies to all housing providers screening rental applicants in California.",
+   "exemptions": null,
+   "effective_date": null,
+   "enacted_date": null,
+   "citation": "Cal. Gov. Code § 12955",
+   "quoted_span": "Housing  providers cannot consider some types of criminal history including arrests that did not lead to a conviction, records that are sealed or expunged, or records or matters processed in the juvenile justice system. Housing providers are also prohibited from having “blanket bans” of all people with a criminal history.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": false
+   },
+   "conflict_note": "Text does not cite a specific statutory or regulatory section for this criminal-history rule; citation inferred from general FEHA housing discrimination authority.",
+   "confidence": 0.45
+  }
+ ],
+ "no_rule_findings": []
+}

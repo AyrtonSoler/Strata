@@ -1,0 +1,44 @@
+{
+ "doc_id": "D067",
+ "chunk": 0,
+ "meta": {
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011Cffi8EVMD5miTMRyCEsj2",
+  "stop_reason": "end_turn",
+  "input_tokens": 8224,
+  "output_tokens": 1282,
+  "cost_usd": 0.03
+ },
+ "rules": [
+  {
+   "category": "just_cause_eviction",
+   "jurisdiction": "NJ",
+   "level": "state",
+   "instrument_status": "enacted",
+   "title": "Anti-Eviction Act – Good Cause Requirement for Non-Renewal",
+   "requirement": "A landlord generally cannot refuse to renew a residential lease unless they have one of the legally recognized 'good causes' for eviction. This protection does not apply to owner-occupied two- or three-family dwellings, motels, hotels, or transient/seasonal rentals.",
+   "key_value": null,
+   "coverage_conditions": "Applies to residential rental properties generally, excluding owner-occupied two- or three-family dwellings, motels, hotels, and transient or seasonal units.",
+   "exemptions": "Owner occupied two or three family dwellings, motels or hotels, transient, or seasonal units.",
+   "effective_date": null,
+   "enacted_date": null,
+   "citation": "N.J.S.A. 2A:18-61.1 et seq.",
+   "quoted_span": "No landlord of residential rental properties except t hose in owner occupied two or three family dwellings, motels or hotels, transient, or seasonal units may fail to renew any lease, regardless of whether it is written or oral unless they have good cause not to renew the lease.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": 3,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": "whether the dwelling is owner-occupied and limited to two or three units, or is a motel/hotel/transient/seasonal rental",
+    "yields_to_local": false
+   },
+   "conflict_note": "The guide cites 'N.J.S.A. 2A:18:61.3' which appears to be a typographical rendering of N.J.S.A. 2A:18-61.3, part of the Anti-Eviction Act (N.J.S.A. 2A:18-61.1 et seq.).",
+   "confidence": 0.75
+  }
+ ],
+ "no_rule_findings": []
+}

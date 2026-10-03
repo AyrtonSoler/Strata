@@ -1,0 +1,246 @@
+{
+ "groups": [
+  {
+   "member_ids": [
+    "c0062",
+    "c0064"
+   ],
+   "primary_id": "c0062",
+   "canonical_citation": "N.J.S.A. 2A:18-61.1 et seq. (including N.J.S.A. 2A:18-61.31)",
+   "effective_date": null,
+   "instrument_status": "enacted",
+   "conflict_flag": true,
+   "conflict_note": "State law sets only a vague 'unconscionable' standard for rent increases and expressly requires compliance with any municipal rent control ordinance; numeric caps exist only at the local level.",
+   "interaction": "State 'unconscionable increase' standard and condo-conversion rent-increase ban apply as a floor; where a municipality has a specific numeric rent control ordinance, the local cap controls.",
+   "yields_to_local": true
+  },
+  {
+   "member_ids": [
+    "c0063"
+   ],
+   "primary_id": "c0063",
+   "canonical_citation": "N.J.S.A. 2A:42-84.5 (Newly Constructed Multiple Dwellings Law)",
+   "effective_date": null,
+   "instrument_status": "enacted",
+   "conflict_flag": true,
+   "conflict_note": "This state law overrides municipal rent control by exempting newly constructed multi-family dwellings (and certain subsidized units) from local rent control ordinances for 30 years, rather than yielding to local law.",
+   "interaction": "Newly constructed dwellings are exempt from any local rent control ordinance for 30 years after completion, regardless of local caps.",
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0056"
+   ],
+   "primary_id": "c0056",
+   "canonical_citation": "N.J.S.A. 46:8-52 et seq. (P.L.2021, c.110) (Fair Chance in Housing Act)",
+   "effective_date": "2022-01-01",
+   "instrument_status": "enacted",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": null,
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0061",
+    "c0071"
+   ],
+   "primary_id": "c0061",
+   "canonical_citation": "N.J.S.A. 10:5-12(g)-(h); N.J.S.A. 10:5-5(n) (NJ Law Against Discrimination)",
+   "effective_date": null,
+   "instrument_status": "enacted",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": null,
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0057"
+   ],
+   "primary_id": "c0057",
+   "canonical_citation": "N.J.S.A. 46:8-18.1",
+   "effective_date": "2026-05-01",
+   "instrument_status": "enacted",
+   "conflict_flag": false,
+   "conflict_note": "Subsection d. separately establishes an annual CPI adjustment mechanism beginning in 2027, distinct from the core $50 cap's effective date.",
+   "interaction": null,
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0058",
+    "c0066",
+    "c0067"
+   ],
+   "primary_id": "c0066",
+   "canonical_citation": "N.J.S.A. 2A:18-53 to 2A:18-61.12 (New Jersey Anti-Eviction Act)",
+   "effective_date": null,
+   "instrument_status": "enacted",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": null,
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0068"
+   ],
+   "primary_id": "c0068",
+   "canonical_citation": "N.J.S.A. 2A:42-10.10",
+   "effective_date": null,
+   "instrument_status": "enacted",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": null,
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0069"
+   ],
+   "primary_id": "c0069",
+   "canonical_citation": "N.J.S.A. 2A:50-69 et seq. (Foreclosure Fairness Act)",
+   "effective_date": null,
+   "instrument_status": "enacted",
+   "conflict_flag": false,
+   "conflict_note": "Related detailed notice/posting requirements for larger buildings and pressure-tactic prohibitions appear at N.J.S.A. 2A:50-70(c)2 and 2A:50-71(b) within the same Act.",
+   "interaction": null,
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0070"
+   ],
+   "primary_id": "c0070",
+   "canonical_citation": "N.J.S.A. 2A:18-61.22 to -61.39 (Senior Citizens and Disabled Protected Tenancy Act)",
+   "effective_date": null,
+   "instrument_status": "enacted",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": null,
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0059",
+    "c0060"
+   ],
+   "primary_id": "c0060",
+   "canonical_citation": "N.J.S.A. 46:8-21.2",
+   "effective_date": null,
+   "instrument_status": "enacted",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": null,
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0072",
+    "c0114"
+   ],
+   "primary_id": "c0072",
+   "canonical_citation": "P.L.2026, c.43 (C.56:9-20 to 56:9-26) (FAIR Act)",
+   "effective_date": "2027-07-01",
+   "instrument_status": "enacted",
+   "conflict_flag": true,
+   "conflict_note": "Section 6(b) bars municipalities from enacting conflicting ordinances, which may preempt differing local algorithmic-pricing ordinances (e.g., in Hoboken and Jersey City) enacted before this law's effective date.",
+   "interaction": "State law bans algorithmic rent-setting statewide effective 2027-07-01 and may preempt conflicting earlier-enacted local ordinances on the same subject.",
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0033"
+   ],
+   "primary_id": "c0033",
+   "canonical_citation": "Jersey City Mun. Code ch. 260 (Rent Control Ordinance)",
+   "effective_date": null,
+   "instrument_status": "enacted",
+   "conflict_flag": false,
+   "conflict_note": "The specific numeric rent increase cap/formula is not stated in the source document, only the ordinance's existence and the 1-4 unit exemption.",
+   "interaction": "State law exempts newly constructed buildings from this local ordinance for 30 years and requires increases comply with the state's unconscionability standard.",
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0107"
+   ],
+   "primary_id": "c0107",
+   "canonical_citation": "Jersey City Code § 218-12",
+   "effective_date": "2025-06",
+   "instrument_status": "enacted",
+   "conflict_flag": true,
+   "conflict_note": "This local ordinance predates the state FAIR Act (P.L.2026, c.43), which may preempt conflicting local algorithmic-pricing ordinances once effective in 2027.",
+   "interaction": "Local ban on algorithmic rent coordination predates and may be preempted by the later statewide FAIR Act ban.",
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0101",
+    "c0102",
+    "c0103",
+    "c0104",
+    "c0105"
+   ],
+   "primary_id": "c0101",
+   "canonical_citation": "Hoboken Code ch. 155 (Rent Control) and ch. 158 (Rent Leveling/Disclosure)",
+   "effective_date": "1985-10-01",
+   "instrument_status": "enacted",
+   "conflict_flag": true,
+   "conflict_note": "The ordinance has been amended multiple times (2011, 2023, 2025) across chapters 155 and 158; the 10% disclosure threshold (ch.158 Art. I) and surcharge/hardship provisions are distinct sub-parts of the same overall rent control scheme; state law exempts new construction from this ordinance for 30 years.",
+   "interaction": "State law exempts newly constructed buildings from this local rent control ordinance for 30 years; otherwise the local 5%/CPI cap, surcharges, and disclosure rules control for covered units.",
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0106"
+   ],
+   "primary_id": "c0106",
+   "canonical_citation": "Hoboken Code ch. 158, Art. II",
+   "effective_date": "2025-07-09",
+   "instrument_status": "enacted",
+   "conflict_flag": true,
+   "conflict_note": "This local ban on algorithmic price fixing predates the state FAIR Act (P.L.2026, c.43), which may preempt conflicting local provisions once effective in 2027.",
+   "interaction": "Local ban enacted before the statewide FAIR Act; state law may preempt conflicting local algorithmic-pricing rules once effective.",
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0115",
+    "c0116",
+    "c0117",
+    "c0118",
+    "c0119",
+    "c0120",
+    "c0121",
+    "c0122",
+    "c0123",
+    "c0124"
+   ],
+   "primary_id": "c0115",
+   "canonical_citation": "Newark, NJ Code ch. 19:2 (Rent Control Ordinance), § 19:2-9 et seq.",
+   "effective_date": null,
+   "instrument_status": "enacted",
+   "conflict_flag": true,
+   "conflict_note": "The ordinance has been amended multiple times (2023, 2024, 2026); exact current section numbers for some provisions (e.g., the 25% annual aggregate cap and the service-loss rent-decrease schedule) are inferred from context rather than directly stated; state law exempts qualifying new construction from this local cap for 30 years.",
+   "interaction": "State law exempts newly constructed buildings from this local rent control ordinance for 30 years; otherwise the local CPI-based cap (max 4%), surcharges, hardship increases, and anti-displacement/unconscionable-increase provisions control for covered units.",
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0125"
+   ],
+   "primary_id": "c0125",
+   "canonical_citation": "Newark Code § 2:31-1 et seq. (Ban the Box - Rental Housing)",
+   "effective_date": "2015-04-15",
+   "instrument_status": "enacted",
+   "conflict_flag": true,
+   "conflict_note": "This local ordinance's criminal-history lookback periods (8 years/5 years) differ from the later state Fair Chance in Housing Act's lookback limits (1-6 years), creating potential inconsistency between local and state standards.",
+   "interaction": "Operates alongside the state Fair Chance in Housing Act, which imposes its own distinct timing and procedural requirements for criminal history inquiries statewide.",
+   "yields_to_local": false
+  }
+ ],
+ "reject_ids": [],
+ "no_rule_ids": []
+}

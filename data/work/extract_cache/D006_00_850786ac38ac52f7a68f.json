@@ -1,0 +1,73 @@
+{
+ "doc_id": "D006",
+ "chunk": 0,
+ "meta": {
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CffjduiT1e9etyaLP7sAV",
+  "stop_reason": "end_turn",
+  "input_tokens": 5167,
+  "output_tokens": 2944,
+  "cost_usd": 0.0494
+ },
+ "rules": [
+  {
+   "category": "rent_increase_limits",
+   "jurisdiction": "Berkeley, CA",
+   "level": "city",
+   "instrument_status": "enacted",
+   "title": "Measure BB - Annual General Adjustment (AGA) Cap",
+   "requirement": "Berkeley limits how much a landlord of a fully-covered rental unit can raise the rent each year through the Annual General Adjustment (AGA), and Measure BB caps that increase at a maximum of 5% even if the CPI-based formula would allow more.",
+   "key_value": "Max 5% AGA (formula tied to CPI)",
+   "coverage_conditions": "Applies to fully-covered rental units under Berkeley's Rent Ordinance, generally most units in multifamily properties built before 1980 and certain single-family homes with tenancies beginning before 1996; government-subsidized units may be fully or partially covered depending on subsidy type and HUD mortgage status.",
+   "exemptions": "New construction units (certificate of occupancy issued after 1980), most single-family homes and condominiums, and units with certain federal subsidies (e.g., Section 202/811, project-based Section 8 with HUD-insured mortgages) are only partially covered and not subject to the rent ceiling/AGA.",
+   "effective_date": null,
+   "enacted_date": "2024-11",
+   "citation": "Berkeley Mun. Code ch. 13.76",
+   "quoted_span": "The maximum AGA is 5%. This means that, if the formula in the Rent Ordinance results in an AGA that is greater than 5%, the AGA approved by the Board for that year can be no more than 5%.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": "1980-01-01",
+    "built_after": null,
+    "age_cutoff_basis": "certificate_of_occupancy",
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": "Whether the unit is government-owned or -subsidized (e.g., Section 8, LIHTC, VASH) and whether the project has a HUD-insured mortgage, which determines full vs. partial coverage; also whether tenant shares kitchen/bath with landlord who resided there first (exempt in that case).",
+    "yields_to_local": false
+   },
+   "conflict_note": "The text does not give a specific effective date for the 5% AGA cap itself, only that Measure BB passed in the November 2024 election; other related provisions have specific effective dates (e.g., Dec 20, 2024 for tenant rights notices, Feb 6, 2024 for utility charge rules).",
+   "confidence": 0.72
+  },
+  {
+   "category": "just_cause_eviction",
+   "jurisdiction": "Berkeley, CA",
+   "level": "city",
+   "instrument_status": "enacted",
+   "title": "Measure BB - Just Cause Eviction Changes (Nonpayment Threshold, Lease Breach, Notice Requirements)",
+   "requirement": "In Berkeley, tenants in covered units cannot be evicted for nonpayment of rent unless they owe at least one month's Fair Market Rent for an equivalent-size unit; landlords can no longer evict for failing to sign a new fixed-term lease; eviction for lease-breach requires that the breach actually harm the landlord and that tenant behavior be shown to be unreasonable; and termination notices must direct tenants to the Rent Board and be filed with the Rent Board within three business days of service.",
+   "key_value": "Nonpayment eviction threshold: 1 month's Fair Market Rent (FMR)",
+   "coverage_conditions": "Applies to tenants in units that are fully or partially covered by Berkeley's Rent Ordinance.",
+   "exemptions": "Units exempt from the Rent Ordinance (e.g., certain new construction, most single-family homes/condos, certain federally subsidized units) are not covered by these just-cause protections.",
+   "effective_date": null,
+   "enacted_date": "2024-11",
+   "citation": "Berkeley Mun. Code ch. 13.76",
+   "quoted_span": "For a landlord to evict a tenant for nonpayment of rent, the tenant must owe an amount of rental debt equal to or greater than one month of the Fair Market Rent (FMR) value for a unit of equivalent size in the metro area Oakland-Fremont, CA HUD Metro FMR as determined by the US Department of Housing and Urban Development for the fiscal year in which the rent is demanded.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": "1980-01-01",
+    "built_after": null,
+    "age_cutoff_basis": "certificate_of_occupancy",
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": "Whether the unit is government-owned/subsidized and whether tenant shares kitchen/bath with a landlord who resided there first (affects exemption status).",
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.75
+  }
+ ],
+ "no_rule_findings": []
+}

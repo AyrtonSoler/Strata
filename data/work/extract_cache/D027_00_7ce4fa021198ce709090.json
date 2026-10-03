@@ -1,0 +1,44 @@
+{
+ "doc_id": "D027",
+ "chunk": 0,
+ "meta": {
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011Cffi5qcPLywZnrKGx8WCt",
+  "stop_reason": "end_turn",
+  "input_tokens": 3798,
+  "output_tokens": 731,
+  "cost_usd": 0.0156
+ },
+ "rules": [
+  {
+   "category": "screening_restrictions",
+   "jurisdiction": "CA",
+   "level": "state",
+   "instrument_status": "enacted",
+   "title": "California Fair Employment and Housing Act - Housing Discrimination (Source of Income / Credit History)",
+   "requirement": "Landlords cannot refuse to rent to tenants because they pay with a housing voucher or other lawful source of income, and where a tenant has a government rent subsidy, the landlord must let the applicant offer alternative proof of ability to pay (like pay stubs or bank statements) instead of relying solely on credit history.",
+   "key_value": null,
+   "coverage_conditions": "Applies to owners of housing accommodations in California; special credit-history alternative-evidence rule applies specifically where there is a government rent subsidy involved.",
+   "exemptions": null,
+   "effective_date": "2024-01-01",
+   "enacted_date": "2023-01-01",
+   "citation": "Cal. Gov. Code § 12955",
+   "quoted_span": "For the owner of any housing accommodation to discriminate against or harass any person because of the race, color, religion, sex, gender, gender identity, gender expression, sexual orientation, marital status, national origin, ancestry, familial status, source of income, disability, veteran or military status, or genetic information of that person.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": "whether a government rent subsidy (e.g., Section 8 voucher) applies to the tenancy",
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.85
+  }
+ ],
+ "no_rule_findings": []
+}

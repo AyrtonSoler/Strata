@@ -1,0 +1,44 @@
+{
+ "doc_id": "D045",
+ "chunk": 0,
+ "meta": {
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CffipFo6WLkT7YA6pmg9u",
+  "stop_reason": "end_turn",
+  "input_tokens": 1136,
+  "output_tokens": 441,
+  "cost_usd": 0.0074
+ },
+ "rules": [
+  {
+   "category": "algorithmic_rent_setting",
+   "jurisdiction": "MA",
+   "level": "state",
+   "instrument_status": "pending",
+   "title": "An Act relative to preventing algorithmic rent fixing in the rental housing market",
+   "requirement": "This bill would restrict the use of algorithmic software or devices to set or coordinate rental housing prices, but it has not been enacted; it is still pending in committee.",
+   "key_value": null,
+   "coverage_conditions": "Not specified in available text.",
+   "exemptions": null,
+   "effective_date": null,
+   "enacted_date": null,
+   "citation": "Mass. H.5222 (194th Gen. Ct. 2026)",
+   "quoted_span": "An Act relative to preventing algorithmic rent fixing in the rental housing market",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": false
+   },
+   "conflict_note": "Bill text itself is not included in this chunk; only the bill title and procedural history are available, so substantive requirements cannot be confirmed.",
+   "confidence": 0.4
+  }
+ ],
+ "no_rule_findings": []
+}

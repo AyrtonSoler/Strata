@@ -1,0 +1,44 @@
+{
+ "doc_id": "D068",
+ "chunk": 0,
+ "meta": {
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CffipZtH6KZXtuk1veKbR",
+  "stop_reason": "end_turn",
+  "input_tokens": 2476,
+  "output_tokens": 1256,
+  "cost_usd": 0.0182
+ },
+ "rules": [
+  {
+   "category": "screening_restrictions",
+   "jurisdiction": "NJ",
+   "level": "state",
+   "instrument_status": "enacted",
+   "title": "NJ Law Against Discrimination - Source of Income Protection",
+   "requirement": "Landlords in New Jersey cannot refuse to rent to a tenant solely because they use a lawful source of income, such as a Section 8 housing voucher, to pay rent.",
+   "key_value": "Prohibits denial of housing based on lawful source of income",
+   "coverage_conditions": "Applies to sale or rental of all property, including open land, for business or residential purposes, with limited exceptions for small owner-occupied dwellings and religious organization preferences.",
+   "exemptions": "Rental of a single unit in a two-family dwelling where the owner occupies the other unit; rental of rooms in an owner-occupied one-family dwelling; religious organization preference for same-religion tenants/buyers; housing for older persons exempt from familial status provisions.",
+   "effective_date": null,
+   "enacted_date": null,
+   "citation": "N.J. Law Against Discrimination (LAD), N.J.S.A. 10:5-1 et seq.",
+   "quoted_span": "The LAD also prohibits housing discrimination  based\non the source of lawful income or source of lawful rent\nor mortgage payment a tenant or purchaser uses. This\nmeans, for example, that a landlord cannot deny the\nlawful recipient of a Section 8 HUD voucher the right to\nrent an apartment based solely on that source of lawful\nincome.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": 2,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": "whether the owner occupies a unit in a two-family dwelling or a one-family dwelling being rented out in part",
+    "yields_to_local": false
+   },
+   "conflict_note": "Specific statutory section number for the source-of-income provision is not stated in this chunk; the general LAD citation is used based on the text's reference to the law and to N.J.S.A. 10:5-5mm for a related definition.",
+   "confidence": 0.6
+  }
+ ],
+ "no_rule_findings": []
+}

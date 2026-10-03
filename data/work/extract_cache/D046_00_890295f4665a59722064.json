@@ -1,0 +1,44 @@
+{
+ "doc_id": "D046",
+ "chunk": 0,
+ "meta": {
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011Cffi1p5VucAwGhohaTLNp",
+  "stop_reason": "end_turn",
+  "input_tokens": 1338,
+  "output_tokens": 354,
+  "cost_usd": 0.007
+ },
+ "rules": [
+  {
+   "category": "algorithmic_rent_setting",
+   "jurisdiction": "MA",
+   "level": "state",
+   "instrument_status": "pending",
+   "title": "An Act prohibiting algorithmic rent setting",
+   "requirement": "This bill would prohibit the use of algorithmic devices to set rental prices for housing in Massachusetts.",
+   "key_value": null,
+   "coverage_conditions": "Not specified in chunk.",
+   "exemptions": null,
+   "effective_date": null,
+   "enacted_date": null,
+   "citation": "Mass. S.2983 (2026)",
+   "quoted_span": "An Act prohibiting algorithmic rent setting",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.75
+  }
+ ],
+ "no_rule_findings": []
+}

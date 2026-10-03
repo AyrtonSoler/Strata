@@ -1,0 +1,44 @@
+{
+ "doc_id": "D059",
+ "chunk": 0,
+ "meta": {
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CffiCww5H6W8JeD5P4U6M",
+  "stop_reason": "end_turn",
+  "input_tokens": 1558,
+  "output_tokens": 551,
+  "cost_usd": 0.0094
+ },
+ "rules": [
+  {
+   "category": "rent_increase_limits",
+   "jurisdiction": "MA",
+   "level": "state",
+   "instrument_status": "failed",
+   "title": "2026 Massachusetts Rent Control Ballot Question",
+   "requirement": "A proposed ballot question would have limited annual rent increases on residences statewide, but it was struck from the ballot by the Supreme Judicial Court because of a religious exemption that violated the state constitution's ban on religious ballot questions.",
+   "key_value": null,
+   "coverage_conditions": "Would have applied to residential rental units statewide, with carve-outs for certain unit types including those used for religious purposes.",
+   "exemptions": "Units operated solely for religious purposes and other secular exemption categories.",
+   "effective_date": null,
+   "enacted_date": null,
+   "citation": "Mass. 2026 Rent Control Ballot Question (struck by SJC)",
+   "quoted_span": "The proposal limits annual rent increases for residences, but it carved out exemptions for several types of units, including ones “operated solely for … religious … purposes.\"",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": "whether the unit is operated solely for religious or other exempted purposes",
+    "yields_to_local": false
+   },
+   "conflict_note": "This ballot question was blocked by the Supreme Judicial Court and will not appear on the November 2026 ballot; it never became law.",
+   "confidence": 0.8
+  }
+ ],
+ "no_rule_findings": []
+}

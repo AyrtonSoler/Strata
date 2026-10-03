@@ -1,0 +1,109 @@
+{
+ "doc_id": "D067",
+ "chunk": 3,
+ "meta": {
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011Cffi8h9iT4nUcC2rCYVvd",
+  "stop_reason": "end_turn",
+  "input_tokens": 7794,
+  "output_tokens": 3728,
+  "cost_usd": 0.0536
+ },
+ "rules": [
+  {
+   "category": "rent_increase_limits",
+   "jurisdiction": "NJ",
+   "level": "state",
+   "instrument_status": "enacted",
+   "title": "Anti-Eviction Act – Notice and Unconscionable Rent Increase Standard",
+   "requirement": "A landlord can only raise rent by terminating the old lease and offering a new lease with the increased rent, after giving proper written notice. The increase must not be 'unconscionable' (so unreasonable as to shock the conscience) and must comply with any local rent control ordinance.",
+   "key_value": "Must not be 'unconscionable'; no fixed numeric cap",
+   "coverage_conditions": "Applies to residential tenancies statewide where a landlord seeks to raise rent via lease termination/renewal.",
+   "exemptions": null,
+   "effective_date": null,
+   "enacted_date": null,
+   "citation": "N.J.S.A. 2A:18-61.1 et seq.",
+   "quoted_span": "The increase in rent must not be unconscionable; it must not be so unreasonable as to shock the conscience of a fair and honest person and must comply with any municipal ordinances governing rent increases.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": true
+   },
+   "conflict_note": "State law sets only a vague 'unconscionable' standard; actual numeric caps exist only at the municipal level via local rent control ordinances.",
+   "confidence": 0.75
+  },
+  {
+   "category": "rent_increase_limits",
+   "jurisdiction": "NJ",
+   "level": "state",
+   "instrument_status": "enacted",
+   "title": "Newly Constructed Multiple Dwellings Law – 30-Year Rent Control Exemption",
+   "requirement": "Newly constructed multi-family dwellings are exempt from any local rent control ordinance for 30 years after completion of construction; rents subsidized by government funding may also be exempt from local rent control.",
+   "key_value": "30-year exemption from local rent control",
+   "coverage_conditions": "Applies to newly constructed multiple dwellings statewide, overriding municipal rent control ordinances.",
+   "exemptions": "Subsidized/government-funded rents may also be exempt from local rent control.",
+   "effective_date": null,
+   "enacted_date": null,
+   "citation": "N.J.S.A. 2A:42-84.5",
+   "quoted_span": "Under the Newly Constructed Multiple Dwellings Law ( N.J.S.A. 2A:42 -84.5), newly constructed multiple dwellings shall be exempt from any local rent control ordinances for a period of 30 years following completion of construction of the building.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": "year_built",
+    "exclude_if_newer_than_years": 30,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": "whether the rent is subsidized by governmental funding (which may also exempt it from local rent control)",
+    "yields_to_local": false
+   },
+   "conflict_note": "This is a state law that overrides/limits municipal rent control rather than yielding to it, by exempting new construction and subsidized units from local ordinances.",
+   "confidence": 0.85
+  },
+  {
+   "category": "rent_increase_limits",
+   "jurisdiction": "NJ",
+   "level": "state",
+   "instrument_status": "enacted",
+   "title": "Condominium/Cooperative Conversion Rent Increase Prohibition",
+   "requirement": "If a building is converted to condominium, cooperative, or fee-simple ownership, landlords cannot raise rents to cover costs resulting solely from the conversion, though increases for new services or amenities are still allowed.",
+   "key_value": null,
+   "coverage_conditions": "Applies to all tenants in a building undergoing conversion to condominium, cooperative, or fee-simple ownership of units, regardless of protected tenancy status.",
+   "exemptions": null,
+   "effective_date": null,
+   "enacted_date": null,
+   "citation": "N.J.S.A. 2A:18-61.31",
+   "quoted_span": "If a building is converted to a condominium or cooperative form of ownership, or to fee simple ownership of units, rents may not be increased to cover cos ts resulting solely from the conversion (N.J.S.A. 2A:18-61.31).",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": "whether the building has undergone or is undergoing conversion to condominium/cooperative/fee-simple ownership",
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.85
+  }
+ ],
+ "no_rule_findings": [
+  {
+   "jurisdiction": "NJ",
+   "category": "rent_increase_limits",
+   "finding": "New Jersey has no statewide rent control or rent increase cap law; rent regulation exists only where municipalities adopt local rent control/leveling ordinances.",
+   "quoted_span": "The State of New Jersey has no laws that establish, govern or control rents."
+  }
+ ]
+}

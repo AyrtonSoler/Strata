@@ -1,0 +1,102 @@
+{
+ "doc_id": "D033",
+ "chunk": 0,
+ "meta": {
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CffiC14pGS11Uz49MS8u2",
+  "stop_reason": "end_turn",
+  "input_tokens": 7175,
+  "output_tokens": 1678,
+  "cost_usd": 0.0319
+ },
+ "rules": [
+  {
+   "category": "rent_increase_limits",
+   "jurisdiction": "Hoboken, NJ",
+   "level": "city",
+   "instrument_status": "enacted",
+   "title": "Hoboken Rent Control - Base Rent and Annual CPI Increase Cap",
+   "requirement": "Landlords may only raise rent at lease expiration or termination of a periodic lease, and the annual increase is capped at 5% or the CPI percentage difference, whichever is less. Increases above this cap are void and must be refunded to the tenant.",
+   "key_value": "5% or CPI differential, whichever is less",
+   "coverage_conditions": "Applies to dwellings subject to Hoboken Rent Control chapter, with base rent set as of October 1, 1985.",
+   "exemptions": null,
+   "effective_date": "1985-10-01",
+   "enacted_date": "2025-10-22",
+   "citation": "Hoboken Code ch. 155, Art. II",
+   "quoted_span": "At the expiration of a lease or at the termination of a lease of a periodic tenant, no landlord may request or receive a percentage increase in rent which is greater than 5% or the percentage difference between the consumer price index three months prior to the expiration or termination of the lease and three months prior to the commencement of the lease term, whichever is less.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": "whether the dwelling is subject to this chapter (rent-controlled status, vacancy decontrol history)",
+    "yields_to_local": false
+   },
+   "conflict_note": "Section notes multiple amendment dates (2011, 2023, 2025); base rent set as of 1985-10-01 while ordinance has been amended multiple times since.",
+   "confidence": 0.85
+  },
+  {
+   "category": "rent_increase_limits",
+   "jurisdiction": "Hoboken, NJ",
+   "level": "city",
+   "instrument_status": "enacted",
+   "title": "Hoboken Rent Control - Tax and Water/Sewer Surcharges",
+   "requirement": "Landlords may apply for additional rent surcharges tied to increases in municipal property taxes or water/sewer charges above baseline assessment years, subject to Rent Regulation Officer approval and formula, separate from the CPI-based increase cap.",
+   "key_value": null,
+   "coverage_conditions": "Applies to rent-controlled dwellings in Hoboken where landlord applies for a tax or water/sewer surcharge.",
+   "exemptions": null,
+   "effective_date": null,
+   "enacted_date": "1986-09-03",
+   "citation": "Hoboken Code § 155-6",
+   "quoted_span": "The landlord may seek a water and sewerage surcharge from a tenant because of an increase in the municipal water and sewer charges in excess of those assessed for 1996.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": "whether rental units are registered and whether a tax/water surcharge application was properly filed",
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.7
+  },
+  {
+   "category": "rent_increase_limits",
+   "jurisdiction": "Hoboken, NJ",
+   "level": "city",
+   "instrument_status": "enacted",
+   "title": "Hoboken Rent Control - Capital Improvement Surcharge Cap",
+   "requirement": "Landlords may apply to the Rent Leveling and Stabilization Board for a rent surcharge to recover the cost of capital improvements, apportioned among tenants, but the base rent cannot be increased by more than 33 1/3% due to a capital improvement surcharge in any one twelve-month period.",
+   "key_value": "Max 33 1/3% increase per 12-month period due to capital improvement surcharge",
+   "coverage_conditions": "Applies to rent-controlled dwellings in Hoboken where landlord applies for and receives Board approval for a capital improvement surcharge.",
+   "exemptions": null,
+   "effective_date": null,
+   "enacted_date": "2018-08-01",
+   "citation": "Hoboken Code § 155-7",
+   "quoted_span": "it being the intent of this chapter that the base rents shall under no circumstances be increased by an amount greater than 33 1/3% due to a capital improvement surcharge in any one twelve-month period.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": "whether landlord obtained required permits and Board approval for the capital improvement",
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.75
+  }
+ ],
+ "no_rule_findings": []
+}

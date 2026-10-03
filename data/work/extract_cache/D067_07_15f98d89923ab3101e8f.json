@@ -1,0 +1,73 @@
+{
+ "doc_id": "D067",
+ "chunk": 7,
+ "meta": {
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011Cffi917DgkxTeeVF5yDBC",
+  "stop_reason": "end_turn",
+  "input_tokens": 8161,
+  "output_tokens": 3473,
+  "cost_usd": 0.0518
+ },
+ "rules": [
+  {
+   "category": "just_cause_eviction",
+   "jurisdiction": "NJ",
+   "level": "state",
+   "instrument_status": "enacted",
+   "title": "Foreclosure Fairness Act - Notice and Eviction Protections for Tenants in Foreclosed Properties",
+   "requirement": "Foreclosure alone is not grounds for eviction; a tenant in a foreclosed property generally keeps their tenancy. If a buyer who wants to personally occupy the property as a primary residence purchases it, the landlord must give the tenant a 90-day notice to quit, and new owners must notify tenants in English and Spanish that they are not required to move.",
+   "key_value": "90-day notice to quit (owner-occupant purchaser)",
+   "coverage_conditions": "Applies to residential rental units in properties that have been foreclosed upon; notice posting method varies by building size (10 or fewer units vs. more than 10 units).",
+   "exemptions": "Month-to-month tenants and two- and three-family owner-occupied units are NOT exempt from the 90-day notice requirement (i.e., no exemption applies to them).",
+   "effective_date": null,
+   "enacted_date": null,
+   "citation": "N.J.S.A. 2A:50-69 et seq.",
+   "quoted_span": "Before a tenant can be evicted due to foreclosure, the landlord must provide the tenant with a 90 -day notice to qui t when the foreclosed property has been purchased by a buyer who wants to personally occupy it as his or her primary residence.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": "whether the new owner/purchaser intends to personally occupy the unit as a primary residence, and total number of dwelling units in the building (affects notice posting method)",
+    "yields_to_local": false
+   },
+   "conflict_note": "Separate, more detailed notice procedures and posting requirements are set out at N.J.S.A. 2A:50-70(c)2 for buildings with more than 10 units, and pressure-tactic prohibitions at N.J.S.A. 2A:50-71(b); these are part of the same Foreclosure Fairness Act scheme.",
+   "confidence": 0.55
+  },
+  {
+   "category": "just_cause_eviction",
+   "jurisdiction": "NJ",
+   "level": "state",
+   "instrument_status": "enacted",
+   "title": "Senior Citizens and Disabled Protected Tenancy Act",
+   "requirement": "Eligible senior citizens, permanently disabled tenants, or qualifying disabled veterans living in a building being converted to a condominium, cooperative, or fee-simple ownership may be protected from eviction for up to 40 years, provided their family income does not exceed a set threshold.",
+   "key_value": "Up to 40 years of eviction protection; income cap = 3x county average per-person income or $50,000, whichever is greater",
+   "coverage_conditions": "Applies to buildings undergoing condominium, cooperative, or fee-simple conversion where qualifying tenants (62+, permanently disabled, or qualifying disabled veteran) have resided at least one year prior to the conversion recording date and meet an income threshold.",
+   "exemptions": null,
+   "effective_date": null,
+   "enacted_date": null,
+   "citation": "N.J.S.A. 2A:18-61.22 to -61.39",
+   "quoted_span": "Tenants may be protected from eviction for 40 years if their family income is not more than three (3) times the average per person income in their county or $50,000.00, whichever  is greater (N.J.S.A. 2A:18-61.28).",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": "whether the building is undergoing condominium/cooperative/fee-simple conversion, and whether the tenant qualifies by age, disability, veteran status, tenancy duration, and income",
+    "yields_to_local": false
+   },
+   "conflict_note": "An amendment (Tenant Protection Act of 1992) extends similar protections to additional tenants in Hudson County who did not otherwise qualify, but the text does not attribute this to a specific city, so it is not separately recorded.",
+   "confidence": 0.6
+  }
+ ],
+ "no_rule_findings": []
+}

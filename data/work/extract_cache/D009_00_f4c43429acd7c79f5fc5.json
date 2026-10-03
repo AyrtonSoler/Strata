@@ -1,0 +1,73 @@
+{
+ "doc_id": "D009",
+ "chunk": 0,
+ "meta": {
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CffjduQbYdLWL1142pfv4",
+  "stop_reason": "end_turn",
+  "input_tokens": 1271,
+  "output_tokens": 2817,
+  "cost_usd": 0.0403
+ },
+ "rules": [
+  {
+   "category": "rent_increase_limits",
+   "jurisdiction": "Berkeley, CA",
+   "level": "city",
+   "instrument_status": "enacted",
+   "title": "Berkeley Rent Stabilization Ordinance Coverage",
+   "requirement": "Berkeley's rent control (rent stabilization) applies to most pre-1980 multifamily units, certain single-family homes, and rooming houses, but not to new construction completed after June 1980, most condos, or certain subsidized/owner-occupied units.",
+   "key_value": null,
+   "coverage_conditions": "Multifamily units built before 1980; rooming houses; single-family homes with tenancies beginning before 1996 are fully covered (rent control applies). New construction after June 1980, post-1996 single-family tenancies, most condos, and certain subsidized units are only partially covered (no rent control).",
+   "exemptions": "Golden Duplex units, owner-occupant shared kitchen/bath units, certain ADU tenancies, university dormitories, and nonprofit cooperatives are fully exempt from rent control.",
+   "effective_date": null,
+   "enacted_date": null,
+   "citation": "Berkeley Mun. Code ch. 13.76",
+   "quoted_span": "New construction: units that were built and received a Certificate of Occupancy after June 1980**",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": "1980-06",
+    "age_cutoff_basis": "certificate_of_occupancy",
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": 2,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": "whether the unit is a rooming house, condominium, ADU, government-subsidized unit, Golden Duplex, or nonprofit cooperative",
+    "yields_to_local": false
+   },
+   "conflict_note": "Table lists 'built before 1980' for full coverage but 'after June 1980' for new-construction exemption, creating a slight date ambiguity between calendar year 1980 cutoffs.",
+   "confidence": 0.75
+  },
+  {
+   "category": "just_cause_eviction",
+   "jurisdiction": "Berkeley, CA",
+   "level": "city",
+   "instrument_status": "enacted",
+   "title": "Berkeley Eviction for Just Cause Ordinance Coverage",
+   "requirement": "Most Berkeley rental units, including new construction, condos, and subsidized housing, are covered by the city's just cause eviction protections, but certain owner-occupied, shared-living, ADU, university, and cooperative units are exempt.",
+   "key_value": null,
+   "coverage_conditions": "Applies broadly to multifamily units, single-family homes, rooming houses, new construction, condominiums, and most subsidized housing regardless of build date.",
+   "exemptions": "Golden Duplex units (owner-occupied since 1979), units where the owner shares a kitchen or bath with the tenant since the start of tenancy, certain post-2018 ADU tenancies with owner-occupancy, university dormitories, and nonprofit cooperatives are exempt from just cause protections.",
+   "effective_date": null,
+   "enacted_date": null,
+   "citation": "Berkeley Mun. Code ch. 13.76",
+   "quoted_span": "Unit where the owner shares a kitchen or bath with the tenant if the owner lived on the property at the time the tenancy started",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": 2,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": "whether the owner shares a kitchen/bath with the tenant, whether the unit is an ADU in an owner-occupied property, whether the unit is a university dormitory, or whether it is a nonprofit cooperative",
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.8
+  }
+ ],
+ "no_rule_findings": []
+}

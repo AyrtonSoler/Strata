@@ -1,0 +1,44 @@
+{
+ "doc_id": "D065",
+ "chunk": 0,
+ "meta": {
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011Cffi8CwaXyzaMrMnVnugb",
+  "stop_reason": "end_turn",
+  "input_tokens": 6830,
+  "output_tokens": 1246,
+  "cost_usd": 0.0269
+ },
+ "rules": [
+  {
+   "category": "screening_restrictions",
+   "jurisdiction": "NJ",
+   "level": "state",
+   "instrument_status": "enacted",
+   "title": "Fair Chance in Housing Act",
+   "requirement": "Landlords cannot ask about or consider an applicant's criminal record until after making a conditional offer, and even then may only consider limited categories of serious or recent convictions, not arrests, expunged records, or old low-level offenses.",
+   "key_value": "Criminal history inquiries barred until after conditional offer; lookback limits of 1-6 years depending on offense degree",
+   "coverage_conditions": "Applies to rental dwelling units offered for rent by a housing provider, except owner-occupied premises of not more than four dwelling units.",
+   "exemptions": "Owner-occupied premises with no more than four dwelling units; certain serious convictions (murder, aggravated sexual assault, kidnapping, arson, human trafficking, sexual assault, child sexual exploitation, lifetime sex offender registrants) and drug-related meth manufacture on federally assisted housing premises may still be considered.",
+   "effective_date": "2022-01-01",
+   "enacted_date": "2021-06-18",
+   "citation": "N.J.S.A. 46:8-52 et seq. (P.L.2021, c.110)",
+   "quoted_span": "A housing provider shall not require an applicant to complete any housing application that includes any inquiries regarding an applicant's criminal record prior to the provision of a conditional offer",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": 4,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": "whether the premises is owner-occupied",
+    "yields_to_local": false
+   },
+   "conflict_note": "Effective date computed from 'first day of the seventh month next following the date of enactment' based on the stated approval date of June 18, 2021.",
+   "confidence": 0.85
+  }
+ ],
+ "no_rule_findings": []
+}

@@ -1,0 +1,51 @@
+{
+ "doc_id": "D055",
+ "chunk": 0,
+ "meta": {
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CffiCw6ifuKpViHbYyUxa",
+  "stop_reason": "end_turn",
+  "input_tokens": 4452,
+  "output_tokens": 1373,
+  "cost_usd": 0.0234
+ },
+ "rules": [
+  {
+   "category": "rent_increase_limits",
+   "jurisdiction": "MA",
+   "level": "state",
+   "instrument_status": "failed",
+   "title": "Initiative Petition 25-21: An Initiative Petition to Protect Tenants by Limiting Rent Increases",
+   "requirement": "A proposed statewide ballot initiative would have capped annual rent increases for most residential rental units at the lesser of CPI or 5%, with exemptions for small owner-occupied buildings, new construction, certain subsidized units, short-term rentals, and nonprofit/religious facilities. The Massachusetts Supreme Judicial Court ruled the petition unconstitutional and blocked it from the November 2026 ballot because its religious-facility exemption violated Article 48's bar on initiatives relating to religion.",
+   "key_value": "lesser of CPI or 5%",
+   "coverage_conditions": "Most residential rental units statewide, subject to listed exemptions",
+   "exemptions": "Owner-occupied buildings with four or fewer units; newly constructed units less than 10 years old; certain publicly regulated units; short-term rentals; dwelling units in facilities operated solely for educational, religious, or nonprofit purposes",
+   "effective_date": null,
+   "enacted_date": null,
+   "citation": "Mass. Initiative Petition 25-21 (2026); Cella v. Attorney General, SJC-13893",
+   "quoted_span": "Under the proposed law, annual rent increases would have been limited to the lesser of the annual increase in the Consumer Price Index or 5%. The petition included several exemptions, including owner-occupied buildings with four or fewer units, newly constructed units less than 10 years old, certain publicly regulated units, short-term rentals, and dwelling units in facilities operated solely for educational, religious, or nonprofit purposes.",
+   "coverage": {
+    "min_units": 5,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": "year_built",
+    "exclude_if_newer_than_years": 10,
+    "owner_exemption_max_units": 4,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": "whether the unit is in a facility operated solely for educational, religious, or nonprofit purposes, or is a publicly regulated/short-term rental unit",
+    "yields_to_local": false
+   },
+   "conflict_note": "This petition was blocked by the SJC from appearing on the November 2026 ballot and never took effect; it would have repealed the existing statewide ban on rent control (G.L. c. 40P) had it passed.",
+   "confidence": 0.85
+  }
+ ],
+ "no_rule_findings": [
+  {
+   "jurisdiction": "MA",
+   "category": "rent_increase_limits",
+   "finding": "Massachusetts currently maintains a statutory ban on rent control under G.L. c. 40P, which the blocked ballot initiative would have repealed; because the initiative failed, the existing statewide ban on local rent control remains in effect.",
+   "quoted_span": "The petition would have repealed the Commonwealth’s existing statutory ban on rent control, G.L. c. 40P, and replaced it with a statewide cap on annual rent increases for most residential rental units."
+  }
+ ]
+}

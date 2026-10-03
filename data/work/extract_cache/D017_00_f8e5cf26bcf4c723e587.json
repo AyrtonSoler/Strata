@@ -1,0 +1,44 @@
+{
+ "doc_id": "D017",
+ "chunk": 0,
+ "meta": {
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CffiBYPiAP8QhBwQsPLpQ",
+  "stop_reason": "end_turn",
+  "input_tokens": 2738,
+  "output_tokens": 549,
+  "cost_usd": 0.0117
+ },
+ "rules": [
+  {
+   "category": "application_screening_fees",
+   "jurisdiction": "CA",
+   "level": "state",
+   "instrument_status": "enacted",
+   "title": "Application Screening Fee Cap",
+   "requirement": "Landlords can charge an application screening fee to cover the cost of checking an applicant's background and credit, but the fee cannot exceed $30 per applicant (adjusted annually for inflation), must reflect actual costs, and must be refunded or applied under specific conditions if the applicant isn't considered or selected.",
+   "key_value": "$30 per applicant, CPI-adjusted annually since 1998",
+   "coverage_conditions": "Applies to any landlord or agent who charges an application screening fee to a prospective residential tenant in California.",
+   "exemptions": null,
+   "effective_date": null,
+   "enacted_date": null,
+   "citation": "Cal. Civ. Code § 1950.6",
+   "quoted_span": "In no case shall the amount of the application screening fee charged by the landlord or their agent be greater than thirty dollars ($30) per applicant. The thirty dollar ($30) application screening fee may be adjusted annually by the landlord or their agent commensurate with an increase in the Consumer Price Index, beginning on January 1, 1998.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.95
+  }
+ ],
+ "no_rule_findings": []
+}

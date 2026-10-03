@@ -1,0 +1,44 @@
+{
+ "doc_id": "D054",
+ "chunk": 0,
+ "meta": {
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CffiCgCYApixzesLemH6g",
+  "stop_reason": "end_turn",
+  "input_tokens": 2784,
+  "output_tokens": 1067,
+  "cost_usd": 0.017
+ },
+ "rules": [
+  {
+   "category": "application_screening_fees",
+   "jurisdiction": "MA",
+   "level": "state",
+   "instrument_status": "enacted",
+   "title": "Massachusetts Security Deposit Law - Limitation on Pre-Tenancy Charges",
+   "requirement": "Landlords in Massachusetts cannot charge application fees, pet fees, cleaning fees, or any other upfront charges; before a tenancy begins they may only require payment of first month's rent, last month's rent, a security deposit, and a lock-change fee. Licensed real estate brokers, however, are allowed to charge separate application or screening fees.",
+   "key_value": "No landlord application fee allowed; only first, last, security deposit, and lock-change fee permitted",
+   "coverage_conditions": "Applies to all residential landlords (lessors) in Massachusetts prior to the start of a tenancy; does not apply to licensed brokers acting in a bona fide separate business capacity.",
+   "exemptions": "Licensed real estate brokers may charge application/screening fees under 254 C.M.R. 7, provided they comply with disclosure requirements.",
+   "effective_date": null,
+   "enacted_date": null,
+   "citation": "M.G.L. c. 186, § 15B",
+   "quoted_span": "It states that prior to the beginning of a tenancy, no lessor may require payment for anything except first, last, security, and locks (\nMGL Ch 186 Section 15B\n).",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": "whether the person collecting the fee is a licensed real estate broker rather than the landlord",
+    "yields_to_local": false
+   },
+   "conflict_note": "The article states the law 'has been in effect since the 1970s' but gives no precise enactment or effective date; no specific date is provided in the text.",
+   "confidence": 0.8
+  }
+ ],
+ "no_rule_findings": []
+}

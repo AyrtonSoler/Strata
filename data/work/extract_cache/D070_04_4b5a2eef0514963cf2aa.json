@@ -1,0 +1,44 @@
+{
+ "doc_id": "D070",
+ "chunk": 4,
+ "meta": {
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CffiDNBbAGskwdDo8EAYs",
+  "stop_reason": "end_turn",
+  "input_tokens": 6769,
+  "output_tokens": 3400,
+  "cost_usd": 0.0483
+ },
+ "rules": [
+  {
+   "category": "rent_increase_limits",
+   "jurisdiction": "Newark, NJ",
+   "level": "city",
+   "instrument_status": "enacted",
+   "title": "Newark Rent Control Ordinance - Annual Rent Increase Cap",
+   "requirement": "Newark's Rent Control Board cannot approve a rent increase of more than 25% in any one year for any tenant, counting all increases (ordinary, major improvement, and hardship increases) together. A landlord may also receive only one rent increase under the ordinary increase section for the same apartment in any twelve-month period.",
+   "key_value": "Max 25% total increase per year; one ordinary increase per 12 months",
+   "coverage_conditions": "Applies to housing space in dwellings covered by Newark's rent control chapter (ch. 19:2), unless the unit qualifies for an exemption (e.g., newly constructed, substantially rehabilitated, or certain city-owned dwellings currently within their exemption period).",
+   "exemptions": "Newly constructed or substandard multiple dwellings and certain city-owned dwellings sold for rehabilitation may be exempt from rent control for a stated exemption period (e.g., 5 years for qualifying city-owned dwelling sales).",
+   "effective_date": null,
+   "enacted_date": "2026-05-20",
+   "citation": "Newark, NJ Code § 19:2-9",
+   "quoted_span": "Since an immediate rent increase of more than 25% above the prior monthly rent may be considered unconscionable and imposes a hardship on a tenant, the Rent Control Board shall not grant increases exceeding 25% in any one year for any tenant.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": "whether the building currently qualifies for a rent control exemption (e.g., as newly constructed, substantially rehabilitated, or a qualifying formerly city-owned dwelling within its exemption period)",
+    "yields_to_local": false
+   },
+   "conflict_note": "Exact section number for this 25% annual cap provision is inferred from context (it is referenced alongside and follows sections 19:2-3, 19:2-7, and 19:2-8 in the ordinance) rather than stated directly in the chunk; most recent amendment date shown is 5-20-2026 (Ord. No. 6PSF-B).",
+   "confidence": 0.55
+  }
+ ],
+ "no_rule_findings": []
+}

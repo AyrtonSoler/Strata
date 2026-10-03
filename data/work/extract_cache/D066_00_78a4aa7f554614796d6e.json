@@ -1,0 +1,44 @@
+{
+ "doc_id": "D066",
+ "chunk": 0,
+ "meta": {
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011Cffi8DiTmK8K5SgxMrJUp",
+  "stop_reason": "end_turn",
+  "input_tokens": 1611,
+  "output_tokens": 707,
+  "cost_usd": 0.011
+ },
+ "rules": [
+  {
+   "category": "application_screening_fees",
+   "jurisdiction": "NJ",
+   "level": "state",
+   "instrument_status": "enacted",
+   "title": "Residential rental property application fee not to exceed $50",
+   "requirement": "Landlords or their agents cannot charge more than $50 for an application or similar fee to lease or sublease a residential rental property. The fee limit adjusts annually based on inflation.",
+   "key_value": "$50",
+   "coverage_conditions": "Applies to residential rental properties for dwelling purposes, except one-family or two-family dwellings and licensed real estate agents who are not the landlord.",
+   "exemptions": "Dwelling units in one-family or two-family dwellings offered for rent; licensees of the New Jersey Real Estate Commission unless they are the landlord of the property.",
+   "effective_date": "2026-05-01",
+   "enacted_date": "2026-01-20",
+   "citation": "N.J.S.A. 46:8-18.1",
+   "quoted_span": "A landlord, or agent thereof, shall not require an application or other similar fee to apply to lease or sublease a residential rental property for dwelling purposes, which exceeds $50.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": "Whether the property is a one-family or two-family dwelling (exempt) rather than a larger multifamily building, and whether the landlord/agent is a licensed NJ real estate agent (exempt unless also the landlord).",
+    "yields_to_local": false
+   },
+   "conflict_note": "Section 3 states the act takes effect on the first day of the fourth month following enactment (approved January 20, 2026), which would be May 1, 2026; subsection d. separately describes an annual CPI adjustment mechanism beginning January 1 of the year following enactment (2027), which is a distinct administrative timeline, not a conflicting effective date for the core $50 cap.",
+   "confidence": 0.95
+  }
+ ],
+ "no_rule_findings": []
+}

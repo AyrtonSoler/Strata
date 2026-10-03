@@ -1,0 +1,44 @@
+{
+ "doc_id": "D052",
+ "chunk": 0,
+ "meta": {
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011Cffi7Wk7vcR3wp3Kj5YQK",
+  "stop_reason": "end_turn",
+  "input_tokens": 6806,
+  "output_tokens": 1050,
+  "cost_usd": 0.0248
+ },
+ "rules": [
+  {
+   "category": "security_deposits",
+   "jurisdiction": "MA",
+   "level": "state",
+   "instrument_status": "enacted",
+   "title": "Security Deposit and Last Month's Rent Limits",
+   "requirement": "A landlord cannot require a tenant to pay more than first month's rent, last month's rent, a security deposit equal to one month's rent, and the cost of a key/lock at the start of a tenancy. Security deposits must be held in a separate interest-bearing account, with interest paid to the tenant, and returned within 30 days of move-out with an itemized list of any deductions.",
+   "key_value": "1 month's rent",
+   "coverage_conditions": "Applies to all residential leases in Massachusetts at or prior to commencement of tenancy.",
+   "exemptions": null,
+   "effective_date": "2025-08-01",
+   "enacted_date": null,
+   "citation": "M.G.L. c. 186, § 15B",
+   "quoted_span": "(iii) a security deposit equal to the first month's rent provided that such security deposit is deposited as required by subsection (3) and that the tenant is given the statement of condition as required by subsection (2)",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": false
+   },
+   "conflict_note": "The statute text shows two versions of clause (b): one effective until August 1, 2025, and an amended version (per 2025 c.9, Secs. 54-55) effective August 1, 2025, which adds the fee-in-lieu-of-security-deposit option; the core one-month security deposit cap is unchanged between versions.",
+   "confidence": 0.9
+  }
+ ],
+ "no_rule_findings": []
+}

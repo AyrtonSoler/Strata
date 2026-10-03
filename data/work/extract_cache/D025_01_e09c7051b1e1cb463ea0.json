@@ -1,0 +1,44 @@
+{
+ "doc_id": "D025",
+ "chunk": 1,
+ "meta": {
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011Cffi5Luxwqguh5U1nQbax",
+  "stop_reason": "end_turn",
+  "input_tokens": 2354,
+  "output_tokens": 967,
+  "cost_usd": 0.0151
+ },
+ "rules": [
+  {
+   "category": "security_deposits",
+   "jurisdiction": "CA",
+   "level": "state",
+   "instrument_status": "enacted",
+   "title": "Security Deposit Itemization, Return, and Nonrefundable Prohibition",
+   "requirement": "Landlords must provide tenants an itemized statement of deposit deductions, return any undeducted portion of the deposit when they transfer or sell the property, and cannot claim a deposit is 'nonrefundable.' Landlords who act in bad faith regarding deposit retention or demands may owe statutory damages up to twice the deposit amount.",
+   "key_value": null,
+   "coverage_conditions": "Applies to all residential tenancies with a security deposit under California law.",
+   "exemptions": "Landlord need not comply with itemization documentation requirements if deductions total $125 or less, or if the tenant signs a valid waiver under specified timing conditions.",
+   "effective_date": "2026-01-01",
+   "enacted_date": "2025",
+   "citation": "Cal. Civ. Code § 1950.5",
+   "quoted_span": "A lease or rental agreement shall not contain a provision characterizing any security as “nonrefundable.”",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": false
+   },
+   "conflict_note": "This chunk reflects the 2025 amendment (AB 414) effective January 1, 2026; a separate chunk of this same statute likely addresses the deposit amount cap itself.",
+   "confidence": 0.85
+  }
+ ],
+ "no_rule_findings": []
+}

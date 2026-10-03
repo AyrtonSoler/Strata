@@ -1,0 +1,44 @@
+{
+ "doc_id": "D060",
+ "chunk": 0,
+ "meta": {
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CffiCyw8wBei4rxXJKjqy",
+  "stop_reason": "end_turn",
+  "input_tokens": 1448,
+  "output_tokens": 614,
+  "cost_usd": 0.0098
+ },
+ "rules": [
+  {
+   "category": "algorithmic_rent_setting",
+   "jurisdiction": "NJ",
+   "level": "state",
+   "instrument_status": "enacted",
+   "title": "Forbidding the Algorithmic Inflation of Rent (FAIR) Act",
+   "requirement": "Landlords may not use algorithmic revenue management software that uses competitors' nonpublic leasing data to set or recommend rental prices, and software providers or other coordinators may not use such software to facilitate agreements or coordinate pricing among competing residential landlords.",
+   "key_value": "Ban on algorithmic/coordinated rent-setting software",
+   "coverage_conditions": "Applies to residential rental property owners, property managers, and software providers/coordinators using algorithmic revenue management software or devices that process nonpublic competitor leasing data.",
+   "exemptions": "Does not prohibit spreadsheets requiring human analysis, publicly available rent estimation tools, traditional real estate listing databases, or government-administered affordable housing programs.",
+   "effective_date": "2027-07-01",
+   "enacted_date": "2026-07-20",
+   "citation": "P.L. 2026, c. 43",
+   "quoted_span": "The FAIR Act prohibits residential rental property owners from using algorithmic revenue management software that collects or processes competitors' nonpublic leasing information to set or recommend rental prices.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": "whether the unit is part of a government-administered affordable housing program (exempt technology use)",
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.9
+  }
+ ],
+ "no_rule_findings": []
+}

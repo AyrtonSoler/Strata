@@ -1,0 +1,102 @@
+{
+ "doc_id": "D005",
+ "chunk": 0,
+ "meta": {
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011Cffi34iqgF2eYYovJYptT",
+  "stop_reason": "end_turn",
+  "input_tokens": 1425,
+  "output_tokens": 2107,
+  "cost_usd": 0.0247
+ },
+ "rules": [
+  {
+   "category": "application_screening_fees",
+   "jurisdiction": "CA",
+   "level": "state",
+   "instrument_status": "enacted",
+   "title": "Tenant Screening Fee Cap",
+   "requirement": "Landlords may charge a capped screening fee to cover costs like a credit report, and must refund any unused portion, provide a receipt, and give a copy of the credit report within 7 days.",
+   "key_value": "$68.96 (2026 cap)",
+   "coverage_conditions": "Applies to residential rental applications statewide; fee must be tied to actual screening costs incurred.",
+   "exemptions": "No fee may be charged if no unit is actually available; fee must be refunded to applicants not selected unless a first-come, first-qualified policy is used.",
+   "effective_date": null,
+   "enacted_date": null,
+   "citation": "Cal. Civ. Code § 1950.6",
+   "quoted_span": "The maximum tenant screening fee for 2026 is $68.96",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.85
+  },
+  {
+   "category": "application_screening_fees",
+   "jurisdiction": "Berkeley, CA",
+   "level": "city",
+   "instrument_status": "enacted",
+   "title": "Notification of State Law Limitation on Tenant Screening Fees",
+   "requirement": "Before charging a screening fee, a Berkeley landlord must give applicants a clear statement of their tenant screening fee rights and the state maximum fee cap.",
+   "key_value": null,
+   "coverage_conditions": "Applies when an owner or agent charges a fee to purchase a consumer credit report or process a rental application in Berkeley.",
+   "exemptions": null,
+   "effective_date": null,
+   "enacted_date": null,
+   "citation": "Berkeley Mun. Code § 13.78.010",
+   "quoted_span": "the owner must provide, either in the rental application or in a separate disclosure before receiving the fee, a clear and conspicuous tenant screening fee rights statement and a statement of the maximum fee cap permitted under California Civil Code Section 1950.6(b).",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.85
+  },
+  {
+   "category": "application_screening_fees",
+   "jurisdiction": "Berkeley, CA",
+   "level": "city",
+   "instrument_status": "enacted",
+   "title": "Prohibition of Non-Refundable Application Fees Associated with Existing Tenancies",
+   "requirement": "Landlords cannot charge existing tenants a non-refundable fee to renew a tenancy or to add, replace, or handle the departure of a roommate.",
+   "key_value": null,
+   "coverage_conditions": "Applies to existing tenancies and roommate changes within a pre-existing household in Berkeley.",
+   "exemptions": null,
+   "effective_date": null,
+   "enacted_date": null,
+   "citation": "Berkeley Mun. Code § 13.78.016",
+   "quoted_span": "An owner of residential rental property (or the owner’s agent) cannot charge a non-refundable fee to any existing tenant for the purpose of renewing a tenancy, in whole or in part, including any fee associated with the departure of a roommate or to request to add or replace a roommate in a pre-existing household.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.85
+  }
+ ],
+ "no_rule_findings": []
+}

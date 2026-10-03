@@ -1,0 +1,51 @@
+{
+ "doc_id": "D069",
+ "chunk": 0,
+ "meta": {
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011Cffi92XYFyk4UokwbA6zE",
+  "stop_reason": "end_turn",
+  "input_tokens": 3607,
+  "output_tokens": 1161,
+  "cost_usd": 0.0196
+ },
+ "rules": [
+  {
+   "category": "algorithmic_rent_setting",
+   "jurisdiction": "NJ",
+   "level": "state",
+   "instrument_status": "enacted",
+   "title": "Forbidding the Algorithmic Inflation of Rent (FAIR) Act",
+   "requirement": "New Jersey law makes it illegal for landlords to use algorithmic devices, software, or coordinators that pool competitively sensitive rental data (like prices, lease terms, or occupancy levels) across multiple property owners to set or recommend rental prices, lease terms, or occupancy levels. It also bans landlords from engaging in tacit or express 'parallel pricing coordination' to raise or manipulate rents.",
+   "key_value": "Ban on algorithmic rent-setting / coordinated pricing among landlords",
+   "coverage_conditions": "Applies to any rental property owner (person owning one or more residential dwelling units) and any coordinator providing algorithmic revenue management software or similar devices used to perform a 'coordinating function' for multiple rental property owners.",
+   "exemptions": "Does not apply to government entities setting rents via affordability controls, spreadsheets without AI requiring human analysis, databases that only query unprocessed data, real estate brokerage databases that don't set/recommend prices, or information used solely for research/statistics/testing or free public rent estimates.",
+   "effective_date": "2027-07-01",
+   "enacted_date": "2026-07-20",
+   "citation": "P.L.2026, c.43 (C.56:9-20 to 56:9-26)",
+   "quoted_span": "This act shall take effect on the first day of the twelfth month next following the date of enactment.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": "whether the rental property owner or coordinator uses an algorithmic device, software, or coordinating function involving competitively sensitive data shared across multiple owners",
+    "yields_to_local": false
+   },
+   "conflict_note": "The law was approved (enacted) July 20, 2026; the stated effective date formula ('first day of the twelfth month next following the date of enactment') is ambiguous as to exact month count, but likely resolves to approximately 2027-07-01. Also note section 6(b) bars municipalities from enacting conflicting ordinances, which may preempt stricter or differing local algorithmic pricing rules.",
+   "confidence": 0.75
+  }
+ ],
+ "no_rule_findings": [
+  {
+   "jurisdiction": "NJ",
+   "category": "algorithmic_rent_setting",
+   "finding": "The act explicitly prohibits municipalities from enacting ordinances that conflict with this state act, effectively limiting local variation on algorithmic rent-setting regulation.",
+   "quoted_span": "A municipality shall be prohibited from enacting an ordinance that conflicts with this act."
+  }
+ ]
+}

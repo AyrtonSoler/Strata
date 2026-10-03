@@ -1,0 +1,44 @@
+{
+ "doc_id": "D076",
+ "chunk": 1,
+ "meta": {
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CffiAPfK7p57j3wif3zsJ",
+  "stop_reason": "end_turn",
+  "input_tokens": 1098,
+  "output_tokens": 677,
+  "cost_usd": 0.0097
+ },
+ "rules": [
+  {
+   "category": "algorithmic_rent_setting",
+   "jurisdiction": "San Diego, CA",
+   "level": "city",
+   "instrument_status": "enacted",
+   "title": "Use and Sale of Algorithmic Devices Prohibited",
+   "requirement": "Landlords cannot use algorithmic software to set rental rates or occupancy levels for residential rental property, and no one may sell or provide such algorithmic devices to landlords. Tenants can sue for damages, injunctive relief, or civil penalties up to $1,000 per violation.",
+   "key_value": "Up to $1,000 per violation",
+   "coverage_conditions": "Applies to landlords and residential rental property as defined in San Diego Municipal Code section 98.0702; excludes software used only to publish aggregated historical (90+ days old) or publicly available data without recommending future rates, and software used to set rates per affordable housing program guidelines.",
+   "exemptions": "Software reporting only aggregated historical nonpublic competitor data older than 90 days or public data without future rate recommendations; software used to establish rates/income limits per affordable housing program guidelines.",
+   "effective_date": null,
+   "enacted_date": "2024-11-14",
+   "citation": "San Diego Mun. Code §98.1103",
+   "quoted_span": "It is unlawful for a person to sell, license, or otherwise provide an algorithmic device to a landlord. (b) It is unlawful for a landlord to use an algorithmic device to set rental rates or occupancy levels for residential rental property.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": "whether the software only reports aggregated historical/public data without recommending future rates, or is used solely for affordable housing program compliance",
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.88
+  }
+ ],
+ "no_rule_findings": []
+}

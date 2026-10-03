@@ -1,0 +1,197 @@
+{
+ "groups": [
+  {
+   "member_ids": [
+    "c0014"
+   ],
+   "primary_id": "c0014",
+   "canonical_citation": "Boston Fair Chance Tenant Selection Policy (DND, Feb. 2017)",
+   "effective_date": "2017-02",
+   "instrument_status": "enacted",
+   "conflict_flag": true,
+   "conflict_note": "This is a city policy document applicable only to subsidized/income-restricted or DND-funded housing providers, not general market-rate buildings; may be limited by federal/state law where conflicting.",
+   "interaction": null,
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0017"
+   ],
+   "primary_id": "c0017",
+   "canonical_citation": "Boston Fair Housing Regulations - Source of Income Protection",
+   "effective_date": null,
+   "instrument_status": "enacted",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": "Complements statewide source-of-income/public-assistance discrimination protection under M.G.L. c. 151B, § 4(10).",
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0015"
+   ],
+   "primary_id": "c0015",
+   "canonical_citation": "Mass. H.3744 (2023-2024)",
+   "effective_date": null,
+   "instrument_status": "failed",
+   "conflict_flag": false,
+   "conflict_note": "Bill did not pass; final legislative action was accompanied by a study order (see H5035), effectively shelving it.",
+   "interaction": null,
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0016"
+   ],
+   "primary_id": "c0016",
+   "canonical_citation": "Mass. H.3744 (2023-2024)",
+   "effective_date": null,
+   "instrument_status": "failed",
+   "conflict_flag": false,
+   "conflict_note": "Bill did not pass; final legislative action was accompanied by a study order (see H5035), effectively shelving it.",
+   "interaction": null,
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0018",
+    "c0019"
+   ],
+   "primary_id": "c0019",
+   "canonical_citation": "Boston Ordinance, Housing Stability Notification Act, Sec. 10-11.7",
+   "effective_date": "2020-11-06",
+   "instrument_status": "enacted",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": null,
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0031"
+   ],
+   "primary_id": "c0031",
+   "canonical_citation": "Cambridge Fair Housing Ordinance, ch. 14.04",
+   "effective_date": null,
+   "instrument_status": "enacted",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": "Complements statewide source-of-income/public-assistance discrimination protection under M.G.L. c. 151B, § 4(10).",
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0045"
+   ],
+   "primary_id": "c0045",
+   "canonical_citation": "Mass. H.5222 (194th Gen. Ct. 2026)",
+   "effective_date": null,
+   "instrument_status": "pending",
+   "conflict_flag": false,
+   "conflict_note": "Bill text not fully available; only title and procedural history confirmed, still pending in committee.",
+   "interaction": null,
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0046",
+    "c0047"
+   ],
+   "primary_id": "c0046",
+   "canonical_citation": "Mass. S.2983 (2026)",
+   "effective_date": null,
+   "instrument_status": "pending",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": null,
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0050"
+   ],
+   "primary_id": "c0050",
+   "canonical_citation": "M.G.L. c. 151B, § 4(10)",
+   "effective_date": null,
+   "instrument_status": "enacted",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": "Sets a statewide floor for source-of-income/public-assistance protections; local ordinances in Boston and Cambridge provide additional, complementary protections.",
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0051"
+   ],
+   "primary_id": "c0051",
+   "canonical_citation": "M.G.L. c. 186, § 11",
+   "effective_date": null,
+   "instrument_status": "enacted",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": null,
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0053",
+    "c0054"
+   ],
+   "primary_id": "c0053",
+   "canonical_citation": "M.G.L. c. 186, § 15B",
+   "effective_date": "2025-08-01",
+   "instrument_status": "enacted",
+   "conflict_flag": true,
+   "conflict_note": "Statute text reflects two versions: one effective until August 1, 2025, and an amended version (2025 c.9, Secs. 54-55) effective August 1, 2025 adding a fee-in-lieu-of-security-deposit option; core one-month cap unchanged.",
+   "interaction": null,
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0055"
+   ],
+   "primary_id": "c0055",
+   "canonical_citation": "M.G.L. c. 112, § 87DDD 1/2",
+   "effective_date": "2025-08-01",
+   "instrument_status": "enacted",
+   "conflict_flag": true,
+   "conflict_note": "An earlier version of the statute effective until August 1, 2025 did not include the fee-payment-party provision; the amendment adding it takes effect August 1, 2025 per 2025, c.9, Sec. 43.",
+   "interaction": null,
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0110"
+   ],
+   "primary_id": "c0110",
+   "canonical_citation": "M.G.L. c. 186, § 15B",
+   "effective_date": null,
+   "instrument_status": "enacted",
+   "conflict_flag": false,
+   "conflict_note": "No precise enactment date given in secondary source beyond 'in effect since the 1970s.'",
+   "interaction": "Operates alongside the broker-fee allocation rule (M.G.L. c. 112, § 87DDD 1/2) governing pre-tenancy charges.",
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0111",
+    "c0113"
+   ],
+   "primary_id": "c0111",
+   "canonical_citation": "Mass. Initiative Petition 25-21 (2026); Cella v. Attorney General, SJC-13893",
+   "effective_date": null,
+   "instrument_status": "failed",
+   "conflict_flag": false,
+   "conflict_note": "Blocked by the Massachusetts Supreme Judicial Court from the November 2026 ballot due to an unconstitutional religious-facility exemption; never took effect.",
+   "interaction": null,
+   "yields_to_local": false
+  }
+ ],
+ "reject_ids": [
+  "c0099",
+  "c0100"
+ ],
+ "no_rule_ids": [
+  "c0048"
+ ]
+}

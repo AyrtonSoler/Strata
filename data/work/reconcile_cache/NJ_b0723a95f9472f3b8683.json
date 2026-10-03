@@ -1,0 +1,270 @@
+{
+ "groups": [
+  {
+   "member_ids": [
+    "c0055"
+   ],
+   "primary_id": "c0055",
+   "canonical_citation": "N.J.S.A. 46:8-52 et seq. (P.L.2021, c.110) - Fair Chance in Housing Act",
+   "effective_date": "2022-01-01",
+   "instrument_status": "enacted",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": null,
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0056"
+   ],
+   "primary_id": "c0056",
+   "canonical_citation": "N.J.S.A. 46:8-18.1",
+   "effective_date": "2026-05-01",
+   "instrument_status": "enacted",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": null,
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0057",
+    "c0065",
+    "c0066"
+   ],
+   "primary_id": "c0065",
+   "canonical_citation": "N.J.S.A. 2A:18-53 to 2A:18-61.12 (Anti-Eviction Act)",
+   "effective_date": null,
+   "instrument_status": "enacted",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": null,
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0067"
+   ],
+   "primary_id": "c0067",
+   "canonical_citation": "N.J.S.A. 2A:42-10.10",
+   "effective_date": null,
+   "instrument_status": "enacted",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": null,
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0068"
+   ],
+   "primary_id": "c0068",
+   "canonical_citation": "N.J.S.A. 2A:50-69 et seq. (Foreclosure Fairness Act)",
+   "effective_date": null,
+   "instrument_status": "enacted",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": null,
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0069"
+   ],
+   "primary_id": "c0069",
+   "canonical_citation": "N.J.S.A. 2A:18-61.22 to -61.39 (Senior Citizens and Disabled Protected Tenancy Act)",
+   "effective_date": null,
+   "instrument_status": "enacted",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": null,
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0058",
+    "c0059"
+   ],
+   "primary_id": "c0059",
+   "canonical_citation": "N.J.S.A. 46:8-21.2",
+   "effective_date": null,
+   "instrument_status": "enacted",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": null,
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0061"
+   ],
+   "primary_id": "c0061",
+   "canonical_citation": "N.J.S.A. 2A:18-61.1 et seq. (Anti-Eviction Act - unconscionable rent increase standard)",
+   "effective_date": null,
+   "instrument_status": "enacted",
+   "conflict_flag": true,
+   "conflict_note": "State law sets only a vague 'unconscionable' standard and explicitly defers to municipal rent control ordinances where they exist, so numeric caps come from local law.",
+   "interaction": "State law requires rent increases not be 'unconscionable' and must comply with any local rent control ordinance; local caps govern where they exist.",
+   "yields_to_local": true
+  },
+  {
+   "member_ids": [
+    "c0062"
+   ],
+   "primary_id": "c0062",
+   "canonical_citation": "N.J.S.A. 2A:42-84.5 (Newly Constructed Multiple Dwellings Law)",
+   "effective_date": null,
+   "instrument_status": "enacted",
+   "conflict_flag": true,
+   "conflict_note": "This state law exempts newly constructed multi-family buildings from local rent control ordinances for 30 years, overriding municipal rent control for qualifying units.",
+   "interaction": "Overrides/limits local rent control ordinances by exempting newly constructed buildings for 30 years after completion.",
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0063"
+   ],
+   "primary_id": "c0063",
+   "canonical_citation": "N.J.S.A. 2A:18-61.31",
+   "effective_date": null,
+   "instrument_status": "enacted",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": null,
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0060",
+    "c0070"
+   ],
+   "primary_id": "c0060",
+   "canonical_citation": "N.J.S.A. 10:5-12(g)-(h); N.J.S.A. 10:5-5(n) (Law Against Discrimination - source of income)",
+   "effective_date": null,
+   "instrument_status": "enacted",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": null,
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0071",
+    "c0114"
+   ],
+   "primary_id": "c0071",
+   "canonical_citation": "P.L.2026, c.43 (C.56:9-20 to 56:9-26) - FAIR Act",
+   "effective_date": "2027-07-01",
+   "instrument_status": "enacted",
+   "conflict_flag": true,
+   "conflict_note": "The act's provision barring conflicting municipal ordinances may preempt existing local algorithmic rent-setting bans (e.g., Hoboken, Jersey City) once effective.",
+   "interaction": "May preempt stricter or differing local algorithmic pricing ordinances once effective.",
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0032"
+   ],
+   "primary_id": "c0032",
+   "canonical_citation": "Jersey City Mun. Code ch. 260 (Rent Control Ordinance)",
+   "effective_date": null,
+   "instrument_status": "enacted",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": null,
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0107"
+   ],
+   "primary_id": "c0107",
+   "canonical_citation": "Jersey City Code § 218-12",
+   "effective_date": "2025-06",
+   "instrument_status": "enacted",
+   "conflict_flag": true,
+   "conflict_note": "May be preempted or superseded by the state FAIR Act (P.L.2026, c.43) once it takes effect.",
+   "interaction": "State FAIR Act may preempt or overlap with this local ordinance; relationship not yet settled.",
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0101",
+    "c0102",
+    "c0103",
+    "c0104",
+    "c0105"
+   ],
+   "primary_id": "c0101",
+   "canonical_citation": "Hoboken Code ch. 155, Art. II / ch. 158 (Rent Control Ordinance)",
+   "effective_date": "1985-10-01",
+   "instrument_status": "enacted",
+   "conflict_flag": true,
+   "conflict_note": "Ordinance has been amended multiple times (2011, 2023, 2025); surcharge, hardship-increase, and disclosure provisions are codified in related chapters with differing effective dates.",
+   "interaction": null,
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0106"
+   ],
+   "primary_id": "c0106",
+   "canonical_citation": "Hoboken Code ch. 158, Art. II",
+   "effective_date": "2025-07-09",
+   "instrument_status": "enacted",
+   "conflict_flag": true,
+   "conflict_note": "May interact with or be preempted by the state FAIR Act (P.L.2026, c.43) once effective.",
+   "interaction": "State FAIR Act may preempt or overlap with this local ban depending on its conflicting-ordinance provisions.",
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0115",
+    "c0116",
+    "c0117",
+    "c0118",
+    "c0119",
+    "c0120",
+    "c0121",
+    "c0122",
+    "c0123"
+   ],
+   "primary_id": "c0115",
+   "canonical_citation": "Newark, NJ Code § 19:2-9 et seq. (Rent Control Ordinance)",
+   "effective_date": null,
+   "instrument_status": "enacted",
+   "conflict_flag": true,
+   "conflict_note": "Ordinance has been amended multiple times (2017, 2024, 2026); exact current effective date of the base CPI/4% cap provision is not precisely stated across sources.",
+   "interaction": null,
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0124"
+   ],
+   "primary_id": "c0124",
+   "canonical_citation": "Newark, NJ Ordinance 6PSF-H (Aug. 2, 2023) - Anti-Displacement Provisions",
+   "effective_date": null,
+   "instrument_status": "enacted",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": null,
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0125"
+   ],
+   "primary_id": "c0125",
+   "canonical_citation": "Newark Code § 2:31-1 et seq. (Ban the Box - Rental Housing)",
+   "effective_date": "2015-04-15",
+   "instrument_status": "enacted",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": null,
+   "yields_to_local": false
+  }
+ ],
+ "reject_ids": [],
+ "no_rule_ids": []
+}

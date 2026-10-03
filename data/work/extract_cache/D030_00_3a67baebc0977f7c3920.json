@@ -1,0 +1,73 @@
+{
+ "doc_id": "D030",
+ "chunk": 0,
+ "meta": {
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CffiBtJHFqBNzrw8oMWQV",
+  "stop_reason": "end_turn",
+  "input_tokens": 2761,
+  "output_tokens": 1764,
+  "cost_usd": 0.0239
+ },
+ "rules": [
+  {
+   "category": "algorithmic_rent_setting",
+   "jurisdiction": "Cambridge, MA",
+   "level": "city",
+   "instrument_status": "pending",
+   "title": "Policy Order to Ban Algorithmic Rent-Setting Software",
+   "requirement": "The City Council passed a policy order directing the city manager to work with city departments to draft an ordinance banning residential property management companies from using algorithmic or AI-driven rent-pricing software.",
+   "key_value": null,
+   "coverage_conditions": "Residential property management companies using algorithmic/AI rent pricing services; specific ordinance language not yet drafted.",
+   "exemptions": null,
+   "effective_date": null,
+   "enacted_date": null,
+   "citation": "Cambridge, MA City Council Policy Order (2026)",
+   "quoted_span": "City council also unanimously passed a policy order initiating steps to ban residential property management companies from contracting companies that use algorithmic and AI-driven models to recommend what they should charge for rent.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": "Whether the property manager contracts with an algorithmic/AI rent-pricing company",
+    "yields_to_local": false
+   },
+   "conflict_note": "This is a policy order directing staff to draft future ordinance language, not an enacted or formally introduced ordinance; final text, scope, and effective date are not yet determined.",
+   "confidence": 0.55
+  },
+  {
+   "category": "algorithmic_rent_setting",
+   "jurisdiction": "MA",
+   "level": "state",
+   "instrument_status": "pending",
+   "title": "Massachusetts Bills Banning Algorithmic Rent-Setting",
+   "requirement": "Bills are pending in the Massachusetts House and Senate that would ban the use of algorithmic or AI-driven rent-setting software in the rental market statewide.",
+   "key_value": null,
+   "coverage_conditions": "Statewide; applies to use of algorithmic/AI pricing software by landlords or property managers (specific scope not detailed in this text).",
+   "exemptions": null,
+   "effective_date": null,
+   "enacted_date": null,
+   "citation": "Mass. House/Senate Bill (pending, 2026 session)",
+   "quoted_span": "Bills banning the practice in the rental market are also working their way through the Massachusetts state\nHouse\nand\nSenate.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": false
+   },
+   "conflict_note": "No specific bill number or citation is given in the source text; exact scope and status cannot be confirmed from this chunk alone.",
+   "confidence": 0.4
+  }
+ ],
+ "no_rule_findings": []
+}

@@ -1,0 +1,73 @@
+{
+ "doc_id": "D070",
+ "chunk": 2,
+ "meta": {
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CffiDHzpighppj2J6V5cU",
+  "stop_reason": "end_turn",
+  "input_tokens": 8061,
+  "output_tokens": 2503,
+  "cost_usd": 0.0419
+ },
+ "rules": [
+  {
+   "category": "rent_increase_limits",
+   "jurisdiction": "Newark, NJ",
+   "level": "city",
+   "instrument_status": "enacted",
+   "title": "Newark Rent Control - Prohibition on Unauthorized Rent Increases",
+   "requirement": "Landlords in Newark may not charge rent higher than what they were receiving as of the ordinance's effective date except for increases that are specifically authorized under the rent control chapter.",
+   "key_value": null,
+   "coverage_conditions": "Applies to dwelling units subject to the Newark Rent Control chapter (registered rental units).",
+   "exemptions": null,
+   "effective_date": null,
+   "enacted_date": "2017-09-05",
+   "citation": "Newark, NJ Code § 19:2-9",
+   "quoted_span": "No landlord shall after the effective date of this chapter charge any rents in excess of what he/she was receiving from the effective date of this chapter except for increases authorized by this chapter.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": "whether the unit is registered with the Rent Control Board",
+    "yields_to_local": false
+   },
+   "conflict_note": "Exact section number for this provision is not stated in the excerpt; attributed based on surrounding context of the Rent Control chapter (ch. 19:2).",
+   "confidence": 0.35
+  },
+  {
+   "category": "rent_increase_limits",
+   "jurisdiction": "Newark, NJ",
+   "level": "city",
+   "instrument_status": "enacted",
+   "title": "Newark Rent Control - Rent Decrease for Loss of Housing Services",
+   "requirement": "If a landlord fails to provide essential services such as heat, hot water, or working elevators, tenants may petition the Rent Control Board for a rent decrease set at specific percentages of total rent depending on the type of service lost.",
+   "key_value": "No heat: 45%; No water: 30%; No hot water: 10-25%; Roof leaks: 25-75%; Nonfunctioning stoves/refrigerators: 10%; Faulty electrical: 10-50%; Faulty plumbing: 15% per fixture (max 75%); Inoperable elevator (buildings over 4 stories): 10%",
+   "coverage_conditions": "Applies to tenants in dwelling units covered by Newark's Rent Control chapter who experience a loss or deterioration of a landlord-responsible service.",
+   "exemptions": "Elevator reduction applies only to buildings over four stories and only to tenants on the fifth floor or above.",
+   "effective_date": null,
+   "enacted_date": "2017-09-05",
+   "citation": "Newark, NJ Code § 19:2-11",
+   "quoted_span": "A decrease in services, such as to justify a rent decrease under this section, shall include any cessation or inadequate provision of the vital services listed herein, due to deterioration or improper maintenance of the services, where it is the responsibility of the landlord to provide the services.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": "which essential services the landlord is responsible for providing and whether they have ceased or degraded",
+    "yields_to_local": false
+   },
+   "conflict_note": "Section citation is approximate; the exact numbered subsection for the service-decrease schedule is not explicitly shown in this excerpt.",
+   "confidence": 0.35
+  }
+ ],
+ "no_rule_findings": []
+}

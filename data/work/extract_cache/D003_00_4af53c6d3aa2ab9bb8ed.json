@@ -1,0 +1,44 @@
+{
+ "doc_id": "D003",
+ "chunk": 0,
+ "meta": {
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011Cffi34hbnmXdQqhkzsgWi",
+  "stop_reason": "end_turn",
+  "input_tokens": 2254,
+  "output_tokens": 818,
+  "cost_usd": 0.0134
+ },
+ "rules": [
+  {
+   "category": "screening_restrictions",
+   "jurisdiction": "Berkeley, CA",
+   "level": "city",
+   "instrument_status": "enacted",
+   "title": "Ronald V. Dellums Fair Chance Access to Housing Ordinance",
+   "requirement": "Berkeley landlords cannot ask about or use criminal history in advertising, applications, tenant selection, or decisions about renting, and cannot charge higher deposits or rent based on criminal history.",
+   "key_value": "Ban on criminal history inquiries/use in housing decisions",
+   "coverage_conditions": "Applies to rental housing providers in Berkeley for current or prospective tenants, with listed exemptions.",
+   "exemptions": "Lifetime sex offenders; public housing/Section 8 properties (limited exemptions); owner-occupied properties (1-3 units) where an owner resides as primary residence; units under agreement allowing owner to move back in; units occupied by existing tenants seeking to sublet or add/replace roommates.",
+   "effective_date": null,
+   "enacted_date": "2020-04-14",
+   "citation": "Berkeley Mun. Code § 13.106",
+   "quoted_span": "The Fair Chance Access to Housing Ordinance prohibits rental housing providers in Berkeley from asking about and using criminal history and/or criminal background checks in their rental housing advertising, applications, tenant selection process, or decision-making.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": 3,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": "whether the applicant is a lifetime sex offender, whether the unit is public housing/Section 8, or whether the unit is occupied by existing tenants seeking to sublet or add/replace roommates",
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.9
+  }
+ ],
+ "no_rule_findings": []
+}

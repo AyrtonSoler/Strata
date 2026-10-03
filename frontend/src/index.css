@@ -1,0 +1,136 @@
+@import "tailwindcss";
+@import "@fontsource-variable/inter";
+@import "leaflet/dist/leaflet.css";
+
+@theme {
+  --font-sans: "Inter Variable", -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", system-ui, sans-serif;
+
+  /* Surfaces & ink (Apple-like neutrals) */
+  --color-canvas: #f5f5f7;
+  --color-surface: #ffffff;
+  --color-ink: #1d1d1f;
+  --color-ink-2: #424245;
+  --color-muted: #6e6e73;
+  --color-faint: #86868b;
+  --color-hairline: #d2d2d7;
+  --color-fill: #f2f2f4;
+  --color-accent: #0071e3;
+  --color-accent-hover: #0077ed;
+
+  /* Strata layers */
+  --color-layer-state: #5856d6;
+  --color-layer-city: #0a9e8f;
+
+  /* Result semantics */
+  --color-applies: #248a3d;
+  --color-applies-bg: #e8f6ec;
+  --color-unknown: #b25000;
+  --color-unknown-bg: #fff4e5;
+  --color-future: #0058b0;
+  --color-future-bg: #e8f1fc;
+  --color-pending: #8944ab;
+  --color-pending-bg: #f5ebfa;
+  --color-superseded: #6e6e73;
+  --color-superseded-bg: #f0f0f2;
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+  body {
+    @apply bg-canvas text-ink;
+    font-feature-settings: "cv11", "ss01";
+  }
+  ::selection {
+    background: #0071e333;
+  }
+}
+
+@layer components {
+  .card {
+    @apply rounded-[22px] bg-surface shadow-[0_1px_2px_rgba(0,0,0,0.04),0_8px_24px_rgba(0,0,0,0.04)];
+  }
+  .glass {
+    @apply bg-white/72 backdrop-blur-xl backdrop-saturate-150;
+  }
+  .eyebrow {
+    @apply text-[12px] font-semibold uppercase tracking-[0.08em] text-muted;
+  }
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-1.5 rounded-full bg-accent px-5 py-2.5 text-[15px] font-medium text-white transition hover:bg-accent-hover active:scale-[0.98] disabled:opacity-40;
+  }
+  .btn-ghost {
+    @apply inline-flex items-center gap-1 rounded-full px-3 py-1.5 text-[14px] font-medium text-accent transition hover:bg-accent/8;
+  }
+  .field {
+    @apply w-full rounded-xl border border-hairline bg-white px-4 py-3 text-[15px] text-ink placeholder:text-faint transition focus:border-accent focus:outline-none focus:ring-4 focus:ring-accent/15;
+  }
+}
+
+/* Leaflet polish */
+.leaflet-container {
+  font-family: var(--font-sans);
+  background: #eef0f3;
+}
+.leaflet-control-attribution {
+  font-size: 10px;
+  background: rgba(255, 255, 255, 0.7) !important;
+}
+.leaflet-popup-content-wrapper {
+  border-radius: 14px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+}
+.leaflet-popup-content {
+  margin: 12px 14px;
+}
+.leaflet-bar a {
+  border-radius: 10px !important;
+}
+
+/* Evidence highlight */
+mark.evidence {
+  background: linear-gradient(180deg, transparent 0%, #ffe58f 0%);
+  color: inherit;
+  border-radius: 4px;
+  padding: 1px 2px;
+  box-shadow: 0 0 0 3px #ffe58f;
+}
+
+input[type="range"].timeline {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 4px;
+  border-radius: 999px;
+  background: var(--color-hairline);
+  outline: none;
+}
+input[type="range"].timeline::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25), 0 0 0 0.5px rgba(0, 0, 0, 0.08);
+  cursor: grab;
+}
+input[type="range"].timeline::-moz-range-thumb {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #fff;
+  border: none;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+  cursor: grab;
+}
+
+/* Print: only the renter summary sheet */
+@media print {
+  body * { visibility: hidden !important; }
+  .rights-sheet, .rights-sheet * { visibility: visible !important; }
+  .rights-overlay { position: absolute !important; inset: 0 auto auto 0 !important; background: none !important; backdrop-filter: none !important; padding: 0 !important; overflow: visible !important; }
+  .rights-sheet { box-shadow: none !important; max-width: none !important; padding: 0 !important; }
+  .no-print { display: none !important; }
+}

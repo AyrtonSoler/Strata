@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from 'react'
 import { api } from '../lib/api'
 import type { Strings } from '../lib/i18n'
 import type { Rule } from '../lib/types'
+import CoverageMatrix from './CoverageMatrix'
 import EvidenceSheet from './EvidenceSheet'
 import { Card, ErrorNote, LayerTag, Spinner } from './ui'
 
@@ -14,13 +15,19 @@ const STATUS: Record<string, string> = {
 
 export default function RulesView({ s, categories }: { s: Strings; categories: Record<string, string> }) {
   const [rules, setRules] = useState<Rule[] | null>(null)
+  const [grid, setGrid] = useState<Record<string, string>>({})
   const [error, setError] = useState<string | null>(null)
   const [jur, setJur] = useState('')
   const [cat, setCat] = useState('')
   const [evidence, setEvidence] = useState<string | null>(null)
 
   useEffect(() => {
-    api<{ rules: Rule[] }>('/rules').then((d) => setRules(d.rules)).catch((e) => setError(String(e)))
+    api<{ rules: Rule[]; coverage_grid: Record<string, string> }>('/rules')
+      .then((d) => {
+        setRules(d.rules)
+        setGrid(d.coverage_grid ?? {})
+      })
+      .catch((e) => setError(String(e)))
   }, [])
 
   const jurisdictions = useMemo(() => [...new Set((rules ?? []).map((r) => r.jurisdiction))], [rules])
@@ -37,6 +44,17 @@ export default function RulesView({ s, categories }: { s: Strings; categories: R
           {rules.length} rules extracted automatically from {new Set(rules.map((r) => r.source_doc_id)).size} source documents. Every one is tied to a verified quote.
         </p>
       </section>
+      {Object.keys(grid).length > 0 && (
+        <CoverageMatrix
+          grid={grid}
+          rules={rules}
+          categories={categories}
+          onPick={(j, c) => {
+            setJur(j)
+            setCat(c)
+          }}
+        />
+      )}
       <div className="flex flex-wrap items-center justify-center gap-2">
         <select value={jur} onChange={(e) => setJur(e.target.value)} className="field w-auto py-2 text-[14px]">
           <option value="">All jurisdictions</option>

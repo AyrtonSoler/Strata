@@ -1,0 +1,220 @@
+{
+ "groups": [
+  {
+   "member_ids": [
+    "c0013",
+    "c0202"
+   ],
+   "primary_id": "c0202",
+   "canonical_citation": "Boston Fair Chance Tenant Selection Policy (Dept. of Neighborhood Development, Feb. 2017)",
+   "effective_date": "2017-02",
+   "instrument_status": "enacted",
+   "conflict_flag": true,
+   "conflict_note": "This is a city agency policy (not a generally applicable ordinance) that binds only housing providers receiving DND funding/land or with BPDA inclusionary units; it does not cover ordinary market-rate multifamily landlords and may be preempted/limited by state and federal fair housing law where it conflicts.",
+   "interaction": "Applies only to a subset of city-funded/income-restricted housing; does not alter general state criminal-history screening rules (there is no comparable statewide statute).",
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0016"
+   ],
+   "primary_id": "c0016",
+   "canonical_citation": "Boston Fair Housing Regulations - Source of Income Protection",
+   "effective_date": null,
+   "instrument_status": "enacted",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": "Operates concurrently with the state source-of-income/public-assistance discrimination prohibition under M.G.L. c.151B, §4(10); both apply to Boston landlords.",
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0014"
+   ],
+   "primary_id": "c0014",
+   "canonical_citation": "Mass. H.3744 (193rd Gen. Ct. 2023-2024)",
+   "effective_date": null,
+   "instrument_status": "failed",
+   "conflict_flag": false,
+   "conflict_note": "Bill was not enacted; final action was accompanied by a study order (see H.5035, 9/9/2024), effectively shelving it for the session.",
+   "interaction": "Would have authorized Boston to adopt local rent stabilization notwithstanding the statewide rent-control ban in M.G.L. c.40P, but never took effect.",
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0017",
+    "c0018",
+    "c0200"
+   ],
+   "primary_id": "c0018",
+   "canonical_citation": "Boston Municipal Code § 10-11.7 (Housing Stability Notification Act)",
+   "effective_date": "2020-11-06",
+   "instrument_status": "enacted",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": "Supplements the state notice-to-quit requirements of M.G.L. c.186, §11 by adding a city-specific tenant-rights notice and reporting obligation; does not shorten or replace state notice periods.",
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0015",
+    "c0201"
+   ],
+   "primary_id": "c0015",
+   "canonical_citation": "Mass. H.3744 (193rd Gen. Ct. 2023-2024)",
+   "effective_date": null,
+   "instrument_status": "failed",
+   "conflict_flag": true,
+   "conflict_note": "Sources disagree on status: one record treats the bill as merely 'pending,' but the official legislative history shows it was accompanied by a study order on 9/9/2024, indicating the bill was effectively shelved/failed rather than advancing.",
+   "interaction": "Would have authorized Boston to enact local just-cause eviction protections, but the measure never became law.",
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0030"
+   ],
+   "primary_id": "c0030",
+   "canonical_citation": "Cambridge Municipal Code ch. 14.04 (Fair Housing Ordinance)",
+   "effective_date": null,
+   "instrument_status": "enacted",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": "Operates concurrently with the state source-of-income/public-assistance discrimination prohibition under M.G.L. c.151B, §4(10).",
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0099",
+    "c0203"
+   ],
+   "primary_id": "c0203",
+   "canonical_citation": "Cambridge City Council Policy Order (2026) re: algorithmic rent-setting software ban",
+   "effective_date": null,
+   "instrument_status": "pending",
+   "conflict_flag": true,
+   "conflict_note": "This is only a policy order directing staff to draft a future ordinance; no ordinance text, scope, or effective date yet exists, and it may eventually be superseded or preempted by a statewide law if one of the pending state bills (H.5222/S.2983) is enacted first.",
+   "interaction": "If Cambridge eventually enacts an ordinance, it would operate alongside any statewide algorithmic rent-setting ban enacted via H.5222 or S.2983; currently neither level has a binding rule in force.",
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0044",
+    "c0165"
+   ],
+   "primary_id": "c0165",
+   "canonical_citation": "Mass. H.5222 (194th Gen. Ct. 2026)",
+   "effective_date": null,
+   "instrument_status": "pending",
+   "conflict_flag": false,
+   "conflict_note": "Reported favorably and referred to House Ways and Means as of March 2026; not yet enacted.",
+   "interaction": "Would apply statewide, including in cities like Cambridge considering local algorithmic rent-setting bans; not yet in force.",
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0045",
+    "c0046",
+    "c0164"
+   ],
+   "primary_id": "c0164",
+   "canonical_citation": "Mass. S.2983 (194th Gen. Ct. 2026)",
+   "effective_date": null,
+   "instrument_status": "pending",
+   "conflict_flag": false,
+   "conflict_note": "Reported favorably and referred to Senate Ways and Means as of March 2026; not yet enacted.",
+   "interaction": "Would apply statewide, including in cities like Cambridge considering local algorithmic rent-setting bans; not yet in force.",
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0111",
+    "c0113",
+    "c0159"
+   ],
+   "primary_id": "c0159",
+   "canonical_citation": "Mass. Initiative Petition 25-21 (2026); see Cella v. Attorney General, SJC-13893",
+   "effective_date": null,
+   "instrument_status": "failed",
+   "conflict_flag": true,
+   "conflict_note": "The Massachusetts Supreme Judicial Court ruled the petition unconstitutional (religious-facility exemption violated Article 48) and blocked it from the November 2026 ballot; it never took effect and does not alter the existing statewide ban on local rent control under M.G.L. c.40P.",
+   "interaction": "Would have repealed/superseded the statewide rent-control ban in M.G.L. c.40P had it passed and taken effect; it did not become law.",
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0049"
+   ],
+   "primary_id": "c0049",
+   "canonical_citation": "M.G.L. c. 151B, § 4(10)",
+   "effective_date": null,
+   "instrument_status": "enacted",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": "Operates as a statewide floor alongside local source-of-income ordinances in Boston and Cambridge; local ordinances do not displace this state protection.",
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0050"
+   ],
+   "primary_id": "c0050",
+   "canonical_citation": "M.G.L. c. 186, § 11",
+   "effective_date": null,
+   "instrument_status": "enacted",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": "Sets the baseline 14-day notice-to-quit requirement for nonpayment statewide; Boston's Housing Stability Notification Act adds an additional tenant-rights notice on top of this state requirement.",
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0052",
+    "c0053",
+    "c0160",
+    "c0161"
+   ],
+   "primary_id": "c0160",
+   "canonical_citation": "M.G.L. c. 186, § 15B",
+   "effective_date": "2025-08-01",
+   "instrument_status": "enacted",
+   "conflict_flag": true,
+   "conflict_note": "Statute text includes two versions of subsection (b): one effective until August 1, 2025, and an amended version (2025, c.9, Secs. 54-55) effective August 1, 2025, adding a fee-in-lieu-of-deposit option; the core one-month deposit cap, interest, and remedy provisions are unchanged between versions.",
+   "interaction": null,
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0110",
+    "c0162"
+   ],
+   "primary_id": "c0162",
+   "canonical_citation": "M.G.L. c. 186, § 15B(b)",
+   "effective_date": "2025-08-01",
+   "instrument_status": "enacted",
+   "conflict_flag": true,
+   "conflict_note": "Amended effective August 1, 2025 (2025, c.9, Secs. 54-55) to add a statutorily authorized fee-in-lieu-of-security-deposit option; prior text barring all other pre-tenancy charges applied before that date.",
+   "interaction": "Distinct from the broker-fee statute (M.G.L. c.112, §87DDD 1/2); together they govern what tenants may be charged before and during move-in.",
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0054",
+    "c0163"
+   ],
+   "primary_id": "c0163",
+   "canonical_citation": "M.G.L. c. 112, § 87DDD 1/2",
+   "effective_date": "2025-08-01",
+   "instrument_status": "enacted",
+   "conflict_flag": false,
+   "conflict_note": "Amended effective August 1, 2025 per 2025, c.9, Sec. 43 (see also Sec. 136); prior version was substantively similar regarding broker licensing but added the fee-payment-party clause as of the amendment.",
+   "interaction": "Works alongside the security-deposit/pre-tenancy charge statute (M.G.L. c.186, §15B) by regulating who may be billed for broker-finder fees.",
+   "yields_to_local": false
+  }
+ ],
+ "reject_ids": [
+  "c0100"
+ ],
+ "no_rule_ids": [
+  "c0047"
+ ]
+}

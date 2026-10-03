@@ -1,0 +1,37 @@
+{
+ "cell_status": "rules_found",
+ "rules": [
+  {
+   "category": "rent_increase_limits",
+   "jurisdiction": "MA",
+   "level": "state",
+   "instrument_status": "failed",
+   "title": "Initiative Petition 25-21 - An Initiative Petition to Protect Tenants by Limiting Rent Increases",
+   "requirement": "A proposed statewide ballot measure would have capped annual rent increases at the lesser of CPI inflation or 5%, but it was blocked by the Supreme Judicial Court from appearing on the November 2026 ballot because of a religious-exemption provision, so it never took effect.",
+   "key_value": "CPI or 5%, whichever is less",
+   "coverage_conditions": "Would have applied to most residential rental units statewide, subject to listed exemptions.",
+   "exemptions": "Owner-occupied buildings with four or fewer units, newly constructed units less than 10 years old, certain publicly regulated units, short-term rentals, and dwelling units in facilities operated solely for educational, religious, or nonprofit purposes.",
+   "effective_date": null,
+   "enacted_date": null,
+   "penalty": null,
+   "citation": "Mass. Initiative Petition 25-21 (2026)",
+   "quoted_span": "Under the proposed law, annual rent increases would have been limited to the lesser of the annual increase in the Consumer Price Index or 5%. The petition included several exemptions, including owner-occupied buildings with four or fewer units, newly constructed units less than 10 years old, certain publicly regulated units, short-term rentals, and dwelling units in facilities operated solely for educational, religious, or nonprofit purposes.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": "year_built",
+    "exclude_if_newer_than_years": 10,
+    "owner_exemption_max_units": 4,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": "whether the unit is publicly regulated, a short-term rental, or located in a facility operated solely for educational, religious, or nonprofit purposes",
+    "yields_to_local": false
+   },
+   "conflict_note": "This measure was struck down by the Massachusetts Supreme Judicial Court before the November 2026 election because its religious-institution exemption violated Article 48 of the state constitution; it never became law and does not alter the existing statutory ban on local rent control under G.L. c. 40P.",
+   "confidence": 0.88,
+   "passage_id": "P8"
+  }
+ ],
+ "no_rule_finding": null
+}

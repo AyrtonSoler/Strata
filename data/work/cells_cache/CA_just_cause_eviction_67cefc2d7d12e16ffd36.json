@@ -1,0 +1,68 @@
+{
+ "cell_status": "rules_found",
+ "rules": [
+  {
+   "category": "just_cause_eviction",
+   "jurisdiction": "CA",
+   "level": "state",
+   "instrument_status": "enacted",
+   "title": "Tenant Protection Act – Just Cause for Termination of Tenancy",
+   "requirement": "Landlords must have a legally recognized 'just cause' to terminate a covered tenancy, and for no-fault terminations (like owner move-in or substantial remodel), the landlord must pay the tenant relocation assistance equal to one month's rent or waive the final month's rent.",
+   "key_value": "1 month's rent (relocation assistance or rent waiver)",
+   "coverage_conditions": "Applies to residential tenancies for which just cause is required to terminate under subdivision (a) of Cal. Civ. Code § 1946.2; covers no-fault just cause terminations such as owner/family occupancy, demolition, or substantial remodel.",
+   "exemptions": "Exemption for intended occupant scenarios where a vacancy of a similar unit already exists or the intended occupant already occupies a unit on the property; special rules for mobilehome tenancies.",
+   "effective_date": null,
+   "enacted_date": null,
+   "penalty": "If a tenant fails to vacate after expiration of the termination notice, the actual amount of relocation assistance or rent waiver provided is recoverable as damages in an action to recover possession.",
+   "citation": "Cal. Civ. Code § 1946.2",
+   "quoted_span": "The amount of relocation assistance or rent waiver shall be equal to one month of the tenant’s rent that was in effect when the owner issued the notice to terminate the tenancy. Any relocation assistance shall be provided\nwithin 15 calendar days of service of the notice.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.9,
+   "passage_id": "P1"
+  },
+  {
+   "category": "just_cause_eviction",
+   "jurisdiction": "CA",
+   "level": "state",
+   "instrument_status": "enacted",
+   "title": "Opportunity to Cure Before Termination for Curable Lease Violation",
+   "requirement": "Before a landlord may issue a notice to terminate a tenancy for a curable lease violation, the landlord must first give the tenant notice of the violation and an opportunity to cure it; only if uncured may a three-day notice to quit be served without further opportunity to cure.",
+   "key_value": null,
+   "coverage_conditions": "Applies to tenancies for which just cause is required to terminate under Cal. Civ. Code § 1946.2, where the just cause alleged is a curable lease violation.",
+   "exemptions": null,
+   "effective_date": null,
+   "enacted_date": null,
+   "penalty": null,
+   "citation": "Cal. Civ. Code § 1946.2(c)",
+   "quoted_span": "Before an owner of residential real property issues a notice to terminate a tenancy for just cause that is a curable lease violation, the\nowner shall first give notice of the violation to the tenant with an opportunity to cure the violation pursuant to paragraph (3) of Section 1161 of the Code of Civil Procedure.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.85,
+   "passage_id": "P2"
+  }
+ ],
+ "no_rule_finding": null
+}

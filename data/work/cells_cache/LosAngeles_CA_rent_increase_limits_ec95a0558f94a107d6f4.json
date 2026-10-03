@@ -1,0 +1,37 @@
+{
+ "cell_status": "rules_found",
+ "rules": [
+  {
+   "category": "rent_increase_limits",
+   "jurisdiction": "Los Angeles, CA",
+   "level": "city",
+   "instrument_status": "enacted",
+   "title": "Rent Stabilization Ordinance (RSO) Annual Allowable Rent Increase",
+   "requirement": "Landlords of rent-stabilized units in Los Angeles may only raise rent each year by a capped percentage set annually by the city, and can no longer add a separate utility surcharge percentage starting February 2026.",
+   "key_value": "3%",
+   "coverage_conditions": "Applies to rental units subject to the City of Los Angeles Rent Stabilization Ordinance, generally properties first built on or before October 1, 1978 (plus certain replacement units, condos/townhomes with pre-1996 tenancies, duplexes, multiple single-family units on one parcel, long-term hotel/rooming house rooms, ADUs/JADUs, and mobile homes).",
+   "exemptions": "Condominiums and townhomes are not rent-regulated for tenancies commencing after December 31, 1995.",
+   "effective_date": "2025-07-01",
+   "enacted_date": null,
+   "penalty": null,
+   "citation": "L.A.M.C. § 151.06",
+   "quoted_span": "Annual rent increases for rental units subject to the City of Los Angeles Rent Stabilization Ordinance (RSO), effective\nJuly 1, 2025, through June 30, 2026\nis\n3%\n.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": "1978-10-01",
+    "built_after": null,
+    "age_cutoff_basis": "year_built",
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.9,
+   "passage_id": "P1"
+  }
+ ],
+ "no_rule_finding": null
+}

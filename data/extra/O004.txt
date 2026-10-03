@@ -1,0 +1,740 @@
+SOURCE: https://oaklandca.prelive.opencities.com/files/assets/city/v/1/housing-comm-dev/documents/landlords/view-revised-supplemental-legislation-4242023.pdf
+RETRIEVED: 2026-10-03T19:35Z
+
+  
+ 
+1 
+3258377v2/BXS 
+ 
+ 
+APPROVED AS TO FORM AND LEGALITY 
+ 
+ 
+INTRODUCED BY COUNCIL PRESIDENT NIKKI FORTUNATO BAS 
+AND COUNCILMEMBER DAN KALB ___________________________ 
+CITY ATTORNEY’S OFFICE 
+ 
+As revised by the City Council at the April 18, 2023 City Council meeting 
+ 
+OAKLAND CITY COUNCIL 
+ 
+ORDINANCE NO. ________________C.M.S. 
+ 
+ 
+ORDINANCE ESTABLISHI NG A TIMELINE FOR TE RMINATION OF 
+THE MORATORIUM ON RE SIDENTIAL EVICTIONS,  RENT 
+INCREASES, AND LATE FEES ENACTED IN RESP ONSE TO THE 
+COVID-19 PANDEMIC (O RDINANCE NOS. 13589 C.M.S., 13594 C.M.S. , 
+13606 C.M.S.); AND A MENDING THE JUST CAU SE FOR EVICTION 
+ORDINANCE TO: (1) PE RMANENTLY CODIFY CER TAIN 
+PROTECTIONS ESTABLIS HED BY THE MORATORIU M; (2) 
+PROHIBIT EVICTIONS BASED ON NON-PAYMENT OF RENT WHERE 
+THE AMOUNT DEMANDED IS LESS THAN ONE MON TH OF HUD 
+FAIR MARKET RENT; (3CONFORM OCCUPANCY LI MITATIONS TO 
+STATE LAW; AND (4)  MAKE OTHER NON -SUBSTANTIVE 
+CLARIFYING AMENDMENTS 
+ 
+ 
+WHEREAS, on March 27, 2020, the City Council approved Ordinance No. 13589 
+C.M.S., which imposed a  moratorium on most residential evictions and on rent increases above 
+CPI in response to the COVID-19 pandemic; and 
+ 
+WHEREAS, on May 19, 2020, the City Council approved Ordinance No. 13594 C.M.S., 
+which extended the residential eviction moratorium until August 31, 2020; and   
+ 
+WHEREAS, on July 21, 2020, the Cit y Council approved Ordinance No. 13606 C.M.S., 
+which extended the residential eviction moratorium until the end of the Local COVID-19 
+Emergency declared by City Council on March 9, 2020; and 
+ 
+WHEREAS, on February 21, 2023, the City Council approved Resolution No. 89600 
+C.M.S., which renewed and continued the City Council’s Declaration of a Local Emergency due 
+to COVID-19; and 
+ 
+WHEREAS, on March 21, 2023, the City Council approved Ordinance No. 13729 
+C.M.S., which amended Oakland Municipal Code Chapte r 8.50 (Emergency Services 
+2 
+3258377v2/BXS 
+ 
+Organization and Disaster Council) to require Council to review the need for continuing a local 
+emergency at least once every 60 days, in conformance with state law; and 
+ 
+WHEREAS, the residential eviction  moratorium and rent incr ease moratorium were  
+enacted in response to the COVID -19 pandemic to , among other things,  promote housing 
+stability, encourage compliance with shelter-in-place orders, prevent transmission of COVID-19, 
+account for significant financial losses incurred as a  result of closures and lost wages , avoid 
+unnecessary displacement and increased homelessness, and otherwise promote public health and 
+safety during a time of unprecedented economic hardship and uncertainty; and    
+ 
+WHEREAS, although the COVID-19 pandemic is not over, significant progress has 
+been made since the moratoriums were first enacted  to ameliorate negative impacts of the 
+pandemic, such as through the development of vaccines, the lifting of shelter-in-place orders, and 
+businesses and schools re-opening; and 
+ 
+WHEREAS, the City seeks to establish a timeline for ending the moratoriums, rather 
+than leaving their expiration dates tied to the end of the Local Emergency , the date for which 
+remains uncertain; and  
+ 
+WHEREAS, establishing a set timeline for the termination of the moratoriums will 
+benefit both tenants and landlords by providing advanced notice and predictability as to the 
+future of evictions and rent increases in Oakland; and 
+ 
+WHEREAS, on November 5, 2002, Oak land voters passed the Just Cause for Eviction 
+Ordinance (Measure EE), codified in Chapter 8.22, Article II of the Oakland Municipal Code, 
+establishing various tenant protections and procedures pertaining to residential evictions in 
+Oakland; and 
+ 
+WHEREAS, the Just Cause for Eviction Ordinance plays a crucial role in the City’s 
+ongoing efforts to slow, reduce, and prevent displacement and homelessness within the City of 
+Oakland; and 
+ 
+WHEREAS, the Just Cause for Eviction Ordinance applies to  most residential rental 
+units in Oakland, with the main exceptions being units constructed within the past 10 years and 
+owner-occupied properties where the owner shares use of kitchen or bath facilities with tenants; 
+and 
+ 
+WHEREAS, the Just Cause for Eviction Ordinance authorizes City Council to modify 
+the Ordinance for the purpose of adding limitations on a landlord's right to evict  (O.M.C. 
+8.22.360F); and  
+ 
+WHEREAS, since the Just Cause for Eviction Ordinance was passed in 2002, voters  and 
+City Council have on numerous occasions recognized the need to expand coverage of the 
+Ordinance by adding additional protections and removing exemptions, and that doing so is in the 
+best interest of the City; and 
+ 
+3 
+3258377v2/BXS 
+ 
+WHEREAS, Oakland continues to experie nce a severe housing shortage and an 
+unprecedented number of unhoused or marginally housed residents; and 
+ 
+WHEREAS, the City Council finds that reasonable regulation of aspects of the landlord -
+tenant relationship is necessary to foster constructive communi cation, maintain an adequate 
+supply of a variety of rental housing options, and protect the health, safety, and general welfare 
+of the public; and 
+ 
+WHEREAS, forfeiture of a rental agreement is a drastic legal remedy that should be 
+pursued only in drastic circumstances; and  
+ 
+ WHEREAS, by limiting evictions for nonpayment of less than one month of rent, City 
+Council seeks to deter actions seeking forfeiture based on a relatively small amount of money to 
+allow tenants an opportunity to become current and maintain their housing; and  
+ 
+ WHEREAS, the rental market in the Bay Area is one of the most expensive in the 
+country, and lower income residents frequently need to live together with roommates or family 
+members in order to stay housed and afford rent; to the extent that state law occupancy limits are 
+not exceeded, tenants should be able to live together with others  without facing eviction for 
+doing so; and 
+ 
+ WHEREAS, a study by Princeton University’s Eviction Lab found that the two years 
+after local, state and federal eviction moratoriums were enacted saw the largest drop, nationally, 
+in eviction filings on record, and Oakland’s Rent Adjustment Program shows si milar data — 
+6,714 eviction notices were received in FY 2018 -19, 4,696 in FY 2019 -20, 881 in FY 2020 -21, 
+and 807 in FY 2021-22; and  
+ 
+ WHEREAS, nearly $220 million in emergency rental assistance has been committed in 
+Alameda County, including nearly $60 mi llion in Oakland (Alameda County Housing and 
+Community Development, All City Call presentation, March 17, 2023); and 
+ 
+ WHEREAS, the California Housing Finance Agency of the U.S. Department of the 
+Treasury provides assistance for  homeowners facing COVID -19 related financial hardships 
+including, mortgage relief up to $80,000 and property tax assistance up to $20,000 
+(https://camortgagerelief.org/); and 
+ 
+ WHEREAS, robust outreach, education, and support to tenants and property owners 
+about the provisions of this legislation is necessary which requires that the Administration 
+prioritize filling budgeted, vacant positions in the Housing and Community Development 
+Department’s Rental Adjustment Program to provide services to promote housing stability; and 
+ 
+ WHEREAS, continued advocacy of County, State, and Federal government partners is 
+necessary to secure additional resources to address the economic and housing impacts of 
+COVID-19 on tenants and property owners; and 
+ 
+4 
+3258377v2/BXS 
+ 
+ WHEREAS, the City Council finds that the Just Cause for Eviction Ordinance is 
+consistent with Civil Code Section 1946.2 (as enacted by  the Tenant Protection Act of 2019), 
+and, in comparison to Civil Code Section 1946.2, further limits the reasons for terminati on of 
+residential tenancy, provides additional tenant protections, and, in conjunction with other City 
+ordinances, provides for higher relocation assistance amounts; and 
+ 
+ WHEREAS, the City Council finds that the Just Cause for Eviction Ordinance as 
+amended herein is more protective than the provisions of Civil Code Section 1946.2; and 
+ 
+ WHEREAS, this action is exempt from the California Environmental Quality Act 
+(“CEQA”) pursuant to sections of the CEQA Guidelines, taken together and each as a separate 
+and independent basis, including but not limited to: Section 15378 (regulatory actions), Section 
+15060(c)(2) (no direct or reasonably foreseeable indirect physical change in the environment), 
+Section 15061(b)(3) (no significant environmental impact), and Sect ion 15183 (consistent with 
+the general plan or zoning); and 
+ 
+ 
+NOW, THEREFORE, THE CITY COUNCIL OF THE CITY OF OAKLAND DOES 
+ORDAIN AS FOLLOWS: 
+ 
+SECTION 1 .  Recitals.  The City Council finds the foregoing recitals to be true and 
+correct and hereby incorporates such findings into this ordinance.  
+ 
+SECTION 2.  Purpose and Intent.   The purpose and intent of this Ordinance is to 
+establish a phasing out of the moratorium on residential evictions, rent increases, and late fees  
+that was enacted in March of 2020 in response to the COVID -19 pandemic. By setting forth a 
+timeline and incremental revocation of the moratorium, the City seeks to provide adequate notice 
+to residential t enants and landlords of the impending termination of the moratorium and to 
+revoke the moratorium in phases to avoid a surge of evictions. The Ordinance also permanently 
+codifies certain protections from the moratorium within the Just Cause For Eviction Ord inance, 
+along with other eviction protections.   
+ 
+SECTION 3.  Residential Eviction  Moratorium.  Section 3 of Ordinance No. 13589 
+C.M.S., as amended by Ordinance Nos. 13594 C.M.S. and 13606 C.M.S., is hereby repealed and 
+reenacted with amendments, as set forth below (additions are shown as double underline  and 
+deletions are shown as strikethrough). 
+ 
+Residential Eviction Moratorium. Except when the tenant poses an imminent threat to 
+the health or safety of other occupants of the property, and such threat is stated in the 
+notice as the grounds for the eviction, it shall be an absolute defense to any unlawful 
+detainer action filed under Oakland Municipal Code 8.22.360A subsections (1) - (10) that 
+the notice was served or expired, or that the complaint was filed or served,  between 
+March 9 , 2020, and  July 14 , 2023. during the Local Emergency. Any notice served 
+pursuant to Oakland Municipal Code 8 .22.360A (1) - (10) on a tenant during the Local 
+Emergency shall include the following statement in bold underlined 12 -point font: 
+“Except to protect the health and safety of other occupants of the property, you may 
+5 
+3258377v2/BXS 
+ 
+not be evicted during the Local Emergency declared bv the City of Oakland in 
+response to the COVID -19 pandemic. This  does not relieve you of the obligation to 
+pay back rent in the future. You may contact the Rent Adjustment Program at (510) 
+238-3721 for additional information and referrals. ” This section shall remain in effect 
+until the Local Emergency declared on March 9, 2020, has been terminated by the City 
+Council.   
+ 
+SECTION 4.  Rent Increase Moratorium.  Section 4 of Ordinance No. 13589 C.M.S., 
+as amended by Ordinance Nos. 13594 C.M.S. and 13606 C.M.S., is hereby repealed and 
+reenacted with amendments, as set forth below (additions are shown as double underline  and 
+deletions are shown as strikethrough). 
+ 
+Rent Increase Moratorium.   For rental units regulated by Oakland Municipal Code 
+8.22.010 et seq, any notice of rent increase in excess of the CPI Rent Adjustment, as 
+defined in Oakland Municipal Code Section 8.22.020, shall be void and unenforceable if 
+the notice is served or has an effective date between March 9, 2020, and June 30, 2024  
+during the Local Emergency , unless required to provide a fair return.  Any notice of rent 
+increase served during the Local Emergency  include the following statement in bold 
+underlined 12 -point font: “During the Local Emergency declared by the City of 
+Oakland in response to the COVID -19 pandemic, your rent may not be increased in 
+excess of the CPI Rent Adjustment (3.5% until June 30, 2020), unless required for 
+the landlord to obtain a fair return. You may contact the Rent Adjustment Program 
+at (510) 238-3721 for additional information and referrals.”  
+ 
+SECTION 5.  Late Fee Moratorium. Section 5 of Ordinance No. 13589 C.M.S., as 
+amended by Ordinance Nos. 13594 C.M.S. and 13606 C.M.S., is hereby repealed and reenacted 
+with amendments, as set forth below (additions are shown as double underline and deletions are 
+shown as strikethrough). 
+ 
+Late Fee Moratorium.   Notwithstanding any lease provision to the  contrary, for 
+residential tenancies, no late fees may be imposed for rent that became due between 
+March 9, 2020, and July 14, 2023 during the Local Emergency  if the rent was late for 
+reasons resulting from the COVID -19 pandemic. This includes, but is not limited to (1) 
+the tenant was sick or incapacitated due to COVID -19, or was complying with a 
+recommendation from a governmental agency to self-quarantine, (2) the tenant suffered a 
+substantial reduction in household income because of a loss of employment or a  
+reduction in hours, or because they were unable to work because they were caring for 
+their child(ren) who were out of school or a household or family member who was sick 
+with COVID -19, or b ecause they were complying with a recommendation from a 
+government agency to self -quarantine, and (3) the tenant incurred substantial out -of-
+pocket medical expenses caused by COVID -19. Any notice demanding late fees for rent 
+that became due during the Loca l Emergency shall include the following statement in 
+bold underlined 12 -point font: “You are not required to pay  late fees for rent that 
+became due during the Local Emergency declared by the City  of Oakland in 
+response to the COVID -19 pandemic if the rent was late for reasons related to the 
+6 
+3258377v2/BXS 
+ 
+pandemic. You may contact the Rent Adjustment Program at (510) 238 -3721 for 
+additional information and referrals.” 
+ 
+SECTION 6.  Evictions for N onpayment of Rent . Section 7 of Ordinance No. 13589 
+C.M.S., as amended by Ordinance Nos. 13594 C.M.S. and 13606 C.M.S., is hereby repealed  and 
+reenacted with amendments, as set forth below (additions are shown as double underline  and 
+deletions are shown as strikethrough).  
+ 
+No Residential Eviction for Nonpayment of Rent that Became Due During the Local 
+Emergency. In any action for unlawful detainer filed under Oakland Municipal Code 
+8.22.360.A.1, it shall be a defense that the unpaid rent became due between March 9, 
+2020, and  July 14 , 2023 during t he Local Emergency  and was unpaid because of a 
+substantial reduction in household income or substantial increase in expenses resulting 
+from the Coronavirus pandemic. This includes, but is not limited to, where, as a result of 
+the Coronavirus pandemic, the tenant suffered a loss of employment or a reduction in 
+hours, or was unable to work because their children were out of school, or was unable to 
+work because they were sick with COVID -19 or caring for a household or family 
+member who was sick with COVID -19, or they were comp lying with a recommendation 
+from a government agency to self -quarantine, or they incurred substantial out of pocket 
+medical expenses due to COVID -19. Any notice served on a residential tenant 
+demanding rent that became due during the Local Emergency shall include the following 
+statement in bold underlined 12 -point type: “You may not be evicted for rent that 
+became due during the Local Emergency if the rent was unpaid because of a 
+substantial reduction in household income or a substantial increase in expense s 
+related to the Coronavirus pandemic. This does not relieve you of the obligation to 
+pay back rent in the future. You may contact the Rent Adjustment Program at (510) 
+238-3721 for additional information and referrals.” Nothing in this subsection shall 
+relieve the tenant of liability for the unpaid rent. 
+ 
+SECTION 7. Amendments to Section 6 of the Just Cause for Eviction Ordinance 
+(Measure EE) (O.M.C. Section 8.22.360). Added text is shown as double underlined  type; 
+deleted text is shown as strikethrough type. 
+ 
+8.22.360- Good cause required for eviction. 
+ 
+A. No landlord shall endeavor to recover possession, issue a notice terminating tenancy, or 
+recover possession of a rental unit in the city of Oakland unless the landlord is able to prove 
+the existence of one of the following grounds:  
+1. The tenant has failed to pay rent to which the landlord is legally entitled pursuant to the 
+lease or rental agreement and under provisions of state or local law, and said failure 
+has continued after service on the tenant of a written notice correctly stating the 
+amount of rent then due and requiring its payment within a period, stated in the notice, 
+of not less than three days. However, this subsection shall not constitute grounds for 
+eviction where tenant has withheld rent pursuant to applicable law or where the amount 
+of rent demanded is less than one month of fair market rent for a unit of equivalent size 
+7 
+3258377v2/BXS 
+ 
+in the Oakland metro area as determined by the U.S. Department of Housing and 
+Urban Development. 
+2. The tenant has continued, after written notice to cease, to substantially violate a 
+material term of the tenancy other than the obligation to surrender possession on proper 
+notice as required by law. To establish a substantial violation of a material term of the 
+tenancy, the landlord must demonstrate that the term of tenancy is reasonable, legal, 
+and was accepted in writing by the tenant. 
+a. Notwithstanding any lease provision to the contrary, a landlord shall not endeavor 
+to recover possession of a rental unit as a result of subletting of the rental unit by 
+the tenant if the landlord has unreasonably withheld the right to sublet following a 
+written request by the tenant, so long as the tenant continues to reside in the rental 
+unit and the sublet constitutes a one-for-one replacement of the departing 
+tenant(s). If the landlord fails to respond to the tenant in writing within fourteen 
+(14) days of receipt of the tenant's written request, the tenant's request shall be 
+deemed approved by the landlord.  
+b. Notwithstanding any lease provision to the contrary, a landlord shall not endeavor 
+to recover possession of a rental unit based on the addition of occupants to the 
+rental unit if the landlord has unreasonably refused a written request by the tenant 
+to add such occupant(s) to the unit, so long as the maximum number of occupants 
+does not exceed the lesser of the amounts allowed by Subsection (i) or (ii) of this 
+Section 8.22.360A.2.b. If the landlord fails to respond in writing with a 
+description of the reasons for the denial of the request within fourteen (14) days of 
+receipt of the tenant's written request, the tenant's request shall be deemed 
+approved by the landlord. However, for units restricted as affordable housing as 
+defined by O.M.C. Section 15.72.030, a written resident request to add an 
+occupant shall be deemed incomplete and inadequate until such resident has 
+provided all documentation required for qualification of such additional occupant 
+and the household after the addition of such occupant under the rules restricting 
+the housing. A landlord's reasonable refusal of the tenant's written request may not 
+be based on either of the following: (1) the proposed additional occupant's lack of 
+creditworthiness, if that person will not be legally obligated to pay some or all of 
+the rent to the landlord, or (2) the number of occupants allowed by the rental 
+agreement or lease. With the exception of the restrictions stated in the preceding 
+sentence, a landlord's reasonable refusal of the tenant's written request may be 
+based on, but is not limited to, the ground that the landlord resides in the same 
+unit as the tenant or the ground that the total number of occupants in a unit 
+exceeds (or with the proposed additional occupant(s) would exceed) the lesser of 
+(i) or (ii):  
+(i) Two persons in a studio unit, three persons in a one-bedroom unit, four 
+persons in a two-bedroom unit, six persons in a three-bedroom unit, or eight 
+persons in a four-bedroom unit;  
+(ii) The the maximum number permitted in the unit under state law and/or other 
+local codes such as the Building, Fire, Housing and Planning Codes.  
+8 
+3258377v2/BXS 
+ 
+This Subsection 8.22.360 A.2.b. is not intended by itself to establish a direct 
+landlord-tenant relationship between the additional occupant and the landlord 
+or to limit a landlord's rights under the Costa-Hawkins Rental Housing Act, 
+California Civil Code Section 1954.50 et seq. (as it may be amended from 
+time to time). Nothing in this subsection authorizes an occupancy that would 
+result in either transient habitation commercial activity as defined by O.M.C. 
+Section 17.10.440 or semi-transient commercial activity as defined by 
+O.M.C. Section 17.10.120.  
+c. Before endeavoring to recover possession based on the violation of a lawful 
+obligation or covenant of tenancy regarding subletting or limits on the number of 
+occupants in the rental unit, the landlord shall serve the tenant a written notice of 
+the violation that provides the tenant with a minimum of fourteen (14) days 
+opportunity to cure the violation. The tenant may cure the violation by making a 
+written request to add occupants referenced in Subsection a or b of Section 
+8.22.360 A.2. or by using other reasonable means to cure the violation, including, 
+without limitation, the removal of any additional or unapproved occupant. 
+Nothing in this Section 8.22.360 A.2.c. is intended to limit any other rights or 
+remedies that the law otherwise provides to landlords or tenants.  
+3. Reserved.  
+4. The tenant has willfully caused substantial damage to the premises beyond normal 
+wear and tear and, after written notice, has refused to cease damaging the premises, or 
+has refused to either make satisfactory correction or to pay the reasonable costs of 
+repairing such damage over a reasonable period of time.  
+5. The tenant has continued, following written notice to cease, to be so disorderly as to 
+destroy the peace and quiet of other tenants at the property.  
+6. The tenant has used the rental unit or the common areas of the premises for an illegal 
+purpose including the manufacture, sale, or use of illegal drugs. Residing in a rental 
+unit that lacks a certificate of occupancy, has not been approved by the city for 
+residential use, or that has been cited for housing, building, or planning code violations 
+does not constitute use of the premises for an illegal purpose. 
+7. The tenant has, after written notice to cease, continued to deny landlord access to the 
+unit as required by state law.  
+8. The owner of record seeks in good faith, without ulterior reasons and with honest 
+intent, to recover possession of the rental unit for their own occupancy as a principal 
+residence where the owner has previously occupied the rental unit as their principal 
+residence and has the right to recover possession for their occupancy as a principal 
+residence under a written rental agreement with the current tenants.  
+9. The owner of record seeks in good faith, without ulterior reasons and with honest 
+intent, to recover possession for their own use and occupancy as their principal 
+residence, or for the use and occupancy as a principal residence by the owner of 
+record's spouse, domestic partner, child, parent, or grandparent.  
+9 
+3258377v2/BXS 
+ 
+a. Where the owner of record recovers possession under this Subsection (9) 
+[Paragraph 8.22.360 A.9], and where continuous occupancy for the purpose of 
+recovery is less than thirty-six (36) months, such recovery of the residential unit 
+shall be a presumed violation of this Chapter.  
+b. The owner of record may not recover possession pursuant to this subsection more 
+than once in any thirty-six (36) month period,  
+c. The owner must move in to unit within three (3) months of the tenant's vacation of 
+the premises. Such time period may be extended for good cause upon application 
+to, and approval by, the Rent Adjustment Program. 
+d. Reserved.  
+e. A landlord may not recover possession of a unit from a tenant under Subsection 
+6(A)(9) [8.22.360 A.9], if the landlord has or receives notice, any time before 
+recovery of possession, that any tenant in the rental unit:  
+i. Has been residing in the unit for five (5) years or more; and  
+(a) Is sixty (60) years of age or older; or  
+(b) Is a disabled tenant as defined in the California Fair Employment 
+and Housing Act (California Government Code § 12926); or  
+ii. Has been residing in the unit for five (5) years or more, and is a 
+catastrophically ill tenant, defined as a person who is disabled as defined by 
+Subsection (e)(i)(b) [8.22.360 A.9.e.i.b]] and who suffers from a life 
+threatening illness as certified by their primary care physician.  
+f. The provisions of Subsection (e) [8.22.360 A.9.e] above shall not apply where the 
+landlord's qualified relative who will move into the unit is 60 years of age or 
+older, disabled or catastrophically ill as defined by Subsection (e) [8.22.360 
+A.9.e], and where every rental unit owned by the landlord is occupied by a tenant 
+otherwise protected from eviction by Subsection (e) [8.22.360 A.9.e].  
+g. A tenant who claims to be a member of one of the classes protected by Subsection 
+6(A)(9)(e) [8.22.360 A.9.e] must submit a statement, with supporting evidence, to 
+the landlord. A landlord may challenge a tenant's claim of protected status by 
+requesting a hearing with the Rent Board. In the Rent Board hearing, the tenant 
+shall have the burden of proof to show protected status. No civil or criminal 
+liability shall be imposed upon a landlord for challenging a tenant's claim of 
+protected status. The Rent Board shall adopt rules and regulations to implement 
+the hearing procedure.  
+h. Once a landlord has successfully recovered possession of a rental unit pursuant to 
+Subsection 6(A)(9) [8.22.360 A.9], no other current landlords may recover 
+possession of any other rental unit in the building under Subsection 6(A)(9) 
+[8.22.360 A.9]. Only one specific unit per building may undergo a Subsection 
+6(A)(9) [8.22.360 A.9] eviction. Any future evictions taking place in the same 
+building under Subsection 6(A)(9) [8.22.360 A.9] must be of that same unit, 
+provided that a landlord may file a petition with the Rent Board or, at the 
+10 
+3258377v2/BXS 
+ 
+landlord's option, commence eviction proceedings, claiming that disability or 
+other similar hardship prevents the landlord from occupying a unit which was 
+previously the subject of a Subsection 6(A)(9) [8.22.360 A.9] eviction. The Rent 
+Board shall adopt rules and regulations to implement the application procedure.  
+i. A notice terminating tenancy under this Subsection must contain, in addition to 
+the provisions required under Subsection 6(B)(6) [8.22.360B.6] 6(B)(5) [8.22.360 
+B.5]:  
+i. A listing of all property owned by the intended future occupant(s).  
+ii. The address of the real property, if any, on which the intended future 
+occupant(s) claims a homeowner's property tax exemption.  
+j.    If the owner or relative specified on the notice terminating tenancy fails to 
+occupy the rental unit for at least a consecutive thirty-six month period, or fails to 
+occupy the rental unit within ninety days after the tenant vacates, absent 
+Subsection (c), the owner shall do the following: 
+ 
+i. Offer the unit to the tenant who v acated it at the same rent in effect at the 
+time the tenant vacated; and 
+ 
+ii. Pay to said tenant all reasonable expenses incurred in returning to the 
+unit, including lease termination fees, if any. This subsection does not limit 
+any other remedies a tenant may have under this Chapter or other applicable 
+law. 
+10. The owner of record, after having obtained all necessary permits from the City of 
+Oakland on or before the date upon which notice to vacate is given, seeks in good faith 
+to undertake substantial repairs that cannot safely be completed while the unit is 
+occupied, and that are necessary either to bring the property into compliance with 
+applicable codes and laws affecting health and safety of tenants of the building, or 
+under an outstanding notice of code violations affecting the health and safety of tenants 
+of the building.  
+a. As soon as the tenant vacates the rental unit, the owner of record shall proceed 
+without unreasonable delay to complete the needed repairs. The tenant shall not 
+be required to vacate pursuant to this section, for a period in excess of three 
+months; provided, however, that such time period may be extended by the Rent 
+Board upon application by the landlord for good cause upon application to, and 
+approval by, the Rent Adjustment Program. The Rent Board shall adopt rules and 
+regulations to implement the application procedure.  
+b. Upon completion of the needed repairs, the owner of record shall offer the tenant 
+the first right to return to the premises at the same rent and pursuant to the same 
+terms of the rental agreement in effect as of the date of the notice to vacate, 
+subject to the owner of record's right to petition the Rent Adjustment Program 
+for a rent increase as provided by the Residential Rent Adjustment Ordinance. 
+c. A notice to vacate under this Subsection 6(A)(10) [8.22.360 A.10] must include 
+the following information:  
+11 
+3258377v2/BXS 
+ 
+i. A statement informing tenants as to their right to payment under the Oakland 
+Relocation Ordinance.  
+ii. A statement that "When the needed repairs are completed on your unit, the 
+landlord must offer you the opportunity to return to your unit with a rental 
+agreement containing the same terms as your original one and with the same 
+rent (although landlord may be able to obtain a rent increase under the 
+Oakland Residential Rent Arbitration Ordinance [O.M.C. Chapter 8.22, 
+Article I)."  
+iii. A list of the code violations necessitating substantial repairs, a detailed 
+description of the work to be performed, the permit numbers of any and all 
+permits obtained to affect the required repairs, and a copy of the City-issued 
+notice of code violations, if any. 
+iv. A good faith estimate of the time required to complete the repairs and the 
+date upon which it is expected that the unit will be ready for habitation.  
+11. The owner of record seeks to remove the property from the rental market in accordance 
+with the terms of the Ellis Act (California Government Code Section 7060 et seq.).  
+B. The following additional provisions shall apply to a landlord who seeks to recover a rental 
+unit pursuant to Subsection 6(A) [8.22.360 A]:  
+1. The burden of proof shall be on the landlord in any eviction action to which this order 
+is applicable to prove compliance with Section 6 [8.22.360].  
+2. A landlord shall not endeavor to recover possession of a rental unit unless at least one 
+of the grounds enumerated in Subsection 6(A) [8.22.360 A] above is stated in the 
+notice and that ground is the landlord's dominant motive for recovering possession and 
+the landlord acts in good faith in seeking to recover possession.  
+3. Where a landlord seeks to evict a tenant under a just cause ground specified in 
+Subsections 6(A)(7, 8, 9, 10, 11) [8.22.360 A.7, 8, 9, 10, 11], the landlord must do so 
+according to the process established in CCC § 1946 (or successor provisions providing 
+for a 30 or 60 day notice period); where a landlord seeks to evict a tenant for the 
+grounds specified in Subsections 6(A)(1, 2, 3, 4, 5, 6) [8.22.360 A.1, 2, 3, 4, 5, 6], the 
+landlord must do so according to the process established in CCP § 1161 (or successor 
+provisions providing for 3 day notice period).  
+4. Any written notice as described in Subsection 6(A)(2, 3, 4, 5, 7) [8.22.360 A.2, 3, 4, 7] 
+shall be served by the landlord prior to a notice to terminate tenancy and shall include a 
+provision informing tenant that a failure to cure may result in the initiation of eviction 
+proceedings.  
+5. Subsection 6(B)(3) [8.22.360 B.3] shall not be construed to obviate the need for a 
+notice terminating tenancy to be stated in the alternative where so required under CCP 
+§ 1161.  
+6. A notice terminating tenancy must additionally include the following:  
+a. A statement setting forth the basis for eviction, as described in Subsections 
+6(A)(1) [8.22.360 A.1] through 6(A)(11) [8.22.360 A.11];  
+12 
+3258377v2/BXS 
+ 
+b. A statement that advice regarding the notice terminating tenancy is available from 
+the Rent Board Rent Adjustment Program (RAP), along with information about 
+how the tenant may seek assistance, including the RAP phone number and email 
+address. 
+c. Where an eviction is based on the ground specified in Subsection 6(A)(9) 
+[8.22.360 A.9], the notice must additionally contain the provisions specified in 
+Subsection 6(A)(9)(i) [8.22.360 A.9.i] and a statement informing tenants of the 
+limitations on evictions as set forth in Subsection 6(D)(8) [8.22.360D.8]. 
+d. Where an eviction is based on the ground specified in Subsection 6(A)(10) 
+[8.22.360 A.10], the notice must additionally contain the provisions specified in 
+Subsection 6(A)(10)(c) [8.22.360 A.10] and a statement informing tenants of the 
+limitations on evictions as set forth in Subsection 6(D)(8) [8.22.360D.8]. 
+e. Failure to include any of the required statements in the notice shall be a defense to 
+any unlawful detainer action.  
+7. Within ten (10) days of service of a notice terminating tenancy upon a tenant, a copy of 
+the same notice and any accompanying materials must be filed with the Rent Board. 
+Each notice shall be indexed by property address and by the name of the landlord. 
+Such notices shall constitute public records of the City of Oakland, and shall be 
+maintained by the Rent Board and made available for inspection during normal 
+business hours. Failure to file the notice within ten (10) days of service shall be a 
+defense to any unlawful detainer action.  
+C. Reserved.  
+D. Substantive limitations on landlord's right to evict. This Subsection 8.22.360 D. is intended 
+as both a substantive and procedural limitation on a landlord's right to evict.  
+1. In any action to recover possession of a rental unit pursuant to Section 6 [8.22.360], a 
+landlord must allege and prove the following:  
+a. the basis for eviction, as set forth in Subsection 6(A)(1) through 6(A)(11) 
+[8.22.360 A.1 though through 8.22.360 A.11] above, was set forth in the notice of 
+termination of tenancy or notice to quit; and 
+b. that the landlord seeks to recover possession of the unit with good faith, honest 
+intent and with no ulterior motive;  
+2. If landlord claims the unit is exempt from this ordinance, landlord must allege and 
+prove that the unit is covered by one of the exceptions enumerated in Section 5 
+[8.22.350] of this Chapter. Such allegations must appear both in the notice of 
+termination of tenancy or notice to quit, and in the complaint to recover possession, 
+and must specify on what grounds exemption is claimed. Failure to make such 
+allegations in the notice shall be a defense to any unlawful detainer action.  
+3. A landlord's failure to comply with the obligations described in Subsections (D)(1) or 
+(2) [sic] [8.22.360 D.1. or 8.22.360 D.2.] shall be a defense to any action for 
+possession of a rental unit.  
+13 
+3258377v2/BXS 
+ 
+4. In any action to recover possession of a rental unit filed under subsection 8.22.360 A.1, 
+it shall be a defense if the landlord impeded the tenant's effort to pay rent by refusing to 
+accept rent paid on behalf of the tenant from a third party, or refusing to provide a W-9 
+form or other necessary documentation for the tenant to receive rental assistance from 
+a government agency, non-profit organization, or other third party. Acceptance of 
+rental payments made on behalf of the tenant by a third party shall not create a tenancy 
+between the landlord and the third party as long as either the landlord or the tenant 
+provide written notice that no new tenancy is intended.  
+5. A landlord's failure to fully comply with any applicable law requiring payment of 
+relocation benefits to the tenant, such as those provided by Articles III, VII, and VIII of 
+this Chapter and Chapter 15.60 of the Oakland Municipal Code, including but not 
+limited to required notice, amount, timing, and any other requirement necessary to 
+withdraw or repair a unit shall be a defense to any action for possession of a rental unit.  
+6. Notwithstanding any change in the terms of a tenancy pursuant to Civil Code Section 
+827, a tenant may not be evicted for a violation of a covenant or obligation that was not 
+included in the tenant's written or oral rental agreement at the inception of the tenancy 
+unless: (1) the change in the terms of the tenancy is authorized by the Rent Ordinance 
+or California Civil Code Sections 1947.5 or 1947.12, or required by federal, state, or 
+local law, or regulatory agreement with a government agency; or (2) the change in the 
+terms of the tenancy was accepted in writing by the tenant after receipt of written 
+notice from the landlord that the tenant need not accept such new term as part of the 
+rental agreement and in exchange for valid consideration.  
+7. In any action to recover possession of a rental unit filed under Subsections 8.22.360 
+A.1.—10., it shall be a defense if the landlord was not in compliance with failed to 
+substantially comply with O.M.C. 8.22.510 at the time the notice terminating tenancy 
+was served. 
+8. When a landlord seeks to evict a tenant under Subsection 6(A)(9) or (10) [8.22.360 
+A.9, 10], it shall be an affirmative defense if any child under the age of 18 enrolled in a 
+school or any educator resides in the unit, the child or educator is a tenant in the unit or 
+has a custodial or family relationship with a tenant in the unit, the tenant has resided in 
+the unit for at least 90 days, and the effective date of the notice of termination of tenancy 
+falls during the regular school year of the Oakland Unified School District. 
+ 
+a.   For purposes of this Section, the following terms shall have the 
+following meanings: 
+ 
+i.  “Custodial  relationship”  means  that  the  person  is  a  legal  
+guardian  of  the   child, has a court-recognized caregiver  
+authorization  affidavit for the child, or has provided full-time 
+custodial care of the child pursuant to an agreement with the child’s  
+legal guardian or court-recognized caregiver and has been providing 
+that care for at least one year or half of the child’s   lifetime, whichever 
+is less. 
+ 
+14 
+3258377v2/BXS 
+ 
+ii.  “Educator” means any person who works on-site at a school in 
+Oakland as an employee of the school or of the Oakland Unified 
+School District, including, without limitation, all teachers, classroom 
+and student support providers,  school  administrators  and  
+administrative  staff, counselors, social  workers,  school  health  
+services  workers,  speech  pathologists, custodial or maintenance 
+workers, nutrition and/or food services workers, library services 
+workers, child welfare workers, and attendance liaisons. 
+ 
+iii.  “Family relationship” means that the person is the parent, 
+grandparent, sibling, niece, nephew, aunt, or uncle of the child or 
+educator, or the spouse or domestic partner of such relation. 
+iv.  “School” for purposes of this Section means any state-licensed child 
+care center, state-licensed family child care home, accredited 
+community or junior college, and/or any public, private, or 
+parochial institution that provides educational instruction for students 
+in any or all of the grades from kindergarten through twelfth grade. 
+9.  Nonpayment of rent during COVID-19 pandemic. In an any unlawful detainer action 
+based on nonpayment of rent or late fees that accrued between March 9, 2020, and July 
+14, 2023, it shall be a defense that the rent was late or unpaid because of a substantial 
+reduction in household income or substantial increase in expenses resulting from the 
+Coronavirus pandemic. Any notice demanding rent or late fees that accrued during this 
+time period must: 
+a. be served together with a form developed by the Rent Adjustment Program 
+that, among other things, allows the tenant to indicate that the financial 
+hardship defense applies; and  
+b. include the following statement in bold underlined 12-point font: “If you were 
+unable to pay the rent or other fees demanded in this notice due to a substantial 
+reduction in household income or substantial increase in expenses as a result of 
+the COVID-19 pandemic, you may raise this as a defense to any eviction action 
+based on this notice.”  
+E. In the event that new state or federal legislation confers a right upon landlords to evict 
+tenants for a reason not stated herein, evictions proceeding under such legislation shall 
+conform to the specifications set out in this Chapter [O.M.C. Chapter 8.22, Article II].  
+F. The City Council is authorized to modify the Just Cause for Eviction Ordinance (Measure 
+EE, O.M.C., Chapter 8, Article II (8.22.300 et seq.)) for the purpose of adding limitations 
+on a landlord's right to evict, but the City Council may not modify any exemption from the 
+ordinance from which this section is derived contained in Section 8.22.350.  
+ 
+ SECTION 8.  Outreach.  City Council directs the City  Administrator to conduct robust 
+outreach, education, and support to tenants and property owners about the pr ovisions of this 
+legislation. 
+ 
+15 
+3258377v2/BXS 
+ 
+SECTION 9 .  Direction to the City Administrator.  City Council directs the City 
+Administrator to prioritize the filling of vacant, budgeted positions in the Housing and 
+Community Development Department that help ensure services to promote housing stability. 
+These vacant, budgeted positions include: the fo llowing positions in the Rental Adjustment 
+Program — one (1) Rental Adjustment Program Assistant Manager, two (2) Program Analysts 
+II, one (1) Administrative Analyst I, and one (1) Administrative Assistant, as well as one (1) 
+Monitoring Supervisory and Pro gram Analyst II in the Community Development and 
+Engagement unit. These positions are supported by dedicated funds, not the General Purpose 
+Fund. City Council also directs the City Administrator to seek additional financial resources to 
+address the economic and housing impacts of COVID-19 on tenants and property owners. 
+ 
+SECTION 10.  Severability.  If any section, subsection, sentence, clause or phrase of 
+this Ordinance is for any reason held to be invalid or unconstitutional by decision of any court of 
+competent jurisdiction, such decision shall not affect the validity of the remaining portions of  the 
+Chapter.  The City Council hereby declares that it would have passed this Ordinance and each 
+section, subsection, clause or phrase thereof irrespective of the fact that one or more other 
+sections, subsections, clauses or phrases may be declared invalid or unconstitutional.  
+ 
+SECTION 11.  Effective Date.  This ordinance shall become effective immediately on 
+final adoption if it receives six or more affirmative votes; otherwise it shall become effective 
+upon the seventh day after final adoption. 
+ 
+SECTION 12.  D irections to Rent Board.   The City Council directs the City 
+Administrator to work with the Rent Board to revise the Just Cause for Eviction Ordinance 
+Regulations to implement the newly-added Just Cause provisions. 
+ 
+ 
+ 
+IN COUNCIL, OAKLAND, CALIFORNIA, 
+ 
+PASSED BY THE FOLLOWING VOTE: 
+ 
+AYES – FIFE, GALLO, JENKINS, KALB, KAPLAN, RAMACHANDRAN, REID, AND 
+ PRESIDENT FORTUNATO BAS 
+ 
+NOES – 
+ABSENT –  
+ABSTENTION – 
+ 
+ATTEST:        
+ASHA REED 
+City Clerk and Clerk of the Council of the 
+City of Oakland, California 
+ 
+ 
+Date of Attestation:        
+ 
+3258377v2/BXS   
+ 
+NOTICE AND DIGEST 
+ 
+ORDINANCE ESTABLISHI NG A TIMELINE FOR TE RMINATION OF 
+THE MORATORIUM ON RE SIDENTIAL EVICTIONS,  RENT 
+INCREASES, AND LATE FEES ENACTED IN RESP ONSE TO THE 
+COVID-19 PANDEMIC (O RDINANCE NOS. 13589 C.M.S., 13594 C.M.S. , 
+13606 C.M.S.); AND A MENDING THE JUST CAU SE FOR EVICTION 
+ORDINANCE TO: (1) PE RMANENTLY CODIFY CER TAIN 
+PROTECTIONS ESTABLIS HED BY THE MORATORIU M; (2) 
+PROHIBIT EVICTIONS BASED ON NON-PAYMENT OF RENT WHERE 
+THE AMOUNT DEMANDED IS LESS THAN ONE MON TH OF HUD 
+FAIR MARKET RENT; (3) CONFORM OCCUPANCY LI MITATIONS 
+TO STATE LAW; (4) MAKE OTHER NON -SUBSTANTIVE 
+CLARIFYING AMENDMENTS  
+ 
+This Ordinance would establish a timeline for ending the moratorium on residential 
+evictions, rent increase s, and late fees  that has been in effect since March 27, 2020, in 
+response to the COVID-19 pandemic. The current eviction moratorium prohibits most forms 
+of residential evictions and is scheduled to end when the Local Emergency is terminated by 
+City Council —a date that remains uncertain. This Ordinance would terminate the evictio n 
+and late fee moratoriums as of July 15, 2023. The Ordinance would terminate the rent 
+increase moratorium as of July 1, 2024. Permanent amendments to the Just Cause for 
+Eviction Ordinance (O.M.C. 8.22.300 et seq.) include: codification of the defense for 
+nonpayment of rent accrued during the moratorium that was unpaid due to pandemic -related 
+reasons; limiting nonpayment evictions where the amount demanded is less than one month 
+of HUD fair market rent; conformity of occupancy standards to state  law; and other non -
+substantive clarifications. 
+ 
+ 
+ 
+ 
+ 

@@ -85,7 +85,66 @@ def main() -> None:
     for tid in sorted(set(changes) - set(expect)):
         print(f"  [INFO] {tid}: {len(changes[tid]['affected_address_ids'])} affected - {changes[tid]['notes'][:120]}")
 
+    print("\nKnown-answer tests (from the brief's illustrative output and the participant guide)")
+    passed, total = known_answers(rules, lk, addrs)
+    line("known answers", f"{passed}/{total}", passed == total)
+
     print("\nOVERALL:", "ALL CHECKS PASS" if ok else "SOME CHECKS FAILED")
+
+
+def known_answers(rules, lookups, addrs) -> tuple[int, int]:
+    """Expectations stated in the challenge materials, checked against our lookups."""
+    import re as _re
+
+    def find(city, pred):
+        return next((a for a in addrs if a["jurisdiction_city"] == city and pred(a)), None)
+
+    def result(addr, jur, cat, cite=None):
+        rows = [x for x in lookups[addr["address_id"]] if (r := by_id[x["team_rule_id"]])["jurisdiction"] == jur
+                and r["category"] == cat and (not cite or _re.search(cite, r["citation"]))]
+        order = ["applies", "unknown", "not_yet_effective", "pending", "superseded"]
+        return min((x["result"] for x in rows), key=order.index) if rows else "absent"
+
+    by_id = {r["team_rule_id"]: r for r in rules}
+    sf_old = find("San Francisco, CA", lambda a: a["year_built"] and a["year_built"] < 1979 and (a["units"] or 0) >= 5)
+    sf_new = find("San Francisco, CA", lambda a: a["year_built"] and a["year_built"] > 1985)
+    la_old = find("Los Angeles, CA", lambda a: a["year_built"] and a["year_built"] < 1978)
+    la_mid = find("Los Angeles, CA", lambda a: a["year_built"] and 1980 <= a["year_built"] <= 2005)
+    sd = find("San Diego, CA", lambda a: a["year_built"] is None and not a.get("year_built_max"))
+    sd_old = find("San Diego, CA", lambda a: a["year_built"] is None and (a.get("year_built_max") or 9999) < 2000)
+    jc, hob, nwk = (find(c, lambda a: True) for c in ("Jersey City, NJ", "Hoboken, NJ", "Newark, NJ"))
+    bos, cam = find("Boston, MA", lambda a: True), find("Cambridge, MA", lambda a: True)
+    cases = [
+        ("SF pre-1979, 5+ units: SF Rent Ordinance applies", sf_old, "San Francisco, CA", "rent_increase_limits", r"37", "applies"),
+        ("SF pre-1979: CA § 1947.12 cap yields to local rent control", sf_old, "CA", "rent_increase_limits", r"1947\.12", "superseded"),
+        ("SF: just cause under S.F. Admin. Code § 37.9 applies", sf_old, "San Francisco, CA", "just_cause_eviction", r"37\.9", "applies"),
+        ("SF: CA § 1946.2 just cause yields to local ordinance", sf_old, "CA", "just_cause_eviction", r"1946\.2", "superseded"),
+        ("SF 20-unit: deposit cap applies (small-landlord exception can't apply)", sf_old, "CA", "security_deposits", r"1950\.5", "applies"),
+        ("SF: screening fee cap § 1950.6 applies", sf_old, "CA", "application_screening_fees", r"1950\.6", "applies"),
+        ("SF: local algorithmic ban § 37.10C applies", sf_old, "San Francisco, CA", "algorithmic_rent_setting", r"37\.10C", "applies"),
+        ("SF post-1979: SF rent control does not cover it", sf_new, "San Francisco, CA", "rent_increase_limits", r"37", "absent"),
+        ("LA pre-1978: RSO applies", la_old, "Los Angeles, CA", "rent_increase_limits", r"151", "applies"),
+        ("LA 1980-2005: RSO does not cover it", la_mid, "Los Angeles, CA", "rent_increase_limits", r"151", "absent"),
+        ("LA 1980-2005: state cap § 1947.12 applies instead", la_mid, "CA", "rent_increase_limits", r"1947\.12", "applies"),
+        ("San Diego, no year built and no parcel match: state cap is unknown", sd, "CA", "rent_increase_limits", r"1947\.12", "unknown"),
+        ("San Diego, parcel effective year pre-2000: older than 15 years, state cap applies", sd_old, "CA", "rent_increase_limits", r"1947\.12", "applies"),
+        ("Jersey City: JC algorithmic ban applies", jc, "Jersey City, NJ", "algorithmic_rent_setting", None, "applies"),
+        ("Hoboken: Hoboken algorithmic ban applies", hob, "Hoboken, NJ", "algorithmic_rent_setting", None, "applies"),
+        ("Newark: no local algorithmic ban", nwk, "Newark, NJ", "algorithmic_rent_setting", None, "absent"),
+        ("NJ: FAIR Act not yet effective on 2026-10-01", nwk, "NJ", "algorithmic_rent_setting", None, "not_yet_effective"),
+        ("NJ: deposit cap N.J.S.A. 46:8-21.x applies", jc, "NJ", "security_deposits", r"46:8-21", "applies"),
+        ("Boston: no rent cap reported", bos, "MA", "rent_increase_limits", None, "absent"),
+        ("Cambridge: MA algorithmic bills reported as pending", cam, "MA", "algorithmic_rent_setting", None, "pending"),
+        ("Boston: deposit rule M.G.L. c. 186, § 15B applies", bos, "MA", "security_deposits", r"15B", "applies"),
+    ]
+    passed = 0
+    for desc, addr, jur, cat, cite, expected in cases:
+        got = result(addr, jur, cat, cite) if addr else "no matching address"
+        ok = got == expected
+        passed += ok
+        print(f"  [{'PASS' if ok else 'FAIL'}] {desc}" + ("" if ok else f" (expected {expected}, got {got})")
+              + (f" [{addr['address_id']}]" if addr else ""))
+    return passed, len(cases)
 
 
 if __name__ == "__main__":

@@ -1,0 +1,37 @@
+{
+ "cell_status": "rules_found",
+ "rules": [
+  {
+   "category": "rent_increase_limits",
+   "jurisdiction": "Santa Ana, CA",
+   "level": "city",
+   "instrument_status": "enacted",
+   "title": "Santa Ana Rent Stabilization Ordinance",
+   "requirement": "Landlords in Santa Ana can only raise rent once a year, and the increase cannot exceed the lower of 3% or 80% of the change in CPI; if CPI is negative, no increase is allowed.",
+   "key_value": "lower of 3% per year or 80% of CPI change",
+   "coverage_conditions": "Applies to residential rental properties in Santa Ana; excludes buildings constructed after February 1, 1995 and mobile home spaces offered for rent after January 1, 1990.",
+   "exemptions": "Residential buildings constructed after February 1, 1995; mobile home spaces offered for rent after January 1, 1990.",
+   "effective_date": "2021-11-19",
+   "enacted_date": null,
+   "penalty": null,
+   "citation": "Santa Ana Mun. Code, Rent Stabilization Ordinance",
+   "quoted_span": "Increase in residential rents are limited to the lower of 3% per year, or 80% of the percent change in the Consumer Price Index over the most recent 12-month period. If the CPI is negative, no rent increase is permitted.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": "1995-02-01",
+    "built_after": null,
+    "age_cutoff_basis": "year_built",
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.9,
+   "passage_id": "P1"
+  }
+ ],
+ "no_rule_finding": null
+}

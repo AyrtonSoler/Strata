@@ -1,0 +1,68 @@
+{
+ "cell_status": "rules_found",
+ "rules": [
+  {
+   "category": "screening_restrictions",
+   "jurisdiction": "Boston, MA",
+   "level": "city",
+   "instrument_status": "enacted",
+   "title": "Boston Fair Chance Tenant Selection Policy",
+   "requirement": "Housing providers that receive City funding or have income-restricted units under the Inclusionary Development Policy cannot have a blanket ban on renting to people with arrest or conviction records; they must consider applicants case-by-case and may not count arrests without conviction, judicially-relieved convictions, juvenile records, or convictions over 5 years old against an applicant (with limited safety exceptions).",
+   "key_value": "No blanket criminal-history bans; 5-year lookback limit; case-by-case review required",
+   "coverage_conditions": "Applies to housing providers receiving Department of Neighborhood Development (DND) funding and/or land, or that have income-restricted units created under the BPDA Inclusionary Development Policy.",
+   "exemptions": "Does not apply where there is a direct relationship between a conviction and the housing sought or an unreasonable risk of substantial harm to the safety of others.",
+   "effective_date": "2017-02",
+   "enacted_date": "2017-02",
+   "penalty": null,
+   "citation": "Boston Fair Chance Tenant Selection Policy (DND, Feb. 2017)",
+   "quoted_span": "Housing providers receiving Department of Neighborhood Development (DND) funding and/or land, or that have income restricted units created under the Boston Planning and Development Agency (BPDA) Inclusionary Development Policy will not impose a blanket policy that denies housing to anyone with arrests and or convictions.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": "whether the housing provider receives DND funding/land or has BPDA Inclusionary Development Policy income-restricted units",
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.75,
+   "passage_id": "P3"
+  },
+  {
+   "category": "screening_restrictions",
+   "jurisdiction": "Boston, MA",
+   "level": "city",
+   "instrument_status": "enacted",
+   "title": "Boston Fair Housing Regulations - Source of Income Protection",
+   "requirement": "Landlords in Boston cannot refuse to rent to a tenant because they use rental assistance such as a Section 8 voucher.",
+   "key_value": "Rental assistance / voucher discrimination prohibited",
+   "coverage_conditions": "Applies to rental housing in the City of Boston.",
+   "exemptions": null,
+   "effective_date": null,
+   "enacted_date": null,
+   "penalty": null,
+   "citation": "Boston Fair Housing Regulations (Fair Housing Commission)",
+   "quoted_span": "The landlord tells you they don't accept rental assistance. This includes Section",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": false
+   },
+   "conflict_note": "This may overlap with or derive from state (MA) source-of-income protections; text does not specify a city ordinance citation.",
+   "confidence": 0.5,
+   "passage_id": "P1"
+  }
+ ],
+ "no_rule_finding": null
+}

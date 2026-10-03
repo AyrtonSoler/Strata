@@ -1,0 +1,37 @@
+{
+ "cell_status": "rules_found",
+ "rules": [
+  {
+   "category": "rent_increase_limits",
+   "jurisdiction": "Hoboken, NJ",
+   "level": "city",
+   "instrument_status": "enacted",
+   "title": "Hoboken Rent Control Ordinance",
+   "requirement": "Landlords in covered buildings may only raise rent at lease renewal and must follow the city's rent control formula (based on CPI and allowed surcharges); any increase beyond what is authorized is void and must be refunded to the tenant.",
+   "key_value": "CPI-based annual increase plus allowable surcharges",
+   "coverage_conditions": "Applies to dwellings subject to Hoboken's rent control chapter (Ch. 155); base rent set at the level received by the landlord as of October 1, 1985.",
+   "exemptions": null,
+   "effective_date": null,
+   "enacted_date": "1984-01-16",
+   "penalty": "Any rent increase imposed in excess of that permitted is null and void and must be refunded or credited to the tenant.",
+   "citation": "Hoboken Code ch. 155, Art. II",
+   "quoted_span": "All rents for rental of housing space and services in dwellings to which this act is applicable are hereby controlled at the base rent level received by the landlord as of October 1, 1985, and no rental increases shall be hereinafter demanded, paid or accepted, except as provided in this chapter.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": false
+   },
+   "conflict_note": "Ordinance has been amended multiple times (2011, 2023, 2025); exact current numeric cap/formula not fully specified in the retrieved passages.",
+   "confidence": 0.7,
+   "passage_id": "P5"
+  }
+ ],
+ "no_rule_finding": null
+}

@@ -1,0 +1,9 @@
+{
+ "cell_status": "no_rule_stated",
+ "rules": [],
+ "no_rule_finding": {
+  "finding": "New Jersey has no state law that establishes, governs, or controls rents; rent control is left to municipalities.",
+  "passage_id": "P2",
+  "quoted_span": "The State of New Jersey has no laws that establish, govern or control rents. Municipalities \nmay pass an ordinance establishing rent control or rent leveling."
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "cell_status": "rules_found",
+ "rules": [
+  {
+   "category": "rent_increase_limits",
+   "jurisdiction": "Jersey City, NJ",
+   "level": "city",
+   "instrument_status": "enacted",
+   "title": "Jersey City Rent Control Ordinance",
+   "requirement": "Jersey City regulates how much landlords may raise rent through a Rent Leveling Board process; landlords must apply for annual, capital-improvement, vacancy, or hardship rent increases, and tenants may challenge rents they believe are illegal. Buildings with 1-4 units are exempt from rent control.",
+   "key_value": null,
+   "coverage_conditions": "Applies to multi-unit rental buildings registered with the city; five-or-more unit buildings must file annual registration statements and rent increase applications through the city's permitting system.",
+   "exemptions": "All 1-4 unit properties are exempt from rent control; other exemptions may apply per the ordinance's criteria (subject to a Rent Control Exemption Request).",
+   "effective_date": null,
+   "enacted_date": null,
+   "penalty": null,
+   "citation": "Jersey City Code ch. 260 (Rent Control Ordinance)",
+   "quoted_span": "All 1-4 Unit Properties are exempt from rent control",
+   "coverage": {
+    "min_units": 5,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": "whether the property owner has filed for and met criteria for a Rent Control Exemption Request",
+    "yields_to_local": false
+   },
+   "conflict_note": "Exact rent increase percentage/formula not stated in retrieved passages; only coverage exemptions and administrative process are described.",
+   "confidence": 0.55,
+   "passage_id": "P3"
+  }
+ ],
+ "no_rule_finding": null
+}

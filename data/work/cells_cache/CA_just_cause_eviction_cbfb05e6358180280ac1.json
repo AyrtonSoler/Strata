@@ -1,0 +1,37 @@
+{
+ "cell_status": "rules_found",
+ "rules": [
+  {
+   "category": "just_cause_eviction",
+   "jurisdiction": "CA",
+   "level": "state",
+   "instrument_status": "enacted",
+   "title": "Tenant Protection Act - Just Cause for Termination of Tenancy",
+   "requirement": "Landlords of covered rental units must have a legally recognized 'just cause' reason to end a tenancy after a tenant has lived there 12 months. For no-fault terminations (such as owner move-in, withdrawal from rental market, or substantial remodel), the landlord must pay the tenant one month's rent as relocation assistance or waive the final month's rent.",
+   "key_value": "1 month's rent relocation assistance for no-fault evictions",
+   "coverage_conditions": "Applies to tenancies for which just cause is required to terminate under subdivision (a); covers at-fault just cause (e.g., nonpayment, lease violation) and no-fault just cause (e.g., owner/family move-in, withdrawal from market, demolition/substantial remodel).",
+   "exemptions": null,
+   "effective_date": "2020-01-01",
+   "enacted_date": null,
+   "penalty": "If a tenant fails to vacate after expiration of the termination notice, the relocation assistance or rent waiver amount is recoverable as damages in an action to recover possession.",
+   "citation": "Cal. Civ. Code § 1946.2",
+   "quoted_span": "the tenancy under subdivision (a), if an owner of residential real property issues a termination notice based on a no-fault just cause described in paragraph (2) of subdivision (b), the owner shall, regardless of the tenant’s income, at the owner’s option, do one of the following:\n(A) Assist the tenant to relocate by providing a direct payment to the tenant as described in paragraph (3).\n(B) Waive in writing the payment of rent for the final month of the tenancy, prior to the rent becoming due.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": true
+   },
+   "conflict_note": "State law yields to stricter local just-cause/rent-control ordinances (e.g., LA RSO/JCO, San Diego, Santa Ana) which impose additional or different requirements; exemptions and unit coverage are detailed elsewhere in Civ. Code § 1947.12/1946.2 not fully quoted in this passage.",
+   "confidence": 0.8,
+   "passage_id": "P1"
+  }
+ ],
+ "no_rule_finding": null
+}

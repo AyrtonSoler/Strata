@@ -1,0 +1,68 @@
+{
+ "cell_status": "rules_found",
+ "rules": [
+  {
+   "category": "screening_restrictions",
+   "jurisdiction": "NJ",
+   "level": "state",
+   "instrument_status": "enacted",
+   "title": "Fair Chance in Housing Act",
+   "requirement": "Landlords are restricted in how they may use an applicant's criminal record in rental decisions, including bans on certain inquiries, drug/alcohol testing requirements, and improper distribution of criminal record information.",
+   "key_value": null,
+   "coverage_conditions": "Applies to housing providers in connection with the rental, lease, or sublease of real property in New Jersey, with exceptions for certain serious offenses and sex offender registrants.",
+   "exemptions": "Exceptions exist for drug-related criminal activity involving methamphetamine manufacture on federally assisted housing premises, lifetime sex offender registrants, and certain serious convictions (e.g., murder, aggravated sexual assault, kidnapping, arson, human trafficking).",
+   "effective_date": null,
+   "enacted_date": null,
+   "penalty": null,
+   "citation": "N.J.S.A. 46:8-52 et seq. (Fair Chance in Housing Act)",
+   "quoted_span": "A housing provider shall not require an applicant\nto submit to a drug or alcohol test, or request the applicant’s consent to\nobtain information from a drug abuse treatment facility.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": "whether the applicant has a conviction for certain serious crimes (murder, aggravated sexual assault, kidnapping, arson, human trafficking, etc.) or is a lifetime sex offender registrant, which remain excluded from protection",
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.75,
+   "passage_id": "P9"
+  },
+  {
+   "category": "screening_restrictions",
+   "jurisdiction": "NJ",
+   "level": "state",
+   "instrument_status": "enacted",
+   "title": "New Jersey Law Against Discrimination - Source of Lawful Income Protection",
+   "requirement": "Landlords may not refuse to rent to a tenant based solely on the tenant's source of lawful income, including Section 8 housing vouchers.",
+   "key_value": null,
+   "coverage_conditions": "Applies to landlord-tenant relationships in New Jersey, with exceptions for certain small owner-occupied dwellings.",
+   "exemptions": "Does not apply to two-family owner-occupied dwellings, rooms in an owner- or resident-occupied single home, and residences planned exclusively for one sex as it pertains to familial status.",
+   "effective_date": null,
+   "enacted_date": null,
+   "penalty": null,
+   "citation": "N.J.S.A. 10:5-12",
+   "quoted_span": "The LAD also prohibits housing discrimination  based\non the source of lawful income or source of lawful rent\nor mortgage payment a tenant or purchaser uses. This\nmeans, for example, that a landlord cannot deny the\nlawful recipient of a Section 8 HUD voucher the right to\nrent an apartment based solely on that source of lawful\nincome.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": 2,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.8,
+   "passage_id": "P4"
+  }
+ ],
+ "no_rule_finding": null
+}

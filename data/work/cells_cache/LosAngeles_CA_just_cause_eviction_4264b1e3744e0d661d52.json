@@ -1,0 +1,68 @@
+{
+ "cell_status": "rules_found",
+ "rules": [
+  {
+   "category": "just_cause_eviction",
+   "jurisdiction": "Los Angeles, CA",
+   "level": "city",
+   "instrument_status": "enacted",
+   "title": "Just Cause for Eviction Ordinance (JCO)",
+   "requirement": "Landlords in Los Angeles cannot terminate a tenancy without a legally listed just cause, and must pay relocation assistance for no-fault evictions, for units not covered by the Rent Stabilization Ordinance.",
+   "key_value": null,
+   "coverage_conditions": "Covers most residential properties in the City of Los Angeles not regulated by the RSO, where the tenant has lived in the unit at least six months or the original lease has expired; can apply to buildings newer than October 1, 1978 and to single-family dwellings.",
+   "exemptions": "Transient hotels, licensed care facilities, fraternity/sorority houses, owner's roommate, some cooperatives, some non-profit homeless/short-term treatment facilities, and some HACLA or government-owned properties.",
+   "effective_date": null,
+   "enacted_date": null,
+   "penalty": null,
+   "citation": "L.A.M.C. § 165.03",
+   "quoted_span": "It prohibits terminations of tenancies without just cause and requires relocation assistance for no-fault evictions.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": "1978-10-01",
+    "age_cutoff_basis": "year_built",
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": "whether the unit is covered by the Rent Stabilization Ordinance (RSO) instead",
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.85,
+   "passage_id": "P1"
+  },
+  {
+   "category": "just_cause_eviction",
+   "jurisdiction": "Los Angeles, CA",
+   "level": "city",
+   "instrument_status": "enacted",
+   "title": "Rent Stabilization Ordinance (RSO) - Just Cause Eviction Provisions",
+   "requirement": "For units covered by the RSO, landlords must have a legally listed just cause to evict, must provide 30/60/120-day or longer notice depending on the reason, file a Declaration of Intent to Evict with LAHD, and pay relocation assistance for no-fault evictions.",
+   "key_value": null,
+   "coverage_conditions": "Applies to rental properties first built on or before October 1, 1978 (and replacement units under LAMC 151.28), including apartments, condos/townhomes (for tenancies before 1996), duplexes, multiple single-family units on one parcel, certain hotel/rooming house rooms, ADUs/JADUs, and mobile homes in mobile home parks.",
+   "exemptions": "Condominiums and townhomes are not rent-amount regulated for tenancies commencing after December 31, 1995.",
+   "effective_date": null,
+   "enacted_date": null,
+   "penalty": null,
+   "citation": "L.A.M.C. § 151.09",
+   "quoted_span": "Generally, the RSO applies to rental properties that were first built on or before October 1, 1978, as well as replacement units under LAMC Section 151.28",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": "1978-10-01",
+    "built_after": null,
+    "age_cutoff_basis": "year_built",
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.85,
+   "passage_id": "P8"
+  }
+ ],
+ "no_rule_finding": null
+}

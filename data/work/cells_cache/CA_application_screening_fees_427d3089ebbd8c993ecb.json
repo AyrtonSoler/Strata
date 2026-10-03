@@ -1,0 +1,68 @@
+{
+ "cell_status": "rules_found",
+ "rules": [
+  {
+   "category": "application_screening_fees",
+   "jurisdiction": "CA",
+   "level": "state",
+   "instrument_status": "enacted",
+   "title": "Application Screening Fee Cap and Refund Requirements",
+   "requirement": "Landlords may charge an application screening fee to cover the actual cost of checking an applicant's background, but the fee cannot exceed $30 (adjusted annually for inflation) and must be refunded if unused or if the applicant isn't selected under certain procedures. Landlords must provide a receipt itemizing costs and a copy of any credit report obtained.",
+   "key_value": "$30 (CPI-adjusted annually since 1998)",
+   "coverage_conditions": "Applies to any landlord who charges an applicant a fee to obtain a consumer credit report or conduct screening when processing a rental application for residential property.",
+   "exemptions": null,
+   "effective_date": "1998-01-01",
+   "enacted_date": null,
+   "penalty": null,
+   "citation": "Cal. Civ. Code § 1950.6",
+   "quoted_span": "In no case shall the amount of the application screening fee charged by the landlord or their agent be greater than thirty dollars ($30) per applicant. The thirty dollar ($30) application screening fee may be adjusted annually by the landlord or their agent commensurate with an increase in the Consumer Price Index, beginning on January 1, 1998.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.95,
+   "passage_id": "P2"
+  },
+  {
+   "category": "security_deposits",
+   "jurisdiction": "CA",
+   "level": "state",
+   "instrument_status": "enacted",
+   "title": "Security Deposit Maximum",
+   "requirement": "Landlords generally cannot require a security deposit greater than one month's rent, with an exception allowing advance payment of six or more months' rent for leases of that length or longer. Higher deposits charged to service members based on credit factors must be explained in writing and returned after six months.",
+   "key_value": "1 month's rent (standard cap)",
+   "coverage_conditions": "Applies to residential rental properties statewide.",
+   "exemptions": "Advance payment of six or more months' rent allowed if lease term is six months or longer.",
+   "effective_date": "2025-04-01",
+   "enacted_date": null,
+   "penalty": null,
+   "citation": "Cal. Civ. Code § 1950.5",
+   "quoted_span": "d, in an amount or value in excess of an amount equal to one month’s rent, in addition to any rent for the first month paid on or before initial occupancy.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": false
+   },
+   "conflict_note": "This passage primarily addresses security deposits, not application screening fees; included here only incidentally due to passage overlap but is more appropriately categorized as security_deposits, not application_screening_fees.",
+   "confidence": 0.6,
+   "passage_id": "P10"
+  }
+ ],
+ "no_rule_finding": null
+}

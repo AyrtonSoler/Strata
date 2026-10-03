@@ -1,0 +1,68 @@
+{
+ "cell_status": "rules_found",
+ "rules": [
+  {
+   "category": "just_cause_eviction",
+   "jurisdiction": "Oakland, CA",
+   "level": "city",
+   "instrument_status": "enacted",
+   "title": "Just Cause for Eviction Ordinance (Measure EE)",
+   "requirement": "Landlords in Oakland cannot evict a tenant unless they can prove one of the specific grounds listed in the ordinance, such as nonpayment of rent above a threshold or substantial violation of a material lease term.",
+   "key_value": null,
+   "coverage_conditions": "Applies to most residential rental units in Oakland, with main exceptions being units constructed within the past 10 years and owner-occupied properties where the owner shares kitchen or bath facilities with tenants.",
+   "exemptions": "Units constructed within the past 10 years; owner-occupied properties where the owner shares use of kitchen or bath facilities with tenants.",
+   "effective_date": "2002-11-05",
+   "enacted_date": "2002-11-05",
+   "penalty": null,
+   "citation": "Oakland Mun. Code § 8.22.360",
+   "quoted_span": "No landlord shall endeavor to recover possession, issue a notice terminating tenancy, or recover possession of a rental unit in the city of Oakland unless the landlord is able to prove the existence of one of the following grounds:",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": "year_built",
+    "exclude_if_newer_than_years": 10,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": true,
+    "other_unknown_factor": "whether the owner shares kitchen or bath facilities with the tenant",
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.9,
+   "passage_id": "P6"
+  },
+  {
+   "category": "just_cause_eviction",
+   "jurisdiction": "Oakland, CA",
+   "level": "city",
+   "instrument_status": "enacted",
+   "title": "Just Cause Ordinance amendment - nonpayment of rent threshold",
+   "requirement": "A landlord cannot evict a tenant for nonpayment of rent if the amount demanded is less than one month of fair market rent for a unit of equivalent size in the Oakland metro area as determined by HUD.",
+   "key_value": "one month's Fair Market Rent (HUD)",
+   "coverage_conditions": "Applies to rental units covered by the Oakland Just Cause for Eviction Ordinance.",
+   "exemptions": null,
+   "effective_date": null,
+   "enacted_date": null,
+   "penalty": null,
+   "citation": "Oakland Mun. Code § 8.22.360(A)(1)",
+   "quoted_span": "However, this subsection shall not constitute grounds for eviction where tenant has withheld rent pursuant to applicable law or where the amount of rent demanded is less than one month of fair market rent for a unit of equivalent size 7 3258377v2/BXS in the Oakland metro area as determined by the U.S. Department of Housing and Urban Development.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.85,
+   "passage_id": "P5"
+  }
+ ],
+ "no_rule_finding": null
+}

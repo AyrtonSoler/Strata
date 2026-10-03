@@ -1,0 +1,264 @@
+{
+ "groups": [
+  {
+   "member_ids": [
+    "c0061",
+    "c0063"
+   ],
+   "primary_id": "c0061",
+   "canonical_citation": "N.J.S.A. 2A:18-61.1 et seq. (including N.J.S.A. 2A:18-61.31)",
+   "effective_date": null,
+   "instrument_status": "enacted",
+   "conflict_flag": true,
+   "conflict_note": "State law only bars rent increases that are 'unconscionable' and defers to municipal rent control ordinances for specific numeric caps; applicability overlaps with local rent control schemes.",
+   "interaction": "Where a municipality has its own rent control ordinance, the local numeric cap applies; this state provision supplies only a baseline 'unconscionable' standard and a condo-conversion increase bar for uncovered units.",
+   "yields_to_local": true
+  },
+  {
+   "member_ids": [
+    "c0057",
+    "c0065",
+    "c0066",
+    "c0141",
+    "c0142"
+   ],
+   "primary_id": "c0141",
+   "canonical_citation": "N.J.S.A. 2A:18-61.1 et seq. (Anti-Eviction Act)",
+   "effective_date": null,
+   "instrument_status": "enacted",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": "Applies statewide as the baseline just-cause framework; municipalities may have supplementary but not conflicting local just-cause rules.",
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0067"
+   ],
+   "primary_id": "c0067",
+   "canonical_citation": "N.J.S.A. 2A:42-10.10",
+   "effective_date": null,
+   "instrument_status": "enacted",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": null,
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0068",
+    "c0143"
+   ],
+   "primary_id": "c0143",
+   "canonical_citation": "N.J.S.A. 2A:50-69 et seq. (Foreclosure Fairness Act)",
+   "effective_date": null,
+   "instrument_status": "enacted",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": null,
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0069"
+   ],
+   "primary_id": "c0069",
+   "canonical_citation": "N.J.S.A. 2A:18-61.22 to -61.39 (Senior Citizens and Disabled Protected Tenancy Act)",
+   "effective_date": null,
+   "instrument_status": "enacted",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": null,
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0058",
+    "c0059",
+    "c0144",
+    "c0145",
+    "c0146"
+   ],
+   "primary_id": "c0144",
+   "canonical_citation": "N.J.S.A. 46:8-21 et seq. (including 46:8-21.2, 46:8-21.4)",
+   "effective_date": null,
+   "instrument_status": "enacted",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": null,
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0056",
+    "c0147"
+   ],
+   "primary_id": "c0056",
+   "canonical_citation": "N.J.S.A. 46:8-18.1",
+   "effective_date": "2026-05-01",
+   "instrument_status": "enacted",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": null,
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0055",
+    "c0148"
+   ],
+   "primary_id": "c0055",
+   "canonical_citation": "N.J.S.A. 46:8-52 et seq. (P.L.2021, c.110) (Fair Chance in Housing Act)",
+   "effective_date": "2022-01-01",
+   "instrument_status": "enacted",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": null,
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0060",
+    "c0070",
+    "c0149"
+   ],
+   "primary_id": "c0060",
+   "canonical_citation": "N.J.S.A. 10:5-12(g)-(h); N.J.S.A. 10:5-5(n) (NJ Law Against Discrimination)",
+   "effective_date": null,
+   "instrument_status": "enacted",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": null,
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0071",
+    "c0114",
+    "c0150"
+   ],
+   "primary_id": "c0071",
+   "canonical_citation": "P.L.2026, c.43 (C.56:9-20 to 56:9-26) (FAIR Act)",
+   "effective_date": "2027-07-01",
+   "instrument_status": "enacted",
+   "conflict_flag": true,
+   "conflict_note": "The Act's section 6(b) bars municipalities from enacting conflicting ordinances, which may preempt existing city algorithmic-pricing bans (e.g., Jersey City, Hoboken) once effective.",
+   "interaction": "May preempt or override city-level algorithmic rent-pricing ordinances once it takes effect on 2027-07-01.",
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0032",
+    "c0187"
+   ],
+   "primary_id": "c0187",
+   "canonical_citation": "Jersey City Code ch. 260",
+   "effective_date": null,
+   "instrument_status": "enacted",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": "State 'unconscionable' rent-increase standard yields to this local rent control cap for covered units.",
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0107",
+    "c0188"
+   ],
+   "primary_id": "c0188",
+   "canonical_citation": "Jersey City Code § 218-12",
+   "effective_date": "2025-06",
+   "instrument_status": "enacted",
+   "conflict_flag": true,
+   "conflict_note": "The state FAIR Act (P.L.2026, c.43) may preempt this local ordinance once it becomes effective in 2027.",
+   "interaction": "May be preempted by the state FAIR Act once that law takes effect.",
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0101",
+    "c0102",
+    "c0103",
+    "c0104",
+    "c0189"
+   ],
+   "primary_id": "c0101",
+   "canonical_citation": "Hoboken Code ch. 155, Art. II",
+   "effective_date": "1985-10-01",
+   "instrument_status": "enacted",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": "State 'unconscionable' rent-increase standard yields to this local rent control formula for covered units.",
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0106",
+    "c0190"
+   ],
+   "primary_id": "c0190",
+   "canonical_citation": "Hoboken Code ch. 158, Art. II (Ord. No. B-781)",
+   "effective_date": "2025-07-09",
+   "instrument_status": "enacted",
+   "conflict_flag": true,
+   "conflict_note": "The state FAIR Act (P.L.2026, c.43) may preempt this local ordinance once it becomes effective in 2027.",
+   "interaction": "May be preempted by the state FAIR Act once that law takes effect.",
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0105",
+    "c0191"
+   ],
+   "primary_id": "c0191",
+   "canonical_citation": "Hoboken Code ch. 158, Art. I (Ord. No. B-750)",
+   "effective_date": "2025-04-02",
+   "instrument_status": "enacted",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": null,
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0115",
+    "c0116",
+    "c0117",
+    "c0118",
+    "c0119",
+    "c0120",
+    "c0121",
+    "c0122",
+    "c0123",
+    "c0124",
+    "c0192"
+   ],
+   "primary_id": "c0192",
+   "canonical_citation": "Newark, NJ Code § 19:2-9 et seq. (Rent Control Ordinance)",
+   "effective_date": "2024-09-18",
+   "instrument_status": "enacted",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": "State 'unconscionable' rent-increase standard yields to this local rent control cap for covered units.",
+   "yields_to_local": false
+  },
+  {
+   "member_ids": [
+    "c0125",
+    "c0193"
+   ],
+   "primary_id": "c0193",
+   "canonical_citation": "Newark, NJ Code ch. 2, Art. I (§ 2:31 et seq.)",
+   "effective_date": "2015-04-15",
+   "instrument_status": "enacted",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": null,
+   "yields_to_local": false
+  }
+ ],
+ "reject_ids": [],
+ "no_rule_ids": [
+  "c0062"
+ ]
+}

@@ -39,7 +39,11 @@ def status_as_of(rule: dict, as_of: dt.date) -> str:
 
 
 def jurisdiction_stack(addr: dict) -> list[str]:
+    """State, county and city layers. The corpus has no county-level rules, but
+    the county is resolved and shown so the stack is complete."""
     stack = [addr["jurisdiction_state"]]
+    if addr.get("jurisdiction_county"):
+        stack.append(f"{addr['jurisdiction_county']}, {addr['jurisdiction_state']}")
     if addr.get("jurisdiction_city"):
         stack.append(addr["jurisdiction_city"])
     return stack
@@ -53,94 +57,107 @@ def _units_text(addr: dict) -> str:
     return "unit count not in data"
 
 
-def evaluate_coverage(rule: dict, addr: dict, as_of: dt.date) -> tuple[str, list[str]]:
-    """Return ('covered' | 'not_covered' | 'unknown', reasons)."""
+def evaluate_coverage(rule: dict, addr: dict, as_of: dt.date) -> tuple[str, list[str], list[dict]]:
+    """Return ('covered' | 'not_covered' | 'unknown', reasons, structured checks)."""
     cov = rule.get("coverage") or {}
     units, umin = addr.get("units"), addr.get("units_min")
     year = addr.get("year_built")
-    verdicts: list[tuple[str, str]] = []
+    # Upper bound only (e.g. assessor effective year): can prove "old enough", never "too new".
+    ymax = addr.get("year_built_max") if year is None else None
+    verdicts: list[tuple[str, str, str]] = []
 
     if cov.get("min_units"):
         n = cov["min_units"]
         if units is not None:
-            verdicts.append(("covered" if units >= n else "not_covered", f"needs {n}+ units; building has {units}"))
+            verdicts.append(("covered" if units >= n else "not_covered", f"needs {n}+ units; building has {units}", "Minimum units"))
         elif umin and umin >= n:
-            verdicts.append(("covered", f"needs {n}+ units; building has {_units_text(addr)}"))
+            verdicts.append(("covered", f"needs {n}+ units; building has {_units_text(addr)}", "Minimum units"))
         else:
-            verdicts.append(("unknown", f"needs {n}+ units; {_units_text(addr)}"))
+            verdicts.append(("unknown", f"needs {n}+ units; {_units_text(addr)}", "Minimum units"))
 
     if cov.get("max_units"):
         n = cov["max_units"]
         if units is not None:
-            verdicts.append(("covered" if units <= n else "not_covered", f"covers buildings of at most {n} units; building has {units}"))
+            verdicts.append(("covered" if units <= n else "not_covered", f"covers buildings of at most {n} units; building has {units}", "Maximum units"))
         elif umin and umin > n:
-            verdicts.append(("not_covered", f"covers buildings of at most {n} units; building has {_units_text(addr)}"))
+            verdicts.append(("not_covered", f"covers buildings of at most {n} units; building has {_units_text(addr)}", "Maximum units"))
         else:
-            verdicts.append(("unknown", f"covers buildings of at most {n} units; {_units_text(addr)}"))
+            verdicts.append(("unknown", f"covers buildings of at most {n} units; {_units_text(addr)}", "Maximum units"))
 
     basis = cov.get("age_cutoff_basis") or "year_built"
     basis_txt = "certificate of occupancy" if basis == "certificate_of_occupancy" else "construction"
     cutoff = parse_date(cov.get("built_on_or_before"))
     if cutoff:
-        if year is None:
-            verdicts.append(("unknown", f"covers buildings with {basis_txt} on or before {cutoff}; year built not in data"))
+        if year is None and ymax and ymax < cutoff.year:
+            verdicts.append(("covered", f"parcel data shows it was built in or before {ymax}, before the {cutoff} {basis_txt} cutoff", "Built on or before cutoff"))
+        elif year is None:
+            verdicts.append(("unknown", f"covers buildings with {basis_txt} on or before {cutoff}; year built not in data", "Built on or before cutoff"))
         elif year < cutoff.year:
-            verdicts.append(("covered", f"built {year}, before the {cutoff} {basis_txt} cutoff"))
+            verdicts.append(("covered", f"built {year}, before the {cutoff} {basis_txt} cutoff", "Built on or before cutoff"))
         elif year > cutoff.year:
-            verdicts.append(("not_covered", f"built {year}, after the {cutoff} {basis_txt} cutoff"))
+            verdicts.append(("not_covered", f"built {year}, after the {cutoff} {basis_txt} cutoff", "Built on or before cutoff"))
         elif basis == "year_built" and cutoff.month == 12 and cutoff.day == 31:
-            verdicts.append(("covered", f"built {year}, within the cutoff year"))
+            verdicts.append(("covered", f"built {year}, within the cutoff year", "Built on or before cutoff"))
         else:
-            verdicts.append(("unknown", f"built {year}, the cutoff year; {basis_txt} date ({cutoff}) not in data"))
+            verdicts.append(("unknown", f"built {year}, the cutoff year; {basis_txt} date ({cutoff}) not in data", "Built on or before cutoff"))
 
     after = parse_date(cov.get("built_after"))
     if after:
-        if year is None:
-            verdicts.append(("unknown", f"covers buildings with {basis_txt} after {after}; year built not in data"))
+        if year is None and ymax and ymax < after.year:
+            verdicts.append(("not_covered", f"parcel data shows it was built in or before {ymax}, not after {after}", "Built after cutoff"))
+        elif year is None:
+            verdicts.append(("unknown", f"covers buildings with {basis_txt} after {after}; year built not in data", "Built after cutoff"))
         elif year > after.year:
-            verdicts.append(("covered", f"built {year}, after {after}"))
+            verdicts.append(("covered", f"built {year}, after {after}", "Built after cutoff"))
         elif year < after.year:
-            verdicts.append(("not_covered", f"built {year}, before {after}"))
+            verdicts.append(("not_covered", f"built {year}, before {after}", "Built after cutoff"))
         else:
-            verdicts.append(("unknown", f"built {year}, the cutoff year; exact date not in data"))
+            verdicts.append(("unknown", f"built {year}, the cutoff year; exact date not in data", "Built after cutoff"))
 
     k = cov.get("exclude_if_newer_than_years")
     if k:
-        if year is None:
-            verdicts.append(("unknown", f"excludes housing newer than {k} years; year built not in data"))
+        if year is None and ymax and as_of.year - ymax > k:
+            verdicts.append(("covered", f"parcel data shows it was built in or before {ymax}, so it is older than the {k}-year new-construction exemption", "New-construction exemption"))
+        elif year is None:
+            verdicts.append(("unknown", f"excludes housing newer than {k} years; year built not in data", "New-construction exemption"))
         else:
             age = as_of.year - year
             if age > k:
-                verdicts.append(("covered", f"built {year} ({age} years old), not within the {k}-year new-construction exemption"))
+                verdicts.append(("covered", f"built {year} ({age} years old), not within the {k}-year new-construction exemption", "New-construction exemption"))
             elif age < k - 1:
-                verdicts.append(("not_covered", f"built {year}, within the {k}-year new-construction exemption"))
+                verdicts.append(("not_covered", f"built {year}, within the {k}-year new-construction exemption", "New-construction exemption"))
             else:
-                verdicts.append(("unknown", f"built {year}, at the edge of the {k}-year new-construction exemption"))
+                verdicts.append(("unknown", f"built {year}, at the edge of the {k}-year new-construction exemption", "New-construction exemption"))
 
     owner_n = cov.get("owner_exemption_max_units")
     if owner_n:
         if units is not None and units <= owner_n:
-            verdicts.append(("unknown", f"owner-based exemption possible for buildings of {owner_n} or fewer units; owner type not in data"))
+            verdicts.append(("unknown", f"owner-based exemption possible for buildings of {owner_n} or fewer units; owner type not in data", "Owner-type exemption"))
         elif units is None and not (umin and umin > owner_n):
-            verdicts.append(("unknown", f"owner-based exemption possible for {owner_n} or fewer units; {_units_text(addr)}, owner type not in data"))
+            verdicts.append(("unknown", f"owner-based exemption possible for {owner_n} or fewer units; {_units_text(addr)}, owner type not in data", "Owner-type exemption"))
         else:
-            verdicts.append(("covered", f"owner-based exemption limited to {owner_n} or fewer units cannot apply"))
+            verdicts.append(("covered", f"owner-based exemption limited to {owner_n} or fewer units cannot apply", "Owner-type exemption"))
     if cov.get("owner_exemption_any_size"):
-        verdicts.append(("unknown", "coverage depends on owner type, which is not in the data"))
+        verdicts.append(("unknown", "coverage depends on owner type, which is not in the data", "Owner-type exemption"))
 
     factor = cov.get("other_unknown_factor")
     if factor and re.search(r"subsidi|affordable|deed", factor, re.I) and \
             re.search(r"SUBSD|AFFORD", addr.get("use_description", ""), re.I):
-        verdicts.append(("unknown", f"record flags subsidized/affordable housing; {factor}"))
+        verdicts.append(("unknown", f"record flags subsidized/affordable housing; {factor}", "Subsidized housing"))
 
-    if any(v == "not_covered" for v, _ in verdicts):
-        return "not_covered", [r for v, r in verdicts if v == "not_covered"]
-    if any(v == "unknown" for v, _ in verdicts):
-        return "unknown", [r for v, r in verdicts if v == "unknown"]
-    reasons = [r for _, r in verdicts] or ["covers all residential rentals in this jurisdiction"]
+    checks = [{"test": t, "outcome": {"covered": "met", "not_covered": "not_met", "unknown": "unknown"}[v],
+               "detail": r[0].upper() + r[1:]} for v, r, t in verdicts]
+    if any(v == "not_covered" for v, _, _ in verdicts):
+        return "not_covered", [r for v, r, _ in verdicts if v == "not_covered"], checks
+    if any(v == "unknown" for v, _, _ in verdicts):
+        return "unknown", [r for v, r, _ in verdicts if v == "unknown"], checks
+    reasons = [r for _, r, _ in verdicts] or ["covers all residential rentals in this jurisdiction"]
+    if not verdicts:
+        checks.append({"test": "Coverage", "outcome": "met",
+                       "detail": "The rule covers all residential rentals in this jurisdiction"})
     if factor:
         reasons.append(f"caveat: {factor}")
-    return "covered", reasons
+    return "covered", reasons, checks
 
 
 def lookup(addr: dict, rules: list[dict], as_of: dt.date) -> list[dict]:
@@ -152,7 +169,7 @@ def lookup(addr: dict, rules: list[dict], as_of: dt.date) -> list[dict]:
         status = status_as_of(rule, as_of)
         if status == "failed":
             continue
-        cov, reasons = evaluate_coverage(rule, addr, as_of)
+        cov, reasons, checks = evaluate_coverage(rule, addr, as_of)
         if cov == "not_covered":
             continue
         layer = "state law" if rule["level"] == "state" else f"{rule['jurisdiction']} ordinance"
@@ -168,7 +185,8 @@ def lookup(addr: dict, rules: list[dict], as_of: dt.date) -> list[dict]:
             result = "applies" if cov == "covered" else "unknown"
             expl = f"{layer[0].upper() + layer[1:]} in force. {why}."
         rows.append({"team_rule_id": rule["team_rule_id"], "result": result, "explanation": expl,
-                     "conflict_flag": bool(rule.get("conflict_flag")), "_rule": rule})
+                     "conflict_flag": bool(rule.get("conflict_flag")), "_rule": rule,
+                     "_checks": checks, "_status": status})
 
     # Supersession: a state rule that yields to local law of the same category.
     for row in rows:
@@ -202,4 +220,5 @@ def lookup(addr: dict, rules: list[dict], as_of: dt.date) -> list[dict]:
 
 
 def public_rows(rows: list[dict]) -> list[dict]:
-    return [{k: v for k, v in r.items() if k != "_rule"} for r in rows]
+    """Rows in the official lookups.json shape (internal audit fields dropped)."""
+    return [{k: v for k, v in r.items() if not k.startswith("_")} for r in rows]

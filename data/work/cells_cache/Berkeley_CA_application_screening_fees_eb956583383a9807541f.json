@@ -1,0 +1,68 @@
+{
+ "cell_status": "rules_found",
+ "rules": [
+  {
+   "category": "application_screening_fees",
+   "jurisdiction": "Berkeley, CA",
+   "level": "city",
+   "instrument_status": "enacted",
+   "title": "Notification of state law limitation on tenant screening fees",
+   "requirement": "When a Berkeley landlord charges a fee to run a credit check or process a rental application, they must give the applicant a clear disclosure of their screening fee rights and of the maximum fee cap under state law.",
+   "key_value": null,
+   "coverage_conditions": "Applies to owners or agents who charge a tenant screening fee when processing a rental application in Berkeley.",
+   "exemptions": null,
+   "effective_date": null,
+   "enacted_date": null,
+   "penalty": null,
+   "citation": "Berkeley Mun. Code § 13.78.010",
+   "quoted_span": "When an owner or the owner’s agent gets a request to rent residential property in Berkeley from an applicant and the owner charges a fee to purchase a consumer credit report and to validate, review, or otherwise process an application, the owner must provide, either in the rental application or in a separate disclosure before receiving the fee, a clear and conspicuous tenant screening fee rights statement and a statement of the maximum fee cap permitted under California Civil Code Section 1950.6(b).",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.85,
+   "passage_id": "P2"
+  },
+  {
+   "category": "application_screening_fees",
+   "jurisdiction": "Berkeley, CA",
+   "level": "city",
+   "instrument_status": "enacted",
+   "title": "Prohibition of non-refundable application fees associated with existing tenancies",
+   "requirement": "Berkeley landlords may not charge an existing tenant a non-refundable fee to renew a tenancy, including fees related to a roommate leaving or being added.",
+   "key_value": null,
+   "coverage_conditions": "Applies to residential rental properties with existing tenancies in Berkeley.",
+   "exemptions": null,
+   "effective_date": null,
+   "enacted_date": null,
+   "penalty": null,
+   "citation": "Berkeley Mun. Code § 13.78.016",
+   "quoted_span": "An owner of residential rental property (or the owner’s agent) cannot charge a non-refundable fee to any existing tenant for the purpose of renewing a tenancy, in whole or in part, including any fee associated with the departure of a roommate or to request to add or replace a roommate in a pre-existing household.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.85,
+   "passage_id": "P3"
+  }
+ ],
+ "no_rule_finding": null
+}

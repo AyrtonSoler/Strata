@@ -1,0 +1,37 @@
+{
+ "cell_status": "rules_found",
+ "rules": [
+  {
+   "category": "screening_restrictions",
+   "jurisdiction": "Los Angeles, CA",
+   "level": "city",
+   "instrument_status": "enacted",
+   "title": "Source of Income Discrimination Prohibition",
+   "requirement": "Landlords in Los Angeles cannot refuse to rent, renew, or continue renting to a tenant based on their source of income, including housing assistance payments like vouchers.",
+   "key_value": null,
+   "coverage_conditions": "Applies to any housing accommodation offered for rent in the City of Los Angeles.",
+   "exemptions": null,
+   "effective_date": null,
+   "enacted_date": null,
+   "penalty": null,
+   "citation": "L.A.M.C. § 45.67",
+   "quoted_span": "Based upon a person’s source of income, refuse to rent or lease, or to continue to rent or lease, a housing accommodation; refuse to enter into or renew a rental agreement, lease or housing assistance payment contract; refuse to execute any documents required to enter into or renew a rental agreement, lease or housing assistance payment contract; serve a notice of termination of tenancy; seek to terminate or terminate a tenancy; or otherwise deny or withhold, a housing accommodation or housing services or amenities.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.85,
+   "passage_id": "P7"
+  }
+ ],
+ "no_rule_finding": null
+}

@@ -1,0 +1,37 @@
+{
+ "cell_status": "rules_found",
+ "rules": [
+  {
+   "category": "algorithmic_rent_setting",
+   "jurisdiction": "Cambridge, MA",
+   "level": "city",
+   "instrument_status": "pending",
+   "title": "Policy order to ban algorithmic rent-setting software",
+   "requirement": "The city council passed a policy order to begin the process of banning residential property management companies from using algorithmic or AI-driven pricing software to set rents.",
+   "key_value": null,
+   "coverage_conditions": "Residential property management companies in Cambridge",
+   "exemptions": null,
+   "effective_date": null,
+   "enacted_date": null,
+   "penalty": null,
+   "citation": "Cambridge City Council Policy Order (2026)",
+   "quoted_span": "City council also unanimously passed a policy order initiating steps to ban residential property management companies from contracting companies that use algorithmic and AI-driven models to recommend what they should charge for rent.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": false
+   },
+   "conflict_note": "This is a policy order initiating steps toward a ban, not yet an enacted ordinance; actual ordinance text and effective date not yet available.",
+   "confidence": 0.55,
+   "passage_id": "P8"
+  }
+ ],
+ "no_rule_finding": null
+}

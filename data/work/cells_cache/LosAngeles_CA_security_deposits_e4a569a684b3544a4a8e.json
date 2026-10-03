@@ -1,0 +1,37 @@
+{
+ "cell_status": "rules_found",
+ "rules": [
+  {
+   "category": "security_deposits",
+   "jurisdiction": "Los Angeles, CA",
+   "level": "city",
+   "instrument_status": "enacted",
+   "title": "RSO Security Deposit Interest Requirement",
+   "requirement": "Landlords of rent-stabilized units in Los Angeles must pay tenants interest on security deposits, either as a direct payment or a rent credit, paid monthly or annually, with written notice to tenants of the chosen method.",
+   "key_value": "Interest at rate set annually by the City",
+   "coverage_conditions": "Applies to rental units subject to the Los Angeles Rent Stabilization Ordinance (RSO/Rent Control)",
+   "exemptions": null,
+   "effective_date": "1990-11-01",
+   "enacted_date": null,
+   "penalty": "Non-compliance can be used as a defense in eviction proceedings, resulting in loss of eviction cases and other legal complications.",
+   "citation": "L.A.M.C. § 151.06.02",
+   "quoted_span": "Interest shall begin accruing on November 1, 1990, on a monthly basis. A tenant shall be given the unpaid accrued interest in the form of either a direct payment or a credit against the tenant\\u2019s rent. The landlord shall choose between these two methods of payment and notify the tenant in writing of his or her choice. The landlord may elect to pay the accrued interest on a monthly or yearly basis.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": "Whether the unit is subject to the Los Angeles Rent Stabilization Ordinance (RSO)",
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.8,
+   "passage_id": "P9"
+  }
+ ],
+ "no_rule_finding": null
+}

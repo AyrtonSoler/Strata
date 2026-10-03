@@ -11,6 +11,7 @@ frontend/node_modules
 # Not needed at runtime / not ours to redistribute
 docs
 data/extra/*.txt
+!data/extra/O*.txt
 data/drive_latest
 data/rehearsal
 data/work/extract_cache

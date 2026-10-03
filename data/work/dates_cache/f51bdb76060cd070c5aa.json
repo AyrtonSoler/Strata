@@ -1,0 +1,169 @@
+{
+ "items": [
+  {
+   "id": "r-0001",
+   "prior_version_in_force": true,
+   "reason": "Annual adjustment/figure under long-standing rent cap statute (AB 1482)."
+  },
+  {
+   "id": "r-0002",
+   "prior_version_in_force": true,
+   "reason": "Part of established Tenant Protection Act just cause regime, recodification/ongoing requirement."
+  },
+  {
+   "id": "r-0003",
+   "prior_version_in_force": true,
+   "reason": "Existing deposit cap statute, effective date reflects amendment/codification not new requirement."
+  },
+  {
+   "id": "r-0004",
+   "prior_version_in_force": true,
+   "reason": "Existing screening fee cap statute with annual CPI adjustment."
+  },
+  {
+   "id": "r-0005",
+   "prior_version_in_force": false,
+   "reason": "Newly enacted regulations on criminal history screening, first effective 2020."
+  },
+  {
+   "id": "r-0006",
+   "prior_version_in_force": true,
+   "reason": "Existing source-of-income/credit history protections, amendment effective date."
+  },
+  {
+   "id": "r-0007",
+   "prior_version_in_force": false,
+   "reason": "New ban on algorithmic pricing software under Cartwright Act amendment."
+  },
+  {
+   "id": "r-0008",
+   "prior_version_in_force": true,
+   "reason": "Annual adjustment of existing rent ceiling program."
+  },
+  {
+   "id": "r-0013",
+   "prior_version_in_force": false,
+   "reason": "New prohibition on algorithmic pricing software in Berkeley."
+  },
+  {
+   "id": "r-0014",
+   "prior_version_in_force": true,
+   "reason": "Annual allowable increase update under existing RSO."
+  },
+  {
+   "id": "r-0016",
+   "prior_version_in_force": true,
+   "reason": "Original effective date of ongoing interest requirement, long-standing requirement."
+  },
+  {
+   "id": "r-0018",
+   "prior_version_in_force": false,
+   "reason": "New just cause eviction ordinance enactment."
+  },
+  {
+   "id": "r-0019",
+   "prior_version_in_force": false,
+   "reason": "New prohibition on algorithmic rent pricing in San Diego."
+  },
+  {
+   "id": "r-0020",
+   "prior_version_in_force": true,
+   "reason": "Annual rent increase percentage update under existing rent ordinance."
+  },
+  {
+   "id": "r-0022",
+   "prior_version_in_force": true,
+   "reason": "Annual interest rate update under existing deposit interest program."
+  },
+  {
+   "id": "r-0024",
+   "prior_version_in_force": false,
+   "reason": "New prohibition on algorithmic rent-setting tools in San Francisco."
+  },
+  {
+   "id": "r-0025",
+   "prior_version_in_force": false,
+   "reason": "New rent stabilization ordinance enactment."
+  },
+  {
+   "id": "r-0026",
+   "prior_version_in_force": false,
+   "reason": "New just cause eviction ordinance enactment."
+  },
+  {
+   "id": "r-0028",
+   "prior_version_in_force": false,
+   "reason": "New algorithmic rent-setting software ban."
+  },
+  {
+   "id": "r-0031",
+   "prior_version_in_force": true,
+   "reason": "Long-standing security deposit statute, effective date reflects later version/amendment."
+  },
+  {
+   "id": "r-0032",
+   "prior_version_in_force": true,
+   "reason": "Existing broker licensing requirement for rental fees, long-standing law."
+  },
+  {
+   "id": "r-0033",
+   "prior_version_in_force": true,
+   "reason": "Part of long-standing security deposit statute scheme."
+  },
+  {
+   "id": "r-0038",
+   "prior_version_in_force": false,
+   "reason": "New ordinance establishing tenant notification requirement."
+  },
+  {
+   "id": "r-0040",
+   "prior_version_in_force": false,
+   "reason": "New policy introduced in 2017 for fair chance tenant selection."
+  },
+  {
+   "id": "r-0049",
+   "prior_version_in_force": false,
+   "reason": "New statutory cap on application fees."
+  },
+  {
+   "id": "r-0051",
+   "prior_version_in_force": false,
+   "reason": "New Fair Chance in Housing Act enactment."
+  },
+  {
+   "id": "r-0052",
+   "prior_version_in_force": false,
+   "reason": "New law banning algorithmic rent-setting tools."
+  },
+  {
+   "id": "r-0053",
+   "prior_version_in_force": true,
+   "reason": "Long-standing rent control ordinance with original effective date."
+  },
+  {
+   "id": "r-0054",
+   "prior_version_in_force": false,
+   "reason": "New disclosure requirement regarding algorithmic pricing."
+  },
+  {
+   "id": "r-0055",
+   "prior_version_in_force": false,
+   "reason": "New prohibition on algorithmic rent price fixing."
+  },
+  {
+   "id": "r-0057",
+   "prior_version_in_force": false,
+   "reason": "New algorithmic rent coordination ban."
+  },
+  {
+   "id": "r-0058",
+   "prior_version_in_force": true,
+   "reason": "Existing rent control ordinance, effective date reflects amendment/cap update."
+  },
+  {
+   "id": "r-0059",
+   "prior_version_in_force": false,
+   "reason": "New criminal history screening restriction enactment."
+  }
+ ]
+}

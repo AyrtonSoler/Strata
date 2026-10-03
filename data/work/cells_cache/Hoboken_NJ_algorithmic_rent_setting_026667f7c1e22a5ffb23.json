@@ -1,0 +1,68 @@
+{
+ "cell_status": "rules_found",
+ "rules": [
+  {
+   "category": "algorithmic_rent_setting",
+   "jurisdiction": "Hoboken, NJ",
+   "level": "city",
+   "instrument_status": "enacted",
+   "title": "Prohibition on Algorithmic Rent Price Fixing",
+   "requirement": "Landlords in Hoboken may not use software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information in order to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels with other landlords.",
+   "key_value": null,
+   "coverage_conditions": "Applies to landlords of any residential dwelling unit (primary residence) in the City of Hoboken, excluding medical/long-term care or detention facilities.",
+   "exemptions": "Medical/long-term care or detention facilities are excluded from the definition of residential dwelling unit.",
+   "effective_date": "2025-07-09",
+   "enacted_date": "2025-07-09",
+   "penalty": "Upon conviction, penalties under N.J.S.A. 40:49-5, or a fine not exceeding $2,000, or community service not exceeding 90 days.",
+   "citation": "Hoboken Code ch. 158, Art. II (Ord. No. B-781)",
+   "quoted_span": "Prohibited conduct. Landlords who rent any residential dwelling unit (defined as any primary residence excluding medical/long-term care or detention facilities) in the City of Hoboken are prohibited from price fixing using algorithmic pricing.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.9,
+   "passage_id": "P2"
+  },
+  {
+   "category": "algorithmic_rent_setting",
+   "jurisdiction": "Hoboken, NJ",
+   "level": "city",
+   "instrument_status": "enacted",
+   "title": "Rent Increase Disclosure Regarding Algorithmic Pricing",
+   "requirement": "Landlords who raise rent more than 10% upon lease renewal must disclose to tenants whether a rent algorithm was used to determine the increase, among other required disclosures.",
+   "key_value": "10% increase threshold triggers disclosure",
+   "coverage_conditions": "Applies to all residential landlords seeking to increase rent by more than 10% upon renewal with a current tenant year over year.",
+   "exemptions": null,
+   "effective_date": "2025-04-02",
+   "enacted_date": "2025-04-02",
+   "penalty": "Fine not exceeding $1,000 per incident for failure to provide required disclosures.",
+   "citation": "Hoboken Code ch. 158, Art. I (Ord. No. B-750)",
+   "quoted_span": "All residential landlords seeking to increase rent by more than 10% upon a renewal of a lease with a current tenant year over year shall be required to make the following disclosures to existing tenants either in the lease upon renewal (must be clearly indicated on the first page) or on a form provided by the Hoboken Division of Housing prior to the increase being implemented",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.8,
+   "passage_id": "P4"
+  }
+ ],
+ "no_rule_finding": null
+}

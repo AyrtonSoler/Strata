@@ -1,0 +1,37 @@
+{
+ "cell_status": "rules_found",
+ "rules": [
+  {
+   "category": "algorithmic_rent_setting",
+   "jurisdiction": "Santa Ana, CA",
+   "level": "city",
+   "instrument_status": "enacted",
+   "title": "Algorithmic Rent-Setting Software Ban",
+   "requirement": "Landlords and rental housing providers in Santa Ana are prohibited from selling, licensing, or using algorithmic rent-setting software that relies on nonpublic competitor data (like real-time rents, lease renewals, and occupancy) to set rental prices.",
+   "key_value": "Ban on algorithmic devices; up to $1,000 civil penalty per violation",
+   "coverage_conditions": "Applies to residential rental property within Santa Ana city limits; does not apply to software relying solely on publicly available or aggregate historical data, or tools used to comply with affordable housing program requirements.",
+   "exemptions": "Pricing software that relies solely on publicly available data, aggregate historical data, or tools used to comply with affordable housing program requirements.",
+   "effective_date": "2026-03-03",
+   "enacted_date": "2026-03-03",
+   "penalty": "Civil penalties of up to $1,000 per violation, plus injunctive relief, damages, and attorney's fees; landlords caught using banned software could be fined $1,000.",
+   "citation": "Santa Ana Mun. Code (Algorithmic Rent-Setting Ordinance, 2026)",
+   "quoted_span": "The ordinance, approved on Tuesday, Feb. 17, for a first reading and set for a final vote on March 3, prohibits the sale, licensing, provision and use of certain algorithmic rent-setting software for residential rental properties.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": "whether the software relies solely on publicly available or aggregate historical data, or is used for affordable housing compliance",
+    "yields_to_local": false
+   },
+   "conflict_note": "Secondary sources differ slightly on exact effective date: one source implies the ordinance took effect upon final vote (March 3, 2026), another (OCBJ) is dated March 9, 2026 describing 'Tuesday's vote' as final; exact effective date not independently confirmed by official text.",
+   "confidence": 0.72,
+   "passage_id": "P7"
+  }
+ ],
+ "no_rule_finding": null
+}

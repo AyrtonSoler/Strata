@@ -12,6 +12,25 @@ export interface AddressHit {
   units_min: number | null
 }
 
+export interface Check {
+  test: string
+  outcome: 'met' | 'not_met' | 'unknown'
+  detail: string
+}
+
+export interface AuditBlock {
+  as_of: string
+  source: { doc_id: string | null; url: string; retrieved_at: string | null; type: string | null; official_corpus: boolean }
+  status_reason: string
+  facts_used: { year_built: number | null; units: number | null; units_min: number | null; units_basis: string; use: string }
+  checks: Check[]
+  ai_steps: string[]
+  code_steps: string[]
+  boundary: string[]
+  confidence: number | null
+  confidence_signals: string[]
+}
+
 export interface ResultItem {
   team_rule_id: string
   result: Result
@@ -38,6 +57,8 @@ export interface ResultItem {
   conflict_note: string | null
   interaction: string | null
   source_origin: string | null
+  penalty?: string | null
+  audit: AuditBlock
 }
 
 export interface LookupAnswer {

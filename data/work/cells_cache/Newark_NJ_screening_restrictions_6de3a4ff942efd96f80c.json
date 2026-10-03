@@ -1,0 +1,37 @@
+{
+ "cell_status": "rules_found",
+ "rules": [
+  {
+   "category": "screening_restrictions",
+   "jurisdiction": "Newark, NJ",
+   "level": "city",
+   "instrument_status": "enacted",
+   "title": "Newark Criminal History Screening Restrictions for Rental Housing",
+   "requirement": "Landlords and real estate brokers in Newark may not ask about or consider an applicant's criminal history until after a formal rental application has been submitted, and must give the applicant written notice and an opportunity to respond before running or acting on a criminal background check.",
+   "key_value": null,
+   "coverage_conditions": "Applies to any rental, lease, or sublease of real property in Newark where a landlord or real estate broker inquires into an applicant's criminal history.",
+   "exemptions": null,
+   "effective_date": "2015-04-15",
+   "enacted_date": "2015-04-15",
+   "penalty": null,
+   "citation": "Newark, NJ Code ch. 2, Art. I (§ 2:31 et seq.)",
+   "quoted_span": "Inquiry into and consideration of any applicant's criminal history shall take place only after the applicant has submitted a formal application. Notwithstanding the foregoing, if the applicant discloses any information regarding his or her criminal history by unsolicited voluntary written or oral disclosure, the landlord or real estate broker may discuss the criminal history disclosed by the applicant.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": false
+   },
+   "conflict_note": "Penalty amounts ($500 first violation, $1,000 subsequent) are stated under Article II which appears to govern City licensing applicants; it is unclear whether that penalty provision also applies to the rental-housing criminal history restrictions in Article I.",
+   "confidence": 0.65,
+   "passage_id": "P7"
+  }
+ ],
+ "no_rule_finding": null
+}

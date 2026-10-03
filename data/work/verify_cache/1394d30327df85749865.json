@@ -1,0 +1,100 @@
+{
+ "items": [
+  {
+   "id": "r-0025",
+   "requirement_supported": "yes",
+   "citation_consistent": "unclear",
+   "date_supported": "yes",
+   "status_supported": "yes",
+   "issue": "Citation is a generic reference to 'Rent Stabilization Ordinance' without a specific municipal code section number."
+  },
+  {
+   "id": "r-0026",
+   "requirement_supported": "yes",
+   "citation_consistent": "unclear",
+   "date_supported": "yes",
+   "status_supported": "yes",
+   "issue": "Citation lacks specific code section; effective date is inferred from repeated 'no later than Nov. 19, 2021' language rather than an explicit statement for this ordinance."
+  },
+  {
+   "id": "r-0027",
+   "requirement_supported": "yes",
+   "citation_consistent": "yes",
+   "date_supported": "not_stated",
+   "status_supported": "unclear",
+   "issue": "Category is mislabeled as 'security_deposits' though the rule concerns a registration fee pass-through, not a security deposit."
+  },
+  {
+   "id": "r-0028",
+   "requirement_supported": "yes",
+   "citation_consistent": "unclear",
+   "date_supported": "yes",
+   "status_supported": "no",
+   "issue": "Passage indicates the ordinance had only passed first reading with a final vote scheduled for March 3, so it was not yet enacted/final at time of reporting; citation is generic without a code section."
+  },
+  {
+   "id": "r-0029",
+   "requirement_supported": "yes",
+   "citation_consistent": "yes",
+   "date_supported": "not_stated",
+   "status_supported": "yes",
+   "issue": null
+  },
+  {
+   "id": "r-0030",
+   "requirement_supported": "yes",
+   "citation_consistent": "yes",
+   "date_supported": "not_stated",
+   "status_supported": "yes",
+   "issue": null
+  },
+  {
+   "id": "r-0031",
+   "requirement_supported": "yes",
+   "citation_consistent": "yes",
+   "date_supported": "not_stated",
+   "status_supported": "unclear",
+   "issue": "The provided passage excerpt does not explicitly show the 'effective August 1, 2025' language for this section, though it is referenced elsewhere in the source."
+  },
+  {
+   "id": "r-0032",
+   "requirement_supported": "yes",
+   "citation_consistent": "yes",
+   "date_supported": "yes",
+   "status_supported": "yes",
+   "issue": null
+  },
+  {
+   "id": "r-0033",
+   "requirement_supported": "yes",
+   "citation_consistent": "yes",
+   "date_supported": "yes",
+   "status_supported": "yes",
+   "issue": null
+  },
+  {
+   "id": "r-0034",
+   "requirement_supported": "yes",
+   "citation_consistent": "yes",
+   "date_supported": "not_stated",
+   "status_supported": "yes",
+   "issue": null
+  },
+  {
+   "id": "r-0035",
+   "requirement_supported": "yes",
+   "citation_consistent": "yes",
+   "date_supported": "not_stated",
+   "status_supported": "yes",
+   "issue": null
+  },
+  {
+   "id": "r-0036",
+   "requirement_supported": "yes",
+   "citation_consistent": "yes",
+   "date_supported": "not_stated",
+   "status_supported": "yes",
+   "issue": null
+  }
+ ]
+}

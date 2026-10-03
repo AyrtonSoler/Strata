@@ -1,0 +1,92 @@
+{
+ "items": [
+  {
+   "id": "r-0049",
+   "requirement_supported": "yes",
+   "citation_consistent": "yes",
+   "date_supported": "not_stated",
+   "status_supported": "yes",
+   "issue": "Passage does not state the specific effective date of 2026-05-01; it only shows the law was enacted (P.L. 2025, c.405) without a clear effective date clause."
+  },
+  {
+   "id": "r-0050",
+   "requirement_supported": "yes",
+   "citation_consistent": "yes",
+   "date_supported": "not_stated",
+   "status_supported": "yes",
+   "issue": null
+  },
+  {
+   "id": "r-0051",
+   "requirement_supported": "partial",
+   "citation_consistent": "yes",
+   "date_supported": "not_stated",
+   "status_supported": "yes",
+   "issue": "Passage supports the conditional-offer bar on criminal history inquiries but does not show the specific lookback limits (1-6 years) claimed in the requirement."
+  },
+  {
+   "id": "r-0052",
+   "requirement_supported": "yes",
+   "citation_consistent": "unclear",
+   "date_supported": "yes",
+   "status_supported": "yes",
+   "issue": "Passage does not explicitly display the citation 'P.L.2026, c.43', so citation accuracy cannot be confirmed from this passage alone."
+  },
+  {
+   "id": "r-0053",
+   "requirement_supported": "yes",
+   "citation_consistent": "unclear",
+   "date_supported": "not_stated",
+   "status_supported": "yes",
+   "issue": "Passage does not confirm the 1985-10-01 effective date; only later amendment dates are shown."
+  },
+  {
+   "id": "r-0054",
+   "requirement_supported": "yes",
+   "citation_consistent": "yes",
+   "date_supported": "yes",
+   "status_supported": "yes",
+   "issue": null
+  },
+  {
+   "id": "r-0055",
+   "requirement_supported": "yes",
+   "citation_consistent": "yes",
+   "date_supported": "yes",
+   "status_supported": "yes",
+   "issue": null
+  },
+  {
+   "id": "r-0056",
+   "requirement_supported": "partial",
+   "citation_consistent": "unclear",
+   "date_supported": "not_stated",
+   "status_supported": "yes",
+   "issue": "Passage confirms 1-4 unit exemption and registration for larger properties but does not specifically enumerate approved increase application types like capital improvement or hardship."
+  },
+  {
+   "id": "r-0057",
+   "requirement_supported": "yes",
+   "citation_consistent": "yes",
+   "date_supported": "yes",
+   "status_supported": "yes",
+   "issue": "Passage is a secondary summary list rather than the primary ordinance text, so direct verification of the code section's exact language is limited."
+  },
+  {
+   "id": "r-0058",
+   "requirement_supported": "yes",
+   "citation_consistent": "yes",
+   "date_supported": "yes",
+   "status_supported": "yes",
+   "issue": null
+  },
+  {
+   "id": "r-0059",
+   "requirement_supported": "yes",
+   "citation_consistent": "yes",
+   "date_supported": "yes",
+   "status_supported": "yes",
+   "issue": null
+  }
+ ]
+}

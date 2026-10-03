@@ -1,0 +1,100 @@
+{
+ "items": [
+  {
+   "id": "r-0037",
+   "requirement_supported": "yes",
+   "citation_consistent": "yes",
+   "date_supported": "not_stated",
+   "status_supported": "yes",
+   "issue": null
+  },
+  {
+   "id": "r-0038",
+   "requirement_supported": "yes",
+   "citation_consistent": "unclear",
+   "date_supported": "yes",
+   "status_supported": "yes",
+   "issue": "Passage does not confirm the specific ordinance section number § 10-11.7."
+  },
+  {
+   "id": "r-0039",
+   "requirement_supported": "yes",
+   "citation_consistent": "yes",
+   "date_supported": "not_stated",
+   "status_supported": "yes",
+   "issue": null
+  },
+  {
+   "id": "r-0040",
+   "requirement_supported": "yes",
+   "citation_consistent": "yes",
+   "date_supported": "yes",
+   "status_supported": "yes",
+   "issue": null
+  },
+  {
+   "id": "r-0041",
+   "requirement_supported": "yes",
+   "citation_consistent": "unclear",
+   "date_supported": "not_stated",
+   "status_supported": "unclear",
+   "issue": "Passage is a general FAQ page from the City website, not clearly the specific 'Fair Housing Regulations' document cited; no formal citation or effective date given."
+  },
+  {
+   "id": "r-0042",
+   "requirement_supported": "yes",
+   "citation_consistent": "unclear",
+   "date_supported": "not_stated",
+   "status_supported": "unclear",
+   "issue": "Passage references the Cambridge Fair Housing Ordinance generally but does not cite chapter 14.04 specifically."
+  },
+  {
+   "id": "r-0043",
+   "requirement_supported": "yes",
+   "citation_consistent": "yes",
+   "date_supported": "not_stated",
+   "status_supported": "yes",
+   "issue": null
+  },
+  {
+   "id": "r-0044",
+   "requirement_supported": "yes",
+   "citation_consistent": "yes",
+   "date_supported": "not_stated",
+   "status_supported": "yes",
+   "issue": null
+  },
+  {
+   "id": "r-0045",
+   "requirement_supported": "yes",
+   "citation_consistent": "yes",
+   "date_supported": "not_stated",
+   "status_supported": "yes",
+   "issue": null
+  },
+  {
+   "id": "r-0046",
+   "requirement_supported": "yes",
+   "citation_consistent": "yes",
+   "date_supported": "not_stated",
+   "status_supported": "yes",
+   "issue": null
+  },
+  {
+   "id": "r-0047",
+   "requirement_supported": "yes",
+   "citation_consistent": "yes",
+   "date_supported": "not_stated",
+   "status_supported": "yes",
+   "issue": null
+  },
+  {
+   "id": "r-0048",
+   "requirement_supported": "yes",
+   "citation_consistent": "yes",
+   "date_supported": "not_stated",
+   "status_supported": "yes",
+   "issue": null
+  }
+ ]
+}

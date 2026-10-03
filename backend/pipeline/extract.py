@@ -1,7 +1,7 @@
 """Module A: automated rule extraction.
 
 For every document (starter corpus + link-only sources fetched once + any extra
-document such as the hour-16 ordinance) we:
+document added later, e.g. a new jurisdiction's ordinances) we:
   1. split it into overlapping chunks and skip chunks with no housing-law signal,
   2. ask Claude for candidate rule records (structured output, fixed schema),
   3. verify every quoted_span against the source text and snap it to the exact
@@ -50,6 +50,7 @@ What to return, for the CHUNK of ONE document you are given:
 - citation: the official cite in conventional form, e.g. "Cal. Civ. Code § 1947.12", "Cal. Gov. Code § 12955", "Cal. Bus. & Prof. Code § 16729", "N.J.S.A. 46:8-21.2", "P.L.2025, c.405", "M.G.L. c. 186, § 15B", "M.G.L. c. 40P, § 4", "S.F. Admin. Code § 37.9", "L.A.M.C. § 151.06", "San Diego Mun. Code § 98.0701", "Berkeley Mun. Code ch. 13.76", "Jersey City Code § 218-12", "Hoboken Code ch. 158, Art. II", "Mass. S.2983 (2026)". For bills use the bill number and session. Use the most specific section the text supports.
 - quoted_span: copy 1-3 consecutive sentences EXACTLY, character for character, from the chunk, that best support the rule (at least 20 characters, at most ~600). Do not paraphrase, fix typos, or join non-adjacent text. It will be machine-checked against the source.
 - effective_date: the date the rule takes/took effect as YYYY-MM-DD (or YYYY-MM / YYYY if that is all the text gives); null if the text gives none. enacted_date similarly for signing/adoption when stated. If the text gives two different effective dates, use the one in the official text and explain the other in conflict_note.
+- penalty: the sanction or remedy for violating the rule as the text states it (fines, damages, civil action, rent reduction), or null if not stated.
 - requirement: one or two plain-language sentences a renter can understand. key_value: the headline number/formula (e.g. "5% + CPI, max 10%", "1 month's rent", "$50") or null.
 - coverage: machine-readable coverage for multifamily apartment buildings (the address sample is mostly 5+ unit buildings):
   - min_units / max_units: the rule covers only buildings with at least / at most this many units (null if no such test).
@@ -72,7 +73,7 @@ RULE_SCHEMA = {
     "additionalProperties": False,
     "required": ["category", "jurisdiction", "level", "instrument_status", "title", "requirement",
                  "key_value", "coverage_conditions", "exemptions", "effective_date", "enacted_date",
-                 "citation", "quoted_span", "coverage", "conflict_note", "confidence"],
+                 "penalty", "citation", "quoted_span", "coverage", "conflict_note", "confidence"],
     "properties": {
         "category": {"type": "string", "enum": CATEGORIES},
         "jurisdiction": {"type": "string"},
@@ -85,6 +86,7 @@ RULE_SCHEMA = {
         "exemptions": {"type": ["string", "null"]},
         "effective_date": DATE,
         "enacted_date": DATE,
+        "penalty": {"type": ["string", "null"]},
         "citation": {"type": "string"},
         "quoted_span": {"type": "string"},
         "coverage": {
@@ -255,7 +257,7 @@ async def extract_doc(doc: Doc, sem: asyncio.Semaphore) -> list[dict]:
             candidates.append({
                 **r, "quoted_span": exact, "span_match": round(score, 3),
                 "source_doc_id": doc.doc_id, "source_url": doc.url, "source_type": doc.source_type,
-                "source_origin": doc.origin, "retrieved_at": doc.retrieved_at,
+                "source_origin": doc.origin, "retrieved_at": doc.retrieved_at, "origin": "doc",
             })
         for nf in res.get("no_rule_findings", []):
             exact, _ = verify_span(nf["quoted_span"], doc.text)

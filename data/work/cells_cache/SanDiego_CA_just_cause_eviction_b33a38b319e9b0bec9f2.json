@@ -1,0 +1,37 @@
+{
+ "cell_status": "rules_found",
+ "rules": [
+  {
+   "category": "just_cause_eviction",
+   "jurisdiction": "San Diego, CA",
+   "level": "city",
+   "instrument_status": "enacted",
+   "title": "San Diego Residential Tenant Protection Ordinance (Just Cause Eviction)",
+   "requirement": "Landlords must have a legally recognized 'just cause' (at-fault or no-fault) to terminate a residential tenancy, must provide specific notices to the tenant and, in some cases, the Commission, and must pay relocation assistance for no-fault terminations.",
+   "key_value": null,
+   "coverage_conditions": "Residential rental properties within the City of San Diego as defined by the ordinance.",
+   "exemptions": null,
+   "effective_date": "2023-06-24",
+   "enacted_date": "2023-05-25",
+   "penalty": "Landlord liable in civil action for wrongful eviction for damages of at least 3x actual economic damages; if relocation assistance not provided, liable for at least 3x required relocation assistance plus actual economic damages; reasonable attorney's fees and costs.",
+   "citation": "San Diego Mun. Code § 98.0704-98.0706",
+   "quoted_span": "The purpose of the Ordinance is to require Just Cause for termination of residential tenancies consistent with California Civil Code section 1946.2, to limit the reasons for termination of a residential tenancy, to require greater tenant relocation assistance in specified circumstances and to provide additional tenant protections.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.9,
+   "passage_id": "P7"
+  }
+ ],
+ "no_rule_finding": null
+}

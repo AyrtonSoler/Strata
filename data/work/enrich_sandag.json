@@ -1,0 +1,467 @@
+{
+ "A0094": {
+  "status": "matched",
+  "year_effective_max": 1985,
+  "apns": [
+   "6301500600"
+  ],
+  "unitqty": [
+   88
+  ]
+ },
+ "A0019": {
+  "status": "matched",
+  "year_effective_max": 1962,
+  "apns": [
+   "4234241500"
+  ],
+  "unitqty": [
+   16
+  ]
+ },
+ "A0114": {
+  "status": "no_year"
+ },
+ "A0121": {
+  "status": "matched",
+  "year_effective_max": 1987,
+  "apns": [
+   "4444923800"
+  ],
+  "unitqty": [
+   22
+  ]
+ },
+ "A0100": {
+  "status": "matched",
+  "year_effective_max": 1985,
+  "apns": [
+   "4393822300"
+  ],
+  "unitqty": [
+   7
+  ]
+ },
+ "A0058": {
+  "status": "matched",
+  "year_effective_max": 1969,
+  "apns": [
+   "5502602600"
+  ],
+  "unitqty": [
+   7
+  ]
+ },
+ "A0145": {
+  "status": "matched",
+  "year_effective_max": 1963,
+  "apns": [
+   "4475221300"
+  ],
+  "unitqty": [
+   8
+  ]
+ },
+ "A0150": {
+  "status": "no_year"
+ },
+ "A0152": {
+  "status": "matched",
+  "year_effective_max": 1941,
+  "apns": [
+   "4483720100"
+  ],
+  "unitqty": [
+   12
+  ]
+ },
+ "A0154": {
+  "status": "matched",
+  "year_effective_max": 1960,
+  "apns": [
+   "4451722900"
+  ],
+  "unitqty": [
+   8
+  ]
+ },
+ "A0167": {
+  "status": "matched",
+  "year_effective_max": 1954,
+  "apns": [
+   "4450511600"
+  ],
+  "unitqty": [
+   20
+  ]
+ },
+ "A0219": {
+  "status": "matched",
+  "year_effective_max": 1971,
+  "apns": [
+   "4464910900"
+  ],
+  "unitqty": [
+   8
+  ]
+ },
+ "A0240": {
+  "status": "matched",
+  "year_effective_max": 1979,
+  "apns": [
+   "4473523500"
+  ],
+  "unitqty": [
+   7
+  ]
+ },
+ "A0165": {
+  "status": "matched",
+  "year_effective_max": 1958,
+  "apns": [
+   "4236471000"
+  ],
+  "unitqty": [
+   8
+  ]
+ },
+ "A0246": {
+  "status": "matched",
+  "year_effective_max": 1957,
+  "apns": [
+   "4710512600"
+  ],
+  "unitqty": [
+   8
+  ]
+ },
+ "A0247": {
+  "status": "matched",
+  "year_effective_max": 1972,
+  "apns": [
+   "4482013100"
+  ],
+  "unitqty": [
+   10
+  ]
+ },
+ "A0251": {
+  "status": "matched",
+  "year_effective_max": 1970,
+  "apns": [
+   "4394411000"
+  ],
+  "unitqty": [
+   8
+  ]
+ },
+ "A0262": {
+  "status": "matched",
+  "year_effective_max": 1958,
+  "apns": [
+   "5390910500"
+  ],
+  "unitqty": [
+   18
+  ]
+ },
+ "A0273": {
+  "status": "matched",
+  "year_effective_max": 2010,
+  "apns": [
+   "4456420900"
+  ],
+  "unitqty": [
+   10
+  ]
+ },
+ "A0275": {
+  "status": "matched",
+  "year_effective_max": 1970,
+  "apns": [
+   "4244330100"
+  ],
+  "unitqty": [
+   7
+  ]
+ },
+ "A0276": {
+  "status": "matched",
+  "year_effective_max": 1960,
+  "apns": [
+   "4461810500"
+  ],
+  "unitqty": [
+   6
+  ]
+ },
+ "A0304": {
+  "status": "matched",
+  "year_effective_max": 1952,
+  "apns": [
+   "4451710700"
+  ],
+  "unitqty": [
+   7
+  ]
+ },
+ "A0346": {
+  "status": "unparsed"
+ },
+ "A0274": {
+  "status": "matched",
+  "year_effective_max": 1941,
+  "apns": [
+   "4312600300"
+  ],
+  "unitqty": [
+   6
+  ]
+ },
+ "A0316": {
+  "status": "matched",
+  "year_effective_max": 1931,
+  "apns": [
+   "4456713100"
+  ],
+  "unitqty": [
+   8
+  ]
+ },
+ "A0333": {
+  "status": "matched",
+  "year_effective_max": 1988,
+  "apns": [
+   "4464922200"
+  ],
+  "unitqty": [
+   8
+  ]
+ },
+ "A0347": {
+  "status": "matched",
+  "year_effective_max": 2025,
+  "apns": [
+   "5331721000"
+  ],
+  "unitqty": [
+   9
+  ]
+ },
+ "A0341": {
+  "status": "matched",
+  "year_effective_max": 1940,
+  "apns": [
+   "4713420900"
+  ],
+  "unitqty": [
+   6
+  ]
+ },
+ "A0322": {
+  "status": "matched",
+  "year_effective_max": 1979,
+  "apns": [
+   "6381201400"
+  ],
+  "unitqty": [
+   31
+  ]
+ },
+ "A0378": {
+  "status": "matched",
+  "year_effective_max": 1968,
+  "apns": [
+   "4463610700"
+  ],
+  "unitqty": [
+   9
+  ]
+ },
+ "A0365": {
+  "status": "matched",
+  "year_effective_max": 1961,
+  "apns": [
+   "4457111900"
+  ],
+  "unitqty": [
+   12
+  ]
+ },
+ "A0367": {
+  "status": "matched",
+  "year_effective_max": 1940,
+  "apns": [
+   "5461630400"
+  ],
+  "unitqty": [
+   7
+  ]
+ },
+ "A0386": {
+  "status": "matched",
+  "year_effective_max": 1987,
+  "apns": [
+   "4532122500"
+  ],
+  "unitqty": [
+   7
+  ]
+ },
+ "A0379": {
+  "status": "matched",
+  "year_effective_max": 1995,
+  "apns": [
+   "4363830400"
+  ],
+  "unitqty": [
+   12
+  ]
+ },
+ "A0391": {
+  "status": "matched",
+  "year_effective_max": 2006,
+  "apns": [
+   "5354500100"
+  ],
+  "unitqty": [
+   9
+  ]
+ },
+ "A0392": {
+  "status": "no_year"
+ },
+ "A0396": {
+  "status": "matched",
+  "year_effective_max": 2025,
+  "apns": [
+   "4253700800"
+  ],
+  "unitqty": [
+   6
+  ]
+ },
+ "A0409": {
+  "status": "matched",
+  "year_effective_max": 1942,
+  "apns": [
+   "4231711100"
+  ],
+  "unitqty": [
+   5
+  ]
+ },
+ "A0387": {
+  "status": "no_match"
+ },
+ "A0420": {
+  "status": "matched",
+  "year_effective_max": 1972,
+  "apns": [
+   "4451901100"
+  ],
+  "unitqty": [
+   10
+  ]
+ },
+ "A0413": {
+  "status": "matched",
+  "year_effective_max": 1970,
+  "apns": [
+   "4242112800"
+  ],
+  "unitqty": [
+   8
+  ]
+ },
+ "A0426": {
+  "status": "matched",
+  "year_effective_max": 1974,
+  "apns": [
+   "4363831000"
+  ],
+  "unitqty": [
+   12
+  ]
+ },
+ "A0431": {
+  "status": "matched",
+  "year_effective_max": 1980,
+  "apns": [
+   "5481610500"
+  ],
+  "unitqty": [
+   5
+  ]
+ },
+ "A0441": {
+  "status": "matched",
+  "year_effective_max": 1930,
+  "apns": [
+   "4463821000"
+  ],
+  "unitqty": [
+   6
+  ]
+ },
+ "A0443": {
+  "status": "matched",
+  "year_effective_max": 1985,
+  "apns": [
+   "4760223400"
+  ],
+  "unitqty": [
+   16
+  ]
+ },
+ "A0456": {
+  "status": "matched",
+  "year_effective_max": 1948,
+  "apns": [
+   "4496110100"
+  ],
+  "unitqty": [
+   17
+  ]
+ },
+ "A0478": {
+  "status": "matched",
+  "year_effective_max": 1964,
+  "apns": [
+   "4474712600"
+  ],
+  "unitqty": [
+   9
+  ]
+ },
+ "A0480": {
+  "status": "matched",
+  "year_effective_max": 1961,
+  "apns": [
+   "4714513000"
+  ],
+  "unitqty": [
+   11
+  ]
+ },
+ "A0496": {
+  "status": "matched",
+  "year_effective_max": 1940,
+  "apns": [
+   "5451221600"
+  ],
+  "unitqty": [
+   8
+  ]
+ },
+ "A0497": {
+  "status": "matched",
+  "year_effective_max": 1928,
+  "apns": [
+   "4531310600"
+  ],
+  "unitqty": [
+   5
+  ]
+ }
+}

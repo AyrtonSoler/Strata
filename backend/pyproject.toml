@@ -9,6 +9,7 @@ dependencies = [
     "gdown>=6.4.1",
     "httpx>=0.28.1",
     "jsonschema>=4.26.0",
+    "pypdf>=6.19.0",
     "python-dotenv>=1.2.4",
     "uvicorn[standard]>=0.54.0",
 ]

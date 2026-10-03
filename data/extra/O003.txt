@@ -1,0 +1,2001 @@
+SOURCE: https://oaklandca.prelive.opencities.com/files/assets/city/v/1/housing-comm-dev/documents/tenants/13608-cms.pdf
+RETRIEVED: 2026-10-03T19:35Z
+
+INTRODUCED BY CITY ATTORNEY BARBARA J. PARKER, 
+COUNCILMEMBER DAN KALB, AND 
+COUNCILMEMBER NIKKI FORTUNATO BAS
+APPROVED AS TO FORM AND LEGALITY
+;ity Attorney's Office
+As revised by the City Council at the July 14, 2020, City Council meeting
+OAKLAND CITY COUNCIL
+m*
+ORDINANCE NO: C.M.S.
+AN ORDINANCE AMENDING CHAPTER 8.22 OF THE OAKLAND 
+MUNICIPAL CODE (RESIDENTIAL RENT ADJUSTMENTS AND 
+EVICTIONS) TO (1) LIMIT THE MAXIMUM RENT INCREASE IN ANY 
+ONE YEAR TO CONFORM TO STATE LAW; (2) MAKE FAILURE TO 
+PAY REQUIRED RELOCATION BENEFITS AN AFFIRMATIVE 
+DEFENSE TO EVICTION; (3) LIMIT LATE FEES; (4) PROHIBIT 
+UNILATERALLY IMPOSED CHANGES TO TERMS OF TENANCY; (5) 
+ADD ONE-FOR-ONE REPLACEMENT OF ROOMMATES TO THE 
+DEFINITION OF HOUSING SERVICES; (6) PROHIBIT EVICTION BASED 
+ON ADDITIONAL OCCUPANTS IF LANDLORD UNREASONABLY 
+REFUSED TENANT’S WRITTEN REQUEST TO ADD OCCUPANT(S); 
+AND (7) STRENGTHEN TENANTS’ RIGHTS AND ENFORCEMENT OF 
+TENANT’S RIGHTS UNDER THE TENANT PROTECTION ORDINANCE
+WHEREAS, the City Council of Oakland regards tenant displacement as one of 
+the most significant challenges facing the City and is dedicated to pursuing policies that 
+promote housing security for inhabitants of all income levels and preserve the integrity 
+and character of the Oakland community; and
+WHEREAS, the Oakland City Attorney considers enforcement of the Tenant 
+Protection Ordinance and vindication of tenants’ rights to be one of her top priorities;
+and
+WHEREAS, the Oakland City Attorney and local non-profit organizations have 
+identified weaknesses in the Tenant Protection Ordinance that have allowed unethical 
+landlords to evade accountability; and
+WHEREAS, some landlords have engaged in an array of underhanded tactics to 
+deny long-term occupants the legal protections of tenancy status; and
+WHEREAS, some landlords have dishonestly threatened or claimed owner 
+move-ins (OMIs) in order to recover and re-rent the unit at market rate; and
+2834132v16
+
+WHEREAS, certain incidents of bad faith behavior have occurred in residential 
+rental housing that would have been actionable under the Tenant Protection Ordinance 
+if not for exemptions in the Ordinance, and tenants deserve protection from harassment 
+under the law regardless of the type of building or its ownership; and
+WHEREAS, tenants in newly constructed rental property are also subject to 
+harassment and should be entitled to the protections of this ordinance; and
+WHEREAS, certain tenants are especially vulnerable to harassment and merit 
+heightened protections based on their status as elderly, disabled, or catastrophically ill;
+and
+WHEREAS, violations of state housing and civil rights laws constitute tenant 
+harassment and should be specifically prohibited by this ordinance; and
+WHEREAS, the Oakland City Attorney has brought several Tenant Protection 
+Ordinance lawsuits but found that the law lacks sufficient penalties to adequately punish 
+violators and deter those who would consider engaging in similar harassment; and
+WHEREAS, some landlords exploit the perceived documentation status of 
+tenants and their guests in order to intimidate them; and
+WHEREAS, a recent Rent Board decision held that a tenant may not file 
+decreased housing services claim if the Owner refuses to permit a replacement 
+roommate; and
+WHEREAS, a number of other rent control jurisdictions, including San Francisco 
+and Berkeley, recognize the right to replace roommates as a housing service; and
+WHEREAS, adding the right to replace roommates to the definition of housing 
+services will allow tenants to continue paying the same share of rent and keep their 
+homes while providing affordable housing to the new occupants; and
+WHEREAS, other jurisdictions also protect tenants from evictions based on 
+unilaterally imposed changes of terms of tenancy; and
+WHEREAS, the California Tenant Protection Act of 2019 provides a lower 
+maximum rent increase than the Oakland Rent Adjustment Ordinance and protects 
+tenants from eviction when an owner has failed to provide required relocation 
+assistance; and
+WHEREAS, Oakland Municipal Code Section 8.22.360.F, approved by the voters 
+by the passage of Measure Y in November of 2018, authorizes the City Council to 
+modify the Just Cause for Eviction Ordinance (Measure EE) for the purpose of adding 
+limitations on a landlord’s right to evict; and
+-2-
+2834132v16
+
+WHEREAS, the City Council wishes to amend the Just Cause Ordinance to 
+protect Oakland tenants facing evictions for violations of obligations not in the rental 
+agreement at the commencement of tenancy and to add failure to make required 
+relocation payments a defense to an eviction; and
+WHEREAS, the City Council wishes to amend the Rent Adjustment Ordinance to 
+change the maximum rent increase in any one year to 5 percent plus the Consumer 
+Price Index change or 10 percent, whichever is lower, to conform to state law; and
+WHEREAS, the City Council wishes to clarify the timing of required relocation 
+payments for Ellis Act evictions and owner and relative move-in evictions; and
+WHEREAS, in light of the increased housing pressures placed on low- and 
+middle-income residents, the City Council finds that reasonable regulation of aspects of 
+the landlord-tenant relationship is necessary to foster constructive communication, 
+maintain an adequate supply of a variety of rental housing options, and protect the 
+health, safety, and general welfare of the public; and
+WHEREAS, this action is exempt from the California Environmental Quality Act 
+("CEQA") pursuant to sections of the CEQA Guidelines, taken together and each as a 
+separate and independent basis, including but not limited to: Section 15378 (regulatory 
+actions), Section 15060(c)(2) (no direct or reasonably foreseeable indirect physical 
+change in the environment), and Section 15061(b)(3) (no significant environmental 
+impact);
+NOW, THEREFORE, THE CITY COUNCIL OF THE CITY OF OAKLAND DOES 
+ORDAIN AS FOLLOWS:
+SECTION 1. Recitals: The City Council of the City of Oakland hereby 
+determines that the preceding recitals are true and correct and an integral part of the 
+Council’s decision to enact this legislation, and hereby adopts and incorporates them 
+into this Ordinance.
+SECTION 2. Repeal and Reenactment of Oakland Municipal Code 
+Chapter 8.22, Article V, Tenant Protection Ordinance. Oakland Municipal Code 
+Chapter 8.22, Article V, is hereby repealed in its entirety and reenacted with 
+amendments as set forth in Attachment A (additions are shown as double underline 
+and deletions are shown as a strikethrough).
+SECTION 3. Repeal and Reenactment of Sections 8.22.020, 8.22.070, 
+8.22.090, and 8.22.110, of Oakland Municipal Code Chapter 8.22, Article I 
+(Residential Rent Adjustment Program). Oakland Municipal Code Sections 
+8.22.020. 8.22.070, and-8.22.090, and 8.22.110 are hereby repealed and reenacted 
+with amendments as set forth in Attachment B (additions are shown as double 
+underline and deletions are shown as strikethrough).
+SECTION 4. Repeal and Reenactment of Section 6 of Measure EE [O.M.C. 
+Section 8.22.360 of Chapter 8.22, Article II (Just Cause for Eviction Ordinance)].
+-3-
+2834132v16
+
+Oakland Municipal Code Section 8.22.360 is hereby repealed and reenacted with 
+amendments as set forth in Attachment C (additions are shown as double underline 
+and deletions are shown as strikethrough):
+SECTION 5. Repeal and Reenactment of Sections 8.22.410 and 8.22.450 
+of Oakland Municipal Code Chapter 8.22, Article III (Terminating Tenancy to 
+Withdraw Residential Rental Units from the Rental Market). Oakland Municipal 
+Code Sections 8.22.410 and 8.22.450 are hereby repealed and reenacted with 
+amendments as set forth in Attachment D (additions are shown as double underline 
+and deletions are shown as strikethrough).
+SECTION 6. Repeal and Reenactment of Sections 8.22.810 and 8.22.820 
+of Oakland Municipal Code Chapter 8.22, Article VII (Uniform Residential 
+Tenant Relocation Ordinance). Oakland Municipal Code Section 8.22.810 is 
+hereby repealed and reenacted with amendments as set forth in Attachment E 
+(additions are shown as double underline and deletions are shown as strikethrough).
+SECTION 7. Repeal and Reenactment of Section 8.22.850 of Oakland 
+Municipal Code Chapter 8.22, Article VIII (Relocation Payments for Owner or 
+Relative Move-Ins). Oakland Municipal Code Section 8.22.850 is repealed and 
+reenacted with amendments as set forth in Attachment F (additions are shown as 
+double underline and deletions are shown as strikethrough).
+SECTION 8. Direction to the City Administrator. Within 90 days of adoption of 
+the Ordinance, the City Administrator shall work with the Rent Adjustment Board to (1) 
+develop amendments to the Rent Adjustment regulations that (a) conform the 
+regulations to the changes hereby made to the Ordinance and (b) clarify the operation 
+of rent increases for “Additional occupant(s)” under Section 8.22.020, including defining 
+“principal residence” as used in the definition of “Base occupancy level” and providing a 
+rent ceiling or maximum rent that a tenant may charge additional occupants not on the 
+lease, and (2) develop regulations for the Just Cause for Eviction Ordinance to clarify 
+“reasonable refusal” as used in subsection 8.22.360.A.2.b. The City Administrator shall 
+create a lease addendum form to be provided by the Rent Adjustment Program for use 
+by property owners to track additional residents. In addition, by June 30, 2021, the City 
+Administrator shall conduct an equity analysis of the Tenant Protection Ordinance, 
+including the impacts on tenants and property owners, and provide a report of the 
+findings to City Council’s Community & Economic Development Committee.
+SECTION 9. Transition. The amendments herein to Chapter 8.22, Article I, 
+shall not apply to any rent increase noticed on or before the effective date of this 
+Ordinance.
+SECTION 10. Severability. If any section, subsection, sentence, clause or 
+phrase of this Ordinance is for any reason held to be invalid or unconstitutional by 
+decision of any court of competent jurisdiction, such decision shall not affect the validity 
+of the remaining portions of the Chapter. The City Council hereby declares that it would 
+have passed this Ordinance and each section, subsection, clause or phrase thereof
+-4-
+2834132v16
+
+irrespective of the fact that one or more other sections, subsections, clauses or phrases 
+may be declared invalid or unconstitutional.
+SECTION 11. Effective Date. This ordinance shall become effective 
+immediately on final adoption if it receives six or more affirmative votes; otherwise it 
+shall become effective upon the seventh day after final adoption.
+SECTION 12. CEQA Compliance. This action is exempt from the California 
+Environmental Quality Act ("CEQA") pursuant to sections of the CEQA Guidelines, 
+taken together and each as a separate and independent basis, including but not limited 
+to: Section 15378 (regulatory actions), Section 15060(c)(2) (no direct or reasonably 
+foreseeable indirect physical change in the environment), and Section 15061(b)(3) (no 
+significant environmental impact). The legislation contains no provisions modifying the 
+physical design, development, or construction of residential or nonresidential structures. 
+Accordingly, it can be seen with certainty that there is no possibility that it: (1) may have 
+a significant effect on the environment and/or (2) would result in any physical changes 
+to the environment.
+SECTION 13. No Effect on Emergency Ordinance. Nothing in this ordinance 
+is intended to affect, supersede, or replace any protections provided by the Eviction 
+Moratorium Emergency Ordinance (CMS 13589) enacted on March 27, 2020.
+-5-
+2834132v16
+
+SECTION 14. Findings Regarding Just Cause for Eviction Ordinance 
+Provided Pursuant to Civil Code Section 1946.2. The City Council finds that the Just 
+Cause for Eviction Ordinance is consistent with Civil Code Section 1946.2 (as enacted 
+by the Tenant Protection Act of 2019), and, in comparison to Civil Code Section 1946.2, 
+further limits the reasons for termination of residential tenancy, provides additional 
+tenant protections, and, in conjunction with other City ordinances, provides for higher 
+relocation assistance amounts. The City Council finds that the Just Cause for Eviction 
+Ordinance as amended herein is more protective than the provisions of Civil Code 
+Section 1946.2.
+JUL 2 1 imIN COUNCIL, OAKLAND, CALIFORNIA,
+PASSED BY THE FOLLOWING VOTE:
+AYES - FORTUNATO BAS, GALLO, GIBSON MCELHANEY, KALB, REID, TAYLOR, THAO AND 
+PRESIDENT KAPLAN _ ^
+NOES- 
+ABSENT- 
+ABSTENTION
+Introduction Date 
+JUL 1 42028
+0
+0
+ATTEST:
+'ASHA REE1
+Acting City Clerk and Clerk of the Council of the City of 
+Oak and, California
+Date of Attestation:
+-6-
+2834132v16
+
+ 
+ 
+-7- 
+2834132v16 
+ 
+ATTACHMENT A 
+ 
+Article V – Tenant Protection Ordinance  
+ 
+8.22.600 - Tenant protection ordinance.  
+ 
+This ordinance shall be known as the "Tenant Protection Ordinance" ("TPO").  
+8.22.610 - Findings and purpose.  
+ 
+A. There is a very significant demand for rental housing in Oak land leading to rising 
+rents, caused in part by the spillover of increasingly expensive housing costs in 
+San Francisco.  
+B. Rents in Oakland increased twelve percent (12%) in 2012 and 15% in 2013 
+(Source: East Bay Express, February 12-18, 2014, "The Rise of the New Land 
+Lords," sourcing Oakland Department of Housing and Community Development). 
+As noted by a February 8, 2014 Oakland Tribune article ("High prices sending 
+Bay Area renters and homebuyers to outlying communities"), "Squeezed by 
+astronomical home prices and rents that are almost as unaffordable, a growing 
+number of Bay Area residents are pulling up stakes and trading long commutes 
+for cheaper housing."  
+C. According to Oakland Department of Housing and Community Dev elopment 
+citing to Zillow Real Estate Research, the estimated rent for all homes in Oakland 
+for June 2014 two thousand one hundred twenty-four dollars ($2,124.00) is 
+nearly eleven percent (11%) higher than that for the same month last year 
+($1,918.00), and rents have risen every month except for one (1) since January 
+2013 (18 months total). If current patterns persist, the estimated rent for all 
+homes in June 2015 will be two thousand three hundred eighty-six dollars 
+($2,386.00). By comparison, the estimated median rent for all Oakland homes for 
+June 2012 was $1,818.00, a thirty-one percent (31%) increase in only thirty-six 
+(36) months.  
+D. On September 12, 2014, the San Francisco Examiner reported t hat "San 
+Francisco and Oakland have the distinction of having some of the highest rental 
+rate increases in the nation for the month of August," with Oakland's rents 
+increasing fourteen and four-tenths percent (14.4%) since last year, according to 
+data collected by Trulia.  
+E. The rising market demand for rental housing in Oakland creat es an incentive for 
+some landlords to engage in harassing behavior or fail to make repairs to 
+pressure existing tenants in rent controlled units to move so that rents can be 
+raised. Existing remedies, such as petitioning the Rent Adjustment Program to 
+restore a rental rate or order repairs, or employing an attorney at great cost to file 
+a lawsuit to enforce state law of lease provisions, are insufficient deterrents to 
+engaging in the illegal conduct in the first place.  
+F. The imbalance between supply and demand creates an imbalance of bargaining 
+power between landlords and tenants, which has resulted in many tenants, 
+ 
+ 
+-8- 
+2834132v16 
+ 
+especially those not in rent controlled units, being unwilling or unable to assert 
+their legal rights, which is detrimental to the health, safety and general welfare of 
+Oakland because the stability, security and quality of housing opportunities are 
+reduced.  
+G. The Rent Adjustment Program of fice of the City of Oakland has conservatively 
+estimated receiving one hundred (100) to two hundred (200) complaints each 
+month from tenants claiming landlord harassment, many of which are completely 
+outside the jurisdiction of the Rent Adjustment Program.  
+H. Numerous press articles have reported on the rise of tenant harassment 
+throughout the Bay Area.  
+I. Data from organizations providing services to low-income ren ters in Oakland, 
+including East Bay Community Law Center and Centro Legal de la Raza, indicate 
+that some of their clients live in housing with habitability problems and 
+experience landlord harassment.  
+J. Of the approximately four hundred eighty (480) Oakland tenan ts who received 
+legal services at Centro Legal de la Raza during fiscal year 2014 (July 1, 2013 
+through June 30, 2014), approximately forty percent (40%) faced harassment by 
+their landlords. The forms of harassment varied, but included one or more of the 
+following in each case:  
+1. Interrupting, terminating, failing to provide or threatening  to interrupt, 
+terminate or fail to provide housing services required by contract or by 
+State, County or municipal housing, health or safety laws;  
+2. Failing to perform required repairs and/or maintenance or th reatening to 
+fail to do so;  
+3. Failing to exercise due diligence in completing repairs and maintenance 
+once undertaken or failing to follow appropriate industry repair, 
+containment or remediation protocols designed to minimize exposure to 
+noise, dust, lead paint, mold, asbestos, or other building materials with 
+potentially harmful health impacts;  
+4. Abusing the owner's right of access into a rental housing unit as that right 
+is provided by law;  
+5. Unlawfully removing from the rental unit personal property, furnishings, or 
+any other items without the prior written consent of the tenant;  
+6. Influencing, or attempting to influence, a tenant to vacate a rental unit 
+through fraud, intimidation or coercion;  
+7. Attempting to coerce a tenant to vacate with offer(s) of pay ments to 
+vacate which ate accompanied with threats or intimidation;  
+8. Threatening the tenant, by wo rd or gesture, with physical harm;  
+9. Substantially and directly interfering with a Tenant's right  to quiet use and 
+enjoyment of a rental housing unit as that right is defined by California 
+law;  
+ 
+ 
+-9- 
+2834132v16 
+ 
+10. Fraudulently refusing to acce pt or acknowledge receipt of a Tenant's 
+lawful rent payment.  
+K. A majority of Oakland residents are renters. The rental hous ing units in the City 
+of Oakland include many subject to rent stabilization and some that are not. The 
+cities of San Francisco, Santa Monica, West Hollywood, and East Palo Alto have 
+each passed ordinances prohibiting various forms of harassment by landlords 
+and their agents against tenants.  
+L. The City Council of Oakland recognizes that displacement of tenants is a major 
+concern and is interested in putting forth policies that help to maintain the ability 
+of people in all income categories to live in our city. The increased housing 
+pressures for residents across a range of lower and middle income levels 
+warrants improved rent stabilization and tenant protection policies, as well as 
+assessment of statutory damages against landlords who engage in tenant 
+harassment. The City Council finds that reasonable regulation of aspects of the 
+landlord-tenant relationship is necessary in order to foster constructive 
+communication, maintain an adequate supply of a variety of rental housing 
+options, and protect health, safety, and the general welfare of the public.  
+M. The purpose of this policy is to deter harassing behavior by  landlords, to 
+encourage landlords to follow the law and uphold their responsibility to provide 
+habitable rental properties, and to give tenants and the City of Oakland legal 
+recourse in instances where they tenants are subjected to harassing behavior by 
+landlords.  
+N. The provisions of the Tenant Protection Ordinance shall be c onstrued liberally for 
+the accomplishment of its purposes. 
+O. In order to carry out the pur poses of the Tenant Protection Ordinance and 
+safeguard tenants’ rights against harassing behavior, the limitations period set 
+out in Section 8.22.670.E of the Ordinance should be interpreted so as to 
+promote the resolution of potentially meritorious claims.  
+8.22.620 - Definitions. 
+As used in this Chapter, Article V: 
+ 
+"Affordable housing provider" means an owner that provides hous ing in a building 
+in which at least 80% of the units are restricted to occupancy at an affordable rent or 
+an affordable housing cost for persons and families of low and moderate income as 
+defined in California Health and Safety Code Section 50093. The  terms "affordable 
+rent" and "affordable housing cost" shall be as defined in Cali fornia Health and Safety 
+Code Sections 50053 and 50052.5 and their implementing regulati ons. Such housing 
+shall have terms of affordability equivalent to those prescribe d in California Health and 
+Safety Code Sections 33334.3(f)(1)(A) for rental housing and 33 334.3(f)(1)(B) for 
+owner occupied housing.  
+ 
+"Catastrophically Ill" means Disabled and suffering from a life-threatening illness, as 
+certified by the Tenant's primary care physician. 
+ 
+ 
+-10- 
+2834132v16 
+ 
+“City Administrator” means the Oakland City Administrator or his or her designee. 
+"City Attorney" means the Oakland City Attorney or his or her designee.  
+"Elderly" means elderly as that term is defined in O.M.C. 8.22.410. 
+"Disabled" means disabled as that term is defined in O.M.C. 8.22.410. 
+"Health Facility" has the same meaning as in the Just Cause for Eviction Ordinance 
+(O.M.C. 8.22.340).  
+"Owner" has the same meaning as “Landlord” in the Just Cause for Eviction 
+Ordinance (O.M.C. 8.22.340).  
+"Owner of Record" has the same meaning as in the Just Cause for Eviction 
+Ordinance (O.M.C. 8.22.340).  
+"Rent" has the same meaning as in the Just Cause for Eviction Ordinance (O.M.C. 
+8.22.340).  
+"Rent Board" has the same meaning as in the Just Cause for Eviction Ordinance 
+(O.M.C. 8.22.340).  
+"Rental Agreement" has the same meaning as in the Just Cause for Eviction 
+Ordinance (O.M.C. 8.22.340).  
+"Rental Unit" has the same meaning as in the Just Cause for Eviction Ordinance 
+(O.M.C. 8.22.340).  
+"Tenant" has the same meaning as in the Just Cause for Eviction Ordinance 
+(O.M.C. 8.22.340)means any renter, tenant, subtenant, lessee, or sublessee of a rental 
+unit, or any group of renters, tenants, subtenants, lessees, su blessees of a rental unit, 
+or any other person entitled to the use or occupancy of such re ntal unit. This includes 
+occupants of residential hotels against whom violations of California Civil Code Section 
+1940.1 have occurred.   
+"Skilled Nursing Facility" has the same meaning as in the Just Cause for Eviction 
+Ordinance (O.M.C. 8.22.340).  
+ 
+8.22.630 - Applicability and exemptions.  
+ 
+A. The TPO shall apply to all R ental Units where there is a Rental Agreement 
+between an Owner and one or more Tenants, unless exempted herein. The 
+application of the TPO includes units that may not be covered under the Rent 
+Adjustment Ordinance (O.M.C. 8.22.0100, et seq.) or the Just Cause for 
+Eviction Ordinance (O.M.C. 8.22.300, et seq.)  
+B. Exemptions.  
+ 1. Exemption for nonprofit owned rental housing. Any Rental Un it owned 
+by (a) a corporation or organization exempt pursuant to United States 
+Internal Revenue Code §501(c)(3) or any successor legislation 
+ 
+ 
+-11- 
+2834132v16 
+ 
+exempting charitable organizations from federal income tax, (b) a 
+limited partnership where the managing general partner is a 
+corporation or organization exempt pursuant to United States Internal 
+Revenue Code §501(c)(3) or any successor legislation exempting 
+charitable organizations from federal income tax, or (c) a limited 
+partnership where the managing general partner is a limited liability 
+company whose sole members are corporations or organizations 
+exempt pursuant to United States Internal Revenue Code §501(c)(3) or 
+any successor legislation exempting charitable organizations from 
+federal income tax shall have an exemption from the TPO's civil 
+enforcement pursuant to this article. RESERVED. 
+2. Rental Units in any Hospital , Skilled Nursing Facility, or Health Facility.  
+3. Rental Units in a nonprofit fac ility that has the primary purpose of 
+providing short term treatment, assistance, or therapy for alcohol, drug, 
+or other substance abuse and the housing is provided incident to the 
+recovery program, and where the client has been informed in writing of 
+the temporary or transitional nature of the housing at its inception and 
+is licensed for such purpose where such license is required.  
+4. Rental Units in a nonprofit facility which provides a struct ured living 
+environment that has the primary purpose of helping homeless 
+persons obtain the skills necessary for independent living in permanent 
+housing and where occupancy is restricted to a limited and specific 
+period of time of not more than twenty-four (24) months and where the 
+client has been informed in writing of the temporary or transitional 
+nature of the housing at its inception and is licensed for such purpose 
+where such license is required.  
+5. Rental Units exempted from Part 4, Title 4, Chapter 2 of the  California 
+Civil Code (CCC) by CCC § 1940(b) (transient occupancy in 
+hotels/motels) unless the Owner violates CCC § 1940.1 to avoid 
+tenancy status. In those circumstances, the specific Rental Units 
+where such violations have taken place shall not be exempt. 
+6. Reserved.  
+7. A rental unit in a newly constructed residential property th at has a 
+certificate of occupancy issued after the effective date of O.M.C. 
+8.22.600, et seq. For the purposes of this exemption, "newly 
+constructed" means all units on the parcel were built from the ground 
+up under the same certificate of occupancy and not converted from 
+property previously used for non-residential purposes. In the event the 
+property is not issued a certificate of occupancy, then the exemption 
+starts on the date that the last building related permit is finalized, if 
+after the effective date of O.M.C. 8.22.600, et seq. This exemption is a 
+limited duration exemption and expires fifteen (15) years from the date 
+the exemption commences.  
+ 
+ 
+-12- 
+2834132v16 
+ 
+ 
+8.22.640 - Tenant harassment.  
+ 
+A. No Owner or such Owner's agent, contractor, subcontractor, o r employee, shall 
+do any of the following, in bad faith. Subsections 15 and 17-21 shall apply 
+beginning April 21, 2020. 
+1. Interrupt, terminate, or fail  to provide housing services required by 
+contract or by State, County or municipal housing, health or safety laws, 
+or threaten to do so;  
+2. Fail to perform repairs and maintenance required by contract  or by State, 
+County or municipal housing, health or safety laws, or threaten to do so;  
+3. Fail to exercise due diligenc e in completing repairs and maintenance 
+once undertaken or fail to follow appropriate industry repair, containment 
+or remediation protocols designed to minimize exposure to noise, dust, 
+lead paint, mold, asbestos, or other building materials with potentially 
+harmful health impacts;  
+4. Abuse the Owner's right of access into a rental housing unit  as that right 
+is provided by law;  
+5. Remove from the Rental Unit personal property, furnishings, or any other 
+items without the prior written consent of the Tenant, except when done 
+pursuant to the procedure set forth in Civil Code section 1980, et seq. 
+(disposition of Tenant's property after termination of tenancy).  
+6. Influence or attempt to influence a Tenant to vacate a Renta l Unit through 
+fraud, intimidation or coercion. This , which shall includes threatening to 
+report a Tenant or other person known to the Owner to be associated 
+with a Tenant to U.S. Immigration and Customs Enforcementany local, 
+state, or federal agency on the basis of their perceived or actual 
+immigration status., though that  The prohibition shall not be construed as 
+preventing communication with U.S. Immigration and Customs 
+Enforcement such agencies regarding an alleged immigration violation;  
+7. Offer payments to a Tenant to vacate more than once in six ( 6) months, 
+after the Tenant has notified the Owner in writing the Tenant does not 
+desire to receive further offers of payments to vacate;  
+8. Attempt to coerce a Tenant to vacate with offer(s) of paymen ts to vacate 
+which are accompanied with threats or intimidation. This shall not include 
+settlement offers made in good faith and not accompanied with threats or 
+intimidation in pending eviction actions;  
+9. Threaten the tenant Tenant or their guests, by word or gestu re, with 
+physical harm;  
+10. Substantially and directly interfere with a Tenant's right to quiet use and 
+enjoyment of a rental housing unit as that right is defined by California 
+law;  
+ 
+ 
+-13- 
+2834132v16 
+ 
+11. Refuse to accept or acknowledge receipt of a Tenant's lawfu l rent 
+payment, except as such refusal may be permitted by state law after a 
+notice to quit has been served on the Tenant and the time period for 
+performance pursuant to the notice has expired;  
+12. Refuse to cash a rent check or money order for over thirty (30) days 
+unless a written receipt for payment has been provided to the Tenant, 
+except as such refusal may be permitted by state law after a notice to quit 
+has been served on the Tenant and the time period for performance 
+pursuant to the notice has expired;  
+13. Interfere with a Tenant's r ight to privacy. This includes, but is not limited 
+to: video or audio recording that captures the interior of a Tenant’s unit, 
+entering or photographing portions of a Rental Unit that are beyond the 
+scope of a lawful entry or inspection, unreasonable inquiry into a Tenant’s 
+relationship status or criminal history, and unreasonable restrictions on or 
+inquiry into overnight guests; 
+14. Request information that viola tes a Tenant's right to privacy, including but 
+not limited to residence or citizenship status or social security number, 
+except as required by law or, in the case of a social security number, for 
+the purpose of obtaining information for the qualifications for a tenancy, 
+or not release such information except as required or authorized by law. 
+This includes a refusal to accept equivalent alternatives to information or 
+documentation that does not concern immigration or citizenship status, 
+e.g. an Individual Taxpayer Identification Number (ITIN);  
+15. Other repeated acts or omissions of such significance as to  substantially 
+interfere with or disturb the comfort, repose, peace or quiet of any person 
+lawfully entitled to occupancy of such dwelling unit and that cause, are 
+likely to cause, or are intended to cause any person lawfully entitled to 
+occupancy of a dwelling unit to vacate such dwelling unit or to surrender 
+or waive any rights in relation to such occupancy Unilaterally impose or 
+require an existing tenant to agree to new material terms of tenancy or a 
+new rental agreement, unless: (1) the change in the terms of the tenancy 
+is authorized by the Rent Adjustment Ordinance or California Civil Code 
+Sections 1946.2(f),1947.5, or 1947.12, or required by federal, state, or 
+local law or regulatory agreement with a government agency; or (2) the 
+change in the terms of the tenancy was accepted in writing by the Tenant 
+after receipt of written notice from the Owner that the Tenant need not 
+accept such new term as part of the rental agreement;  
+16. Removing a housing service f or the purpose of causing the Tenant to 
+vacate the Rental Unit. For example, taking away a parking space 
+knowing that a Tenant cannot find alternative parking and must move; 
+17. Engage in conduct that violates California Civil Code Secti on 789.3, 
+including but not limited to an illegal lockout and utility shutoff;  
+18.  Violate the Unruh Civil Rights Act (California Civil Code 51 et seq.); 
+ 
+ 
+-14- 
+2834132v16 
+ 
+19.  Commit elder financial abuse as defined by California Welf are and 
+Institutions Code 15610.30 et seq. of a Tenant; 
+20.  Misrepresent to a Tenant that they are required to vacate a Rental Unit or 
+otherwise entice a Tenant to vacate a Rental Unit through 
+misrepresentations or concealment of material facts;  
+21. Force a Tenant to vacate their Rental Unit and reregister i n order to avoid 
+classification as a tenant under Civil Code 1940.1. Forced vacation can 
+be implied from the totality of the circumstances;  
+22.  Other repeated acts or omissions of such significance as t o substantially 
+interfere with or disturb the comfort, repose, peace or quiet of any person 
+lawfully entitled to occupancy of such dwelling unit and that cause, are 
+likely to cause, or are intended to cause any person lawfully entitled to 
+occupancy of a dwelling unit to vacate such dwelling unit or to surrender 
+or waive any rights in relation to such occupancy.  
+B. Retaliation Prohibited. Retaliation against a Tenant because  of the Tenant's 
+exercise of rights under the TPO is prohibited. Retaliation claims may only be 
+brought in court and may not be addressed administratively. A court may 
+consider the protections afforded by the TPO in evaluating a claim of retaliation.  
+C. Evictions. Nothing in the TPO shall be construed as to preve nt an Owner from 
+lawfully evicting a Tenant pursuant to state law or Oakland's Just Cause for 
+Eviction Ordinance. (O.M.C. 8.22.300, et seq.).  
+D. Rent Adjustments. Nothing in th e TPO shall be construed as to prevent an 
+Owner from lawfully increasing a Tenant's rent pursuant to state law or Oakland's 
+Rent Adjustment Ordinance (O.M.C. 8.22.100, et seq.), and such increases shall 
+not be deemed violations of Section 8.22.640 of the TPO.  
+E. Notice to Tenants.  
+1. Commencement.  
+a. For Rental Units covered by the Rent Adjustment Ordinance th e 
+Notice at Commencement of Tenancy required by O.M.C. 8.22.060 
+shall include a reference to the TPO.  
+b. For all Rental Units that are not covered by the Rent Adjust ment 
+Ordinance, Owners are required to provide a notice regarding the 
+TPO to all Tenants using the required form prescribed by the City 
+staff.  
+2. Common area. If Rental Units subject to this ordinance are l ocated in a 
+building with an interior common area that all of the building's Tenants 
+have access to, the Owner must post a notice in at least one (1) such 
+common area in the building via a form prescribed by the City staff.  
+F. Repairs and maintenance. Noth ing in the TPO shall be construed as requiring 
+different timelines or standards for repairs or maintenance, as required by 
+ 
+ 
+-15- 
+2834132v16 
+ 
+contract or State, County or municipal housing, health, and safety laws, or 
+according to appropriate industry protocols.  
+G.  Severances Prohibited. The fo llowing amenities, supplied in connection with use 
+or occupancy of a rental unit, may not be severed from a tenancy without good 
+cause: (1) Garage facilities, parking facilities, driveways, storage spaces, laundry 
+rooms, decks, patios, or gardens on the same lot; (2) kitchen facilities, toilet 
+facilities, or lobbies in residential hotels.  For purposes of this subsection, good 
+cause shall include (1) requirement by federal, state, or local law, such as O.M.C. 
+Chapter 15.27, (2) acceptance of the severance in writing by the Tenant after 
+receipt of written notice from the Owner that the Tenant need not accept the 
+severance, (3) ownership by an affordable housing provider as defined by 
+Section 8.22.620 where either (a) the severance is unavoidable in order for the 
+addition of one or more new affordable housing units to proceed and the owner 
+has obtained all necessary permits for constructing the additional unit(s) or (b) 
+the severance results from the removal of a balcony for which repair or removal 
+was necessary for safety and the owner has obtained all necessary permits for 
+the removal, (4) addition of one or more Accessory Dwelling Units (as defined by 
+Government Code Section 65852.2(j)(1), provided that the owner has obtained 
+all necessary permits for constructing the additional unit(s) and the severance is 
+not of a garage facility, parking facility, or driveway more than one-half mile from 
+a designated transit hub, or a laundry room, and is unavoidable in order for the 
+addition of the unit(s) to proceed, and (5) other good cause as provided by 
+regulation, adopted in the same manner as provided by Rent Adjustment 
+Program Regulation Section 8.22.040.B.4.b. A severance does not include 
+noticed temporary unavailability of the above housing services in order to 
+perform necessary work with all required permits. For units covered under the 
+Rent Adjustment Ordinance, any severance permitted under this Section shall be 
+offset by a corresponding reduction in rent. Either an owner or a tenant may file a 
+petition with the Rent Adjustment Program to determine the amount of the rent 
+reduction.  This subsection shall apply beginning April 21, 2020.  
+H.  Late payment fees. Late fees may not be imposed except if p rovided for in a 
+written rental agreement. Notwithstanding any lease provision to the contrary, 
+fees for late payment of rent shall not exceed a total of three (3) percent of the 
+monthly rent for each payment of rent and may only be applied for rent which is 
+five or more days overdue. This subsection shall only apply if the applicable 
+written rental agreement was entered into or renewed on or after April 16, 2020. 
+8.22.650 - General remedies. 
+ 
+A. Violations of the TPO. Violati ons of section 8.22.640 may be enforced by civil 
+remedies as set forth in this section or as otherwise specifically set out in this 
+O.M.C article.  
+B. Notice requirement for Tenants. Before a Tenant may file an a civil suit alleging a 
+violation of subsection 8.22.640.A.1., 2., 3., 10., 11., 12., or 13., the affected 
+Tenant must first notify the Owner or his or her designated agent regarding the 
+ 
+ 
+-16- 
+2834132v16 
+ 
+problem. If the allegation is a violation of subsections 8.22.640.A.1., 2., 3.,11., or 
+12., the Tenant must allow fifteen (15) days for the Owner to correct the  
+problem, unless the Owner notifies the Tenant that the repairs will take more 
+than fifteen (15) days and provides for a reasonable time period for completion. If 
+the repair takes more than fifteen (15) days, the Tenant may file the civil suit if 
+the Owner does not take reasonable steps to commence addressing the problem 
+or the Owner does not follow through to complete the repairs with reasonable 
+diligence. However, no fifteen (15) day waiting period shall apply if the Owner’s 
+conduct is intentional and demonstrates a willful disregard for the comfort, safety 
+or wellbeing of the Tenant(s).   
+C. In addition to the remedies p rovided in the TPO, a violator is liable for such costs, 
+expenses, and disbursements paid or incurred by the City in abatement and 
+prosecution of the violation.  
+D. The remedies available in the TPO are not exclusive and may be used 
+cumulatively with any other remedies in this chapter or at law.  
+8.22.660 - Reserved. 
+  
+8.22.670 - Civil remedies.  
+ 
+A. General Civil Remedies.  
+1. Enforcement by Aggrieved-Tenant. An aggrieved Tenant may bri ng a civil 
+action for any combination of injunctive equitable relief, actual or statutory  
+or damages, or both and restitution, for any violation of 8.22.540640.  
+2. Enforcement by City Attorney. The City Attorney may enforce the TPO 
+through civil action for injunctive equitable relief, restitution, and/or 
+damages penalties, or both, for when the party against whom enforcement 
+is sought has a pattern and practice of violating the TPO. A court may 
+award civil penalties of up to one thousand dollars ($1,000.00) per day for 
+each violation of subsection 8.22.640A., B., E., G., or H.  A court may 
+award punitive damages in a proper case as set out in Civil Code Section 
+3294 and pursuant to the standards set forth in that Code Section or any 
+successor thereto. The City Attorney may also request that an 
+administrative citation or civil penalty be issued by the City. The City 
+Attorney has the sole discretion to determine the cases appropriate for 
+enforcement by the City Attorney's Office.  
+B. Treble and Exemplary Special Damages.  
+1. Tenant Enforcement.  
+a.  Any person who violates, aids, or incites another person to  violate 
+subsection 8.22.640.A, or E., G., or H. is liable in a court action for 
+each and every such offense for money damages of not less than 
+three times actual damages suffered by an aggrieved Tenant 
+(including damages for mental or emotional distress), or for 
+minimum damages in the sum of one thousand dollars ($1,000.00), 
+ 
+ 
+-17- 
+2834132v16 
+ 
+whichever is greater, and whatever other relief the court deems 
+appropriate. In the case of an award of damages for mental or 
+emotional distress, said award shall only be trebled if the trier of 
+fact finds that the Owner acted in knowing violation of or in reckless 
+disregard of the TPO.  
+b.  Any person who violates, aids, or incites another person to  violate 
+subsection 8.22.640A., E., G., or H. with respect to Elderly or 
+Disabled Tenants is liable in a court action for each and every such 
+offense for money damages of no less than three times the actual 
+damages suffered by the aggrieved Tenant(s) (including damages 
+for mental or emotional distress), or for minimum damages of two 
+thousand dollars ($2,000.00), whichever is greater. 
+c. Any person who violates, aids , or incites another person to violate 
+subsection 8.22.640A., E., G., or H. with respect to Catastrophically 
+Ill Tenants is liable in a court action for each and every such 
+offense for money damages of no less than three times the actual 
+damages suffered by the aggrieved Tenant(s) (including damages 
+for mental or emotional distress), or for minimum damages of two 
+thousand five hundred dollars ($2,500.00), whichever is greater.  
+d. A Tenant may only receive one form of heightened penalties a s 
+between Elderly, Disabled, and Catastrophically Ill.  
+e. Any violation of subsection 8.22.640A.6 for threatening to r eport a 
+Tenant or other person known to the Owner to be associated with a 
+Tenant on the basis of their perceived or actual immigration status 
+is liable in a court action for each and every such offense for money 
+damages of no less than three times the actual damages suffered 
+by the aggrieved Tenant(s) (including damages for mental or 
+emotional distress), or for minimum damages of two thousand 
+dollars ($2,000.00), whichever is greater. 
+2f. A court may award punitive d amages in a proper case as set out in 
+Civil Code Section 3294 and pursuant to the standards set forth in 
+that Code Section or any successor thereto, but may not award 
+both punitive damages and treble damages.  
+C. Injunctive Equitable Relief.  
+Any person who commits an act, proposes to commit an act, or engages in any 
+pattern and practice which violates the TPO may be enjoined therefrom by any 
+court of competent jurisdiction. A court may make such orders or judgments, 
+including the appointment of a receiver, as may be necessary to prevent the use 
+or employment by any person of any practice which violates this ordinance or as 
+may be necessary to restore to any person in interest any money or property, 
+real or personal, which may have been acquired through practices that violate 
+this ordinance. An action for injunction equitable relief under this subsection may 
+be brought by any aggrieved Tenant, by the City Attorney (for a pattern and 
+ 
+ 
+-18- 
+2834132v16 
+ 
+practice only), or by an aggrieved Tenant who will fairly and adequately represent 
+the interest of the protected class.  
+D. Attorney's Fees and Costs  
+1. Action by City Attorney. In any administrative, civil, or special proceeding 
+brought pursuant to the TPO, the City may, at the initiation of the 
+proceeding, seek an award of attorney's fees. If the City seeks an award 
+of attorney's fees, the award shall be made to the prevailing party. 
+Provided however, that no award may be made to a prevailing party that 
+exceeds the amount of reasonable attorney's fees incurred by the City in 
+the action or proceeding. Court costs may be awarded to a prevailing 
+party pursuant to state law.  
+2. Action by Tenant. In any civil action brought pursuant to th e TPO, the 
+prevailing Tenant is entitled to recover the Tenant’s reasonable attorney's 
+fees. A defendant Owner may recover reasonable attorney's fees if the 
+complaint brought by the Tenant was devoid of merit and brought in bad 
+faith. Court costs may be awarded to a prevailing party pursuant to state 
+law.  
+3. Costs of Investigation. In the event the City Attorney bring s an 
+administrative, civil, or special proceeding pursuant to the TPO, the City 
+Attorney may recover its costs of investigation.  
+E.  Statute of Limitations. The statute of limitations for an a ction shall be three years, 
+and all remedies under the Ordinance are available for the entire statutory 
+period. 
+ 
+ 
+8.22.680 - Miscellaneous.  
+ 
+A. Regulations and Forms. The Rent Board has the authority to m ake such 
+regulations to implement this O.M.C. Chapter 8.22 Article V as are not 
+inconsistent with the TPO, provided, however, that if the Rent Board has not 
+issued initial regulations within such time as the City Council may proscribe, the 
+City Administrator is authorized to make interim regulations.  
+Within ninety (90) days of the effective date of the TPO, the City Administrator 
+shall develop forms to implement subsection 8.22.640.E. Any changes to the 
+initial forms shall be effective thirty (30) days after they are made available to the 
+public at the Rent Adjustment Program offices, unless the City Administrator 
+makes a finding that an earlier or later date is necessary. All Forms required by 
+the TPO are vital communication documents and shall be translated and 
+distributed in accordance with the Equal Access to Services Ordinance, O.M.C 
+Chapter 2.30.  
+B. Non-waiverability. Any provision, whether oral or written, i n or pertaining to a 
+rental agreement whereby any provision of the TPO is waived or modified, is 
+against public policy, and void, and unenforceable.  
+ 
+ 
+-19- 
+2834132v16 
+ 
+ATTACHMENT B  
+Residential Rent Adjustment Program 
+ 
+8.22.020 - Definitions.  
+ 
+As used in this chapter, Article l:  
+"1946 notice" means any notice of termination of tenancy served pursuant to California 
+Civil Code Section 1946. This notice is commonly referred to as a thirty (30) or sixty (60) 
+day notice of termination of tenancy, but the notice period may actually be for a longer 
+or shorter period, depending on the circumstances.  
+"1946 Termination of tenancy" means any termination of tenancy pursuant to California 
+Civil Code § 1946.  
+“Additional occupant” means an occupant whose addition to the unit has increased the 
+total number of occupants above the base occupancy level. The owner may petition to 
+increase the rent by an amount up to 5% for each additional occupant above the base 
+occupancy level.  A rent increase shall not be based on an additional occupant who is 
+the spouse, registered domestic partner, parent, grandparent, child, adopted child, 
+foster child, or grandchild of an existing tenant, or the legal guardian of an existing 
+tenant’s child or grandchild who resides in the unit, or a caretaker/attendant as required 
+for a reasonable accommodation for an occupant with a disability. A rent increase 
+granted under this Section shall be reversed if the number of occupants decreases. 
+"Anniversary date" is the date falling one year after the day the tenant was provided with 
+possession of the covered unit or one year after the day the most recent rent 
+adjustment took effect, whichever is later. Following certain vacancies, a subsequent 
+tenant will assume the anniversary date of the previous tenant (Section 8.22.080). 
+"Appeal panel" means a three-member panel of board members authorized to hear 
+appeals of Hearing Officer decisions. Appeal panels must be comprised of one 
+residential rental property owner, one tenant, and one person who is neither a tenant 
+nor a residential rental property owner. Appeal panels may be made up of all regular 
+board members, all alternates, or a combination of regular board members and 
+alternates.  
+"Banking" means any CPI Rent Adjustment (or any rent adjustment formerly known as 
+the Annual Permissible Rent Increase) the owner chooses to delay imposing in part or 
+in full, and which may be imposed at a later date, subject to the restrictions in the 
+regulations.  
+“Base occupancy level” means the number of tenants occupying the covered unit as 
+principal residence as of June 16, 2020, with the owner’s knowledge, or allowed by the 
+lease or rental agreement effective as of June 16, 2020, whichever is greater, except 
+that, for units that had an initial rent established on or after June 17, 2020, “base 
+occupancy level” means the number of tenants allowed by the lease or rental 
+agreement entered into at the beginning of the current tenancy. 
+"Board" and "Residential Rent Adjustment Board" means the Housing, Residential Rent 
+and Relocation Board.  
+ 
+ 
+-20- 
+2834132v16 
+ 
+"Capital improvements" means those improvements to a covered unit or common areas 
+that materially add to the value of the property and appreciably prolong its useful life or 
+adapt it to new building codes. Those improvements must primarily benefit the tenant 
+rather than the owner. Capital improvement costs that may be passed through to 
+tenants include seventy percent (70%) of actual costs, plus imputed financing. Capital 
+improvement costs shall be amortized over the useful life of the improvement as set 
+forth in an amortization schedule developed by the Rent Board. Capital improvements 
+do not include the following as set forth in the regulations: correction of serious code 
+violations not created by the tenant; improvements or repairs required because of 
+deferred maintenance; or improvements that are greater in character or quality than 
+existing improvements (“gold-plating” “over-improving”) excluding: improvements 
+approved in writing by the tenant, improvements that bring the unit up to current building 
+or housing codes, or the cost of a substantially equivalent replacement; or costs for 
+which a landlord is reimbursed (e.g., insurance, court awarded damages, subsidies, tax 
+credits, and grants.). 
+"CPI—All items" means the Consumer Price Index—All items for all urban consumers 
+for the San Francisco—Oakland—San Jose area as published by the U.S. Department 
+of Labor Statistics for the twelve (12) month period ending on the last day of February of 
+each year.  
+"CPI—Less shelter" means the Consumer Price Index—All items less shelter for all 
+urban consumers for the San Francisco—Oakland—San Jose area as published by the 
+U.S. Department of Labor Statistics for the twelve (12) month period ending on the last 
+day of February of each year.  
+"CPI Rent Adjustment" means the maximum rent adjustment (calculated annually 
+according to a formula pursuant to Section 8.22.070 B.3) that an owner may impose 
+within a twelve (12) month period without the tenant being allowed to contest the rent 
+increase, except as provided in Section 8.22.070B.2 (failure of the owner to give proper 
+notices, decreased housing services, and uncured code violations).  
+"Costa-Hawkins" means the California state law known as the Costa-Hawkins Rental 
+Hawkins Act codified at California Civil Code § 1954.50, et seq. (Appendix A to this 
+chapter contains the text of Costa-Hawkins).  
+"Covered unit" means any dwelling unit, including joint living and work quarters, and all 
+housing services located in Oakland and used or occupied in consideration of payment 
+of rent with the exception of those units designated in Section 8.22.030A as exempt.  
+"Ellis Act Ordinance" means the ordinance codified at O.M.C. 8.22.400 (Chapter 8.22, 
+Article III) setting out requirements for withdrawal of residential rental units from the 
+market pursuant to California Government Code § 7060, et seq. (the Ellis Act).  
+"Fee" means the Rent Program Service Fee as set out in O.M.C. 8.22.500 (Chapter 
+8.22, Article IV).  
+"Housing services" means all services provided by the owner related to the use or 
+occupancy of a covered unit, including, but not limited to, insurance, repairs, 
+maintenance, painting, utilities, heat, water, elevator service, laundry facilities, janitorial 
+service, refuse removal, furnishings, parking, security service, and employee services, 
+ 
+ 
+-21- 
+2834132v16 
+ 
+and any other benefits or privileges permitted the tenant by agreement, whether 
+express or implied, including the right to have a specific number of occupants and the 
+right to one-for-one replacement of roommates, regardless of any prohibition against  
+subletting and/or assignment. 
+“Mandatory Seismic Capital Improvement” means Capital Improvements that consist of 
+mandatory seismic retrofitting as required in O.M.C. Chapter 15.27.  Allowable 
+adjustments of rents for work required by O.M.C. Chapter 15.27 shall be governed by 
+Article 1. Chapter 8.22.  
+"Owner" means any owner, lessor or landlord, as defined by state law, of a covered unit 
+that is leased or rented to another, and the representative, agent, or successor of such 
+owner, lessor or landlord.  
+"Owner of record" means a natural person, who is an owner of record holding an 
+interest equal to or greater than thirty-three percent (33%) in the property, but not 
+including any lessor, sublessor, or agent of the owner of record.  
+"Just Cause for Eviction Ordinance" means the ordinance adopted by the voters on 
+November 5, 2002 (also known as Measure EE) and codified at O.M.C. 8.22.300 
+(O.M.C. Chapter 8.22, Article II).  
+"Rent" means the total consideration charged or received by an owner in exchange for 
+the use or occupancy of a covered unit including all housing services provided to the 
+tenant.  
+"Rent Adjustment Program" means the department in the city that administers this 
+chapter and also includes the board.  
+"Regulations" means the regulations adopted by the board and approved by the City 
+Council for implementation of this chapter, Article I (formerly known as "Rules and 
+Procedures") (After regulations are approved, they will be attached to this chapter as 
+Appendix B).  
+"Security deposit" means any payment, fee, deposit, or charge, including but not limited 
+to, an advance payment of rent, used or to be used for any purpose, including but not 
+limited to the compensation of an owner for a tenant's default in payment of rent, the 
+repair of damages to the premises caused by the tenant, or the cleaning of the premises 
+upon termination of the tenancy exclusive of normal wear and tear.  
+"Tenant" means a person entitled, by written or oral agreement to the use or occupancy 
+of any covered unit.  
+"Uninsured repairs" means that work done by an owner or tenant to a covered unit or to 
+the common area of the property or structure containing a covered unit which is 
+performed to secure compliance with any state or local law as to repair damage 
+resulting from fire, earthquake, or other casualty or natural disaster, to the extent such 
+repair is not reimbursed by insurance proceeds. 
+“Voluntary Seismic Capital Improvement” means Capital Improvements that consist of 
+“seismic strengthening” as defined in O.M.C. Section 15.30.100, but is not required for 
+compliance under Chapter 15.27. 
+ 
+ 
+-22- 
+2834132v16 
+ 
+8.22.070 - Rent adjustments for occupied covered units.  
+ 
+This section applies to all rent adjustments for continuously occupied covered units. (Rent 
+increases following vacancies of covered units are governed by Section 8.22.080). Any 
+rent increase for a continuously occupied covered unit must comply with this section.  
+A.  One Rent Increase Each 12 Months; Exceptions and Limitation s.  
+1.  One Rent Increase Each Twelve (12) Months.  
+a.  Except as provided in Paragraph b below, an Owner may incre ase the 
+rent on a covered unit occupied continuously by the same tenant  only 
+once in a 12-month period. If an Owner filed an Owner's Rent In crease 
+petition, the earliest any increase allowed in the Hearing Offi cer's 
+decision may be effective is the date that a rent increase noti ce 
+consistent with this Chapter and state law is served on the Ten ant after 
+the service date of the decision. Such rent increase cannot tak e effect 
+earlier than the tenant's anniversary date if the Owner has alr eady 
+increased that tenant's rent within the preceding 12-month period.  
+b.  Upon the occurrence of any of the following, an Owner may i ncrease the 
+Rent on a Covered Unit occupied continuously by the same Tenant, even 
+if rent has already been raised during the preceding twelve (12) months:  
+i.  If the Owner restores housing services, rent may be restore d to the 
+original Rent from the level to which rent had been decreased a fter 
+a rent decrease awarded in a hearing decision by the RAP for 
+housing services; and/or  
+ii.  If, as a result of an appeal to the Rent Board or a writ t o the Superior 
+Court, the final decision permits a Rent increase greater than that 
+allowed in the Hearing Officer's decision, the Owner may notice such 
+increase as of the date of the final decision.  
+2.  In no event may rent for any covered unit increase by more than ten percent 
+in any 12-month period by more than 10 percent, or  the amount permitted 
+for Oakland rental units subject to California Civil Code 1947. 12 (or 
+successor provisions), whichever is lower, for any and all rent  increases 
+based on the CPI Rent Adjustment, as set out in O.M.C. 8.22.070B (CPI Rent 
+Adjustment), and any justifications pursuant to O.M.C. 8.22.070 C.2 (Rent 
+Increases In Excess of CPI Rent Adjustment) except for the foll owing: if 
+required for the owner to obtain a fair return pursuant to O.M. C. 
+8.22.070C.1.d. 
+a.  A rent increase based on the CPI Rent Adjustment for the cu rrent year 
+that exceeds ten percent, provided however that such Rent increase may 
+only include a CPI Rent Adjustment;  
+b.  The rent increase is required for the owner to obtain a fai r return 
+pursuant to O.M.C. 8.22.070C.2.f.  
+ 
+ 
+-23- 
+2834132v16 
+ 
+3.  No series of rent increases in any five-year period can exc eed 30 percent 
+for any rent increases based on the CPI Rent Adjustment, as set  out in, 
+O.M.C. 8.22.070B (CPI Rent Adjustment) and any justifications p ursuant to 
+O.M.C. 8.22.070C.2 (Rent Increases In Excess of CPI Rent Adjust ment) 
+except for the following:  
+a.  A series of rent increases composed solely of CPI Adjustmen ts may 
+exceed the 30 percent limitation;  
+b.  Exceeding the 30 percent limitation is required for the own er to obtain a 
+fair return pursuant to O.M.C. 8.22.070C.1.d2.f.  
+4.  If an owner is entitled to a rent increase or increases tha t cannot be taken 
+because of the Rent increase limitations pursuant to Subsection s 2. or 3. 
+above, the owner may defer the start date of the increase to a future period, 
+provided that in the rent increase notice that limits the owner's ability to take 
+the increases, the owner must identify the justification and th e amount or 
+percentage of the deferred increase that may be applied in the future.  
+B.  CPI and Banking Rent Adjustments.  
+1.  Effective Date of this Section. An owner may first impose C PI Rent 
+Adjustments pursuant to this section that take effect on or after July 1, 2002.  
+2.  CPI and Banking Rent Adjustment Not Subject to Petition. A Tenant may not 
+petition to contest a rent increase justified in an amount up t o and including 
+the CPI Rent Adjustment and/or any Banking Rent increase unless the tenant 
+alleges one or more of the following:  
+a.  The owner failed to provide the notice required at the comm encement 
+of tenancy and did not cure such failure (Section 8.22.060);  
+b.  The owner failed to provide the notice required with a rent  increase 
+(Section 8.22.070 H);  
+c.  The owner decreased housing services;  
+d.  The covered unit has uncured health, safety, fire, or build ing code 
+violations pursuant to Section 8.22.070 D.7);  
+e.  Any or all of a Banking Rent increase is not correctly calc ulated or the 
+Owner is not eligible for a Banking Rent increase;  
+f.  The Rent increase exceeds the limitations set out in Section 8.22.090A.3;  
+g.  The Rent increase is inoperative pursuant to Section 8.22.0 90D.7;  
+h.  The Owner has increased the rent once during the preceding twelve (12) 
+month period without qualifying for an exception pursuant to Se ction 
+8.22.070.A.1.  
+3.  Calculation of the CPI Rent Adjustment. Beginning in 2002, the CPI Rent 
+Adjustment is the average of the percentage increase in the CPI —All items 
+and the CPI—Less shelter for the twelve (12) month period starting on March 
+ 
+ 
+-24- 
+2834132v16 
+ 
+1 of each calendar year and ending on the last day of February of the 
+following calendar year calculated to the nearest one tenth of one percent.  
+4.  Effective Date of CPI Rent Adjustments. An owner may notice  a  r e n t  
+increase for a CPI Rent Adjustment so that the rent increase is  effective 
+during the period from July 1 following the Rent Adjustment Pro gram's 
+announcement of the annual CPI Rent Adjustment through June 30 of the 
+next year. The rent increase notice must comply with state law and take effect 
+on or after the tenant's anniversary date.  
+5.  Banking. In accordance with rules set out in the regulation s, an owner may 
+bank CPI rent adjustments and annual permissible rent adjustmen ts 
+previously authorized by this Chapter and notice a Banking Rent  increase 
+concurrent with a CPI Rent Adjustment.  
+6.  Schedule of Prior Annual Permissible Rent Adjustments. Form er annual 
+permissible rent adjustments available under the prior versions  o f  t h i s  
+Chapter:  
+a.  May 6, 1980 through October 31, 1983, the annual rate was t en percent.  
+b.  November 1, 1983 through September 30, 1986, the annual rat e was 
+eight percent.  
+c.  October 1, 1986 through February 28, 1995, the annual rate was six 
+percent.  
+d.  March 1, 1995 through June 30, 2002, the annual rate was th ree 
+percent.  
+C.  Rent Increases in Excess of the CPI Rent Adjustment or Bank ing.  
+1.  For Rent increases based on grounds other than the CPI Rent  Adjustment 
+or Banking, an Owner must first petition the Rent Program and r eceive 
+approval for the Rent increase before the Rent increase can be imposed. A 
+Rent increase in excess of the CPI Rent Adjustment or a Banking  increase 
+must be justified on one or more of the following grounds:  
+a.  Capital improvement costs, including financing of capital i mprovement 
+costs;  
+b.  Uninsured repair costs;  
+c.  Increased housing service costs;  
+d.  The rent increase is necessary to meet constitutional or fa ir return 
+requirements.; 
+e. The rent increase is imposed for an additional occupant, as defined by 
+Section 8.22.020.  
+2.  The amount of rent increase allowable for the grounds liste d in Section 
+8.22.070 C.2 are subject to the limitations set forth in the regulations.  
+D.  Rent Increase Notices and Operative Dates for Rent Increase s.  
+ 
+ 
+-25- 
+2834132v16 
+ 
+1.  CPI and Banking Increases not subject to a Petition. Rent i ncrease notices 
+for CPI and Banking Rent increases that are not the subject of a Petition shall 
+be operative in accordance with this Chapter and State law.  
+2.  Owner Petitions.  
+a.  An Owner may notice a Rent increase based on a petition aft er the 
+service date of the decision subject to the limitation of one Rent Increase 
+each twelve (12) months (the effective date of the Rent increase).  
+b.  Except for any portion of the petitioned-for Rent increase that is based 
+on a CPI Rent or Banking Rent Increase, a Tenant is not required to pay 
+the Rent increase until there is a final decision on the petiti on pursuant 
+to Section 8.22.070 D.5 (the operative date of the Rent increas e). 
+However if the Tenant chooses not to pay the Rent increase, the Tenant 
+owes the increased Rent starting from the effective date of the  Rent 
+increase if the final decision upholds the Hearing Officer's decision.  
+c.  In a decision by the board or an appeals panel, the decisio n may (or may 
+direct staff to) calculate the amount due and determine a repay ment 
+schedule consistent with the rent board regulations for the Tenant to pay 
+any back Rent due or for the Tenant to receive any rent credits  if the 
+Tenant paid a Rent increase that is not upheld on appeal. Howev er, a 
+Hearing Officer shall calculate the amount due if there is a factual dispute 
+regarding such amount.  
+d.  If a final decision permits a greater Rent increase than th e amount 
+permitted in the Hearing Officer's decision, the Owner may issue another 
+Rent increase notice up to the amount allowed in the final deci sion, and 
+such additional notice is not subject to the limitation of no more than one 
+Rent increase with in twelve (12) month period.  
+e.  If the final decision permits a smaller Rent increase than the amount 
+permitted in the Hearing Officer's decision, the Tenant need only pay the 
+Rent increase based on the amount of the final decision.  
+3.  Tenant Petitions.  
+a.  While a tenant petition is pending, a tenant must pay when due, pursuant 
+to the rent increase notice, the amount of the rent increase th at is equal 
+to the CPI Rent Adjustment unless:  
+i.  The tenant's petition claims decreased housing services; or   
+ii.  The owner failed to separately state in the rent increase the amount 
+that equals the CPI Rent Adjustment pursuant to Section 8.22.07 0 
+H.  
+b.  The amount of any noticed rent increase above the CPI Rent Adjustment 
+and Banking that is the subject of a petition is not operative until the 
+decision is final.  
+ 
+ 
+-26- 
+2834132v16 
+ 
+4.  When a party appeals the decision of a hearing officer, the  t e n a n t  m u s t  
+continue to pay the amount of the rent adjustment due during the period prior 
+to the issuance of the decision and the remaining amount of the noticed rent 
+increase is not operative until the board has issued its written decision.  
+5.  Final decision. The decision on a petition is final when an y one of the 
+following events have occurred:  
+a.  A hearing officer decision has been issued and the time for  appeal has 
+passed without an appeal being filed;  
+b.  An appeal decision is issued and the time to file a writ of  administrative 
+mandamus has passed without a writ being filed; or  
+c.  When a court issues a final decision, including any further  court appeals, 
+on any writ of administrative mandamus contesting a Rent Board appeal 
+decision.  
+6.  No part of any noticed rent increase is operative during th e period after the 
+tenant has filed a petition and the applicable covered unit has  been cited in 
+an inspection report by the approp riate governmental agency as containing 
+serious health, safety, fire, or building code violations as de fined by Section 
+17920.3 of the California Health and Safety Code, excluding any , violation 
+caused by a disaster or where the owner proves the violation wa s solely 
+caused by the willful conduct of the tenant. In order for such rent increase to 
+be operative the owner must provide proof that the cited violat ion has been 
+abated. The owner must then issue a new rent increase notice pu rsuant to 
+California Civil Code Section 827. The rent increase will be op erative in 
+accordance with Section 827. However, if an Owner files a petition for a Rent 
+increase, the Tenant must include the allegation of code violat ions in the 
+response to the petition for this subsection to be considered.  
+E.  An owner cannot increase the rent for a covered unit except  by following the 
+procedures set out in this Chapter (including the Just Cause fo r Eviction 
+Ordinance (O.M.C. Chapter 8.22, Article II) and the Ellis Act O rdinance (O.M.C. 
+Chapter 8.22, Article III)) or where Costa-Hawkins allows an ow ner to set the 
+initial rent for a new tenant without restriction.  
+F.  Decreased housing services. A decrease in housing services is considered an 
+increase in rent. A tenant may petition for an adjustment in re nt based on a 
+decrease in housing services under standards in the regulations . The tenant's 
+petition must specify the housing services decreased. Where a r ent or a rent 
+increase has been reduced for decreased housing services, the r ent or rent 
+increase may be restored in accordance with procedures set out in the 
+regulations when the housing services are reinstated.  
+G.  Pass-through of Fee. An owner may pass-through one half of the fee to a tenant 
+in accordance with Section 8.22.500G. The allowed fee pass-thro ugh shall not 
+be added to the rent to calculate the CPI Rent Adjustment or an y other rent 
+adjustment and shall not be considered a rent increase.  
+H.  Notice Required to Increase Rent or Change Other Terms of T enancy.  
+ 
+ 
+-27- 
+2834132v16 
+ 
+1.  All Rent Increase Notices. As part of any notice to increas e rent or change 
+any terms of tenancy, an owner must include:  
+a.  Notice of the existence of this Chapter; and  
+b.  The tenant's right to petition against any rent increase in  excess of the 
+CPI Rent Adjustment unless such rent increase is pursuant to an  
+approved Petition.  
+2.  Notices for Rent Increases Based on the CPI Rent Adjustment  or Banking. 
+As part of a notice to increase Rent based on the CPI Rent Adju stment or 
+Banking, an Owner must include:  
+a.  The amount of the CPI Rent Adjustment; and  
+b.  The amount of any Banking increase.  
+3.  Notices for Rent Increases Based on Owner Petition. As part  of a notice to 
+increase rent based on an owner petition, an owner must include a summary 
+of the decision in the form provided by the Rent Adjustment Pro gram 
+pursuant to the following:  
+a.  The Rent Adjustment Program will provide a summary of any d ecision, 
+including an appeal decision or final decision with the decisio n or final 
+decision, which the Owner shall include in a notice of rent increase.  
+b.  The Rent Adjustment Program may provide optional, "safe har bor" forms 
+for required notices, unless the ordinance or regulations require use of a 
+specified form.  
+4.  A notice to increase rent must include the information required by Subsection 
+8.22.070H.1. using the language and in a form prescribed by the  Rent 
+Adjustment Program.  
+5.  A rent increase is not permitted unless the notice meets th e requirements of 
+California Civil Code Section 827.  
+6.  A rent increase is not permitted unless the notice required  by this section is 
+provided to the tenant. An owner's failure to provide the notic e required by 
+this section invalidates the rent increase or change of terms of tenancy. This 
+remedy is not the exclusive remedy for a violation of this provision.  
+I.  An owner may terminate the tenancy for nonpayment of rent ( California Code of 
+Civil Procedure § 1161(2) (unlawful detainer)) of a tenant who fails to pay the 
+portion of a rent increase that is equal to the CPI Rent Adjust ment when the 
+tenant is required to do so by this subsection. In addition to any other defenses 
+to the termination of tenancy the tenant may have, a tenant may  defend such 
+termination of tenancy on the basis that:  
+1.  The owner did not comply with the notice requirements for a  rent increase; 
+or  
+2.  The tenant's petition was based on decreased housing servic es.  
+ 
+ 
+ 
+-28- 
+2834132v16 
+ 
+ 
+8.22.090 - Petition and response to filing procedures.  
+ 
+A.  Tenant Petitions.  
+1.  Tenant may file a petition regarding any of the following:  
+a.  A rent increase was given that is not based on the CPI rent  adjustment, 
+banking; and/or a final decision in an owner petition;  
+b.  The owner set an initial rent in excess of the amount permi tted pursuant to 
+Section 8.22.080 (Rent increases following vacancies);  
+c.  A rent increase notice failed to comply with the requiremen ts of Subsection 
+8.22.070H;  
+d.  The owner failed to give the tenant a notice in compliance with Section 
+8.22.060 and State law;  
+e.  The owner decreased housing services to the tenant;  
+f.  The tenant alleges the covered unit has been cited in an in spection report by 
+the appropriate governmental agency as containing serious healt h, safety, 
+fire, or building code violations pursuant to Subsection 8.22.070 D.6;  
+g.  The owner fails to reduce rent on the month following the e xpiration of the 
+amortization period for capital improvements, or to pay any int erest due on 
+any rent overcharges from the failure to reduce rent for a capi tal 
+improvement.  
+h. The owner noticed a rent increase of more than the ten (10) percent that 
+exceeds the annual limit as provided in Section 8.22.070A2 or t hat exceeds 
+the rent increase limit of thirty (30) percent in five years.  
+i.  The petition is permitted by the Just Cause for Eviction Or dinance (Measure 
+EE) O.M.C. 8.22.300 or its regulations.  
+j.  The petition is permitted by the Ellis Act Ordinance, O.M.C . 8.22.400, or its 
+regulations.  
+k.  The tenant contests an exemption from this O.M.C. 8.22, Art icle I or Article 
+II.  
+l.  The tenant claims the owner has received reimbursements for  any portion of 
+cost or financing of capital improvements after a capital impro vement rent 
+increase has been approved, and has not prorated and refunded s uch 
+reimbursement.  
+m.   After a rent increase imposed for an additional occupant as defined by 
+Section 8.22.020, the owner fails to reduce the rent following a decrease in 
+occupancy. 
+ 
+2.  For a petition contesting a rent increase, the petition mus t be filed as follows:  
+ 
+ 
+-29- 
+2834132v16 
+ 
+a.  If the owner provided written notice of the existence and s cope of this 
+Chapter as required by Section 8.22.060 at the inception of tenancy:  
+i.  The petition must be filed within ninety (90) days of the d ate the owner 
+serves the rent increase notice if the owner provided the RAP notice with 
+the rent increase; or  
+ii.  The petition must be filed within one hundred twenty (120)  days of the 
+date the owner serves the rent increase if the owner did not pr ovide the 
+RAP notice with the rent increase.  
+b.  If the owner did not provide written notice of the existenc e and scope of this 
+Chapter as required by Section 8.22.060 at the inception of ten ancy, within 
+ninety (90) days of the date the tenant first receives written notice of the 
+existence and scope of this Chapter as required by Section 8.22.060.  
+3.  For a petition claiming decreased housing services:  
+a.  If the decreased housing is the result of a noticed or disc rete change in 
+services provided to the tenant (e.g., removal of parking place , requirement 
+that tenant pay utilities previously paid by owner) the petitio n must be filed 
+within ninety (90) days of whichever of the following is later:  
+i.  The date the tenant is noticed or first becomes aware of th e decreased 
+housing service; or  
+ii.  The date the tenant first receives written notice of the e xistence and 
+scope of this Chapter as required by Section 8.22.060.  
+b.  If the decreased housing is ongoing (e.g., a leaking roof),  the tenant may file 
+a petition at any point but is limited in restitution for ninet y (90) days before 
+the petition is filed and to the period of time when the owner knew or should 
+have known about the decreased housing service.  
+4.  In order to file a petition or respond to an owner petition , a tenant must provide 
+the following at the time of filing the petition or response:  
+a.  A completed tenant petition or response on a form prescribe d by the rent 
+adjustment program;  
+b.  Evidence that the tenant's rent is current or that the tena nt is lawfully 
+withholding rent; and  
+c.  A statement of the services that have been reduced or elimi nated, if the 
+tenant claims a decrease in housing services;  
+d.  A copy of the applicable citation, if the tenant claims the  rent increase need 
+not be paid because the covered unit has been cited in an inspe ction report 
+by the appropriate governmental agency as containing serious health, safety, 
+fire, or building code violations pursuant to Section 8.22.070D.6.  
+5.  A tenant must file a response to an owner's petition within  thirty (30) days of 
+service of the notice by the rent adjustment program that an ow ner petition was 
+filed.  
+ 
+ 
+-30- 
+2834132v16 
+ 
+B.  Owner Petitions and Owner Responses to Tenant Petitions.  
+1.  In order for an owner to file a response to a tenant petiti on or to file a petition 
+seeking a rent increase, the owner must provide the following:  
+a.  Evidence of possession of a current City business license;  
+b.  Evidence of payment of the rent adjustment program service fee;  
+c.  Evidence of service of written notice of the existence and scope of the rent 
+adjustment program on the tenant in each affected covered unit in the 
+building prior to the petition being filed;  
+d.  A completed response or petition on a form prescribed by th e rent 
+adjustment program; and  
+e.  Documentation supporting the owner's claimed justification( s) for the rent 
+increase or supporting any claim of exemption.  
+2.  An owner must file a response to a tenant's petition within  thirty (30) days of 
+service of the notice by the rent adjustment program that a ten ant petition was 
+filed.  
+ 
+8.22.110 - Hearing procedures.  
+ 
+A.  Hearing Officer. A hearing shall be set before a Hearing Of ficer to decide the issues 
+in the petition.  
+B.  Hearings.  
+1.  All hearings on petitions shall be open to the public and r ecorded;  
+2.  Any party to a hearing may be assisted by a representative who may be an 
+attorney or any other person. A party must designate his or her representative in 
+writing.  
+C.  Notification and Consolidation. Rent Adjustment Program sta ff shall notify the owner 
+and tenant in writing of the time and place set for hearing. Representatives of parties 
+shall also be notified of hearings, provided that the Rent Adju stment Program has 
+been notified in writing of a party's designation of a represen tative at least ten days 
+prior to the notice of the hearing being sent. Disputes involvi ng more than one 
+covered unit in any single building may be consolidated for hearing.  
+D.  Time of Hearing and Decision.  
+1.  The Hearing Officer shall have the goal of hearing the matt er within sixty (60) 
+days of the original petition's filing date.  
+2.  The Hearing Officer shall have a goal of rendering a decisi on within sixty (60) 
+days after the conclusion of the hearing or the close of the re cord, whichever is 
+later. The decision shall be issued in writing.  
+3.  The decision of the examiner shall be based entirely on evi dence placed into the 
+record.  
+ 
+ 
+-31- 
+2834132v16 
+ 
+E.  A Hearing Officer may order a rent adjustment as restitutio n for any overcharges or 
+undercharges due, subject to guidelines set out in the regulations.  
+F.  Administrative Decisions.  
+1.  Notwithstanding the acceptance of a petition or response by the Rent Adjustment 
+Program, if any of the following conditions exist, a hearing may not be scheduled 
+and a Hearing Officer may issue a decision without a hearing:  
+a.  The petition or response forms have not been properly compl eted or 
+submitted;  
+b.  The petition or response forms have not been filed in a tim ely manner;  
+c.  The required prerequisites to filing a petition or response  have not been met; 
+or  
+d.  A certificate of exemption was previously issued and is not  challenged by 
+the tenant.; or  
+e.  The petition and response for ms raise no genuine dispute as to any material 
+fact, and the petition may be decided as a matter of law. 
+ 
+2.  A notice regarding the parties' appeal rights will accompan y any decision issued 
+administratively. Appeals are governed by Section 8.22.120.  
+G.  Should the petitioner fail to appear at the designated hear ing, the Hearing Officer 
+may dismiss the petition.  
+ 
+  
+ 
+ 
+-32- 
+2834132v16 
+ 
+ATTACHMENT C 
+(Just Cause for Eviction Ordinance) 
+ 
+Section 6 [8.22.360] - Good Cause Required for Eviction. A.   No landlord shall 
+endeavor to recover possession, issue a notice terminating tenancy, or recover 
+possession of a rental unit in the city of Oakland unless the landlord is able to 
+prove the existence of one of the following grounds:  
+1.  The tenant has failed to pay rent to which the landlord is legally entitled pursuant 
+to the lease or rental agreement and under provisions of state or local law, and 
+said failure has continued after service on the tenant of a written notice correctly 
+stating the amount of rent then due and requiring its payment within a period, 
+stated in the notice, of not less than three days. However, this subsection shall 
+not constitute grounds for eviction where tenant has withheld rent pursuant to 
+applicable law.  
+2.   The tenant has continued, after written notice to cease, to substantially violate a 
+material term of the tenancy other than the obligation to surrender possession on 
+proper notice as required by law, provided further that.  
+ 
+a. nNotwithstanding any lease provision to the contrary, a land lord shall not 
+endeavor to recover possession of a rental unit as a result of subletting of the 
+rental unit by the tenant if the landlord has unreasonably withheld the right to 
+sublet following a written request by the tenant, so long as the tenant 
+continues to reside in the rental unit and the sublet constitutes a one-for-one 
+replacement of the departing tenant(s). If the landlord fails to respond to the 
+tenant in writing within fourteen (14) days of receipt of the tenant's written 
+request, the tenant's request shall be deemed approved by the landlord.  
+b. Notwithstanding any lease pro vision to the contrary, a landl ord shall not 
+endeavor to recover possession of a rental unit based on the ad dition of 
+occupants to the rental unit if the landlord has unreasonably r efused a written 
+request by the tenant to add such occupant(s) to the unit, so l ong as the 
+maximum number of occupants does not exceed the lesser of the a mounts 
+allowed by Subsection (i) or (ii)  of this Section 8.22.360A.2.b . If the landlord 
+fails to respond in writing with a description of the reasons for the denial of the 
+request within fourteen (14) days of receipt of the tenant's wr itten request, the 
+tenant's request shall be deemed approved by the landlord. However, for units 
+restricted as affordable housing as defined by O.M.C. Section 1 5.72.030, a 
+written resident request to add an occupant shall be deemed inc omplete and 
+inadequate until such resident has provided all documentation r equired for 
+qualification of such additional occupant and the household aft er the addition 
+of such occupant under the rules restricting the housing. A lan dlord's 
+reasonable refusal of the tenant's written request may not be b ased on either 
+of the following: (1) the proposed additional occupant's lack of creditworthiness, 
+if that person will not be legally obligated to pay some or all  of the rent to the 
+landlord, or (2) the number of occupants allowed by the rental agreement or 
+ 
+ 
+-33- 
+2834132v16 
+ 
+lease. With the exception of the restrictions stated in the pre ceding sentence, 
+a landlord's reasonable refusal of the tenant's written request  may be based 
+on, but is not limited to, the ground that the landlord resides  in the same unit 
+as the tenant or the ground that the total number of occupants in a unit exceeds 
+(or with the proposed additional occupant(s) would exceed) the lesser of (i) or 
+(ii): 
+            (i)   Two persons in a studio unit, three persons i n a one-bedroom unit, 
+four persons in a two-bedroom unit, six persons in a three-bedroom unit, or 
+eight persons in a four-bedroom unit; or, 
+            (ii)   The maximum number permitted in the unit und er state law and/or 
+other local codes such as the Building, Fire, Housing and Planning Codes. 
+This Subsection 8.22.360A.2.b is not intended by itself to esta blish a direct 
+landlord-tenant relationship between the additional occupant an d the landlord 
+or to limit a landlord's rights under the Costa-Hawkins Rental Housing Act, 
+California Civil Code Section 1954.50 et seq. (as it may be amended from time 
+to time). Nothing in this subsection authorizes an occupancy th at would result 
+in either transient habitation commercial activity as defined by O.M.C. Section 
+17.10.440 or semi-transient commercial activity as defined by O .M.C. Section 
+17.10.120. 
+c. Before endeavoring to recover possession based on the violat ion of a lawful 
+obligation or covenant of tenancy regarding subletting or limit s on the number 
+of occupants in the rental unit, the landlord shall serve the t enant a written 
+notice of the violation that provides the tenant with a minimum of fourteen (14) 
+days opportunity to cure the violation. The tenant may cure the  violation by 
+making a written request to add occupants referenced in Subsect ion a or b of 
+Section 8.22.360A.2 or by using other reasonable means to cure the violation, 
+including, without limitation, the removal of any additional or  unapproved 
+occupant. Nothing in this Section 8.22.360A.2.c is intended to limit any other 
+rights or remedies that the law otherwise provides to landlords. 
+ 
+3.  The tenant, who had an oral or written agreement with the landlord which has 
+terminated, has refused after written request or demand by the landlord to 
+execute a written extension or renewal thereof for a further term of like duration 
+and under such terms which are materially the same as in the previous 
+agreement; provided, that such terms do not conflict with any of the provisions of 
+this chapter. [O.M.C. Chapter 8.22, Article II].  
+4.   The tenant has willfully caused substantial damage to the premises beyond 
+normal wear and tear and, after written notice, has refused to cease damaging 
+the premises, or has refused to either make satisfactory correction or to pay the 
+reasonable costs of repairing such damage over a reasonable period of time.  
+5.  The tenant has continued, following written notice to cease, to be so disorderly as 
+to destroy the peace and quiet of other tenants at the property.  
+ 
+ 
+-34- 
+2834132v16 
+ 
+6.  The tenant has used the rental unit or the common areas of the premises for an 
+illegal purpose including the manufacture, sale, or use of illegal drugs.  
+7.  The tenant has, after written notice to cease, continued to deny landlord access to 
+the unit as required by state law.  
+8.  The owner of record seeks in good faith, without ulterior reasons and with honest 
+intent, to recover possession of the rental unit for his or her occupancy as a 
+principal residence where he or she has previously occupied the rental unit as his 
+or her principal residence and has the right to recover possession for his or her 
+occupancy as a principal residence under a written rental agreement with the 
+current tenants.  
+9.  The owner of record seeks in good faith, without ulterior reasons and with honest 
+intent, to recover possession for his or her own use and occupancy as his or her 
+principal residence, or for the use and occupancy as a principal residence by the 
+owner of record's spouse, domestic partner, child, parent, or grandparent.  
+a.    Here the owner of record recovers possession under this Subsection (9) 
+[Paragraph 8.22.360 A.9], and where continuous occupancy for the purpose 
+of recovery is less than thirty-six (36) months, such recovery of the 
+residential unit shall be a presumed violation of this chapter.  
+b.   The owner of record may not recover possession pursuant to this subsection 
+more than once in any thirty-six (36) month period,  
+c.   The owner must move in to unit within three (3) months of the tenant's   
+vacation of the premises.  
+d.   Reserved. 
+e.    A landlord may not recover possession of a unit from a tenant under 
+Subsection 6(A)(9) [8.22.360 A.9], if the landlord has or receives notice, any 
+time before recovery of possession, that any tenant in the rental unit:  
+i.  Has been residing in the unit for five (5) years or more; a nd  
+(a)    Is sixty (60) years of age or older; or  
+(b)    Is a disabled tenant as defined in the California Fair Employment  
+               and Housing Act (California Government Code § 12926); or  
+ 
+ii.    Has been residing in the unit for five (5) years or more, and is a 
+catastrophically ill tenant, defined as a person who is disabled as 
+defined by Subsection (e)(i)(b) [8.22.360 A.9.e.i.b]]and who suffers from 
+a life threatening illness as certified by his or her primary care 
+physician.  
+f.  The provisions of Subsection (e) [8.22.360 A.9.e] above sha ll not apply 
+where the landlord's qualified relative who will move into the unit is 60 years 
+of age or older, disabled or catastrophically ill as defined by Subsection (e) 
+[8.22.360 A.9.e], and where every rental unit owned by the landlord is 
+ 
+ 
+-35- 
+2834132v16 
+ 
+occupied by a tenant otherwise protected from eviction by Subsection (e) 
+[8.22.360 A.9.e].  
+g.  A tenant who claims to be a member of one of the classes pr otected by 
+Subsection 6(A)(9)(e) [8.22.360 A.9.e] must submit a statement, with 
+supporting evidence, to the landlord. A landlord may challenge a tenant's 
+claim of protected status by requesting a hearing with the Rent Board. In 
+the Rent Board hearing, the tenant shall have the burden of proof to show 
+protected status. No civil or criminal liability shall be imposed upon a 
+landlord for challenging a tenant's claim of protected status. The Rent 
+Board shall adopt rules and regulations to implement the hearing 
+procedure.  
+h.   Once a landlord has successfully recovered possession of a rental unit 
+pursuant to Subsection 6(A)(9) [8.22.360 A.9], no other current landlords 
+may recover possession of any other rental unit in the building under 
+Subsection 6(A)(9) [8.22.360 A.9]. Only one specific unit per building may 
+undergo a Subsection 6(A)(9) [8.22.360 A.9] eviction. Any future evictions 
+taking place in the same building under Subsection 6(A)(9) [8.22.360 A.9] 
+must be of that same unit, provided that a landlord may file a petition with 
+the Rent Board or, at the landlord's option, commence eviction proceedings, 
+claiming that disability or other similar hardship prevents him or her from 
+occupying a unit which was previously the subject of a Subsection 6(A)(9) 
+[8.22.360 A.9] eviction. The Rent Board shall adopt rules and regulations to 
+implement the application procedure.  
+i.  A notice terminating tenancy under this Subsection must contain, in addition 
+to the provisions required under Subsection 6(B)(5) [8.22.360 B.5]:  
+i. A listing of all property owned by the intended future occupant(s).  
+ ii. The address of the real property, if any, on which the intended future 
+occupant(s) claims a homeowner's property tax exemption.  
+10. The owner of record, after having obtained all necessary permits from the City of 
+Oakland on or before the date upon which notice to vacate is given, seeks in 
+good faith to undertake substantial repairs that cannot be completed while the 
+unit is occupied, and that are necessary either to bring the property into 
+compliance with applicable codes and laws affecting health and safety of tenants 
+of the building, or under an outstanding notice of code violations affecting the 
+health and safety of tenants of the building.  
+a.   Upon recovery of possession of the rental unit, owner of record shall 
+proceed without unreasonable delay to effect the needed repairs. The 
+tenant shall not be required to vacate pursuant to this section, for a period 
+in excess of three months; provided, however, that such time period may be 
+extended by the Rent Board upon application by the landlord. The Rent 
+Board shall adopt rules and regulations to implement the application 
+procedure.  
+ 
+ 
+-36- 
+2834132v16 
+ 
+b. Upon completion of the needed repairs, owner of record shall  offer tenant 
+the first right to return to the premises at the same rent and pursuant to a 
+rental agreement of substantially the same terms, subject to the owner of 
+record's right to obtain rent increase for capital improvements consistent 
+with the terms of the Oakland Residential Rent Arbitration Ordinance or any 
+successor ordinance.  
+c.    A notice terminating tenancy under this Subsection 6(A)(10) [8.22.360   
+A.10] must include the following information:  
+i.  A statement informing tenants as to their right to payment under the 
+Oakland Relocation Ordinance.  
+ii.  A statement that "When the needed repairs are completed on  your unit, 
+the landlord must offer you the opportunity to return to your unit with a 
+rental agreement containing the same terms as your original one and 
+with the same rent (although landlord may be able to obtain a rent 
+increase under the Oakland Residential Rent Arbitration Ordinance 
+[O.M.C. Chapter 8.22, Article I)."  
+iii.   Reserved. 
+iv.   An estimate of the time required to complete the repairs and the date 
+upon which it is expected that the unit will be ready for habitation.  
+11. The owner of record seeks remove the property from the rental market in 
+accordance with the terms of the Ellis Act (California Government Code Section 
+7060 et seq.).  
+B.  The following additional provisions shall apply to a landlord who seeks to recover a 
+rental unit pursuant to Subsection 6(A) [8.22.360 A]:  
+1.   The burden of proof shall be on the landlord in any eviction action to which this 
+order is applicable to prove compliance with Section 6 [8.22.360].  
+2.    A landlord shall not endeavor to recover possession of a rental unit unless at 
+least one of the grounds enumerated in Subsection 6(A) [8.22.360 A] above is 
+stated in the notice and that ground is the landlord's dominant motive for 
+recovering possession and the landlord acts in good faith in seeking to recover 
+possession.  
+3.   Where a landlord seeks to evict a tenant under a just cause ground specified in 
+Subsections 6(A)(7, 8, 9, 10, 11) [8.22.360 A.7, 8, 9, 10, 11], she or he must do 
+so according to the process established in CCC § 1946 (or successor 
+provisions providing for 30 day notice period); where a landlord seeks to evict a 
+tenant for the grounds specified in Subsections 6(A)(1, 2, 3, 4, 5, 6) [8.22.360 
+A.1, 2, 3, 4, 5, 6], she or he must do so according to the process established in 
+CCP § 1161 (or successor provisions providing for 3 day notice period).  
+4.   Any written notice as described in Subsection 6(A)(2, 3, 4, 5, 7) [8.22.360 A.2, 
+3, 4, 7] shall be served by the landlord prior to a notice to terminate tenancy and 
+shall include a provision informing tenant that a failure to cure may result in the 
+initiation of eviction proceedings.  
+ 
+ 
+-37- 
+2834132v16 
+ 
+5.   Subsection 6(B)(3) [8.22.360 B.3] shall not be construed to obviate the need for 
+a notice terminating tenancy to be stated in the alternative where so required 
+under CCP § 1161.  
+6.   A notice terminating tenancy must additionally include the following:  
+a.   A statement setting forth the basis for eviction, as described in Subsections 
+6(A)(1) [8.22.360 A.1] through 6(A)(11) [8.22.360 A.11];  
+b.   A statement that advice regarding the notice terminating tenancy is 
+available from the Rent Board.  
+c.   Where an eviction is based on the ground specified in Subsection 6(A)(9) 
+[8.22.360 A.9], the notice must additionally contain the provisions specified 
+in Subsection 6(A)(9)(i) [8.22.360 A.9.i].  
+d.   Where an eviction is based on the ground specified in Subsection 6(A)(10) 
+[8.22.360 A.10], the notice must additionally contain the provisions specified 
+in Subsection 6(A)(10)(c) [8.22.360 A.10].  
+e.   Failure to include any of the required statements in the notice shall be a 
+defense to any unlawful detainer action.  
+7.   Within ten (10) days of service of a notice terminating tenancy upon a tenant, a 
+copy of the same notice and any accompanying materials must be filed with the 
+Rent Board. Each notice shall be indexed by property address and by the name 
+of the landlord. Such notices shall constitute public records of the City of 
+Oakland, and shall be maintained by the Rent Board and made available for 
+inspection during normal business hours. Failure to file the notice within ten (10) 
+days of service shall be a defense to any unlawful detainer action.  
+C.   Reserved.  
+D.   Substantive limitations on landlord's right to evict. This subsection (D) [8.22.360 D] 
+is intended as both a substantive and procedural limitation on a landlord's right to 
+evict.   
+1.   In any action to recover possession of a rental unit pursuant to Section 6 
+[8.22.360], a landlord must allege and prove the following:  
+a.   the basis for eviction, as set forth in Subsection 6(A)(1) through 6(A)(11) 
+[8.22.360 A.1 through 8.22.360 A.11] above, was set forth in the notice of 
+termination of tenancy or notice to quit;  
+b.    that the landlord seeks to recover possession of the unit with good faith,   
+       honest intent and with no ulterior motive;  
+ 
+2.   If landlord claims the unit is exempt from this ordinance, landlord must allege 
+and prove that the unit is covered by one of the exceptions enumerated in 
+Section 5 [8.22.350] of this chapter. Such allegations must appear both in the 
+notice of termination of tenancy or notice to quit, and in the complaint to recover 
+possession. Failure to make such allegations in the notice shall be a defense to 
+any unlawful detainer action.  
+ 
+ 
+-38- 
+2834132v16 
+ 
+3.   This subsection (D) [8.22.360 D] is intended as both a substantive and 
+procedural limitation on a landlord's right to evict. A landlord's failure to comply 
+with the obligations described in Subsections 7(D)(1) or (2) [ sic ] [8.22.360 D.1 
+or 8.22.360 D.2] shall be a defense to any action for possession of a rental unit.  
+4.  In any action to recover possession of a rental unit filed under 8.22.360A1, it 
+shall be a defense if the landlord impeded the tenant’s effort to pay rent by 
+refusing to accept rent paid on behalf of the tenant from a third party, or 
+refusing to provide a W-9 form or other necessary documentation for the tenant 
+to receive rental assistance from a government agency, non-profit organization, 
+or other third party. Acceptance of rental payments made on behalf of the 
+tenant by a third party shall not create a tenancy between the landlord and the 
+third party as long as either the landlord or the tenant provide written notice that 
+no new tenancy is intended. 
+5.  A Landlord’s failure to fully comply with any applicable law requiring payment of 
+relocation benefits to the tenant, such as those provided by Articles III, VII, and 
+VIII of this Chapter and Chapter 15.60 of the Oakland Municipal Code, including 
+but not limited to amount and timing, shall be a defense to any action for 
+possession of a rental unit. 
+6. Notwithstanding any change in the terms of a tenancy pursuan t to Civil Code 
+Section 827, a tenant may not be evicted for a violation of a covenant or 
+obligation that was not included in the tenant's written or oral rental agreement at 
+the inception of the tenancy unless: (1) the change in the terms of the tenancy is 
+authorized by the Rent Ordinance or California Civil Code Sections 1947.5 or 
+1947.12, or required by federal, state, or local law, or regulatory agreement with 
+a government agency; or (2) the change in the terms of the tenancy was 
+accepted in writing by the tenant after receipt of written notice from the landlord 
+that the tenant need not accept such new term as part of the rental agreement 
+and in exchange for valid consideration.  
+E.   In the event that new state or federal legislation confers a right upon landlords to 
+evict tenants for a reason not stated herein, evictions proceeding under such 
+legislation shall conform to the specifications set out in this chapter [O.M.C. Chapter 
+8.22, Article II].  
+F.    The City Council is authorized to modify the Just Cause for Eviction Ordinance 
+(Measure EE [O.M.C., Chapter 8, Article II (8.22.300, et seq.)]) for the purpose of 
+adding limitations on a landlord’s right to evict, but the City Council may not modify 
+any exemption from this Ordinance contained in Section 5 [O.M.C. Section 
+8.22.350]. 
+ 
+  
+ 
+ 
+-39- 
+2834132v16 
+ 
+ATTACHMENT D 
+(Terminating Tenancy to Withdraw Residential Rental Units from the Rental Market) 
+ 
+8.22.410 - Definitions.  
+ 
+"Disabled" means a person with a disability, as defined in Sect ion 12955.3 of the 
+Government Code.  
+"Elderly" means a person sixty-two (62) years old or older.  
+"Lower-income tenant household" means tenant households whose i ncome is not more 
+than that permitted for lower income households, as defined by California Health and 
+Safety Code Section 50079.5.  
+"Minor child(ren)" means a person(s) who is eighteen (18) years  or younger at the time 
+the notice of withdrawal of accommodations is served on the program.  
+"Owner" means an owner of record of the real property on which the rent units to be 
+withdrawn are located.  
+"Rent Adjustment Program" means the Rent Adjustment Program as that term is defined 
+in O.M.C. 8.22.020.  
+"Tenant" means a tenant as that term is defined in O.M.C. 8.22.340020 and also includes 
+a lessee.  
+"Unit or Rental Unit" means a Rental Unit as that term is defined in O.M.C. 8.22.340 with 
+the exception of those units designated in Section 8.22.350 as exempt.  
+"Withdrawal Notices" means those documents an owner is required  to be filed with the 
+Rent Adjustment Program pursuant to Paragraph 8.22.430A.  
+"Withdrawn Unit" means a rental unit that has been withdrawn fr om the rental market in 
+accordance with this O.M.C. 8.22.400 et seq.  
+ 
+8.22.450 - Relocation payments.  
+ 
+A.  Tenant Households who are required to move as a result of t he Owner's withdrawal 
+of the accommodation from rent or lease shall be entitled to a relocation payment 
+from the Owner equal to Relocation Payment amounts set forth in  O.M.C. 8.22.820 
+A. The payment shall be divided equally among all Tenants occupying the Rental Unit 
+at the time of service on the Tenants of the notice of intent t o withdraw the unit from 
+rent or lease. Once notice of withdrawal of the accommodation from rent or lease has 
+been given to the Tenant, the Owner is obligated to make the relocation payments.  
+B.  Tenant Households in Rental Units withdrawn from the reside ntial market that 
+include lower income, elderly or  disabled Tenants, and/or minor  children shall be 
+entitled to a single additional relocation payment equal to the  additional Relocation 
+Payment amounts set forth in O.M.C. 8.22.820 B. If a household qualifies for this 
+additional payment, the payment shall be divided equally among eligible (lower-
+income, elderly, disabled, parents/guardians of minor children) Tenants.  
+ 
+ 
+-40- 
+2834132v16 
+ 
+C.  A tenant whose household qualifies for the additional payme nt may request it from 
+the owner, provided the tenant gives written notice of his or h er entitlement to such 
+payments to the owner within sixty (60) days of the date of del ivery to the Rent 
+Adjustment Program of the Withdrawal Documents.  
+D.  An owner who, reasonably and in good faith, believes that a  tenant does not qualify 
+for the additional payment may request documentation from the tenant demonstrating 
+the tenant's income qualification. Such documentation may not include any document 
+that is protected as private or confidential under any state, l ocal, or federal law. The 
+owner's request must be made within fifteen (15) days after rec eipt of the tenant's 
+notification of eligibility for the additional payment. The ten ant has thirty (30) days 
+following receipt of the owner's request for documentation to s ubmit documentation. 
+The owner must keep the documents submitted by the tenant confi dential unless 
+there is litigation or administrative proceedings regarding the  tenant's eligibility for 
+relocation payments or the documents must be produced in response to a subpoena 
+or court order, in which case the tenant may seek an order from  the court or 
+administrative body to keep the documents confidential. Example s of the types of 
+evidence that may be used to present a claim that a household is entitled to an extra 
+payment based on a tenant's disability status include evidence that a tenant has a 
+qualifying disability may be in the form of a statement from a treating physician or 
+other appropriate health care provider authorized to provide tr eatment, such as a 
+psychologist. A tenant may also submit evidence of a medical de termination from 
+another forum, such as Social Security or worker's compensation ,  s o  l o n g  a s  i t  
+includes the fact that the tenant has a disability and its probable duration.  
+E.  Time for payment.  
+1.  The owner must pay the tenant half of the relocation paymen t provided for in 
+Section 8.22.450(A) when the termination notice is given to the  household and 
+the remaining half when the tenant vacates the unit provided th at the tenant 
+agrees, in writing, not to contest an unlawful detainer based o n the notice to 
+terminate tenancy for the withdrawal of the tenant's rental unit. If the tenant does 
+not so agree, then the entirety of the relocation payment is no t due unless the 
+owner prevails in the unlawful detainer. If the owner prevails in the unlawful 
+detainer, the relocation payment must be paid to the tenant pri or to the owner 
+seeking a writ of possession for the tenant to vacate the withdrawn unit.  
+2.  The owner must pay the tenant the additional payment provid ed for in Section 
+8.22.450(B) within fifteen (15) days of the tenant's notice of eligibility or the tenant 
+supplying documentation of the tenant's eligibility.  
+3.     An owner who pays relocation expenses in conjunction wit h a notice to quit as 
+required by this section need not pay the same relocation expen ses with any 
+further notices to quit based O.M.C. Section 8.22.360 A.11 for the same unit that 
+are served within 180 days of the notice that included the requ ired relocation 
+payment. Nothing in this paragraph relieves the owner from portions of relocation 
+expenses not yet paid by the owner or received by the tenant, i ncluding the 
+remaining half due when the tenant vacates the unit. 
+ 
+ 
+-41- 
+2834132v16 
+ 
+F.  Failure to make the relocation payments in the manner and w ithin such times as 
+prescribed in this Section 8.22.450 is not a defense to an unla wful detainer action. 
+However, if If an owner fails to make the relocation payment as prescribed, the tenant 
+may file an action against the owner and, if the tenant is foun d eligible for the 
+relocation payments, the tenant will be entitled to recover the amount of the relocation 
+payments plus an equal amount as damages and the tenant's attorney's fees. Should 
+the owner's failure to make the payments as prescribed be found  to be in bad faith, 
+the tenant shall be entitled to the relocation payments plus an  additional amount of 
+three times the amount of the relocation payments and the tenant's attorney's fees.  
+G.  A tenant who is eligible for relocation payments under stat e or federal law, is not 
+also entitled to relocation under this section. A tenant who is also eligible for relocation 
+under the City of Oakland's code enforcement relocation program  (O.M.C. Chapter 
+15.60), must elect for either relocation payments under this section or O.M.C. Chapter 
+15.60, and may not collect relocation payments under both.  
+H.  The regulations may provide  procedures for escrowing disputed relocation funds.  
+ 
+ 
+  
+ 
+ 
+-42- 
+2834132v16 
+ 
+ATTACHMENT E 
+(Uniform Residential Tenant Relocation Ordinance) 
+ 
+8.22.810 - Definitions.  
+ 
+"Disabled" means a person with a disability, as defined in Sect ion 12955.3 of the 
+Government Code.  
+"Elderly" means a person sixty-two (62) years old or older.  
+"Lower-Income Tenant Household" means Tenant Households whose income is not more 
+than that permitted for lower income households, as defined by California Health and 
+Safety Code Section 50079.5.  
+"Minor Child(ren)" means a person(s) who is eighteen (18) years  or younger at the time 
+the notice is served.  
+"Owner" or "Property Owner" means a person, persons, corporation, partnership, limited 
+liability company, or any other entity holding fee title to the  subject real property. In the 
+case of multiple ownership of the subject real property, "Owner " or "Property Owner" 
+refers to each entity holding any portion of the fee interest in the property, and the property 
+owner's obligations in this Chapter shall be joint and several as to each property owner.  
+"Qualifying Relocation Event" means any event or vacancy that t riggers a Tenant's right 
+to relocation payments under the Oakland Municipal Code.  
+"Rental Unit" means a dwelling space in the City containing a separate bathroom, kitchen, 
+and living area, including a single-family dwelling or unit in a multifamily or multipurpose 
+dwelling, or a unit in a condominium or cooperative housing project, or a unit in a structure 
+that is being used for residential uses whether or not the resi dential use is a conforming 
+use permitted under the Oakland Municipal Code or Oakland Plann ing Code, which is 
+hired, rented, or leased to a household within the meaning of California Civil Code Section 
+1940. This definition applies to any dwelling space that is act ually used for residential 
+purposes, including live-work spaces, whether or not the reside ntial use is legally 
+permitted.  
+"Room" means an unsubdivided portion of the interior of a residential building in the City 
+which is used for the purpose of sleeping, and is occupied by a Tenant Household for at 
+least thirty (30) consecutive days. This includes, but is not l imited to, a rooming unit or 
+efficiency unit located in a residential hotel, as that term is  defined in accordance with 
+California Health and Safety Code Section 50519. This definitio n applies to any space 
+that is actually used for residential purposes whether or not t he residential use is legally 
+permitted. For purposes of determining the amount of relocation payments, a room is the 
+equivalent of a studio apartment.  
+"Tenant" means a Tenant as that term is defined in O.M.C. 8.22.340020 and also includes 
+a lessee.  
+"Tenant Household" means one (1) or more individual Tenants who rent or lease a Rental 
+Unit or Room as their primary res idence and who share living ac commodations. In the 
+case where an individual Room is rented to multiple Tenants under separate agreements, 
+ 
+ 
+-43- 
+2834132v16 
+ 
+each individual Tenant of such Room shall constitute a "Tenant Household" for purposes 
+of this article.  
+ 
+8.22.820 - Amount of relocation payments.  
+A.  Unless otherwise specified in a Section of the Oakland Muni cipal Code requiring 
+relocation payments, Tenant Households who are required to move  as a result of a 
+Qualifying Relocation Event shall be entitled to a relocation payment from the Owner 
+in the sum of six thousand five hundred dollars ($6,500.00) per  unit for studios and 
+one-bedroom apartments; eight thousand dollars ($8,000.00) per unit for two-
+bedroom apartments; and nine thousand eight hundred seventy-fiv e dollars 
+($9,875.00) per unit for units with three or more bedrooms. The  payment shall be 
+divided equally among all Tenants occupying the Rental Unit at the time of service 
+on the Tenants of the notice of termination of tenancy.  
+B.  Unless otherwise specified in a Section of the Oakland Muni cipal Code requiring 
+relocation payments, Tenant Households in Rental Units that inc lude lower income, 
+elderly or disabled Tenants, and/or minor children shall be ent itled to a single 
+additional relocation payment of two thousand five hundred doll ars ($2,500.00) per 
+unit from the Owner. If a household qualifies for this additional payment, the payment 
+shall be divided equally among eligible (lower-income, elderly,  disabled, 
+parents/guardians of minor children) Tenants.  
+C.  In the case of temporary relocations under O.M.C. 15.60.110  B., the amounts in 
+paragraphs A-B shall be a cap on relocation payments.  
+D.  The relocation payments specified in subsection 8.22.820 A.  shall increase annually 
+on July 1 in accordance with the CPI Adjustment as calculated i n OMC subsection 
+8.22.070 B.3, and the increase shall apply to all eviction noti ces served on or after 
+July 1. The first increase shall take place on July 1, 2017.  
+ 
+  
+ 
+ 
+-44- 
+2834132v16 
+ 
+ATTACHMENT F 
+ 
+8.22.850 - Relocation Payments for Owner or Relative Move-Ins.  
+ 
+A.  Applicability. An owner who evicts a tenant pursuant to O.M .C. Section 8.22.360 A.9. 
+or where a tenant vacates following a notice or other communica tion stating the 
+owner's intent to seek recovery of possession of the unit under  this O.M.C. Section 
+must provide relocation payment under this Section. Relocation payment procedures 
+pursuant to code compliance or Ellis Act evictions will be gove rned by the Code 
+Compliance Relocation Ordinance and the Ellis Act Ordinance.  
+B.  The property owner shall be responsible for providing reloc ation payments, in the 
+amounts specified in Section 8.22.820, to an eligible tenant ho usehold in the form 
+and manner prescribed under this article and any rules and regulations adopted under 
+this article.  
+C.  Tenant Eligibility for Payment. Tenants will be eligible fo r relocation payments 
+according to the following schedule based on the effective date  of ay notice to 
+terminate:  
+1.  Upon taking possession of the rental unit, the tenant will be eligible for one-third 
+(⅓) of the total payment pursuant to subsection B., above.  
+2.  After one (1) year of occupancy of the rental unit, the ten ant will be eligible for 
+two-thirds (⅔) of the total payment pursuant to subsection B., above.  
+3.  After two (2) years of occupancy of the rental unit, the te nant will be eligible for 
+the full amount of the total payment pursuant to subsection B., above.  
+D.  Time for Payment.  
+1.  The owner must pay the tenant half of the relocation paymen t provided for in 
+Subsection 8.22.820 A. when the termination notice is given to the household 
+and the remaining half when the tenant vacates the unit provided that the tenant 
+agrees, in writing, not to contest an unlawful detainer based o n the notice to 
+terminate tenancy for the owner or relative moving in to the tenant's rental unit. If 
+the tenant does not so agree, then the entirety of the relocati on payment is not 
+due unless the owner prevails in the unlawful detainer. If the owner prevails in 
+the unlawful detainer, the relocation payment must be paid to t he tenant prior to 
+the owner seeking a writ of possession for the tenant to vacate the unit.  
+2.  The owner must pay the tenant the additional payment provid ed for in Section 
+8.22.820 B. within fifteen (15) days of the tenant's notice of eligibility or the tenant 
+supplying documentation of the tenant's eligibility.  
+3.     An owner who pays relocation expenses in conjunction wit h a notice to quit as 
+required by this section need not pay the same relocation expen ses with any 
+further notices to quit based O.M.C. Section 8.22.360 A.9 for t he same unit that 
+are served within 180 days of the notice that included the requ ired relocation 
+payment. Nothing in this paragraph relieves the owner from portions of relocation 
+expenses not yet paid by the owner or received by the tenant, i ncluding the 
+remaining half due when the tenant vacates the unit. 
+ 
+ 
+-45- 
+2834132v16 
+ 
+ 
+E.  Failure to make the relocation payments in the manner and w ithin such times as 
+prescribed in this Section is not a defense to an unlawful detainer action.  
+However, if If an owner fails to make the relocation payment as prescribed, the tenant 
+may file an action against the owner and, if the tenant is foun d eligible for the 
+relocation payments, the tenant will be entitled to recover the amount of the relocation 
+payments plus an equal amount as damages and the tenant's attorney's fees. Should 
+the owner's failure to make the payments as prescribed be found  to be in bad faith, 
+the tenant shall be entitled to the relocation payments plus an  additional amount of 
+three (3) times the amount of the relocation payments and the t enant's attorney's 
+fees.  
+F.  Owners may apply for a zero-interest loan from the City of Oakland for the purpose 
+of satisfying their relocation payment obligation under this O.M.C Section if they meet 
+the eligibility criteria set forth below. An owner qualifies fo r a relocation payment 
+assistance loan if they meet the following two (2) conditions:  
+1.  Ownership of fewer than five (5) units in the City of Oakla nd. In the case of a 
+relative move-in, the relative must also not own any other real  estate property 
+and must be of low or moderate income as defined by California Health and 
+Safety Code Section 50093.  
+2.  The owner must be ineligible for a cash-out refinance loan based on the 
+underwriting criteria for investment properties set forward by Fannie Mae 
+regulations.  
+The owner must also meet at least one (1) of the following two (2) conditions to 
+qualify:  
+1.  The owner must not have more than six (6) months of liquid financial reserves 
+as defined by Fannie Mae regulations.  
+2.  The owner must qualify as low or moderate income as defined  by California 
+Health and Safety Code Section 50093.  
+The City Administrator may issue additional regulations or guidance to implement this 
+subsection.  
+ 
+ 
+ 
+  
+ 
+ 
+-46- 
+2834132v16 
+ 
+NOTICE AND DIGEST 
+ 
+  
+AN ORDINANCE AMENDING CHAPTER 8.22 OF THE OAKLAND 
+MUNICIPAL CODE (RESIDENTIAL RENT ADJUSTMENTS AND 
+EVICTIONS) TO (1) LIMIT THE MAXIMUM RENT INCREASE IN ANY 
+ONE YEAR TO CONFORM TO STATE LAW; (2) MAKE  FAILURE TO 
+PAY REQUIRED RELOCATION BENEFITS AN AFFIRMATIVE 
+DEFENSE TO EVICTION; (3) LIMIT LATE FEES; (4) PROHIBIT 
+UNILATERALLY IMPOSED CHANGES TO TERMS OF TENANCY; (5) 
+ADD ONE-FOR-ONE REPLACEMENT OF ROOMMATES TO THE 
+DEFINITION OF HOUSING SERVICES; (6) PROHIBIT EVICTION BASED 
+ON ADDITIONAL OCCUPANTS IF LANDLORD UNREASONABLY 
+REFUSED TENANT’S WRI TTEN REQUEST TO ADD OCCUPANT(S); 
+AND (7) STRENGTHEN TENANTS’ RIGHTS AND ENFORCEMENT OF 
+TENANT’S RIGHTS UNDER THE TENANT PROTECTION ORDINANCE  
+ 
+ 
+ This ordinance amends the Tenant Protection Ordinance to strengthen tenants’ 
+rights and their enforcement. It amends the Just Cause for Eviction Ordinance to prohibit 
+landlords from evicting tenants based on additional occupants i f the landlord 
+unreasonably refused the tenant’s written request to add additional occupant. It Iimits late 
+fees and prohibits unilateral changes to the terms of tenancy.  It conforms local law to 
+state law with regard to the maximum rent increase permissible in any one year and 
+making failure to pay required relocation benefits an affirmati ve defense to an eviction 
+action. Consistent with the latter change, the ordinance makes conforming amendments 
+to the Terminating Tenancy to Withdraw Residential Rental Units from the Rental Market, 
+Uniform Residential Tenant Relocation, and Relocation Payments for Owner or Relative 
+Move-in Ordinances.  
+ 
+ 
+ 
+ 

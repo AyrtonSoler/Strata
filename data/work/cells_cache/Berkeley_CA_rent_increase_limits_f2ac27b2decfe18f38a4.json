@@ -1,0 +1,68 @@
+{
+ "cell_status": "rules_found",
+ "rules": [
+  {
+   "category": "rent_increase_limits",
+   "jurisdiction": "Berkeley, CA",
+   "level": "city",
+   "instrument_status": "enacted",
+   "title": "Berkeley Rent Stabilization Ordinance - Annual General Adjustment (AGA) Cap",
+   "requirement": "For fully-covered rental units, the Rent Board sets an Annual General Adjustment (AGA) each year based on a formula tied to 65% of CPI increase, but the AGA cannot exceed 5% even if the formula would produce a higher number.",
+   "key_value": "65% of CPI, capped at 5% max annually",
+   "coverage_conditions": "Applies to fully-covered rental units under Berkeley's Rent Ordinance, generally most units in multifamily properties built before 1980, single-family homes with tenancies beginning before 1996, and rooming houses with five or more individually rented rooms.",
+   "exemptions": "New construction units receiving a certificate of occupancy after June/1980 are only partially covered (no rent ceiling); units where tenant shares kitchen/bath with landlord who lived on-site at tenancy start are exempt; most condominiums and most single-family homes with tenancies beginning on or after 1996 are only partially covered.",
+   "effective_date": null,
+   "enacted_date": null,
+   "penalty": null,
+   "citation": "Berkeley Mun. Code § 13.76.110A",
+   "quoted_span": "NEW:\nThe maximum AGA is 5%. This means that, if the formula in the Rent Ordinance results in an AGA that is greater than 5%, the AGA approved by the Board for that year can be no more than 5%.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": "1980-06-30",
+    "built_after": null,
+    "age_cutoff_basis": "certificate_of_occupancy",
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": "whether the unit has a government subsidy (e.g. Section 8, Shelter Plus Care, LIHTC) and whether that subsidized project has a HUD-insured mortgage, which affects full vs partial coverage",
+    "yields_to_local": false
+   },
+   "conflict_note": "The AGA formula cap of 5% is a separate rule from the underlying 65%-of-CPI formula (approved by Berkeley voters in 2004); the 2026 AGA was set at 1.0%, well under the 5% cap.",
+   "confidence": 0.85,
+   "passage_id": "P4"
+  },
+  {
+   "category": "rent_increase_limits",
+   "jurisdiction": "Berkeley, CA",
+   "level": "city",
+   "instrument_status": "enacted",
+   "title": "Berkeley 2026 Annual General Adjustment (AGA) Order",
+   "requirement": "The Berkeley Rent Stabilization Board annually sets the percentage by which landlords of fully-covered rent-controlled units may raise rent ceilings; for 2026 this is set at 1.0%, effective no earlier than January 1, 2026, and does not apply to tenancies beginning on or after January 1, 2025 whose rent was set under the Costa-Hawkins Act.",
+   "key_value": "1.0% for 2026 (65% of CPI increase)",
+   "coverage_conditions": "Applies to units with existing permanent rent ceilings under Berkeley's Rent Stabilization Ordinance (fully-covered units).",
+   "exemptions": "Does not apply to adjust rents for tenancies that began on or after January 1, 2025 and were set under the Costa-Hawkins Rental Housing Act.",
+   "effective_date": "2026-01-01",
+   "enacted_date": "2025-10-16",
+   "penalty": null,
+   "citation": "Berkeley Mun. Code § 13.76.110A; Rent Board Regulation 1148",
+   "quoted_span": "At its regular meeting on October 16, 2025, the Berkeley Rent Stabilization Board \nadopted the Annual General Adjustment (AGA) Order for Year 2026 which will allow \neligible landlords to increase the 2025 permanent rent ceilings by 1.0% no earlier than \nJanuary 1, 2026.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": "whether the tenancy began on or after January 1, 2025 and was set under the Costa-Hawkins Rental Housing Act",
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.9,
+   "passage_id": "P1"
+  }
+ ],
+ "no_rule_finding": null
+}

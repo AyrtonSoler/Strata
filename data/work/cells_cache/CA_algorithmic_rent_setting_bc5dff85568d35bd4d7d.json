@@ -1,0 +1,37 @@
+{
+ "cell_status": "rules_found",
+ "rules": [
+  {
+   "category": "algorithmic_rent_setting",
+   "jurisdiction": "CA",
+   "level": "state",
+   "instrument_status": "enacted",
+   "title": "Cartwright Act Amendment - Common Pricing Algorithms (AB 325)",
+   "requirement": "It is illegal to use or sell software that lets competing landlords (or other businesses) coordinate pricing by sharing nonpublic competitor data, including when used to set rents, and it is illegal to coerce someone into following the algorithm's recommended price.",
+   "key_value": null,
+   "coverage_conditions": "Applies to any person who uses or distributes a 'common pricing algorithm' (a methodology used by two or more persons that uses competitor data to recommend, align, stabilize, set, or otherwise influence a price or commercial term) in California; not limited to rental housing but covers it.",
+   "exemptions": "Does not apply to proprietary algorithms using only the business's own data; does not impair other antitrust laws.",
+   "effective_date": "2026-01-01",
+   "enacted_date": null,
+   "penalty": "Criminal fines of more than $6 million for businesses and $1 million for individuals; civil fines of up to $1 million in actions brought by the Attorney General or a district attorney.",
+   "citation": "Cal. Bus. & Prof. Code § 16729",
+   "quoted_span": "(a) It shall be unlawful for a person to use or distribute a common pricing algorithm as part of a contract, combination in the form of a trust, or conspiracy to restrain trade or commerce in violation of this chapter.\n(b) It shall be unlawful for a person to use or distribute a common pricing algorithm if the person coerces another person to set or adopt a recommended price or commercial term recommended by the common pricing algorithm for the same or similar products or services in the jurisdiction of this state.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": false
+   },
+   "conflict_note": "Secondary source (P9) states the bill was signed 'last October' and took effect January 1, 2026; exact signing date not given in the text.",
+   "confidence": 0.75,
+   "passage_id": "P1"
+  }
+ ],
+ "no_rule_finding": null
+}

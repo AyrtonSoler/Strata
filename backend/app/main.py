@@ -11,7 +11,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from pipeline.engine import RESULT_ORDER, jurisdiction_stack, lookup, parse_date, public_rows
 from pipeline.geocode import CENSUS_ONELINE_URL, PARAMS, parse_match, resolve_city
 from pipeline.paths import (ADDRESSES_RESOLVED, AUDIT_LOG, CHANGE_TESTS, CHANGES_OUT, CORPUS_DIR, DEFAULT_AS_OF,
-                            EXTRA_DIR, LOOKUPS_OUT, MANIFEST, RULES_OUT, WORK)
+                            EXTENSION_RESOLVED, EXTRA_DIR, LOOKUPS_OUT, MANIFEST, RULES_OUT, WORK)
 from pipeline.textmatch import locate_span
 
 load_dotenv()
@@ -55,7 +55,8 @@ def rules_doc() -> dict:
 
 
 def addresses() -> list[dict]:
-    return _load(ADDRESSES_RESOLVED, [])
+    """The 500 supplied addresses plus the extension sample (new jurisdiction)."""
+    return _load(ADDRESSES_RESOLVED, []) + (_load(EXTENSION_RESOLVED, []) or [])
 
 
 def _as_of(value: str | None):
@@ -67,12 +68,88 @@ def _as_of(value: str | None):
 
 def _public_address(a: dict) -> dict:
     keep = ("address_id", "street_address", "postal_city", "state", "zip", "year_built", "units", "units_min",
-            "units_basis", "use_code", "use_description", "jurisdiction_state", "jurisdiction_city",
+            "units_basis", "use_code", "use_description", "jurisdiction_state", "jurisdiction_county", "jurisdiction_city",
+            "year_built_max", "year_built_max_basis", "extension",
             "resolution_method", "source_dataset")
     out = {k: a.get(k) for k in keep}
     out["matched_address"] = (a.get("geocode") or {}).get("matched_address")
     out["census_place"] = (a.get("geocode") or {}).get("place")
     return out
+
+
+EXTRACT_MODEL = os.getenv("EXTRACT_MODEL", "claude-sonnet-5")
+
+
+def _status_reason(rule: dict, status: str, as_of) -> str:
+    eff = rule.get("effective_date")
+    inst = rule.get("instrument_status", "enacted")
+    if inst == "pending":
+        return f"A bill or proposal, not law on {as_of}. It never counts as in force."
+    if status == "not_yet_effective":
+        return f"Enacted, but takes effect {eff}, after {as_of}."
+    if eff and parse_date(eff) and parse_date(eff) > as_of and rule.get("prior_version_in_force"):
+        return (f"The cited version takes effect {eff}; on {as_of} the earlier version of this rule applies "
+                f"({rule.get('effective_date_note') or 'amendment or annual adjustment'}).")
+    return f"In force on {as_of}" + (f" (effective {eff})." if eff else " (no effective date stated in the source).")
+
+
+def _boundary(rule: dict, addr: dict) -> list[str]:
+    """What this answer did NOT verify: the edge of the system's reasoning."""
+    cov = rule.get("coverage") or {}
+    out = []
+    if cov.get("age_cutoff_basis") == "certificate_of_occupancy" and (cov.get("built_on_or_before") or cov.get("built_after")):
+        out.append("The certificate-of-occupancy date is approximated by the assessor's year built.")
+    if cov.get("owner_exemption_max_units") or cov.get("owner_exemption_any_size"):
+        out.append("Owner identity and type are not in public data, so owner-based exemptions were not checked.")
+    if cov.get("other_unknown_factor"):
+        out.append(f"Not checked: {cov['other_unknown_factor']}.")
+    if addr.get("year_built") is None and addr.get("year_built_max"):
+        out.append(f"Year built is unknown; {addr.get('year_built_max_basis')}. Used only to confirm a building is old enough.")
+    if addr.get("units") is None and addr.get("units_min"):
+        out.append(f"Unit count is a lower bound inferred from {addr.get('units_basis')}.")
+    if rule.get("source_origin") != "starter_corpus":
+        out.append("Source is a secondary or publisher page read once; confirm against the official code.")
+    if rule.get("verification", {}).get("verdict") == "review":
+        out.append("An automated check disagreed with this record; a person should review it before relying on it.")
+    out.append("Registrations, exemption filings and recent amendments not in the corpus were not checked.")
+    return out
+
+
+def _audit(row: dict, addr: dict, stack: list[str], as_of) -> dict:
+    rule = row["_rule"]
+    v = rule.get("verification", {})
+    origins = rule.get("extraction_origins", ["doc"])
+    ai = [f"Extracted from {rule.get('source_doc_id')} by {EXTRACT_MODEL} into the rule schema"
+          + (" by both the per-cell and per-document passes" if set(origins) >= {"cell", "doc"} else
+             f" by the per-{origins[0]} pass") + ".",
+          "The quoted span was checked character by character against the source."]
+    if v.get("verdict"):
+        ai.append(f"Independent verifier: {v['verdict']}"
+                  + (f" — {'; '.join(v.get('review_reasons') or [])}" if v.get("review_reasons") else
+                     f" (requirement {v.get('requirement_supported', '?')}, date {v.get('date_supported', '?')}, "
+                     f"status {v.get('status_supported', '?')}).") )
+    code = [f"Resolved the address to {' > '.join(stack)} with the Census Geocoder ({addr.get('resolution_method')}).",
+            f"Status on {as_of}: {row.get('_status', '').replace('_', ' ')}.",
+            "Applied the coverage tests below; any missing fact makes the answer “unknown”."]
+    if row["result"] == "superseded":
+        code.append("A local rule of the same category covers this unit, so this state rule yields to it.")
+    return {
+        "as_of": str(as_of),
+        "source": {"doc_id": rule.get("source_doc_id"), "url": rule["source_url"],
+                   "retrieved_at": rule.get("retrieved_at"), "type": rule.get("source_type"),
+                   "official_corpus": rule.get("source_origin") == "starter_corpus"},
+        "status_reason": _status_reason(rule, row.get("_status", ""), as_of),
+        "facts_used": {"year_built": addr.get("year_built"), "year_built_max": addr.get("year_built_max"),
+                       "units": addr.get("units"),
+                       "units_min": addr.get("units_min"), "units_basis": addr.get("units_basis"),
+                       "use": addr.get("use_description")},
+        "checks": row.get("_checks", []),
+        "ai_steps": ai,
+        "code_steps": code,
+        "boundary": _boundary(rule, addr),
+        "confidence": rule.get("confidence"),
+        "confidence_signals": rule.get("confidence_signals", []),
+    }
 
 
 def _answer(addr: dict, as_of) -> dict:
@@ -82,7 +159,7 @@ def _answer(addr: dict, as_of) -> dict:
     items = []
     for r in rows:
         rule = r["_rule"]
-        items.append({**{k: v for k, v in r.items() if k != "_rule"},
+        items.append({**{k: v for k, v in r.items() if not k.startswith("_")},
                       "category": rule["category"], "category_label": CATEGORY_LABELS[rule["category"]],
                       "jurisdiction": rule["jurisdiction"], "level": rule["level"], "title": rule["title"],
                       "requirement": rule["requirement"], "requirement_es": rule.get("requirement_es"),
@@ -92,7 +169,10 @@ def _answer(addr: dict, as_of) -> dict:
                       "source_doc_id": rule.get("source_doc_id"), "retrieved_at": rule.get("retrieved_at"),
                       "effective_date": rule.get("effective_date"), "status": rule["status"],
                       "confidence": rule.get("confidence"), "conflict_note": rule.get("conflict_note"),
-                      "interaction": rule.get("interaction"), "source_origin": rule.get("source_origin")})
+                      "interaction": rule.get("interaction"), "source_origin": rule.get("source_origin"),
+                      "penalty": rule.get("penalty"), "confidence_signals": rule.get("confidence_signals", []),
+                      "verification": rule.get("verification", {}),
+                      "audit": _audit(r, addr, stack, as_of)})
     findings = [f for f in rules_doc().get("no_rule_findings", []) if f["jurisdiction"] in stack]
     covered = {i["category"] for i in items}
     gaps = [{"category": c, "category_label": l} for c, l in CATEGORY_LABELS.items() if c not in covered]
@@ -162,7 +242,8 @@ async def lookup_free(address: str = Query(min_length=5), as_of: str | None = No
     addr = {"address_id": "live", "street_address": hit["matched_address"], "postal_city": row["postal_city"],
             "state": state, "zip": hit["matched_address"].split(",")[-1].strip(), "year_built": year_built,
             "units": units, "units_min": units, "units_basis": "entered by user" if units else "no unit information",
-            "use_code": "", "use_description": "", "jurisdiction_state": state, "jurisdiction_city": city,
+            "use_code": "", "use_description": "", "jurisdiction_state": state,
+            "jurisdiction_county": hit.get("county"), "jurisdiction_city": city,
             "resolution_method": method, "source_dataset": "Census Geocoder (live)", "geocode": hit}
     return _answer(addr, _as_of(as_of))
 
@@ -173,6 +254,7 @@ def list_rules(jurisdiction: str | None = None, category: str | None = None):
     rules = [r for r in doc["rules"] if (not jurisdiction or r["jurisdiction"] == jurisdiction)
              and (not category or r["category"] == category)]
     return {"as_of": doc.get("as_of"), "rules": rules, "no_rule_findings": doc.get("no_rule_findings", []),
+            "coverage_grid": doc.get("coverage_grid", {}), "supplementary_rules": doc.get("supplementary_rules", []),
             "disclaimer": DISCLAIMER}
 
 

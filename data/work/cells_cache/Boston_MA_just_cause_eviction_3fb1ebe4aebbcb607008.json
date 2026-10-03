@@ -1,0 +1,68 @@
+{
+ "cell_status": "rules_found",
+ "rules": [
+  {
+   "category": "just_cause_eviction",
+   "jurisdiction": "Boston, MA",
+   "level": "city",
+   "instrument_status": "enacted",
+   "title": "Housing Stability Notification Act (HSNA)",
+   "requirement": "Landlords and foreclosing owners ending a tenancy or post-foreclosure occupancy must give tenants a Notice of Tenants' Rights and Resources at the same time as the Notice to Quit or Notice of Non-renewal, and must send a copy to the City's Office of Housing Stability.",
+   "key_value": null,
+   "coverage_conditions": "Applies to all landlords/foreclosing owners intending to end a tenancy or post-foreclosure occupancy of a unit in the City of Boston.",
+   "exemptions": "Residences in any hospital, skilled nursing facility or health facility; and in a non-profit facility whose primary purpose is providing short-term treatment, assistance or therapy for alcohol, drug, or other substance abuse.",
+   "effective_date": "2020-10",
+   "enacted_date": "2020-10",
+   "penalty": "1st Offense: Warning; 2nd and Subsequent Offenses: $300 per day. Violation does not halt the eviction process.",
+   "citation": "Boston City Ordinance Sec. 10-11.7 (Housing Stability Notification Act)",
+   "quoted_span": "The Ordinance applies to all landlords/foreclosing owners intending to end a tenancy or post-foreclosure occupancy of a unit in the City of Boston.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": "whether the unit is in a hospital/skilled nursing/health facility or a non-profit short-term substance abuse treatment facility",
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.78,
+   "passage_id": "P1"
+  },
+  {
+   "category": "just_cause_eviction",
+   "jurisdiction": "Boston, MA",
+   "level": "city",
+   "instrument_status": "pending",
+   "title": "An Act petition for a special law authorizing the city of Boston to implement rent stabilization and tenant eviction protections",
+   "requirement": "A home-rule petition that, if enacted by the state legislature, would authorize the City of Boston to implement rent stabilization and tenant eviction protections (just-cause eviction requirements).",
+   "key_value": null,
+   "coverage_conditions": "Would apply to the City of Boston if enacted; specific coverage not detailed in this passage.",
+   "exemptions": null,
+   "effective_date": null,
+   "enacted_date": null,
+   "penalty": null,
+   "citation": "Mass. H.3744 (193rd Gen. Ct. 2023-2024)",
+   "quoted_span": "An Act petition for a special law authorizing the city of Boston to implement rent stabilization and tenant eviction protections",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": false
+   },
+   "conflict_note": "Bill history shows extensions and concurrences through 2024 but no indication it was enacted into law; status treated as pending.",
+   "confidence": 0.55,
+   "passage_id": "P7"
+  }
+ ],
+ "no_rule_finding": null
+}

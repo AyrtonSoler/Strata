@@ -1,0 +1,68 @@
+{
+ "cell_status": "rules_found",
+ "rules": [
+  {
+   "category": "security_deposits",
+   "jurisdiction": "MA",
+   "level": "state",
+   "instrument_status": "enacted",
+   "title": "Security Deposit Limits, Interest, and Return Requirements",
+   "requirement": "Landlords must hold security deposits in a separate interest-bearing bank account in Massachusetts, provide a receipt and annual interest statement, cannot charge more than one month's rent as a security deposit, cannot demand rent in advance beyond the current month plus security deposit, and must return the deposit within 30 days after tenancy ends.",
+   "key_value": "1 month's rent maximum; interest at passbook savings rate or 5%",
+   "coverage_conditions": "Applies to residential tenancies in Massachusetts where a security deposit is collected.",
+   "exemptions": null,
+   "effective_date": null,
+   "enacted_date": null,
+   "penalty": "Failure to comply with deposit-in-separate-account/receipt requirement entitles tenant to immediate return of the security deposit; tenant may deduct unpaid interest from next rent payment.",
+   "citation": "M.G.L. c. 186, § 15B",
+   "quoted_span": "No lessor or successor in interest shall at any time subsequent to the commencement of a tenancy demand rent in advance in excess of the current month's rent or a security deposit in excess of the amount allowed by this section.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.95,
+   "passage_id": "P3"
+  },
+  {
+   "category": "security_deposits",
+   "jurisdiction": "MA",
+   "level": "state",
+   "instrument_status": "enacted",
+   "title": "Security Deposit Account and Interest Requirements",
+   "requirement": "Landlords must keep tenant security deposits in a separate interest-bearing bank account located in Massachusetts, give the tenant a receipt within 30 days, and pay accrued interest annually or upon termination of tenancy.",
+   "key_value": null,
+   "coverage_conditions": "Applies to residential tenancies in Massachusetts where a security deposit is collected.",
+   "exemptions": null,
+   "effective_date": null,
+   "enacted_date": null,
+   "penalty": "Failure to maintain the required record or provide the receipt entitles the tenant to immediate return of the security deposit plus accrued interest.",
+   "citation": "M.G.L. c. 186, § 15B",
+   "quoted_span": "Any security deposit received by such lessor shall be held in a separate, interest-bearing account in a bank, located within the commonwealth under such terms as will place such deposit beyond the claim of creditors of the lessor, including a foreclosing mortgagee or trustee in bankruptcy, and as will provide for its transfer to a subsequent owner of said property.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.9,
+   "passage_id": "P2"
+  }
+ ],
+ "no_rule_finding": null
+}

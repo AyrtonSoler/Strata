@@ -1,0 +1,68 @@
+{
+ "cell_status": "rules_found",
+ "rules": [
+  {
+   "category": "security_deposits",
+   "jurisdiction": "MA",
+   "level": "state",
+   "instrument_status": "enacted",
+   "title": "Security Deposit Limits and Requirements",
+   "requirement": "Landlords may charge at most one month's rent as a security deposit, must hold it in a separate interest-bearing account in a Massachusetts bank, provide a receipt and annual interest statements, and return the deposit (with interest) within 30 days after the tenancy ends, minus allowed deductions.",
+   "key_value": "1 month's rent maximum",
+   "coverage_conditions": "Applies to residential tenancies in Massachusetts where a lessor collects a security deposit.",
+   "exemptions": null,
+   "effective_date": null,
+   "enacted_date": null,
+   "penalty": "Failure to comply with recordkeeping/receipt requirements entitles the tenant to immediate return of the security deposit; failure to pay interest allows tenant to deduct interest from next rent payment.",
+   "citation": "M.G.L. c. 186, § 15B",
+   "quoted_span": "No lessor or successor in interest shall at any time subsequent to the commencement of a tenancy demand rent in advance in excess of the current month's rent or a security deposit in excess of the amount allowed by this section.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.95,
+   "passage_id": "P2"
+  },
+  {
+   "category": "security_deposits",
+   "jurisdiction": "MA",
+   "level": "state",
+   "instrument_status": "enacted",
+   "title": "Security Deposit Return and Interest Requirements",
+   "requirement": "Landlords must hold security deposits in a separate interest-bearing bank account within Massachusetts, give the tenant a receipt within 30 days, and return the deposit with accrued interest within 30 days after the tenancy ends.",
+   "key_value": "Interest accrual + 30-day return",
+   "coverage_conditions": "Applies to residential tenancies in Massachusetts where a lessor collects a security deposit.",
+   "exemptions": null,
+   "effective_date": null,
+   "enacted_date": null,
+   "penalty": "Failure to comply entitles tenant to immediate return of the security deposit.",
+   "citation": "M.G.L. c. 186, § 15B",
+   "quoted_span": "Any security deposit received by such lessor shall be held in a separate, interest-bearing account in a bank, located within the commonwealth under such terms as will place such deposit beyond the claim of creditors of the lessor, including a foreclosing mortgagee or trustee in bankruptcy, and as will provide for its transfer to a subsequent owner of said property.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.95,
+   "passage_id": "P3"
+  }
+ ],
+ "no_rule_finding": null
+}

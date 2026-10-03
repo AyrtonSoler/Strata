@@ -9,8 +9,8 @@ interface Audit {
 }
 
 const STEPS = [
-  ['Extract', 'Claude reads each source document and returns rule records in the official schema. Every quote is checked character by character against the source; unverifiable quotes are rejected.'],
-  ['Reconcile', 'Descriptions of the same law from different sources are merged. Official text wins over secondary pages. Preemption and conflicting dates are flagged for human review.'],
+  ['Extract', 'Two independent passes: per jurisdiction × category with BM25 retrieval, and per document. Claude returns schema-valid records; every quote is checked against the source.'],
+  ['Reconcile + verify', 'Duplicates merge, official text wins, citations are canonicalized. A second AI pass fact-checks each rule; confidence comes from objective signals.'],
   ['Resolve', 'Each address goes through the Census Geocoder to its legal city, not its postal one. Van Nuys is Los Angeles; Dorchester is Boston.'],
   ['Apply', 'Plain code tests each rule’s coverage: units, certificate-of-occupancy cutoffs, rolling exemptions, owner-type exemptions. Missing facts mean “unknown,” never a guess.'],
   ['Track', 'Everything is recomputed for any date. Amendments keep their prior version in force; pending bills and struck measures are never reported as law.'],
@@ -31,6 +31,14 @@ export default function AuditView({ s }: { s: Strings }) {
         <p className="mx-auto mt-3 max-w-xl text-[19px] leading-snug text-muted">
           The model extracts rules from legal text. Deterministic code applies them, so every answer is reproducible and auditable.
         </p>
+        <a
+          href="https://github.com/AyrtonSoler/hack-nation-7/blob/main/METHOD.md"
+          target="_blank"
+          rel="noreferrer"
+          className="btn-primary mt-6"
+        >
+          Read the one-page method note
+        </a>
       </section>
       <div className="grid gap-4 md:grid-cols-5">
         {STEPS.map(([title, body], i) => (

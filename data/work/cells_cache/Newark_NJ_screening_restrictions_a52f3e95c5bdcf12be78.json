@@ -1,0 +1,37 @@
+{
+ "cell_status": "rules_found",
+ "rules": [
+  {
+   "category": "screening_restrictions",
+   "jurisdiction": "Newark, NJ",
+   "level": "city",
+   "instrument_status": "enacted",
+   "title": "Newark Criminal History Inquiry Restriction for Rental Housing",
+   "requirement": "Landlords and real estate brokers in Newark may not ask about or consider an applicant's criminal history until after a formal rental application has been submitted, and must give the applicant written notice before running a criminal background check, including the right to submit evidence within at least three business days.",
+   "key_value": null,
+   "coverage_conditions": "Applies to any rental, lease, or sublease of real property in Newark where a landlord or real estate broker is involved.",
+   "exemptions": "Unsolicited voluntary disclosure of criminal history by the applicant may be discussed by the landlord or broker.",
+   "effective_date": null,
+   "enacted_date": "2015-04-15",
+   "penalty": null,
+   "citation": "Newark, NJ Code of Ordinances, Title 2, Art. 1 (Ord. 6PSF-B, 4-15-2015)",
+   "quoted_span": "Inquiry into and consideration of any applicant's criminal history shall take place only after the applicant has submitted a formal application. Notwithstanding the foregoing, if the applicant discloses any information regarding his or her criminal history by unsolicited voluntary written or oral disclosure, the landlord or real estate broker may discuss the criminal history disclosed by the applicant.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": false
+   },
+   "conflict_note": "A separate Article II of the same ordinance (licensing context) states fines of up to $500 for a first violation and up to $1,000 for subsequent violations, but it is unclear whether that penalty provision applies to the rental-housing Article 1 provisions quoted here or only to the licensing provisions.",
+   "confidence": 0.72,
+   "passage_id": "P7"
+  }
+ ],
+ "no_rule_finding": null
+}

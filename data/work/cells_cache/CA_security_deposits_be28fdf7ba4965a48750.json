@@ -1,0 +1,68 @@
+{
+ "cell_status": "rules_found",
+ "rules": [
+  {
+   "category": "security_deposits",
+   "jurisdiction": "CA",
+   "level": "state",
+   "instrument_status": "enacted",
+   "title": "California security deposit limit (Civil Code § 1950.5)",
+   "requirement": "Landlords generally cannot charge more than one month's rent as a security deposit, though some small landlords may charge up to two months' rent and there are exceptions for longer-term advance rent.",
+   "key_value": "1 month's rent (up to 2 months' rent for certain small landlords)",
+   "coverage_conditions": "Applies to residential tenancies statewide; small-landlord exception applies to owners of no more than two rental properties with no more than four units total held by a natural person, family trust, or LLC with all-natural-person members.",
+   "exemptions": "Advance payment of six or more months' rent allowed if lease term is six months or longer.",
+   "effective_date": "2024-07-01",
+   "enacted_date": null,
+   "penalty": null,
+   "citation": "Cal. Civ. Code § 1950.5",
+   "quoted_span": "(c) (1) Except as provided in paragraph (2), (3), or (5), a landlord shall not demand or receive security, however denominated, in an amount or value in excess of an amount equal to one month’s rent, in addition to any rent for the first month paid on or before initial occupancy.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": 4,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": "whether ownership is held by a natural person, family trust, or LLC with all-natural-person members owning no more than two rental properties totaling four units",
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.82,
+   "passage_id": "P2"
+  },
+  {
+   "category": "security_deposits",
+   "jurisdiction": "CA",
+   "level": "state",
+   "instrument_status": "enacted",
+   "title": "California security deposit return procedures (Civil Code § 1950.5)",
+   "requirement": "Landlords must return the remaining security deposit by check (or electronically if security was paid electronically) along with an itemized statement of deductions and supporting documentation.",
+   "key_value": null,
+   "coverage_conditions": "Applies to residential tenancies statewide.",
+   "exemptions": null,
+   "effective_date": null,
+   "enacted_date": null,
+   "penalty": null,
+   "citation": "Cal. Civ. Code § 1950.5",
+   "quoted_span": "the landlord shall return the remainder of the security by personal delivery or by a check made payable to the tenant and mailed by first-class mail, postage prepaid.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.75,
+   "passage_id": "P4"
+  }
+ ],
+ "no_rule_finding": null
+}

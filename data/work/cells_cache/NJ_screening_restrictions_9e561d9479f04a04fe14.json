@@ -1,0 +1,68 @@
+{
+ "cell_status": "rules_found",
+ "rules": [
+  {
+   "category": "screening_restrictions",
+   "jurisdiction": "NJ",
+   "level": "state",
+   "instrument_status": "enacted",
+   "title": "Fair Chance in Housing Act",
+   "requirement": "Landlords cannot ask about or use an applicant's criminal record in a discriminatory way when screening rental applicants, cannot require drug/alcohol testing or drug treatment history, and cannot disseminate criminal records except for permitted evaluation purposes.",
+   "key_value": null,
+   "coverage_conditions": "Applies to housing providers offering real property for rent, lease, or sublease in New Jersey, with exceptions for certain sex offenses, methamphetamine production in federally assisted housing, and lifetime sex offender registrants.",
+   "exemptions": "Exceptions for drug-related criminal activity for methamphetamine manufacture on federally assisted housing premises, and for applicants subject to lifetime sex offender registration; landlord immunity does not extend to renting to persons convicted of murder, aggravated sexual assault, kidnapping, arson, human trafficking, certain sexual assaults, or child sexual abuse material offenses.",
+   "effective_date": null,
+   "enacted_date": "2021",
+   "penalty": null,
+   "citation": "N.J.S.A. 46:8-52 et seq. (P.L.2021, c.110)",
+   "quoted_span": "uiry in connection with the prospective\nrental, lease, or sublease of any real property or part or portion thereof\nwhich expresses, directly or indirectly, any unlawful limitation, specification\nor discrimination as to criminal record, except as permitted by this act and\nfor drug-related criminal activity for the manufacture or production of\nmethamphetamine on the premises of federally assisted housing, and whether the\napplicant is subject to a lifetime registration requirement under a State sex\noffender registration program.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.85,
+   "passage_id": "P5"
+  },
+  {
+   "category": "screening_restrictions",
+   "jurisdiction": "NJ",
+   "level": "state",
+   "instrument_status": "enacted",
+   "title": "NJ Law Against Discrimination - Source of Lawful Income Protection",
+   "requirement": "Landlords in New Jersey cannot refuse to rent to an applicant or tenant based on their source of lawful income, including Section 8 housing vouchers, with limited exemptions for small owner-occupied dwellings.",
+   "key_value": null,
+   "coverage_conditions": "Applies to all landlord-tenant relationships statewide, except those involving two-family owner occupied dwellings and rooms in an owner or resident-occupied single home.",
+   "exemptions": "Two-family owner-occupied dwellings; rooms in an owner or resident-occupied single home; residences planned exclusively for and occupied by one sex as it pertains to familial status.",
+   "effective_date": null,
+   "enacted_date": null,
+   "penalty": "Complaint may be filed with the Division on Civil Rights or in New Jersey Superior Court.",
+   "citation": "N.J.S.A. 10:5-5(n)",
+   "quoted_span": "The LAD also prohibits housing discrimination  based\non the source of lawful income or source of lawful rent\nor mortgage payment a tenant or purchaser uses. This\nmeans, for example, that a landlord cannot deny the\nlawful recipient of a Section 8 HUD voucher the right to\nrent an apartment based solely on that source of lawful\nincome.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": 2,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.8,
+   "passage_id": "P10"
+  }
+ ],
+ "no_rule_finding": null
+}

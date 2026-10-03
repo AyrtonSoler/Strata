@@ -1,0 +1,68 @@
+{
+ "cell_status": "rules_found",
+ "rules": [
+  {
+   "category": "just_cause_eviction",
+   "jurisdiction": "San Francisco, CA",
+   "level": "city",
+   "instrument_status": "enacted",
+   "title": "San Francisco Rent Ordinance Just Cause Eviction Protections",
+   "requirement": "A landlord may only evict a tenant from a covered rental unit for one of 17 specific just cause reasons listed in the Rent Ordinance, such as non-payment of rent, owner move-in, demolition, or Ellis Act withdrawal. Merely ending a lease term or a change in ownership is not sufficient grounds for eviction.",
+   "key_value": "17 just cause reasons",
+   "coverage_conditions": "Applies to rental units covered by the San Francisco Rent Ordinance.",
+   "exemptions": null,
+   "effective_date": null,
+   "enacted_date": null,
+   "penalty": null,
+   "citation": "S.F. Admin. Code § 37.9(a)",
+   "quoted_span": "In order to evict a tenant from a rental unit covered by the Rent Ordinance, a landlord must have a \"just cause\" reason that is the dominant motive for pursuing the eviction. Note that the mere expiration of a rental agreement or a change in ownership does not constitute \"just cause\" for eviction.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": "whether the unit is covered by the Rent Ordinance",
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.9,
+   "passage_id": "P2"
+  },
+  {
+   "category": "just_cause_eviction",
+   "jurisdiction": "San Francisco, CA",
+   "level": "city",
+   "instrument_status": "enacted",
+   "title": "San Francisco Relocation Assistance for No-Fault Evictions",
+   "requirement": "Landlords who evict tenants based on owner/relative move-in, demolition or permanent removal of a unit, temporary capital improvement work, or substantial rehabilitation must pay relocation assistance to displaced tenants, with additional amounts for elderly, disabled, or households with minor children.",
+   "key_value": "$8,245.00 per tenant; max $24,733.00 per unit (3/01/26-2/28/27 rate)",
+   "coverage_conditions": "Applies to no-fault evictions under the Rent Ordinance based on owner/relative move-in, demolition/permanent removal, temporary capital improvement work, or substantial rehabilitation.",
+   "exemptions": null,
+   "effective_date": "2026-03-01",
+   "enacted_date": null,
+   "penalty": null,
+   "citation": "S.F. Admin. Code § 37.9A",
+   "quoted_span": "Relocation Payments for Evictions based on Owner/Relative Move-in OR Demolition/Permanent Removal of Unit from Housing Use OR Temporary Capital Improvement Work* OR Substantial Rehabilitation",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.75,
+   "passage_id": "P10"
+  }
+ ],
+ "no_rule_finding": null
+}

@@ -1,0 +1,100 @@
+{
+ "items": [
+  {
+   "id": "r-0037",
+   "requirement_supported": "yes",
+   "citation_consistent": "yes",
+   "date_supported": "not_stated",
+   "status_supported": "yes",
+   "issue": null
+  },
+  {
+   "id": "r-0038",
+   "requirement_supported": "yes",
+   "citation_consistent": "unclear",
+   "date_supported": "yes",
+   "status_supported": "yes",
+   "issue": "Passage does not verify the specific ordinance section number § 10-11.7."
+  },
+  {
+   "id": "r-0039",
+   "requirement_supported": "partial",
+   "citation_consistent": "yes",
+   "date_supported": "not_stated",
+   "status_supported": "yes",
+   "issue": "Passage mentions 'tenant eviction protections' generally but does not specifically describe just-cause eviction requirements."
+  },
+  {
+   "id": "r-0040",
+   "requirement_supported": "yes",
+   "citation_consistent": "yes",
+   "date_supported": "yes",
+   "status_supported": "yes",
+   "issue": null
+  },
+  {
+   "id": "r-0041",
+   "requirement_supported": "yes",
+   "citation_consistent": "yes",
+   "date_supported": "not_stated",
+   "status_supported": "unclear",
+   "issue": null
+  },
+  {
+   "id": "r-0042",
+   "requirement_supported": "yes",
+   "citation_consistent": "unclear",
+   "date_supported": "not_stated",
+   "status_supported": "unclear",
+   "issue": "Passage does not confirm the specific chapter citation 14.04."
+  },
+  {
+   "id": "r-0043",
+   "requirement_supported": "yes",
+   "citation_consistent": "unclear",
+   "date_supported": "not_stated",
+   "status_supported": "yes",
+   "issue": "Passage cites different specific sections (2A:18-53, 2A:18-61.2) than the claimed 2A:18-61.1 et seq., though both are part of the same Act."
+  },
+  {
+   "id": "r-0044",
+   "requirement_supported": "yes",
+   "citation_consistent": "yes",
+   "date_supported": "not_stated",
+   "status_supported": "yes",
+   "issue": null
+  },
+  {
+   "id": "r-0045",
+   "requirement_supported": "yes",
+   "citation_consistent": "yes",
+   "date_supported": "not_stated",
+   "status_supported": "yes",
+   "issue": null
+  },
+  {
+   "id": "r-0046",
+   "requirement_supported": "yes",
+   "citation_consistent": "yes",
+   "date_supported": "not_stated",
+   "status_supported": "yes",
+   "issue": "Passage does not state the specific effective date of 2026-05-01; only references annual adjustment mechanics."
+  },
+  {
+   "id": "r-0047",
+   "requirement_supported": "yes",
+   "citation_consistent": "yes",
+   "date_supported": "not_stated",
+   "status_supported": "yes",
+   "issue": null
+  },
+  {
+   "id": "r-0048",
+   "requirement_supported": "yes",
+   "citation_consistent": "yes",
+   "date_supported": "not_stated",
+   "status_supported": "yes",
+   "issue": "Passage does not state the specific effective date of 2022-01-01."
+  }
+ ]
+}

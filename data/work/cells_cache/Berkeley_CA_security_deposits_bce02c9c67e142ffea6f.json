@@ -1,0 +1,37 @@
+{
+ "cell_status": "rules_found",
+ "rules": [
+  {
+   "category": "security_deposits",
+   "jurisdiction": "Berkeley, CA",
+   "level": "city",
+   "instrument_status": "enacted",
+   "title": "Berkeley Rent Ordinance – Security Deposit Interest",
+   "requirement": "For rental units that are fully or partially covered by Berkeley's Rent Stabilization Ordinance, landlords must pay tenants interest on their security deposit each year, including a prorated amount if the tenant moves out before year end.",
+   "key_value": "Annual interest on deposit (rate set by Rent Board)",
+   "coverage_conditions": "Applies to tenancies in units fully or partially covered by Berkeley's Rent Ordinance, as determined by the Rent Board's coverage guide (most multifamily units built before 1980 fully covered; newer units, condos, certain subsidized units, and post-1996 single-family tenancies partially covered).",
+   "exemptions": "Units wholly exempt from the Rent Ordinance (e.g., certain newer construction, government-owned units not otherwise subsidized) are not subject to this interest requirement.",
+   "effective_date": null,
+   "enacted_date": null,
+   "penalty": null,
+   "citation": "Berkeley Mun. Code ch. 13.76 (Berkeley Rent Stabilization and Eviction for Just Cause Ordinance)",
+   "quoted_span": "For tenancies in units fully or partially covered by Berkeley's Rent Ordinance, landlords must pay tenants interest on their security deposit at the end of each year and a prorated amount if the tenant moves out before the end of the year.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": "whether the unit is fully, partially, or not covered by Berkeley's Rent Stabilization Ordinance (per coverage guide factors such as building age, tenancy start date, and subsidy status)",
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.75,
+   "passage_id": "P1"
+  }
+ ],
+ "no_rule_finding": null
+}

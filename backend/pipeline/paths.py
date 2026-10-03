@@ -7,7 +7,7 @@ MANIFEST = PACK / "corpus" / "corpus_manifest.csv"
 ADDRESSES = PACK / "data" / "sample_addresses.csv"
 CHANGE_TESTS = PACK / "dev" / "change_tests.json"
 
-# Extra documents dropped in later (e.g. the hour-16 ordinance) go here as
+# Extra documents added later (e.g. a new jurisdiction's ordinances) go here as
 # <doc_id>.txt plus a row in extra_manifest.csv with the same columns.
 EXTRA_DIR = ROOT / "data" / "extra"
 
@@ -21,5 +21,7 @@ ADDRESSES_RESOLVED = SUBMISSION / "addresses_resolved.json"
 RULES_OUT = SUBMISSION / "rules.json"
 LOOKUPS_OUT = SUBMISSION / "lookups.json"
 CHANGES_OUT = SUBMISSION / "changes.json"
+EXTENSION_RESOLVED = ROOT / "data" / "extension" / "oakland_resolved.json"
+EXTENSION_OUT = SUBMISSION / "extension_oakland.json"
 
 DEFAULT_AS_OF = "2026-10-01"

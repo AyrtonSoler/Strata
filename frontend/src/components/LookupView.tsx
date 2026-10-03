@@ -2,6 +2,7 @@ import { useEffect, useMemo, useRef, useState } from 'react'
 import { api } from '../lib/api'
 import { catLabel, type Lang, type Strings } from '../lib/i18n'
 import type { AddressHit, LookupAnswer, ResultItem } from '../lib/types'
+import AuditPanel, { ChecksList } from './AuditPanel'
 import EvidenceSheet from './EvidenceSheet'
 import RightsSheet from './RightsSheet'
 import { Card, ErrorNote, LayerTag, ResultBadge, Spinner } from './ui'
@@ -217,14 +218,15 @@ function AnswerPanel({
             <p className="eyebrow">{s.jurisdiction}</p>
             <div className="mt-3 space-y-1.5">
               {[...answer.jurisdiction_stack].reverse().map((j) => {
-                const isCity = j.includes(',')
+                const isCounty = j.includes('County')
+                const isCity = j.includes(',') && !isCounty
+                const cls = isCity ? 'ml-0 bg-layer-city' : isCounty ? 'ml-3 bg-[#8e8e93]' : 'ml-6 bg-layer-state'
                 return (
-                  <div
-                    key={j}
-                    className={`flex items-center justify-between rounded-xl px-4 py-2.5 text-[15px] font-medium text-white ${isCity ? 'ml-0 bg-layer-city' : 'ml-6 bg-layer-state'}`}
-                  >
-                    <span>{j}</span>
-                    <span className="text-[12px] font-normal opacity-80">{isCity ? s.cityLayer : s.stateLayer}</span>
+                  <div key={j} className={`flex items-center justify-between rounded-xl px-4 py-2.5 text-[15px] font-medium text-white ${cls}`}>
+                    <span>{j.replace(/, (CA|NJ|MA)$/, isCity ? ', $1' : '')}</span>
+                    <span className="text-[12px] font-normal opacity-80">
+                      {isCity ? s.cityLayer : isCounty ? s.countyLayer : s.stateLayer}
+                    </span>
                   </div>
                 )
               })}
@@ -301,6 +303,7 @@ function RuleRow({ r, s, lang, onEvidence }: { r: ResultItem; s: Strings; lang: 
   const title = lang === 'es' && r.title_es ? r.title_es : r.title
   const keyValue = lang === 'es' && r.key_value_es ? r.key_value_es : r.key_value
   const dim = r.result === 'superseded'
+  const [audit, setAudit] = useState(false)
   return (
     <div className={`grid gap-4 px-8 py-6 sm:grid-cols-[1fr_auto] ${dim ? 'bg-[#fafafa]' : ''}`}>
       <div className={`min-w-0 ${dim ? 'opacity-60' : ''}`}>
@@ -310,17 +313,26 @@ function RuleRow({ r, s, lang, onEvidence }: { r: ResultItem; s: Strings; lang: 
         </div>
         <p className="mt-1.5 text-[17px] font-semibold leading-snug tracking-tight">{title}</p>
         <p className="mt-1 text-[15px] leading-relaxed text-ink-2">{requirement}</p>
-        <p className="mt-3 text-[13px] leading-relaxed text-muted">
-          <span className="font-semibold text-ink-2">{s.why}.</span> {r.explanation}
-        </p>
+        <div className="mt-3">
+          {r.result === 'superseded' || r.result === 'pending' || r.result === 'not_yet_effective' ? (
+            <p className="text-[13px] leading-relaxed text-muted">
+              <span className="font-semibold text-ink-2">{s.why}.</span> {r.explanation}
+            </p>
+          ) : (
+            <ChecksList checks={r.audit.checks} />
+          )}
+        </div>
         {r.conflict_flag && (
           <p className="mt-3 rounded-xl bg-unknown-bg px-3.5 py-2.5 text-[13px] leading-relaxed text-unknown">
-            <span className="font-semibold">{s.conflict}.</span> {r.conflict_note}
+            <span className="font-semibold">{s.conflict}.</span> {r.conflict_note || r.interaction || s.conflictDefault}
           </p>
         )}
         <div className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-1">
           <button onClick={() => onEvidence(r.team_rule_id)} className="btn-ghost -ml-3">
             {s.source} →
+          </button>
+          <button onClick={() => setAudit(!audit)} className="btn-ghost -ml-3">
+            {audit ? s.audit.close : s.audit.open} {audit ? '↑' : '↓'}
           </button>
           {r.effective_date && (
             <span className="text-[12px] text-faint">
@@ -331,6 +343,7 @@ function RuleRow({ r, s, lang, onEvidence }: { r: ResultItem; s: Strings; lang: 
             {s.confidence} {r.confidence ?? '—'}
           </span>
         </div>
+        {audit && <AuditPanel audit={r.audit} penalty={r.penalty} s={s} onSource={() => onEvidence(r.team_rule_id)} />}
       </div>
       <div className="flex flex-row items-start gap-3 sm:flex-col sm:items-end">
         <ResultBadge result={r.result} label={s.results[r.result]} />

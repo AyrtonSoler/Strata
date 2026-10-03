@@ -1,0 +1,37 @@
+{
+ "cell_status": "rules_found",
+ "rules": [
+  {
+   "category": "algorithmic_rent_setting",
+   "jurisdiction": "NJ",
+   "level": "state",
+   "instrument_status": "enacted",
+   "title": "Forbidding the Algorithmic Inflation of Rent (FAIR) Act",
+   "requirement": "Landlords and software providers are prohibited from using algorithmic devices that process other landlords' nonpublic competitive data to set, recommend, or coordinate rental prices, lease terms, or occupancy levels.",
+   "key_value": "Prohibition on algorithmic rent-setting/coordination",
+   "coverage_conditions": "Applies to residential rental property owners and 'coordinators' (software providers/other parties) using algorithmic devices with competitively sensitive information from multiple landlords.",
+   "exemptions": "Excludes spreadsheets operating without AI requiring human analysis, and databases that only query unprocessed data; also excludes certain publicly available rent estimation tools, traditional listing databases, and government-administered affordable housing programs per secondary source.",
+   "effective_date": "2027-07-01",
+   "enacted_date": "2026-07-20",
+   "penalty": "Civil penalties; existing remedies under the New Jersey Antitrust Act preserved; AG enforcement via complaint portal.",
+   "citation": "P.L. 2026, c.43 (C.56:9-20 to 56:9-26)",
+   "quoted_span": "“Algorithmic\ndevice” means a device that uses one or more algorithms to process or otherwise\nperform calculations of data, including, but not limited to, data concerning\nrental prices, material lease terms, or occupancy levels.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": "whether a government housing/affordability-control program applies to the unit",
+    "yields_to_local": false
+   },
+   "conflict_note": "Secondary source (Day Pitney) states effective date July 1, 2027, consistent with official bill text's enactment note of approval July 20, 2026; no conflict but effective date sourced from secondary coverage as official chunk did not include that specific line.",
+   "confidence": 0.78,
+   "passage_id": "P2"
+  }
+ ],
+ "no_rule_finding": null
+}

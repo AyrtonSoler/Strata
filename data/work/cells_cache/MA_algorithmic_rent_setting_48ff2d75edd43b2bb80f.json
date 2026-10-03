@@ -1,0 +1,68 @@
+{
+ "cell_status": "rules_found",
+ "rules": [
+  {
+   "category": "algorithmic_rent_setting",
+   "jurisdiction": "MA",
+   "level": "state",
+   "instrument_status": "pending",
+   "title": "An Act prohibiting algorithmic rent setting",
+   "requirement": "This bill would prohibit the use of algorithmic devices or software to set or recommend rents for rental housing in Massachusetts.",
+   "key_value": null,
+   "coverage_conditions": "Not specified in available text.",
+   "exemptions": null,
+   "effective_date": null,
+   "enacted_date": null,
+   "penalty": null,
+   "citation": "Mass. S.2983 (2026)",
+   "quoted_span": "An Act prohibiting algorithmic rent setting",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": false
+   },
+   "conflict_note": "Bill reported favorably and referred to Senate Ways and Means as of March 2026; not yet enacted.",
+   "confidence": 0.6,
+   "passage_id": "P1"
+  },
+  {
+   "category": "algorithmic_rent_setting",
+   "jurisdiction": "MA",
+   "level": "state",
+   "instrument_status": "pending",
+   "title": "An Act relative to preventing algorithmic rent fixing in the rental housing market",
+   "requirement": "This bill would prohibit algorithmic rent fixing practices in the Massachusetts rental housing market.",
+   "key_value": null,
+   "coverage_conditions": "Not specified in available text.",
+   "exemptions": null,
+   "effective_date": null,
+   "enacted_date": null,
+   "penalty": null,
+   "citation": "Mass. H.5222 (2026)",
+   "quoted_span": "An Act relative to preventing algorithmic rent fixing in the rental housing market",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": false
+   },
+   "conflict_note": "Bill reported favorably and referred to House Ways and Means as of March 2026; not yet enacted.",
+   "confidence": 0.6,
+   "passage_id": "P3"
+  }
+ ],
+ "no_rule_finding": null
+}

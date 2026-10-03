@@ -1,0 +1,68 @@
+{
+ "cell_status": "rules_found",
+ "rules": [
+  {
+   "category": "screening_restrictions",
+   "jurisdiction": "CA",
+   "level": "state",
+   "instrument_status": "enacted",
+   "title": "Source of Income Discrimination Protections (FEHA)",
+   "requirement": "Landlords cannot refuse to rent to, or treat differently, an applicant or tenant because they pay rent with a housing subsidy such as a Section 8 voucher or other public assistance; 'No Section 8' policies are illegal.",
+   "key_value": null,
+   "coverage_conditions": "Applies to housing providers statewide under the Fair Employment and Housing Act's source of income protections.",
+   "exemptions": null,
+   "effective_date": "2020-01-01",
+   "enacted_date": "2019-01-01",
+   "penalty": null,
+   "citation": "Cal. Gov. Code § 12955",
+   "quoted_span": "“source of income” means lawful, verifiable income paid directly to a tenant, or to a representative of a tenant, or paid to a housing owner or landlord on behalf of a tenant, including federal, state, or local public assistance, and federal, state, or local housing subsidies, including, but not limited to, federal housing assistance vouchers issued under Section 8 of the United States Housing Act of 1937",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.85,
+   "passage_id": "P2"
+  },
+  {
+   "category": "screening_restrictions",
+   "jurisdiction": "CA",
+   "level": "state",
+   "instrument_status": "enacted",
+   "title": "Criminal History Screening Limitations (FEHA / Civil Rights Council regulations)",
+   "requirement": "Housing providers may check criminal history but cannot consider arrests without conviction, sealed/expunged records, or juvenile records, cannot impose blanket bans on applicants with any criminal history, and must show a conviction is directly related to tenant suitability before denying based on it.",
+   "key_value": null,
+   "coverage_conditions": "Applies to all housing providers statewide under California fair housing law regulations on criminal history screening, effective January 1, 2020.",
+   "exemptions": null,
+   "effective_date": "2020-01-01",
+   "enacted_date": "2019-01-01",
+   "penalty": null,
+   "citation": "Cal. Code Regs. tit. 2, § 12269 (Civil Rights Council regulations)",
+   "quoted_span": "Housing  providers cannot consider some types of criminal history including arrests that did not lead to a conviction, records that are sealed or expunged, or records or matters processed in the juvenile justice system. Housing providers are also prohibited from having “blanket bans” of all people with a criminal history.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": false
+   },
+   "conflict_note": "Exact regulatory citation section not stated in source text; attributed based on known 2019 Civil Rights Council regulations effective Jan 1, 2020 described in secondary source P7/P9.",
+   "confidence": 0.55,
+   "passage_id": "P1"
+  }
+ ],
+ "no_rule_finding": null
+}

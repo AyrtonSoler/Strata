@@ -1,0 +1,68 @@
+{
+ "cell_status": "rules_found",
+ "rules": [
+  {
+   "category": "screening_restrictions",
+   "jurisdiction": "CA",
+   "level": "state",
+   "instrument_status": "enacted",
+   "title": "Source of Income and Credit History Screening Protections (Gov. Code § 12955)",
+   "requirement": "Landlords may not discriminate against applicants based on their source of income, including housing vouchers like Section 8, and must give applicants a chance to provide alternative evidence of ability to pay in lieu of relying solely on credit history.",
+   "key_value": null,
+   "coverage_conditions": "Applies to housing accommodations statewide; landlords may still make inquiries about income level or source without it constituting discrimination.",
+   "exemptions": null,
+   "effective_date": "2024-01-01",
+   "enacted_date": "2023",
+   "penalty": null,
+   "citation": "Cal. Gov. Code § 12955",
+   "quoted_span": "shall do both of the following:\n(I) Provide the applicant reasonable time to respond with that alternative evidence.\n(II) Reasonably consider that alternative evidence in lieu of the person’s credit history in determining whether to offer the rental accommodation to the applicant.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.82,
+   "passage_id": "P4"
+  },
+  {
+   "category": "screening_restrictions",
+   "jurisdiction": "CA",
+   "level": "state",
+   "instrument_status": "enacted",
+   "title": "Civil Rights Council Criminal History Screening Regulations",
+   "requirement": "State regulations limit how landlords may use criminal history in rental decisions, barring consideration of arrests without conviction, sealed/expunged or juvenile records, and prohibiting blanket bans on applicants with any criminal record.",
+   "key_value": null,
+   "coverage_conditions": "Applies to housing providers statewide when screening rental applicants using criminal history information.",
+   "exemptions": null,
+   "effective_date": "2020-01-01",
+   "enacted_date": "2019",
+   "penalty": null,
+   "citation": "California Civil Rights Council regulations on criminal history in housing (2 CCR, effective Jan. 1, 2020)",
+   "quoted_span": "In 2019, California’s Civil Rights Council (formerly the Fair Employment and Housing Council) enacted\nregulations that took effect Jan. 1, 2020\n, which built on the HUD guidance and specifically address the use of criminal history information in housing decisions.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.65,
+   "passage_id": "P7"
+  }
+ ],
+ "no_rule_finding": null
+}

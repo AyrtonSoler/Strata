@@ -1,0 +1,37 @@
+{
+ "cell_status": "rules_found",
+ "rules": [
+  {
+   "category": "algorithmic_rent_setting",
+   "jurisdiction": "San Diego, CA",
+   "level": "city",
+   "instrument_status": "enacted",
+   "title": "Prohibition of Anti-Competitive Automated Rent Price-Fixing",
+   "requirement": "Landlords and software providers may not sell, license, or use algorithmic devices that use nonpublic competitor rental data to recommend rental rates or occupancy levels for residential rental property in San Diego.",
+   "key_value": "Up to $1,000 per violation (private remedy)",
+   "coverage_conditions": "Applies to residential rental property in the City of San Diego where an algorithmic device using nonpublic competitor data is sold, licensed, or used to recommend rental rates or occupancy levels.",
+   "exemptions": "Software or products that publish reports from aggregated historical nonpublic competitor data more than 90 days old, or from publicly available information, and do not recommend specific rental rates or occupancy levels.",
+   "effective_date": "2025-06",
+   "enacted_date": null,
+   "penalty": "Up to $1,000 per violation (private tenant remedy)",
+   "citation": "San Diego Mun. Code §§ 98.1101-98.1104",
+   "quoted_span": "The purpose and intent of this Division is to protect San Diegans from artificially\ninflated rental rates and unfair rent increases by prohibiting the sale, licensing,\nand use of algorithmic devices. This Division also provides tenants with remedies\nfor violations of this Division.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.85,
+   "passage_id": "P1"
+  }
+ ],
+ "no_rule_finding": null
+}

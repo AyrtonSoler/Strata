@@ -31,11 +31,20 @@ CITY_BY_PLACE = {
     ("CA", "San Diego city"): "San Diego, CA",
     ("CA", "Berkeley city"): "Berkeley, CA",
     ("CA", "Santa Ana city"): "Santa Ana, CA",
+    ("CA", "Oakland city"): "Oakland, CA",
     ("NJ", "Jersey City city"): "Jersey City, NJ",
     ("NJ", "Hoboken city"): "Hoboken, NJ",
     ("NJ", "Newark city"): "Newark, NJ",
     ("MA", "Boston city"): "Boston, MA",
     ("MA", "Cambridge city"): "Cambridge, MA",
+}
+
+# County for each city in scope (used when the geocoder can't match an address).
+COUNTY_BY_CITY = {
+    "Los Angeles, CA": "Los Angeles County", "San Francisco, CA": "San Francisco County",
+    "San Diego, CA": "San Diego County", "Berkeley, CA": "Alameda County", "Oakland, CA": "Alameda County",
+    "Santa Ana, CA": "Orange County", "Jersey City, NJ": "Hudson County", "Hoboken, NJ": "Hudson County",
+    "Newark, NJ": "Essex County", "Boston, MA": "Suffolk County", "Cambridge, MA": "Middlesex County",
 }
 
 # Postal names that sit inside a legal city. Used only when the geocoder fails.
@@ -175,6 +184,7 @@ async def run(concurrency: int = 8) -> list[dict]:
             "units_min": units_min,
             "units_basis": units_basis,
             "jurisdiction_state": row["state"],
+            "jurisdiction_county": geo.get("county") or COUNTY_BY_CITY.get(city or ""),
             "jurisdiction_city": city,
             "resolution_method": method,
             "geocode": geo,

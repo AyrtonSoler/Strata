@@ -1,0 +1,68 @@
+{
+ "cell_status": "rules_found",
+ "rules": [
+  {
+   "category": "rent_increase_limits",
+   "jurisdiction": "Oakland, CA",
+   "level": "city",
+   "instrument_status": "enacted",
+   "title": "Oakland Rent Adjustment Ordinance – Allowable Annual Rent Increase",
+   "requirement": "Covered rental units in Oakland can only have their rent increased once every 12 months, based on an annual CPI adjustment (with limited justifications allowed above CPI), and the total increase cannot exceed 10% in any 12-month period.",
+   "key_value": "CPI-based annual increase (2.3% for Aug 2024-Jul 2025); capped at 10% per 12-month period; no more than 30% over any 5-year period for CPI-based increases",
+   "coverage_conditions": "Applies to covered rental units under the Oakland Rent Adjustment Ordinance (O.M.C. 8.22.070 et seq.)",
+   "exemptions": null,
+   "effective_date": null,
+   "enacted_date": null,
+   "penalty": null,
+   "citation": "O.M.C. § 8.22.070",
+   "quoted_span": "In no event may rent for any covered unit increase by more than ten percent \nin any 12-month period by more than 10 percent, or  the amount permitted \nfor Oakland rental units subject to California Civil Code 1947. 12 (or \nsuccessor provisions), whichever is lower",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": "whether the unit is a 'covered unit' under the Rent Adjustment Ordinance (exemptions may apply based on building age, type, or other statutory exemptions not detailed in this passage)",
+    "yields_to_local": false
+   },
+   "conflict_note": "Oakland's own info sheet (O002) states Oakland rental housing law prohibits rent increases higher than 10%, while also noting the combined cap with RAP-approved petition increases cannot exceed the state cap (currently 9.2%, with 8.8% effective Aug 2024-Jul 2025), creating some ambiguity about which cap controls in combined scenarios.",
+   "confidence": 0.9,
+   "passage_id": "P7"
+  },
+  {
+   "category": "rent_increase_limits",
+   "jurisdiction": "Oakland, CA",
+   "level": "city",
+   "instrument_status": "enacted",
+   "title": "Oakland Rent Adjustment Ordinance – Banking of CPI Increases",
+   "requirement": "If an Oakland landlord does not raise rent by the full allowable annual CPI amount, the unused increase can be 'banked' and imposed later, but any single banked increase cannot exceed three times the then-current year's CPI rate, and increases cannot be banked more than 10 years after they accrue.",
+   "key_value": "Banked increase capped at 3x current year CPI; 10-year limit on banking",
+   "coverage_conditions": "Applies to covered rental units under the Oakland Rent Adjustment Ordinance",
+   "exemptions": null,
+   "effective_date": null,
+   "enacted_date": null,
+   "penalty": null,
+   "citation": "O.M.C. § 8.22.070.B",
+   "quoted_span": "the total rent increase that can be imposed in any \none banking increase may not exceed the total of three times the then allowable CPI.1 No rent \nincrease may be banked more than ten (10) years after it accrues.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.88,
+   "passage_id": "P8"
+  }
+ ],
+ "no_rule_finding": null
+}

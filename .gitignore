@@ -27,6 +27,7 @@ data/pack/*
 !data/pack/schema/
 !data/pack/corpus/
 data/extra/*.txt
+!data/extra/O*.txt
 data/drive_latest/
 data/rehearsal/
 data/work/extract_run.log
@@ -36,3 +37,4 @@ docs/challenges/
 
 .vercel
 .env*
+docs/participant-final-no-hour16/

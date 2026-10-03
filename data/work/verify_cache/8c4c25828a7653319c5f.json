@@ -1,0 +1,100 @@
+{
+ "items": [
+  {
+   "id": "r-0001",
+   "requirement_supported": "yes",
+   "citation_consistent": "yes",
+   "date_supported": "not_stated",
+   "status_supported": "yes",
+   "issue": null
+  },
+  {
+   "id": "r-0002",
+   "requirement_supported": "yes",
+   "citation_consistent": "yes",
+   "date_supported": "not_stated",
+   "status_supported": "yes",
+   "issue": null
+  },
+  {
+   "id": "r-0003",
+   "requirement_supported": "partial",
+   "citation_consistent": "yes",
+   "date_supported": "not_stated",
+   "status_supported": "yes",
+   "issue": "Passage does not mention the small-landlord two-month security deposit exception described in the requirement."
+  },
+  {
+   "id": "r-0004",
+   "requirement_supported": "yes",
+   "citation_consistent": "yes",
+   "date_supported": "not_stated",
+   "status_supported": "yes",
+   "issue": null
+  },
+  {
+   "id": "r-0005",
+   "requirement_supported": "yes",
+   "citation_consistent": "unclear",
+   "date_supported": "not_stated",
+   "status_supported": "yes",
+   "issue": "Passage is a CRD FAQ summary rather than the text of the cited regulation, so citation match cannot be fully confirmed."
+  },
+  {
+   "id": "r-0006",
+   "requirement_supported": "partial",
+   "citation_consistent": "yes",
+   "date_supported": "not_stated",
+   "status_supported": "yes",
+   "issue": "Passage supports the source-of-income protection but does not address the requirement that landlords must accept alternative proof of income over credit history for subsidized tenants."
+  },
+  {
+   "id": "r-0007",
+   "requirement_supported": "yes",
+   "citation_consistent": "yes",
+   "date_supported": "not_stated",
+   "status_supported": "unclear",
+   "issue": "Passage reads like bill analysis language ('This bill would...'), making it unclear whether the law has been enacted as claimed."
+  },
+  {
+   "id": "r-0008",
+   "requirement_supported": "partial",
+   "citation_consistent": "yes",
+   "date_supported": "yes",
+   "status_supported": "yes",
+   "issue": "Passage does not explicitly state the 5% cap mentioned in the key_value/requirement."
+  },
+  {
+   "id": "r-0009",
+   "requirement_supported": "yes",
+   "citation_consistent": "yes",
+   "date_supported": "not_stated",
+   "status_supported": "yes",
+   "issue": null
+  },
+  {
+   "id": "r-0010",
+   "requirement_supported": "yes",
+   "citation_consistent": "yes",
+   "date_supported": "not_stated",
+   "status_supported": "yes",
+   "issue": null
+  },
+  {
+   "id": "r-0011",
+   "requirement_supported": "yes",
+   "citation_consistent": "yes",
+   "date_supported": "not_stated",
+   "status_supported": "yes",
+   "issue": null
+  },
+  {
+   "id": "r-0012",
+   "requirement_supported": "yes",
+   "citation_consistent": "yes",
+   "date_supported": "not_stated",
+   "status_supported": "yes",
+   "issue": null
+  }
+ ]
+}

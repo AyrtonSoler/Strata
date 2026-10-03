@@ -1,0 +1,75 @@
+{
+ "doc_id": "O001",
+ "chunk": 0,
+ "meta": {
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CffsAX18L7VJBE5Zd7Kwp",
+  "stop_reason": "end_turn",
+  "input_tokens": 2827,
+  "output_tokens": 1375,
+  "cost_usd": 0.0292
+ },
+ "rules": [
+  {
+   "category": "rent_increase_limits",
+   "jurisdiction": "Oakland, CA",
+   "level": "city",
+   "instrument_status": "enacted",
+   "title": "Oakland Rent Adjustment Ordinance - Rent Ceiling Increases",
+   "requirement": "Landlords of covered rental units in Oakland can only raise rent once every 12 months by the annual allowable CPI increase, after giving 30 days' written notice, unless they get approval for a larger increase through a petition process.",
+   "key_value": "Annual CPI increase; unlawful if increase exceeds CPI or is greater than 5% plus cost-of-living change (8.8% for Aug 2023-July 2024)",
+   "coverage_conditions": "Applies to residential rental units in Oakland not exempt from the Rent Adjustment Ordinance; units with tenancies beginning on or after January 1, 1996 have owner-set initial rent under Costa-Hawkins, after which the Ordinance governs subsequent increases.",
+   "exemptions": null,
+   "effective_date": null,
+   "enacted_date": null,
+   "penalty": "Tenant may petition RAP for rent reduction and relief; unlawful rent increase can be challenged via tenant petition process before Hearing Officer.",
+   "citation": "O.M.C. 8.22.070 et seq.",
+   "quoted_span": "An owner can increase the rent on a covered unit only once in a 12-month period. The first increase cannot be effective any earlier than 12 months after the tenant moved into the unit.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": "whether the unit is exempt from the Oakland Rent Adjustment Ordinance (e.g., units with tenancies beginning after Jan 1, 1996 may have owner-set initial rent under Costa-Hawkins before Ordinance limits apply)",
+    "yields_to_local": false
+   },
+   "conflict_note": "Text notes CPI increase for Aug 2023-July 2024 is 8.8%, and separately notes highest banking allowed Aug 2024-July 2025 is 6.9% (footnote); these are different figures for different purposes (unlawful increase threshold vs. banking cap) and could be confused.",
+   "confidence": 0.85
+  },
+  {
+   "category": "rent_increase_limits",
+   "jurisdiction": "Oakland, CA",
+   "level": "city",
+   "instrument_status": "enacted",
+   "title": "Oakland Rent Ceiling - Banking of Unused Rent Increases",
+   "requirement": "If a landlord does not use the full allowable CPI rent increase in a given year, they may 'bank' the unused portion and apply it later, but the total banked increase imposed at once cannot exceed three times the then-allowable CPI, and no increase may be banked more than 10 years after it accrues.",
+   "key_value": "Max banked increase = 3x allowable CPI; 10-year banking limit; highest banking allowed Aug 2024-July 2025 is 6.9%",
+   "coverage_conditions": "Applies to units covered by the Oakland Rent Adjustment Ordinance.",
+   "exemptions": null,
+   "effective_date": null,
+   "enacted_date": null,
+   "penalty": null,
+   "citation": "O.M.C. 8.22.070 et seq.",
+   "quoted_span": "However, for units covered by the Oakland Rent Adjustment Ordinance, the total rent increase that can be imposed in any one banking increase may not exceed the total of three times the then allowable CPI.1 No rent increase may be banked more than ten (10) years after it accrues.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.8
+  }
+ ],
+ "no_rule_findings": []
+}

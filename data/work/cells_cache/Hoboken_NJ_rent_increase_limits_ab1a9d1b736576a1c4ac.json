@@ -1,0 +1,37 @@
+{
+ "cell_status": "rules_found",
+ "rules": [
+  {
+   "category": "rent_increase_limits",
+   "jurisdiction": "Hoboken, NJ",
+   "level": "city",
+   "instrument_status": "enacted",
+   "title": "Hoboken Rent Control Ordinance",
+   "requirement": "Rents for covered rental units in Hoboken are capped at a base rent level set as of October 1, 1985, and landlords may not demand or accept rent increases except as allowed under the rent control ordinance; excess increases are void and must be refunded.",
+   "key_value": null,
+   "coverage_conditions": "Applies to housing space and services in dwellings covered by the Hoboken rent control chapter.",
+   "exemptions": null,
+   "effective_date": null,
+   "enacted_date": "1984-01-16",
+   "penalty": "Excess rent increases are declared null and void and must be refunded or credited to the tenant by the landlord.",
+   "citation": "Hoboken Mun. Code ch. 155, Art. II",
+   "quoted_span": "All rents for rental of housing space and services in dwellings to which this act is applicable are hereby controlled at the base rent level received by the landlord as of October 1, 1985, and no rental increases shall be hereinafter demanded, paid or accepted, except as provided in this chapter.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": false
+   },
+   "conflict_note": "Ordinance amended multiple times (2011, 2023, 2025); exact current formula/percentage for permitted increases not shown in this passage.",
+   "confidence": 0.6,
+   "passage_id": "P5"
+  }
+ ],
+ "no_rule_finding": null
+}

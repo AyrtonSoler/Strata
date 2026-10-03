@@ -1,0 +1,100 @@
+{
+ "items": [
+  {
+   "id": "r-0025",
+   "requirement_supported": "yes",
+   "citation_consistent": "yes",
+   "date_supported": "not_stated",
+   "status_supported": "yes",
+   "issue": null
+  },
+  {
+   "id": "r-0026",
+   "requirement_supported": "yes",
+   "citation_consistent": "unclear",
+   "date_supported": "yes",
+   "status_supported": "yes",
+   "issue": "Passage is a rate table page and does not cite the specific Admin Code section number."
+  },
+  {
+   "id": "r-0027",
+   "requirement_supported": "partial",
+   "citation_consistent": "yes",
+   "date_supported": "not_stated",
+   "status_supported": "unclear",
+   "issue": "Passage only gives a generic one-sentence summary and does not detail the specific denial-based-on-arrest/conviction protections claimed in the requirement."
+  },
+  {
+   "id": "r-0028",
+   "requirement_supported": "yes",
+   "citation_consistent": "yes",
+   "date_supported": "yes",
+   "status_supported": "yes",
+   "issue": null
+  },
+  {
+   "id": "r-0029",
+   "requirement_supported": "yes",
+   "citation_consistent": "yes",
+   "date_supported": "yes",
+   "status_supported": "yes",
+   "issue": null
+  },
+  {
+   "id": "r-0030",
+   "requirement_supported": "yes",
+   "citation_consistent": "yes",
+   "date_supported": "yes",
+   "status_supported": "yes",
+   "issue": null
+  },
+  {
+   "id": "r-0031",
+   "requirement_supported": "yes",
+   "citation_consistent": "yes",
+   "date_supported": "not_stated",
+   "status_supported": "yes",
+   "issue": null
+  },
+  {
+   "id": "r-0032",
+   "requirement_supported": "yes",
+   "citation_consistent": "yes",
+   "date_supported": "yes",
+   "status_supported": "no",
+   "issue": "Passage indicates the ordinance had only passed first reading with a final vote scheduled for March 3, not yet fully enacted at time of reporting."
+  },
+  {
+   "id": "r-0033",
+   "requirement_supported": "yes",
+   "citation_consistent": "yes",
+   "date_supported": "not_stated",
+   "status_supported": "yes",
+   "issue": null
+  },
+  {
+   "id": "r-0034",
+   "requirement_supported": "yes",
+   "citation_consistent": "yes",
+   "date_supported": "not_stated",
+   "status_supported": "yes",
+   "issue": null
+  },
+  {
+   "id": "r-0035",
+   "requirement_supported": "yes",
+   "citation_consistent": "yes",
+   "date_supported": "not_stated",
+   "status_supported": "yes",
+   "issue": null
+  },
+  {
+   "id": "r-0036",
+   "requirement_supported": "yes",
+   "citation_consistent": "yes",
+   "date_supported": "yes",
+   "status_supported": "yes",
+   "issue": null
+  }
+ ]
+}

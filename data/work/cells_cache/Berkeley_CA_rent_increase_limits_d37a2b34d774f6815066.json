@@ -1,0 +1,68 @@
+{
+ "cell_status": "rules_found",
+ "rules": [
+  {
+   "category": "rent_increase_limits",
+   "jurisdiction": "Berkeley, CA",
+   "level": "city",
+   "instrument_status": "enacted",
+   "title": "Berkeley Rent Stabilization Ordinance - Annual General Adjustment (AGA)",
+   "requirement": "For fully-covered rental units, landlords may only raise rent once a year by the Annual General Adjustment (AGA), a percentage set by the Rent Board using a CPI-based formula, capped at 5%.",
+   "key_value": "65% of CPI increase, capped at 5% per year",
+   "coverage_conditions": "Applies to fully-covered rental units under Berkeley's Rent Stabilization Ordinance, generally most multifamily units built before 1980, pre-1996 single-family tenancies, and certain rooming houses.",
+   "exemptions": "New construction units that received a certificate of occupancy after June 1980 are only partially covered and not subject to the rent ceiling/AGA; units exempted under Costa-Hawkins for tenancies beginning on or after January 1, 2025 are also excluded from the AGA adjustment.",
+   "effective_date": "2026-01-01",
+   "enacted_date": "2025-10-16",
+   "penalty": null,
+   "citation": "Berkeley Mun. Code § 13.76.110A",
+   "quoted_span": "At its regular meeting on October 16, 2025, the Berkeley Rent Stabilization Board \nadopted the Annual General Adjustment (AGA) Order for Year 2026 which will allow \neligible landlords to increase the 2025 permanent rent ceilings by 1.0% no earlier than \nJanuary 1, 2026.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": "1980-06-30",
+    "built_after": null,
+    "age_cutoff_basis": "certificate_of_occupancy",
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": "whether the unit is government-subsidized (e.g., Section 8, Shelter Plus Care) which affects full vs. partial coverage",
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.9,
+   "passage_id": "P1"
+  },
+  {
+   "category": "rent_increase_limits",
+   "jurisdiction": "Berkeley, CA",
+   "level": "city",
+   "instrument_status": "enacted",
+   "title": "Measure BB Amendment - AGA Cap of 5%",
+   "requirement": "The Berkeley Rent Board may not approve an Annual General Adjustment greater than 5%, even if the CPI-based formula in the Rent Ordinance would otherwise yield a higher percentage.",
+   "key_value": "5% maximum AGA",
+   "coverage_conditions": "Applies to fully-covered rental units under Berkeley's Rent Ordinance.",
+   "exemptions": "Does not prevent landlords from using 'banked' unused AGAs from prior years to raise rent above 5% in a given year to reach the rent ceiling.",
+   "effective_date": null,
+   "enacted_date": null,
+   "penalty": null,
+   "citation": "Berkeley Mun. Code ch. 13.76",
+   "quoted_span": "NEW:\nThe maximum AGA is 5%. This means that, if the formula in the Rent Ordinance results in an AGA that is greater than 5%, the AGA approved by the Board for that year can be no more than 5%.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.85,
+   "passage_id": "P4"
+  }
+ ],
+ "no_rule_finding": null
+}

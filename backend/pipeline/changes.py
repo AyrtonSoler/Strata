@@ -14,7 +14,7 @@ from .engine import evaluate_coverage, jurisdiction_stack, lookup, parse_date
 JUR_CODES = {
     "CA": "CA", "NJ": "NJ", "MA": "MA",
     "LA": "Los Angeles, CA", "SF": "San Francisco, CA", "SD": "San Diego, CA", "BER": "Berkeley, CA",
-    "BERK": "Berkeley, CA", "SA": "Santa Ana, CA", "JC": "Jersey City, NJ", "HOB": "Hoboken, NJ",
+    "BERK": "Berkeley, CA", "SA": "Santa Ana, CA", "OAK": "Oakland, CA", "JC": "Jersey City, NJ", "HOB": "Hoboken, NJ",
     "NWK": "Newark, NJ", "NEW": "Newark, NJ", "BOS": "Boston, MA", "CAM": "Cambridge, MA",
     "CAMB": "Cambridge, MA",
 }

@@ -14,6 +14,7 @@ import re
 from collections import defaultdict
 
 from . import llm
+from .canon import canon_citation
 from .engine import status_as_of
 from .extract import audit
 from .paths import WORK
@@ -21,6 +22,7 @@ from .paths import WORK
 STATES = ("CA", "NJ", "MA")
 CITIES = {
     "Los Angeles": "CA", "San Francisco": "CA", "San Diego": "CA", "Berkeley": "CA", "Santa Ana": "CA",
+    "Oakland": "CA",
     "Jersey City": "NJ", "Hoboken": "NJ", "Newark": "NJ", "Boston": "MA", "Cambridge": "MA",
 }
 STATE_NAMES = {"california": "CA", "new jersey": "NJ", "massachusetts": "MA"}
@@ -55,6 +57,7 @@ SYSTEM = """You reconcile candidate rental-housing rule records extracted (by an
 - conflict_flag true also when a state law may preempt or conflict with a city rule of the same category (e.g. a statewide ban that may preempt local bans once effective), or when the rule's applicability is legally unsettled. Explain in conflict_note.
 - interaction: one sentence on how this rule interacts with rules at the other level in the same category (e.g. "State cap does not apply to units covered by local rent control"), or null.
 - yields_to_local: true if this STATE rule does not apply where a local rule of the same category covers the unit.
+- Candidates come from two independent extractions: origin="cell" (asked per jurisdiction x category, already at the target granularity) and origin="doc" (read document by document). Use cell candidates as the backbone; attach matching doc candidates to the same group as corroboration. Keep a doc-only candidate as its own group only if it is a real in-scope rule the cell pass missed.
 - reject_ids: candidates that are not real in-scope rules for the six categories (e.g. general fair-housing statements, procedural notices, rules for other places, or duplicated noise). Every candidate id must appear in exactly one of: one group's member_ids, reject_ids, or no_rule_ids."""
 
 SCHEMA = {
@@ -85,7 +88,7 @@ SCHEMA = {
 
 def _compact(c: dict) -> dict:
     return {k: c.get(k) for k in ("id", "jurisdiction", "category", "instrument_status", "citation", "title",
-                                   "key_value", "effective_date", "requirement", "source_doc_id",
+                                   "key_value", "effective_date", "requirement", "source_doc_id", "origin",
                                    "source_type", "confidence", "conflict_note")} | {
         "quote": c["quoted_span"][:240], "yields_to_local": c["coverage"]["yields_to_local"]}
 
@@ -177,6 +180,8 @@ def _merge(primary: dict, members: list[dict], g: dict | None) -> dict:
         rec["conflict_flag"] = bool(rec.get("conflict_note"))
         rec["interaction"] = None
     rec["merged_candidate_ids"] = [m["id"] for m in members]
+    rec["origins"] = sorted({m.get("origin", "doc") for m in members})
+    rec["penalty"] = rec.get("penalty") or next((m.get("penalty") for m in members if m.get("penalty")), None)
     return rec
 
 
@@ -227,7 +232,8 @@ def to_schema(rec: dict, rid: str, as_of: dt.date) -> dict:
         "overrides": [],
         "interaction": rec.get("interaction"),
         "effective_date": rec.get("effective_date"),
-        "citation": clean_citation(rec["citation"]),
+        "citation": canon_citation(clean_citation(rec["citation"])),
+        "penalty": rec.get("penalty"),
         "source_doc_id": rec["source_doc_id"],
         "source_url": rec["source_url"],
         "quoted_span": rec["quoted_span"],
@@ -239,6 +245,9 @@ def to_schema(rec: dict, rid: str, as_of: dt.date) -> dict:
         "coverage": rec["coverage"],
         "retrieved_at": rec.get("retrieved_at"),
         "source_origin": rec.get("source_origin"),
+        "extraction_origins": rec.get("origins", ["doc"]),
+        "span_match": rec.get("span_match"),
+        "source_type": rec.get("source_type"),
         "supporting_sources": [{"doc_id": d, "url": u} for d, u in rec.get("supporting_sources", [])],
     }
 
@@ -258,7 +267,31 @@ def link_overrides(rules: list[dict]) -> None:
                 x["interaction"] = x["interaction"] or f"Governs over state rule {r['team_rule_id']} where it covers the unit."
 
 
-async def run(candidates: list[dict], as_of: dt.date, use_llm: bool = True) -> list[dict]:
+def prune_with_grid(merged: list[dict], grid: dict) -> tuple[list[dict], list[dict]]:
+    """The cell pass is the backbone. A rule only the per-document pass found is set
+    aside as supplementary when its cell says there is no rule at that level, or when
+    the cell pass already found an enacted rule for that cell."""
+    kept, extra = [], []
+    cell_enacted = {(r["jurisdiction"], r["category"]) for r in merged
+                    if "cell" in r.get("origins", []) and r["instrument_status"] == "enacted"}
+    for r in merged:
+        key = (r["jurisdiction"], r["category"])
+        doc_only = r.get("origins", ["doc"]) == ["doc"]
+        status = grid.get(f"{key[0]}|{key[1]}")
+        if doc_only and (status == "no_rule_stated"
+                         or (r["instrument_status"] == "enacted" and key in cell_enacted)):
+            r["supplementary_reason"] = ("cell pass found no rule at this level" if status == "no_rule_stated"
+                                         else "cell pass already found the governing enacted rule")
+            extra.append(r)
+            audit({"event": "set_aside_supplementary", "jurisdiction": key[0], "category": key[1],
+                   "citation": r["citation"], "reason": r["supplementary_reason"]})
+        else:
+            kept.append(r)
+    return kept, extra
+
+
+async def run(candidates: list[dict], as_of: dt.date, use_llm: bool = True,
+              grid: dict | None = None) -> tuple[list[dict], list[dict], list[dict]]:
     rules_in, findings = [], []
     for i, c in enumerate(candidates):
         if c.get("no_rule_finding"):
@@ -291,6 +324,7 @@ async def run(candidates: list[dict], as_of: dt.date, use_llm: bool = True) -> l
     order = {c: i for i, c in enumerate(("rent_increase_limits", "just_cause_eviction", "security_deposits",
                                          "application_screening_fees", "screening_restrictions",
                                          "algorithmic_rent_setting"))}
+    merged, supplementary = prune_with_grid(merged, grid or {})
     merged.sort(key=lambda r: (state_of(r["jurisdiction"]), r["level"] != "state", r["jurisdiction"],
                                order[r["category"]], r["citation"]))
     rules = [to_schema(r, f"r-{i + 1:04d}", as_of) for i, r in enumerate(merged)]
@@ -299,4 +333,6 @@ async def run(candidates: list[dict], as_of: dt.date, use_llm: bool = True) -> l
         {"jurisdiction": f["jurisdiction"], "category": f["category"], "finding": f["finding"],
          "quoted_span": f["quoted_span"], "source_doc_id": f["source_doc_id"],
          "source_url": f["source_url"]} for f in findings]
-    return rules, no_rule
+    extra = [to_schema(r, f"s-{i + 1:04d}", as_of) | {"supplementary_reason": r["supplementary_reason"]}
+             for i, r in enumerate(supplementary)]
+    return rules, no_rule, extra

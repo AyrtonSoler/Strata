@@ -1,11 +1,13 @@
-"""Ingest new documents and change tests (e.g. the hour-16 ordinance) and rerun.
+"""Add documents for a new jurisdiction (or a new law) and rerun the same pipeline.
+
+Used for the "extend to one new jurisdiction" stretch goal; see pipeline/oakland.py.
 
     # pull the organizers' Drive folder again and pick up anything new
     uv run python -m pipeline.ingest --drive
 
     # or add one document by hand
     uv run python -m pipeline.ingest --file new.txt --doc-id H16 --jurisdiction "Cambridge, MA" --url https://...
-    uv run python -m pipeline.ingest --tests t6.json
+    uv run python -m pipeline.ingest --tests extra_change_cases.json
 
 Extraction stays automated: new documents go through the same LLM extraction,
 quote verification and reconciliation as the starter corpus.
@@ -81,7 +83,7 @@ def from_drive() -> None:
     for p in dest.rglob("*"):
         if not p.is_file():
             continue
-        if p.suffix == ".json" and re.search(r"change|test|T6", p.name, re.I):
+        if p.suffix == ".json" and re.search(r"change|test", p.name, re.I):
             data = json.loads(p.read_text(encoding="utf-8"))
             if isinstance(data, (list, dict)) and "test_id" in json.dumps(data)[:2000]:
                 add_tests(p)

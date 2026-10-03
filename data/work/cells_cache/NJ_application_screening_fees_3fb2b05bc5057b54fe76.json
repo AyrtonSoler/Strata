@@ -1,0 +1,37 @@
+{
+ "cell_status": "rules_found",
+ "rules": [
+  {
+   "category": "application_screening_fees",
+   "jurisdiction": "NJ",
+   "level": "state",
+   "instrument_status": "enacted",
+   "title": "Residential Rental Property Application Fee Cap",
+   "requirement": "A landlord or agent cannot charge an application or similar fee of more than $50 to apply to lease or sublease a residential rental property, except for certain exempt dwellings.",
+   "key_value": "$50 maximum application fee",
+   "coverage_conditions": "Applies to residential rental property dwelling units generally, with specific exemptions.",
+   "exemptions": "Does not apply to a dwelling unit located in a one-family or two-family dwelling offered for rent, or to a licensee of the New Jersey Real Estate Commission unless that licensee is the landlord.",
+   "effective_date": null,
+   "enacted_date": "2025",
+   "penalty": "Civil penalty of up to $500 for a first offense, up to $750 for a second offense, and up to $1,000 for each subsequent offense, collected under the Penalty Enforcement Law of 1999; wrongfully charged amount remitted to the applicant.",
+   "citation": "N.J.S.A. 46:8-18.1",
+   "quoted_span": "A landlord, or\nagent thereof, shall not require an application or other similar fee to apply\nto lease or sublease a residential rental property for dwelling purposes, which\nexceeds $50.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": 2,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": "whether the landlord or agent is a licensee of the New Jersey Real Estate Commission acting other than as landlord",
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.92,
+   "passage_id": "P4"
+  }
+ ],
+ "no_rule_finding": null
+}

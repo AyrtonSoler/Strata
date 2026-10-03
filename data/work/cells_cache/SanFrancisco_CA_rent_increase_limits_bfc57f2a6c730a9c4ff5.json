@@ -1,0 +1,68 @@
+{
+ "cell_status": "rules_found",
+ "rules": [
+  {
+   "category": "rent_increase_limits",
+   "jurisdiction": "San Francisco, CA",
+   "level": "city",
+   "instrument_status": "enacted",
+   "title": "Annual Allowable Rent Increase (Rent Ordinance)",
+   "requirement": "For units covered by San Francisco's Rent Ordinance (rent-controlled units), landlords may only raise rent each year by a set percentage announced annually by the Rent Board.",
+   "key_value": "1.6% (March 1, 2026 - February 28, 2027)",
+   "coverage_conditions": "Applies to rent-controlled units covered by the San Francisco Rent Ordinance.",
+   "exemptions": null,
+   "effective_date": "2026-03-01",
+   "enacted_date": null,
+   "penalty": null,
+   "citation": "S.F. Admin. Code § 37.9",
+   "quoted_span": "For rent-controlled units, the annual allowable increase amount effective March 1, 2026 through February 28, 2027 is 1.6%.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": "whether the unit is covered by the Rent Ordinance (rent-controlled status)",
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.9,
+   "passage_id": "P3"
+  },
+  {
+   "category": "algorithmic_rent_setting",
+   "jurisdiction": "San Francisco, CA",
+   "level": "city",
+   "instrument_status": "enacted",
+   "title": "Prohibition on Algorithmic Devices Used to Set Rents",
+   "requirement": "Landlords and property managers in San Francisco may not sell or use algorithmic software that analyzes nonpublic competitor rental data to recommend rents or manage occupancy levels.",
+   "key_value": null,
+   "coverage_conditions": "Applies to residential rental units in San Francisco.",
+   "exemptions": null,
+   "effective_date": "2024-10-14",
+   "enacted_date": null,
+   "penalty": "A tenant or the City Attorney may bring a civil action against a violator.",
+   "citation": "S.F. Admin. Code § 37.10C",
+   "quoted_span": "Legislation adding Section 37.10C to the Rent Ordinance went into effect on October 14, 2024. The law prohibits the sale or use of algorithmic devices to set rents or manage occupancy levels for residential units in San Francisco.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": false
+   },
+   "conflict_note": "This record is categorized under rent_increase_limits cell only because it was retrieved there; properly it belongs to algorithmic_rent_setting category.",
+   "confidence": 0.6,
+   "passage_id": "P1"
+  }
+ ],
+ "no_rule_finding": null
+}

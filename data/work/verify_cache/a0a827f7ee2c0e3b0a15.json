@@ -1,0 +1,68 @@
+{
+ "items": [
+  {
+   "id": "r-0049",
+   "requirement_supported": "partial",
+   "citation_consistent": "unclear",
+   "date_supported": "not_stated",
+   "status_supported": "yes",
+   "issue": "Passage shows enforcement/anti-circumvention provisions but not the core definitional language about pooling competitively sensitive data, and the actual enactment date (needed to compute the 2027-07-01 effective date) is not shown."
+  },
+  {
+   "id": "r-0050",
+   "requirement_supported": "yes",
+   "citation_consistent": "yes",
+   "date_supported": "not_stated",
+   "status_supported": "yes",
+   "issue": "Passage does not mention the 1985 effective date."
+  },
+  {
+   "id": "r-0051",
+   "requirement_supported": "yes",
+   "citation_consistent": "yes",
+   "date_supported": "yes",
+   "status_supported": "yes",
+   "issue": null
+  },
+  {
+   "id": "r-0052",
+   "requirement_supported": "yes",
+   "citation_consistent": "yes",
+   "date_supported": "yes",
+   "status_supported": "yes",
+   "issue": null
+  },
+  {
+   "id": "r-0053",
+   "requirement_supported": "partial",
+   "citation_consistent": "yes",
+   "date_supported": "not_stated",
+   "status_supported": "yes",
+   "issue": "Passage only confirms the 1-4 unit exemption and general registration/application process; it does not detail the specific application types (capital improvement, hardship, CPI) claimed in the requirement."
+  },
+  {
+   "id": "r-0054",
+   "requirement_supported": "partial",
+   "citation_consistent": "yes",
+   "date_supported": "yes",
+   "status_supported": "unclear",
+   "issue": "Source is a secondary law-firm survey table summarizing the ordinance rather than the primary code text, so the exact scope and enactment status cannot be independently confirmed from this passage."
+  },
+  {
+   "id": "r-0055",
+   "requirement_supported": "yes",
+   "citation_consistent": "yes",
+   "date_supported": "yes",
+   "status_supported": "yes",
+   "issue": null
+  },
+  {
+   "id": "r-0056",
+   "requirement_supported": "yes",
+   "citation_consistent": "yes",
+   "date_supported": "yes",
+   "status_supported": "yes",
+   "issue": null
+  }
+ ]
+}

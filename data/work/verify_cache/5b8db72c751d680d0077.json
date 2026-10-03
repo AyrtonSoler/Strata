@@ -1,0 +1,100 @@
+{
+ "items": [
+  {
+   "id": "r-0037",
+   "requirement_supported": "yes",
+   "citation_consistent": "yes",
+   "date_supported": "yes",
+   "status_supported": "yes",
+   "issue": null
+  },
+  {
+   "id": "r-0038",
+   "requirement_supported": "yes",
+   "citation_consistent": "yes",
+   "date_supported": "not_stated",
+   "status_supported": "yes",
+   "issue": null
+  },
+  {
+   "id": "r-0039",
+   "requirement_supported": "partial",
+   "citation_consistent": "yes",
+   "date_supported": "not_stated",
+   "status_supported": "yes",
+   "issue": "Passage only shows bill title and procedural history, not the substantive text of the requirement."
+  },
+  {
+   "id": "r-0040",
+   "requirement_supported": "partial",
+   "citation_consistent": "yes",
+   "date_supported": "not_stated",
+   "status_supported": "yes",
+   "issue": "Passage only shows bill title and procedural history, not the substantive text of the requirement."
+  },
+  {
+   "id": "r-0041",
+   "requirement_supported": "yes",
+   "citation_consistent": "yes",
+   "date_supported": "not_stated",
+   "status_supported": "yes",
+   "issue": null
+  },
+  {
+   "id": "r-0042",
+   "requirement_supported": "partial",
+   "citation_consistent": "unclear",
+   "date_supported": "yes",
+   "status_supported": "yes",
+   "issue": "Passage (an FAQ) does not explicitly reference a 'Certificate of Compliance/Service' or the specific municipal code section cited."
+  },
+  {
+   "id": "r-0043",
+   "requirement_supported": "partial",
+   "citation_consistent": "yes",
+   "date_supported": "not_stated",
+   "status_supported": "yes",
+   "issue": "Passage confirms the bill's general subject and failure via study order but does not detail 'just-cause' style eviction protections specifically."
+  },
+  {
+   "id": "r-0044",
+   "requirement_supported": "yes",
+   "citation_consistent": "yes",
+   "date_supported": "yes",
+   "status_supported": "yes",
+   "issue": null
+  },
+  {
+   "id": "r-0045",
+   "requirement_supported": "yes",
+   "citation_consistent": "unclear",
+   "date_supported": "not_stated",
+   "status_supported": "yes",
+   "issue": "Passage confirms source-of-income protection under Cambridge Fair Housing Ordinance but does not explicitly cite chapter 14.04."
+  },
+  {
+   "id": "r-0046",
+   "requirement_supported": "yes",
+   "citation_consistent": "unclear",
+   "date_supported": "not_stated",
+   "status_supported": "yes",
+   "issue": "Passage describes a news article reporting the policy order rather than an official citation with a clear date/number."
+  },
+  {
+   "id": "r-0047",
+   "requirement_supported": "yes",
+   "citation_consistent": "yes",
+   "date_supported": "not_stated",
+   "status_supported": "yes",
+   "issue": null
+  },
+  {
+   "id": "r-0048",
+   "requirement_supported": "yes",
+   "citation_consistent": "yes",
+   "date_supported": "not_stated",
+   "status_supported": "yes",
+   "issue": null
+  }
+ ]
+}

@@ -1,0 +1,169 @@
+{
+ "items": [
+  {
+   "id": "r-0001",
+   "prior_version_in_force": true,
+   "reason": "Annual adjustment of existing statewide rent cap figure/mechanism."
+  },
+  {
+   "id": "r-0002",
+   "prior_version_in_force": true,
+   "reason": "Part of existing Tenant Protection Act framework, re-codified/continuing requirement."
+  },
+  {
+   "id": "r-0003",
+   "prior_version_in_force": true,
+   "reason": "Longstanding deposit cap provision, this is an existing codified rule."
+  },
+  {
+   "id": "r-0004",
+   "prior_version_in_force": true,
+   "reason": "Existing screening fee cap with annual CPI adjustment, not new."
+  },
+  {
+   "id": "r-0005",
+   "prior_version_in_force": false,
+   "reason": "New regulations enacted taking effect 2020, first-time criminal history screening limits."
+  },
+  {
+   "id": "r-0006",
+   "prior_version_in_force": true,
+   "reason": "Existing anti-discrimination protections with amendment effective date."
+  },
+  {
+   "id": "r-0007",
+   "prior_version_in_force": false,
+   "reason": "New ban on algorithmic pricing software."
+  },
+  {
+   "id": "r-0008",
+   "prior_version_in_force": true,
+   "reason": "Annual rent ceiling adjustment under existing rent stabilization program."
+  },
+  {
+   "id": "r-0013",
+   "prior_version_in_force": false,
+   "reason": "New prohibition on algorithmic pricing tools."
+  },
+  {
+   "id": "r-0014",
+   "prior_version_in_force": true,
+   "reason": "Annual allowable increase under existing RSO program."
+  },
+  {
+   "id": "r-0016",
+   "prior_version_in_force": false,
+   "reason": "Original effective date establishing the interest requirement itself."
+  },
+  {
+   "id": "r-0018",
+   "prior_version_in_force": false,
+   "reason": "New just cause eviction ordinance enactment date."
+  },
+  {
+   "id": "r-0019",
+   "prior_version_in_force": false,
+   "reason": "New prohibition on algorithmic rent-setting software."
+  },
+  {
+   "id": "r-0020",
+   "prior_version_in_force": true,
+   "reason": "Annual rent increase percentage update under existing Rent Ordinance."
+  },
+  {
+   "id": "r-0022",
+   "prior_version_in_force": true,
+   "reason": "Annual interest rate update under existing deposit interest requirement."
+  },
+  {
+   "id": "r-0024",
+   "prior_version_in_force": false,
+   "reason": "New prohibition on algorithmic rent-setting tools."
+  },
+  {
+   "id": "r-0025",
+   "prior_version_in_force": false,
+   "reason": "Original enactment date of rent stabilization ordinance."
+  },
+  {
+   "id": "r-0026",
+   "prior_version_in_force": false,
+   "reason": "Original enactment date of just cause ordinance."
+  },
+  {
+   "id": "r-0028",
+   "prior_version_in_force": false,
+   "reason": "New algorithmic rent-setting software ban."
+  },
+  {
+   "id": "r-0031",
+   "prior_version_in_force": true,
+   "reason": "Longstanding security deposit statute, not newly created."
+  },
+  {
+   "id": "r-0032",
+   "prior_version_in_force": true,
+   "reason": "Existing broker licensing fee requirement."
+  },
+  {
+   "id": "r-0033",
+   "prior_version_in_force": true,
+   "reason": "Existing statutory limit on pre-tenancy charges."
+  },
+  {
+   "id": "r-0038",
+   "prior_version_in_force": false,
+   "reason": "Original enactment date of HSNA ordinance."
+  },
+  {
+   "id": "r-0040",
+   "prior_version_in_force": false,
+   "reason": "Original policy adoption date, new requirement."
+  },
+  {
+   "id": "r-0046",
+   "prior_version_in_force": true,
+   "reason": "Annual inflation adjustment to existing fee cap statute."
+  },
+  {
+   "id": "r-0048",
+   "prior_version_in_force": false,
+   "reason": "Original effective date of new Fair Chance in Housing Act."
+  },
+  {
+   "id": "r-0049",
+   "prior_version_in_force": false,
+   "reason": "New act banning algorithmic rent inflation."
+  },
+  {
+   "id": "r-0050",
+   "prior_version_in_force": false,
+   "reason": "Original enactment date of rent control ordinance."
+  },
+  {
+   "id": "r-0051",
+   "prior_version_in_force": false,
+   "reason": "New disclosure requirement regarding algorithmic pricing."
+  },
+  {
+   "id": "r-0052",
+   "prior_version_in_force": false,
+   "reason": "New prohibition on algorithmic price fixing."
+  },
+  {
+   "id": "r-0054",
+   "prior_version_in_force": false,
+   "reason": "New algorithmic rent coordination ban."
+  },
+  {
+   "id": "r-0055",
+   "prior_version_in_force": true,
+   "reason": "Existing rent control ordinance's periodic CPI-based cap application."
+  },
+  {
+   "id": "r-0056",
+   "prior_version_in_force": false,
+   "reason": "Original enactment date of criminal history screening restrictions."
+  }
+ ]
+}

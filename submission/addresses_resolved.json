@@ -14,6 +14,7 @@
   "units_min": 32,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -41,6 +42,7 @@
   "units_min": 20,
   "units_basis": "parsed from building description '6B-20U-G'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Hoboken, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -68,6 +70,7 @@
   "units_min": 5,
   "units_basis": "NJ property class 4C = apartment building with 5+ units",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Essex County",
   "jurisdiction_city": "Newark, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -95,6 +98,7 @@
   "units_min": 39,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -122,6 +126,7 @@
   "units_min": 5,
   "units_basis": "use description 'Alameda County use code (5+ units)'",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Alameda County",
   "jurisdiction_city": "Berkeley, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -149,6 +154,7 @@
   "units_min": 7,
   "units_basis": "Boston land use 'A' (SUBSD HOUSING S- 8) = 7+ unit apartment",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Suffolk County",
   "jurisdiction_city": "Boston, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -176,6 +182,7 @@
   "units_min": 6,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -203,6 +210,7 @@
   "units_min": 151,
   "units_basis": "parsed from building description '10S-B-A-151U-HE'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Jersey City, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -230,6 +238,7 @@
   "units_min": 6,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Middlesex County",
   "jurisdiction_city": "Cambridge, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -257,6 +266,7 @@
   "units_min": 6,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Middlesex County",
   "jurisdiction_city": "Cambridge, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -284,6 +294,7 @@
   "units_min": 5,
   "units_basis": "NJ property class 4C = apartment building with 5+ units",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Essex County",
   "jurisdiction_city": "Newark, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -311,6 +322,7 @@
   "units_min": 6,
   "units_basis": "parsed from building description '3S-F-D-6U'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Jersey City, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -338,6 +350,7 @@
   "units_min": 5,
   "units_basis": "NJ property class 4C = apartment building with 5+ units",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Essex County",
   "jurisdiction_city": "Newark, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -365,6 +378,7 @@
   "units_min": 7,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -392,6 +406,7 @@
   "units_min": 83,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Middlesex County",
   "jurisdiction_city": "Cambridge, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -419,6 +434,7 @@
   "units_min": 21,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -446,6 +462,7 @@
   "units_min": 6,
   "units_basis": "parsed from building description '3S-F-D-6U-NH'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Jersey City, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -473,6 +490,7 @@
   "units_min": 5,
   "units_basis": "use description 'Alameda County use code (5+ units)'",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Alameda County",
   "jurisdiction_city": "Berkeley, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -500,6 +518,7 @@
   "units_min": 16,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Diego County",
   "jurisdiction_city": "San Diego, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -510,7 +529,9 @@
    "place": "San Diego city",
    "place_geoid": "0666000",
    "status": "matched"
-  }
+  },
+  "year_built_max": 1962,
+  "year_built_max_basis": "SANDAG parcel effective year 1962 (APN 4234241500); built in or before that year"
  },
  {
   "address_id": "A0020",
@@ -527,6 +548,7 @@
   "units_min": 5,
   "units_basis": "NJ property class 4C = apartment building with 5+ units",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Essex County",
   "jurisdiction_city": "Newark, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -554,6 +576,7 @@
   "units_min": 6,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -581,6 +604,7 @@
   "units_min": 5,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -608,6 +632,7 @@
   "units_min": 33,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -635,6 +660,7 @@
   "units_min": 6,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Middlesex County",
   "jurisdiction_city": "Cambridge, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -662,6 +688,7 @@
   "units_min": 5,
   "units_basis": "use description 'Alameda County use code (5+ units)'",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Alameda County",
   "jurisdiction_city": "Berkeley, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -689,6 +716,7 @@
   "units_min": 8,
   "units_basis": "parsed from building description '4S-B-D-8U-NH'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Jersey City, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -716,6 +744,7 @@
   "units_min": 6,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -743,6 +772,7 @@
   "units_min": 5,
   "units_basis": "NJ property class 4C = apartment building with 5+ units",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Essex County",
   "jurisdiction_city": "Newark, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -770,6 +800,7 @@
   "units_min": 5,
   "units_basis": "NJ property class 4C = apartment building with 5+ units",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Essex County",
   "jurisdiction_city": "Newark, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -797,6 +828,7 @@
   "units_min": 5,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -824,6 +856,7 @@
   "units_min": 5,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -851,6 +884,7 @@
   "units_min": 8,
   "units_basis": "parsed from building description '4S-B-D-8U-NH'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Jersey City, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -878,6 +912,7 @@
   "units_min": 5,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -905,6 +940,7 @@
   "units_min": 6,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Middlesex County",
   "jurisdiction_city": "Cambridge, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -932,6 +968,7 @@
   "units_min": 14,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -959,6 +996,7 @@
   "units_min": 7,
   "units_basis": "Boston land use 'A' (APT 7-30 UNITS) = 7+ unit apartment",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Suffolk County",
   "jurisdiction_city": "Boston, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -986,6 +1024,7 @@
   "units_min": 47,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -1013,6 +1052,7 @@
   "units_min": 5,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -1040,6 +1080,7 @@
   "units_min": 32,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Middlesex County",
   "jurisdiction_city": "Cambridge, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -1067,6 +1108,7 @@
   "units_min": 31,
   "units_basis": "parsed from building description '3B-7U/4B-24U-G'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Hoboken, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -1094,6 +1136,7 @@
   "units_min": 15,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -1121,6 +1164,7 @@
   "units_min": 6,
   "units_basis": "parsed from building description '2S-B-A-6U'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Jersey City, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -1148,6 +1192,7 @@
   "units_min": 6,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Middlesex County",
   "jurisdiction_city": "Cambridge, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -1175,6 +1220,7 @@
   "units_min": 5,
   "units_basis": "NJ property class 4C = apartment building with 5+ units",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Essex County",
   "jurisdiction_city": "Newark, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -1202,6 +1248,7 @@
   "units_min": 65,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -1229,6 +1276,7 @@
   "units_min": 44,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Middlesex County",
   "jurisdiction_city": "Cambridge, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -1256,6 +1304,7 @@
   "units_min": 6,
   "units_basis": "parsed from building description '3S-B-D-6U-H'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Jersey City, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -1283,6 +1332,7 @@
   "units_min": 7,
   "units_basis": "Boston land use 'A' (APT 7-30 UNITS) = 7+ unit apartment",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Suffolk County",
   "jurisdiction_city": "Boston, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -1310,6 +1360,7 @@
   "units_min": 6,
   "units_basis": "parsed from building description '3S-6U-AFFORDABL'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Hoboken, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -1337,6 +1388,7 @@
   "units_min": 49,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -1364,6 +1416,7 @@
   "units_min": 6,
   "units_basis": "parsed from building description '3S+BT-F-6U'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Jersey City, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -1391,6 +1444,7 @@
   "units_min": 7,
   "units_basis": "Boston land use 'A' (APT 7-30 UNITS) = 7+ unit apartment",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Suffolk County",
   "jurisdiction_city": "Boston, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -1418,6 +1472,7 @@
   "units_min": 7,
   "units_basis": "Boston land use 'A' (LUXURY APARTMENT) = 7+ unit apartment",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Suffolk County",
   "jurisdiction_city": "Boston, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -1445,6 +1500,7 @@
   "units_min": 7,
   "units_basis": "Boston land use 'A' (APT 7-30 UNITS) = 7+ unit apartment",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Suffolk County",
   "jurisdiction_city": "Boston, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -1472,6 +1528,7 @@
   "units_min": 6,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -1499,6 +1556,7 @@
   "units_min": 7,
   "units_basis": "Boston land use 'A' (APT 7-30 UNITS) = 7+ unit apartment",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Suffolk County",
   "jurisdiction_city": "Boston, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -1526,6 +1584,7 @@
   "units_min": 5,
   "units_basis": "NJ property class 4C = apartment building with 5+ units",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Essex County",
   "jurisdiction_city": "Newark, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -1553,6 +1612,7 @@
   "units_min": 7,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Diego County",
   "jurisdiction_city": "San Diego, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -1563,7 +1623,9 @@
    "place": "San Diego city",
    "place_geoid": "0666000",
    "status": "matched"
-  }
+  },
+  "year_built_max": 1969,
+  "year_built_max_basis": "SANDAG parcel effective year 1969 (APN 5502602600); built in or before that year"
  },
  {
   "address_id": "A0059",
@@ -1580,6 +1642,7 @@
   "units_min": 5,
   "units_basis": "NJ property class 4C = apartment building with 5+ units",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Essex County",
   "jurisdiction_city": "Newark, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -1607,6 +1670,7 @@
   "units_min": 8,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -1634,6 +1698,7 @@
   "units_min": 5,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -1661,6 +1726,7 @@
   "units_min": 6,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -1688,6 +1754,7 @@
   "units_min": 7,
   "units_basis": "Boston land use 'A' (APT 7-30 UNITS) = 7+ unit apartment",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Suffolk County",
   "jurisdiction_city": "Boston, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -1715,6 +1782,7 @@
   "units_min": 84,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Middlesex County",
   "jurisdiction_city": "Cambridge, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -1742,6 +1810,7 @@
   "units_min": 7,
   "units_basis": "Boston land use 'A' (LUXURY APARTMENT) = 7+ unit apartment",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Suffolk County",
   "jurisdiction_city": "Boston, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -1769,6 +1838,7 @@
   "units_min": 36,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -1796,6 +1866,7 @@
   "units_min": 8,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -1823,6 +1894,7 @@
   "units_min": 7,
   "units_basis": "Boston land use 'A' (APT 7-30 UNITS) = 7+ unit apartment",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Suffolk County",
   "jurisdiction_city": "Boston, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -1850,6 +1922,7 @@
   "units_min": 7,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -1877,6 +1950,7 @@
   "units_min": 7,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Middlesex County",
   "jurisdiction_city": "Cambridge, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -1904,6 +1978,7 @@
   "units_min": 5,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Middlesex County",
   "jurisdiction_city": "Cambridge, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -1931,6 +2006,7 @@
   "units_min": 6,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -1958,6 +2034,7 @@
   "units_min": 6,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Middlesex County",
   "jurisdiction_city": "Cambridge, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -1985,6 +2062,7 @@
   "units_min": 34,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -2012,6 +2090,7 @@
   "units_min": 10,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Middlesex County",
   "jurisdiction_city": "Cambridge, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -2039,6 +2118,7 @@
   "units_min": 5,
   "units_basis": "NJ property class 4C = apartment building with 5+ units",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Essex County",
   "jurisdiction_city": "Newark, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -2066,6 +2146,7 @@
   "units_min": 6,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Middlesex County",
   "jurisdiction_city": "Cambridge, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -2093,6 +2174,7 @@
   "units_min": 16,
   "units_basis": "parsed from building description '4S-B-A-16U-H'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Jersey City, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -2120,6 +2202,7 @@
   "units_min": 9,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -2147,6 +2230,7 @@
   "units_min": 90,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -2174,6 +2258,7 @@
   "units_min": 69,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -2201,6 +2286,7 @@
   "units_min": 16,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Middlesex County",
   "jurisdiction_city": "Cambridge, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -2228,6 +2314,7 @@
   "units_min": 7,
   "units_basis": "Boston land use 'A' (SUBSD HOUSING S- 8) = 7+ unit apartment",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Suffolk County",
   "jurisdiction_city": "Boston, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -2255,6 +2342,7 @@
   "units_min": 5,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -2282,6 +2370,7 @@
   "units_min": 6,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -2309,6 +2398,7 @@
   "units_min": 5,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Middlesex County",
   "jurisdiction_city": "Cambridge, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -2336,6 +2426,7 @@
   "units_min": 16,
   "units_basis": "parsed from building description '2,4B-16U-H-X'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Hoboken, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -2363,6 +2454,7 @@
   "units_min": 9,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -2390,6 +2482,7 @@
   "units_min": 10,
   "units_basis": "parsed from building description '5B-10U-H-BA'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Hoboken, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -2417,6 +2510,7 @@
   "units_min": 5,
   "units_basis": "NJ property class 4C = apartment building with 5+ units",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Essex County",
   "jurisdiction_city": "Newark, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -2444,6 +2538,7 @@
   "units_min": 5,
   "units_basis": "use description 'Alameda County use code (5+ units)'",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Alameda County",
   "jurisdiction_city": "Berkeley, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -2471,6 +2566,7 @@
   "units_min": 5,
   "units_basis": "use description 'Alameda County use code (5+ units)'",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Alameda County",
   "jurisdiction_city": "Berkeley, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -2498,6 +2594,7 @@
   "units_min": 7,
   "units_basis": "Boston land use 'A' (ELDERLY HOME) = 7+ unit apartment",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Suffolk County",
   "jurisdiction_city": "Boston, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -2525,6 +2622,7 @@
   "units_min": 88,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Diego County",
   "jurisdiction_city": "San Diego, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -2535,7 +2633,9 @@
    "place": "San Diego city",
    "place_geoid": "0666000",
    "status": "matched"
-  }
+  },
+  "year_built_max": 1985,
+  "year_built_max_basis": "SANDAG parcel effective year 1985 (APN 6301500600); built in or before that year"
  },
  {
   "address_id": "A0095",
@@ -2552,6 +2652,7 @@
   "units_min": 6,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Middlesex County",
   "jurisdiction_city": "Cambridge, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -2579,6 +2680,7 @@
   "units_min": 7,
   "units_basis": "Boston land use 'A' (SUBSD HOUSING S- 8) = 7+ unit apartment",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Suffolk County",
   "jurisdiction_city": "Boston, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -2606,6 +2708,7 @@
   "units_min": 8,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -2633,6 +2736,7 @@
   "units_min": 7,
   "units_basis": "Boston land use 'A' (SUBSD HOUSING S- 8) = 7+ unit apartment",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Suffolk County",
   "jurisdiction_city": "Boston, MA",
   "resolution_method": "postal_fallback",
   "geocode": {
@@ -2654,6 +2758,7 @@
   "units_min": 5,
   "units_basis": "parsed from building description '4B-5U-H-BA'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Hoboken, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -2681,6 +2786,7 @@
   "units_min": 7,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Diego County",
   "jurisdiction_city": "San Diego, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -2691,7 +2797,9 @@
    "place": "San Diego city",
    "place_geoid": "0666000",
    "status": "matched"
-  }
+  },
+  "year_built_max": 1985,
+  "year_built_max_basis": "SANDAG parcel effective year 1985 (APN 4393822300); built in or before that year"
  },
  {
   "address_id": "A0101",
@@ -2708,6 +2816,7 @@
   "units_min": 26,
   "units_basis": "parsed from building description '2-4S-B-A-26U-H'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Jersey City, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -2735,6 +2844,7 @@
   "units_min": 5,
   "units_basis": "parsed from building description '4B-5U-H-BA'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Hoboken, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -2762,6 +2872,7 @@
   "units_min": 5,
   "units_basis": "use description 'Alameda County use code (5+ units)'",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Alameda County",
   "jurisdiction_city": "Berkeley, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -2789,6 +2900,7 @@
   "units_min": 5,
   "units_basis": "NJ property class 4C = apartment building with 5+ units",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Essex County",
   "jurisdiction_city": "Newark, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -2816,6 +2928,7 @@
   "units_min": 7,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -2843,6 +2956,7 @@
   "units_min": 60,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -2870,6 +2984,7 @@
   "units_min": 20,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -2897,6 +3012,7 @@
   "units_min": 6,
   "units_basis": "parsed from building description '3S-B-D-6U-H'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Jersey City, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -2924,6 +3040,7 @@
   "units_min": 5,
   "units_basis": "use description 'Alameda County use code (5+ units)'",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Alameda County",
   "jurisdiction_city": "Berkeley, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -2951,6 +3068,7 @@
   "units_min": 5,
   "units_basis": "NJ property class 4C = apartment building with 5+ units",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Essex County",
   "jurisdiction_city": "Newark, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -2978,6 +3096,7 @@
   "units_min": 40,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -3005,6 +3124,7 @@
   "units_min": 9,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -3032,6 +3152,7 @@
   "units_min": 5,
   "units_basis": "use description 'Alameda County use code (5+ units)'",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Alameda County",
   "jurisdiction_city": "Berkeley, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -3059,6 +3180,7 @@
   "units_min": 6,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Diego County",
   "jurisdiction_city": "San Diego, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -3086,6 +3208,7 @@
   "units_min": 6,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -3113,6 +3236,7 @@
   "units_min": 6,
   "units_basis": "parsed from building description '3S-F-D-6U-H'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Jersey City, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -3140,6 +3264,7 @@
   "units_min": 40,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -3167,6 +3292,7 @@
   "units_min": 7,
   "units_basis": "Boston land use 'A' (SUBSD HOUSING S- 8) = 7+ unit apartment",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Suffolk County",
   "jurisdiction_city": "Boston, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -3194,6 +3320,7 @@
   "units_min": 6,
   "units_basis": "parsed from building description '2F-4U/2F-2U'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Hoboken, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -3221,6 +3348,7 @@
   "units_min": 5,
   "units_basis": "NJ property class 4C = apartment building with 5+ units",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Essex County",
   "jurisdiction_city": "Newark, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -3248,6 +3376,7 @@
   "units_min": 22,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Diego County",
   "jurisdiction_city": "San Diego, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -3258,7 +3387,9 @@
    "place": "San Diego city",
    "place_geoid": "0666000",
    "status": "matched"
-  }
+  },
+  "year_built_max": 1987,
+  "year_built_max_basis": "SANDAG parcel effective year 1987 (APN 4444923800); built in or before that year"
  },
  {
   "address_id": "A0122",
@@ -3275,6 +3406,7 @@
   "units_min": 8,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -3302,6 +3434,7 @@
   "units_min": 7,
   "units_basis": "Boston land use 'A' (SUBSD HOUSING S- 8) = 7+ unit apartment",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Suffolk County",
   "jurisdiction_city": "Boston, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -3329,6 +3462,7 @@
   "units_min": 16,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Middlesex County",
   "jurisdiction_city": "Cambridge, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -3356,6 +3490,7 @@
   "units_min": 5,
   "units_basis": "parsed from building description '5B-5U-H-(CO-OP)'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Hoboken, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -3383,6 +3518,7 @@
   "units_min": 8,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -3410,6 +3546,7 @@
   "units_min": 5,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -3437,6 +3574,7 @@
   "units_min": 7,
   "units_basis": "Boston land use 'A' (SUBSD HOUSING S- 8) = 7+ unit apartment",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Suffolk County",
   "jurisdiction_city": "Boston, MA",
   "resolution_method": "postal_fallback",
   "geocode": {
@@ -3458,6 +3596,7 @@
   "units_min": 5,
   "units_basis": "NJ property class 4C = apartment building with 5+ units",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Essex County",
   "jurisdiction_city": "Newark, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -3485,6 +3624,7 @@
   "units_min": 5,
   "units_basis": "NJ property class 4C = apartment building with 5+ units",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Essex County",
   "jurisdiction_city": "Newark, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -3512,6 +3652,7 @@
   "units_min": 6,
   "units_basis": "parsed from building description '3S-F-D-6U'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Jersey City, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -3539,6 +3680,7 @@
   "units_min": 5,
   "units_basis": "NJ property class 4C = apartment building with 5+ units",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Essex County",
   "jurisdiction_city": "Newark, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -3566,6 +3708,7 @@
   "units_min": 6,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -3593,6 +3736,7 @@
   "units_min": 7,
   "units_basis": "Boston land use 'A' (SUBSD HOUSING S- 8) = 7+ unit apartment",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Suffolk County",
   "jurisdiction_city": "Boston, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -3620,6 +3764,7 @@
   "units_min": 29,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -3647,6 +3792,7 @@
   "units_min": 26,
   "units_basis": "parsed from building description '5B-26U-H-CO-OP'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Hoboken, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -3674,6 +3820,7 @@
   "units_min": 5,
   "units_basis": "NJ property class 4C = apartment building with 5+ units",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Essex County",
   "jurisdiction_city": "Newark, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -3701,6 +3848,7 @@
   "units_min": 5,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -3728,6 +3876,7 @@
   "units_min": 5,
   "units_basis": "parsed from building description '3S-F-5U-NH'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Jersey City, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -3755,6 +3904,7 @@
   "units_min": 7,
   "units_basis": "Boston land use 'A' (APT 7-30 UNITS) = 7+ unit apartment",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Suffolk County",
   "jurisdiction_city": "Boston, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -3782,6 +3932,7 @@
   "units_min": 8,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -3809,6 +3960,7 @@
   "units_min": 8,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -3836,6 +3988,7 @@
   "units_min": 7,
   "units_basis": "Boston land use 'A' (SUBSD HOUSING S- 8) = 7+ unit apartment",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Suffolk County",
   "jurisdiction_city": "Boston, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -3863,6 +4016,7 @@
   "units_min": 7,
   "units_basis": "Boston land use 'A' (APT 7-30 UNITS) = 7+ unit apartment",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Suffolk County",
   "jurisdiction_city": "Boston, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -3890,6 +4044,7 @@
   "units_min": 8,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Diego County",
   "jurisdiction_city": "San Diego, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -3900,7 +4055,9 @@
    "place": "San Diego city",
    "place_geoid": "0666000",
    "status": "matched"
-  }
+  },
+  "year_built_max": 1963,
+  "year_built_max_basis": "SANDAG parcel effective year 1963 (APN 4475221300); built in or before that year"
  },
  {
   "address_id": "A0146",
@@ -3917,6 +4074,7 @@
   "units_min": 5,
   "units_basis": "NJ property class 4C = apartment building with 5+ units",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Essex County",
   "jurisdiction_city": "Newark, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -3944,6 +4102,7 @@
   "units_min": 5,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -3971,6 +4130,7 @@
   "units_min": 5,
   "units_basis": "NJ property class 4C = apartment building with 5+ units",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Essex County",
   "jurisdiction_city": "Newark, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -3998,6 +4158,7 @@
   "units_min": 7,
   "units_basis": "Boston land use 'A' (LUXURY APARTMENT) = 7+ unit apartment",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Suffolk County",
   "jurisdiction_city": "Boston, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -4025,6 +4186,7 @@
   "units_min": 9,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Diego County",
   "jurisdiction_city": "San Diego, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -4052,6 +4214,7 @@
   "units_min": 7,
   "units_basis": "Boston land use 'A' (APT 7-30 UNITS) = 7+ unit apartment",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Suffolk County",
   "jurisdiction_city": "Boston, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -4079,6 +4242,7 @@
   "units_min": 12,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Diego County",
   "jurisdiction_city": "San Diego, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -4089,7 +4253,9 @@
    "place": "San Diego city",
    "place_geoid": "0666000",
    "status": "matched"
-  }
+  },
+  "year_built_max": 1941,
+  "year_built_max_basis": "SANDAG parcel effective year 1941 (APN 4483720100); built in or before that year"
  },
  {
   "address_id": "A0153",
@@ -4106,6 +4272,7 @@
   "units_min": 9,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -4133,6 +4300,7 @@
   "units_min": 8,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Diego County",
   "jurisdiction_city": "San Diego, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -4143,7 +4311,9 @@
    "place": "San Diego city",
    "place_geoid": "0666000",
    "status": "matched"
-  }
+  },
+  "year_built_max": 1960,
+  "year_built_max_basis": "SANDAG parcel effective year 1960 (APN 4451722900); built in or before that year"
  },
  {
   "address_id": "A0155",
@@ -4160,6 +4330,7 @@
   "units_min": 7,
   "units_basis": "Boston land use 'A' (SUBSD HOUSING S- 8) = 7+ unit apartment",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Suffolk County",
   "jurisdiction_city": "Boston, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -4187,6 +4358,7 @@
   "units_min": 9,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -4214,6 +4386,7 @@
   "units_min": 5,
   "units_basis": "use description 'Alameda County use code (5+ units)'",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Alameda County",
   "jurisdiction_city": "Berkeley, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -4241,6 +4414,7 @@
   "units_min": 5,
   "units_basis": "use description 'Alameda County use code (5+ units)'",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Alameda County",
   "jurisdiction_city": "Berkeley, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -4268,6 +4442,7 @@
   "units_min": 5,
   "units_basis": "NJ property class 4C = apartment building with 5+ units",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Essex County",
   "jurisdiction_city": "Newark, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -4295,6 +4470,7 @@
   "units_min": 22,
   "units_basis": "parsed from building description '3S-B-A-22U'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Jersey City, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -4322,6 +4498,7 @@
   "units_min": 21,
   "units_basis": "parsed from building description '4S-B-A-21U-H'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Jersey City, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -4349,6 +4526,7 @@
   "units_min": 24,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -4376,6 +4554,7 @@
   "units_min": 14,
   "units_basis": "parsed from building description '3&4S-B&F-14U'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Jersey City, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -4403,6 +4582,7 @@
   "units_min": 6,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -4430,6 +4610,7 @@
   "units_min": 8,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Diego County",
   "jurisdiction_city": "San Diego, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -4440,7 +4621,9 @@
    "place": "San Diego city",
    "place_geoid": "0666000",
    "status": "matched"
-  }
+  },
+  "year_built_max": 1958,
+  "year_built_max_basis": "SANDAG parcel effective year 1958 (APN 4236471000); built in or before that year"
  },
  {
   "address_id": "A0166",
@@ -4457,6 +4640,7 @@
   "units_min": 5,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Middlesex County",
   "jurisdiction_city": "Cambridge, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -4484,6 +4668,7 @@
   "units_min": 20,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Diego County",
   "jurisdiction_city": "San Diego, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -4494,7 +4679,9 @@
    "place": "San Diego city",
    "place_geoid": "0666000",
    "status": "matched"
-  }
+  },
+  "year_built_max": 1954,
+  "year_built_max_basis": "SANDAG parcel effective year 1954 (APN 4450511600); built in or before that year"
  },
  {
   "address_id": "A0168",
@@ -4511,6 +4698,7 @@
   "units_min": 128,
   "units_basis": "parsed from building description '5B-64U/5B-64U-G'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Hoboken, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -4538,6 +4726,7 @@
   "units_min": 7,
   "units_basis": "Boston land use 'A' (APT 7-30 UNITS) = 7+ unit apartment",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Suffolk County",
   "jurisdiction_city": "Boston, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -4565,6 +4754,7 @@
   "units_min": 32,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -4592,6 +4782,7 @@
   "units_min": 7,
   "units_basis": "parsed from building description '3S-B-D-7U-NH'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Jersey City, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -4619,6 +4810,7 @@
   "units_min": 33,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -4646,6 +4838,7 @@
   "units_min": 9,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -4673,6 +4866,7 @@
   "units_min": 19,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Middlesex County",
   "jurisdiction_city": "Cambridge, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -4700,6 +4894,7 @@
   "units_min": 6,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Middlesex County",
   "jurisdiction_city": "Cambridge, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -4727,6 +4922,7 @@
   "units_min": 29,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Middlesex County",
   "jurisdiction_city": "Cambridge, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -4754,6 +4950,7 @@
   "units_min": 6,
   "units_basis": "parsed from building description '3S-F-D-6U-NH'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Jersey City, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -4781,6 +4978,7 @@
   "units_min": 7,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -4808,6 +5006,7 @@
   "units_min": 18,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -4835,6 +5034,7 @@
   "units_min": 33,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -4862,6 +5062,7 @@
   "units_min": 10,
   "units_basis": "parsed from building description '5B-10U-BA'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Hoboken, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -4889,6 +5090,7 @@
   "units_min": 90,
   "units_basis": "parsed from building description '2,5B-90U-H-BA'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Hoboken, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -4916,6 +5118,7 @@
   "units_min": 5,
   "units_basis": "use description 'Alameda County use code (5+ units)'",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Alameda County",
   "jurisdiction_city": "Berkeley, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -4943,6 +5146,7 @@
   "units_min": 16,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -4970,6 +5174,7 @@
   "units_min": 6,
   "units_basis": "parsed from building description '3S-F-D-6U-NH'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Jersey City, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -4997,6 +5202,7 @@
   "units_min": 5,
   "units_basis": "parsed from building description '3S-F-D-5U-NH'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Jersey City, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -5024,6 +5230,7 @@
   "units_min": 6,
   "units_basis": "parsed from building description '3S-F-D-6U-NH'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Jersey City, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -5051,6 +5258,7 @@
   "units_min": 5,
   "units_basis": "use description 'Alameda County use code (5+ units)'",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Alameda County",
   "jurisdiction_city": "Berkeley, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -5078,6 +5286,7 @@
   "units_min": 5,
   "units_basis": "use description 'Alameda County use code (5+ units)'",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Alameda County",
   "jurisdiction_city": "Berkeley, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -5105,6 +5314,7 @@
   "units_min": 5,
   "units_basis": "NJ property class 4C = apartment building with 5+ units",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Essex County",
   "jurisdiction_city": "Newark, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -5132,6 +5342,7 @@
   "units_min": 6,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Middlesex County",
   "jurisdiction_city": "Cambridge, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -5159,6 +5370,7 @@
   "units_min": 36,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -5186,6 +5398,7 @@
   "units_min": 5,
   "units_basis": "use description 'Alameda County use code (5+ units)'",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Alameda County",
   "jurisdiction_city": "Berkeley, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -5213,6 +5426,7 @@
   "units_min": 7,
   "units_basis": "Boston land use 'A' (SUBSD HOUSING S- 8) = 7+ unit apartment",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Suffolk County",
   "jurisdiction_city": "Boston, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -5240,6 +5454,7 @@
   "units_min": 7,
   "units_basis": "Boston land use 'A' (APT 7-30 UNITS) = 7+ unit apartment",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Suffolk County",
   "jurisdiction_city": "Boston, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -5267,6 +5482,7 @@
   "units_min": 30,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -5294,6 +5510,7 @@
   "units_min": 5,
   "units_basis": "use description 'Alameda County use code (5+ units)'",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Alameda County",
   "jurisdiction_city": "Berkeley, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -5321,6 +5538,7 @@
   "units_min": 7,
   "units_basis": "Boston land use 'A' (APT 7-30 UNITS) = 7+ unit apartment",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Suffolk County",
   "jurisdiction_city": "Boston, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -5348,6 +5566,7 @@
   "units_min": 5,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Middlesex County",
   "jurisdiction_city": "Cambridge, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -5375,6 +5594,7 @@
   "units_min": 5,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -5402,6 +5622,7 @@
   "units_min": 5,
   "units_basis": "use description 'Alameda County use code (5+ units)'",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Alameda County",
   "jurisdiction_city": "Berkeley, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -5429,6 +5650,7 @@
   "units_min": 6,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -5456,6 +5678,7 @@
   "units_min": 7,
   "units_basis": "Boston land use 'A' (SUBSD HOUSING S- 8) = 7+ unit apartment",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Suffolk County",
   "jurisdiction_city": "Boston, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -5483,6 +5706,7 @@
   "units_min": 5,
   "units_basis": "NJ property class 4C = apartment building with 5+ units",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Essex County",
   "jurisdiction_city": "Newark, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -5510,6 +5734,7 @@
   "units_min": 5,
   "units_basis": "use description 'Alameda County use code (5+ units)'",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Alameda County",
   "jurisdiction_city": "Berkeley, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -5537,6 +5762,7 @@
   "units_min": 21,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -5564,6 +5790,7 @@
   "units_min": 10,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -5591,6 +5818,7 @@
   "units_min": 8,
   "units_basis": "parsed from building description '4B-8U'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Hoboken, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -5618,6 +5846,7 @@
   "units_min": 6,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Middlesex County",
   "jurisdiction_city": "Cambridge, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -5645,6 +5874,7 @@
   "units_min": 9,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -5672,6 +5902,7 @@
   "units_min": 7,
   "units_basis": "Boston land use 'A' (APT 7-30 UNITS) = 7+ unit apartment",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Suffolk County",
   "jurisdiction_city": "Boston, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -5699,6 +5930,7 @@
   "units_min": 5,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -5726,6 +5958,7 @@
   "units_min": 7,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -5753,6 +5986,7 @@
   "units_min": 6,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Middlesex County",
   "jurisdiction_city": "Cambridge, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -5780,6 +6014,7 @@
   "units_min": 21,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -5807,6 +6042,7 @@
   "units_min": 5,
   "units_basis": "use description 'Alameda County use code (5+ units)'",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Alameda County",
   "jurisdiction_city": "Berkeley, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -5834,6 +6070,7 @@
   "units_min": 7,
   "units_basis": "Boston land use 'A' (SUBSD HOUSING S- 8) = 7+ unit apartment",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Suffolk County",
   "jurisdiction_city": "Boston, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -5861,6 +6098,7 @@
   "units_min": 46,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Middlesex County",
   "jurisdiction_city": "Cambridge, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -5888,6 +6126,7 @@
   "units_min": 8,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Diego County",
   "jurisdiction_city": "San Diego, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -5898,7 +6137,9 @@
    "place": "San Diego city",
    "place_geoid": "0666000",
    "status": "matched"
-  }
+  },
+  "year_built_max": 1971,
+  "year_built_max_basis": "SANDAG parcel effective year 1971 (APN 4464910900); built in or before that year"
  },
  {
   "address_id": "A0220",
@@ -5915,6 +6156,7 @@
   "units_min": 7,
   "units_basis": "Boston land use 'A' (SUBSD HOUSING S- 8) = 7+ unit apartment",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Suffolk County",
   "jurisdiction_city": "Boston, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -5942,6 +6184,7 @@
   "units_min": 7,
   "units_basis": "Boston land use 'A' (APT 7-30 UNITS) = 7+ unit apartment",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Suffolk County",
   "jurisdiction_city": "Boston, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -5969,6 +6212,7 @@
   "units_min": 8,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -5996,6 +6240,7 @@
   "units_min": 5,
   "units_basis": "parsed from building description '4B-5U-H-BA'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Hoboken, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -6023,6 +6268,7 @@
   "units_min": 13,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -6050,6 +6296,7 @@
   "units_min": 9,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -6077,6 +6324,7 @@
   "units_min": 7,
   "units_basis": "Boston land use 'A' (SUBSD HOUSING S- 8) = 7+ unit apartment",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Suffolk County",
   "jurisdiction_city": "Boston, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -6104,6 +6352,7 @@
   "units_min": 2,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Hoboken, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -6131,6 +6380,7 @@
   "units_min": 5,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -6158,6 +6408,7 @@
   "units_min": 6,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -6185,6 +6436,7 @@
   "units_min": 18,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Middlesex County",
   "jurisdiction_city": "Cambridge, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -6212,6 +6464,7 @@
   "units_min": 6,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -6239,6 +6492,7 @@
   "units_min": 6,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Middlesex County",
   "jurisdiction_city": "Cambridge, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -6266,6 +6520,7 @@
   "units_min": 7,
   "units_basis": "Boston land use 'A' (APT 7-30 UNITS) = 7+ unit apartment",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Suffolk County",
   "jurisdiction_city": "Boston, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -6293,6 +6548,7 @@
   "units_min": 5,
   "units_basis": "use description 'Alameda County use code (5+ units)'",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Alameda County",
   "jurisdiction_city": "Berkeley, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -6320,6 +6576,7 @@
   "units_min": 5,
   "units_basis": "use description 'Five or more apartments'",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -6347,6 +6604,7 @@
   "units_min": 9,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -6374,6 +6632,7 @@
   "units_min": 12,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -6401,6 +6660,7 @@
   "units_min": 6,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -6428,6 +6688,7 @@
   "units_min": 5,
   "units_basis": "use description 'Alameda County use code (5+ units)'",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Alameda County",
   "jurisdiction_city": "Berkeley, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -6455,6 +6716,7 @@
   "units_min": 7,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Diego County",
   "jurisdiction_city": "San Diego, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -6465,7 +6727,9 @@
    "place": "San Diego city",
    "place_geoid": "0666000",
    "status": "matched"
-  }
+  },
+  "year_built_max": 1979,
+  "year_built_max_basis": "SANDAG parcel effective year 1979 (APN 4473523500); built in or before that year"
  },
  {
   "address_id": "A0241",
@@ -6482,6 +6746,7 @@
   "units_min": 14,
   "units_basis": "parsed from building description '5B-14U-H-BA'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Hoboken, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -6509,6 +6774,7 @@
   "units_min": 7,
   "units_basis": "Boston land use 'A' (APT 7-30 UNITS) = 7+ unit apartment",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Suffolk County",
   "jurisdiction_city": "Boston, MA",
   "resolution_method": "postal_fallback",
   "geocode": {
@@ -6530,6 +6796,7 @@
   "units_min": 6,
   "units_basis": "parsed from building description '3S+BT-F-6U'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Jersey City, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -6557,6 +6824,7 @@
   "units_min": 12,
   "units_basis": "parsed from building description '5B-12U-1BX-H-BA'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Hoboken, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -6584,6 +6852,7 @@
   "units_min": 7,
   "units_basis": "Boston land use 'A' (LUXURY APARTMENT) = 7+ unit apartment",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Suffolk County",
   "jurisdiction_city": "Boston, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -6611,6 +6880,7 @@
   "units_min": 8,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Diego County",
   "jurisdiction_city": "San Diego, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -6621,7 +6891,9 @@
    "place": "San Diego city",
    "place_geoid": "0666000",
    "status": "matched"
-  }
+  },
+  "year_built_max": 1957,
+  "year_built_max_basis": "SANDAG parcel effective year 1957 (APN 4710512600); built in or before that year"
  },
  {
   "address_id": "A0247",
@@ -6638,6 +6910,7 @@
   "units_min": 10,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Diego County",
   "jurisdiction_city": "San Diego, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -6648,7 +6921,9 @@
    "place": "San Diego city",
    "place_geoid": "0666000",
    "status": "matched"
-  }
+  },
+  "year_built_max": 1972,
+  "year_built_max_basis": "SANDAG parcel effective year 1972 (APN 4482013100); built in or before that year"
  },
  {
   "address_id": "A0248",
@@ -6665,6 +6940,7 @@
   "units_min": 24,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -6692,6 +6968,7 @@
   "units_min": 5,
   "units_basis": "NJ property class 4C = apartment building with 5+ units",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Essex County",
   "jurisdiction_city": "Newark, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -6719,6 +6996,7 @@
   "units_min": 45,
   "units_basis": "parsed from building description '6S-B+F-45U-17G'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Jersey City, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -6746,6 +7024,7 @@
   "units_min": 8,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Diego County",
   "jurisdiction_city": "San Diego, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -6756,7 +7035,9 @@
    "place": "San Diego city",
    "place_geoid": "0666000",
    "status": "matched"
-  }
+  },
+  "year_built_max": 1970,
+  "year_built_max_basis": "SANDAG parcel effective year 1970 (APN 4394411000); built in or before that year"
  },
  {
   "address_id": "A0252",
@@ -6773,6 +7054,7 @@
   "units_min": 6,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -6800,6 +7082,7 @@
   "units_min": 7,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -6827,6 +7110,7 @@
   "units_min": 9,
   "units_basis": "parsed from building description '4B-9U-H-BA'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Hoboken, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -6854,6 +7138,7 @@
   "units_min": 8,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -6881,6 +7166,7 @@
   "units_min": 20,
   "units_basis": "parsed from building description '5B-20U-H'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Hoboken, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -6908,6 +7194,7 @@
   "units_min": 6,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -6935,6 +7222,7 @@
   "units_min": 7,
   "units_basis": "Boston land use 'A' (SUBSD HOUSING S- 8) = 7+ unit apartment",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Suffolk County",
   "jurisdiction_city": "Boston, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -6962,6 +7250,7 @@
   "units_min": 5,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -6989,6 +7278,7 @@
   "units_min": 5,
   "units_basis": "use description 'Alameda County use code (5+ units)'",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Alameda County",
   "jurisdiction_city": "Berkeley, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -7016,6 +7306,7 @@
   "units_min": 10,
   "units_basis": "parsed from building description '5B-1OU'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Hoboken, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -7043,6 +7334,7 @@
   "units_min": 18,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Diego County",
   "jurisdiction_city": "San Diego, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -7053,7 +7345,9 @@
    "place": "San Diego city",
    "place_geoid": "0666000",
    "status": "matched"
-  }
+  },
+  "year_built_max": 1958,
+  "year_built_max_basis": "SANDAG parcel effective year 1958 (APN 5390910500); built in or before that year"
  },
  {
   "address_id": "A0263",
@@ -7070,6 +7364,7 @@
   "units_min": 5,
   "units_basis": "use description 'Alameda County use code (5+ units)'",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Alameda County",
   "jurisdiction_city": "Berkeley, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -7097,6 +7392,7 @@
   "units_min": 5,
   "units_basis": "NJ property class 4C = apartment building with 5+ units",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Essex County",
   "jurisdiction_city": "Newark, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -7124,6 +7420,7 @@
   "units_min": 13,
   "units_basis": "parsed from building description '3S-B-A-13U-H'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Jersey City, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -7151,6 +7448,7 @@
   "units_min": 8,
   "units_basis": "parsed from building description '4S-B-D-8U-NH'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Jersey City, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -7178,6 +7476,7 @@
   "units_min": 5,
   "units_basis": "use description 'Five or more apartments'",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -7205,6 +7504,7 @@
   "units_min": 7,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -7232,6 +7532,7 @@
   "units_min": 14,
   "units_basis": "parsed from building description '5B-14U'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Hoboken, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -7259,6 +7560,7 @@
   "units_min": 8,
   "units_basis": "parsed from building description '4S-B-8U-H'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Jersey City, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -7286,6 +7588,7 @@
   "units_min": 13,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -7313,6 +7616,7 @@
   "units_min": 6,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Middlesex County",
   "jurisdiction_city": "Cambridge, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -7340,6 +7644,7 @@
   "units_min": 10,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Diego County",
   "jurisdiction_city": "San Diego, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -7350,7 +7655,9 @@
    "place": "San Diego city",
    "place_geoid": "0666000",
    "status": "matched"
-  }
+  },
+  "year_built_max": 2010,
+  "year_built_max_basis": "SANDAG parcel effective year 2010 (APN 4456420900); built in or before that year"
  },
  {
   "address_id": "A0274",
@@ -7367,6 +7674,7 @@
   "units_min": 6,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Diego County",
   "jurisdiction_city": "San Diego, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -7377,7 +7685,9 @@
    "place": "San Diego city",
    "place_geoid": "0666000",
    "status": "matched"
-  }
+  },
+  "year_built_max": 1941,
+  "year_built_max_basis": "SANDAG parcel effective year 1941 (APN 4312600300); built in or before that year"
  },
  {
   "address_id": "A0275",
@@ -7394,6 +7704,7 @@
   "units_min": 7,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Diego County",
   "jurisdiction_city": "San Diego, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -7404,7 +7715,9 @@
    "place": "San Diego city",
    "place_geoid": "0666000",
    "status": "matched"
-  }
+  },
+  "year_built_max": 1970,
+  "year_built_max_basis": "SANDAG parcel effective year 1970 (APN 4244330100); built in or before that year"
  },
  {
   "address_id": "A0276",
@@ -7421,6 +7734,7 @@
   "units_min": 6,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Diego County",
   "jurisdiction_city": "San Diego, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -7431,7 +7745,9 @@
    "place": "San Diego city",
    "place_geoid": "0666000",
    "status": "matched"
-  }
+  },
+  "year_built_max": 1960,
+  "year_built_max_basis": "SANDAG parcel effective year 1960 (APN 4461810500); built in or before that year"
  },
  {
   "address_id": "A0277",
@@ -7448,6 +7764,7 @@
   "units_min": 5,
   "units_basis": "use description 'Alameda County use code (5+ units)'",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Alameda County",
   "jurisdiction_city": "Berkeley, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -7475,6 +7792,7 @@
   "units_min": 17,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -7502,6 +7820,7 @@
   "units_min": 17,
   "units_basis": "parsed from building description '4S-B-A-17U'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Jersey City, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -7529,6 +7848,7 @@
   "units_min": 6,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -7556,6 +7876,7 @@
   "units_min": 20,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -7583,6 +7904,7 @@
   "units_min": 5,
   "units_basis": "use description 'Alameda County use code (5+ units)'",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Alameda County",
   "jurisdiction_city": "Berkeley, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -7610,6 +7932,7 @@
   "units_min": 51,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -7637,6 +7960,7 @@
   "units_min": 9,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Middlesex County",
   "jurisdiction_city": "Cambridge, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -7664,6 +7988,7 @@
   "units_min": 8,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -7691,6 +8016,7 @@
   "units_min": 29,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Middlesex County",
   "jurisdiction_city": "Cambridge, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -7718,6 +8044,7 @@
   "units_min": 7,
   "units_basis": "parsed from building description '4B-7U-H-BA'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Hoboken, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -7745,6 +8072,7 @@
   "units_min": 12,
   "units_basis": "parsed from building description '3S-B-12U'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Jersey City, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -7772,6 +8100,7 @@
   "units_min": 5,
   "units_basis": "use description 'Alameda County use code (5+ units)'",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Alameda County",
   "jurisdiction_city": "Berkeley, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -7799,6 +8128,7 @@
   "units_min": 10,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Middlesex County",
   "jurisdiction_city": "Cambridge, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -7826,6 +8156,7 @@
   "units_min": 244,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Middlesex County",
   "jurisdiction_city": "Cambridge, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -7853,6 +8184,7 @@
   "units_min": 6,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Middlesex County",
   "jurisdiction_city": "Cambridge, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -7880,6 +8212,7 @@
   "units_min": 6,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -7907,6 +8240,7 @@
   "units_min": 6,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Middlesex County",
   "jurisdiction_city": "Cambridge, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -7934,6 +8268,7 @@
   "units_min": 7,
   "units_basis": "Boston land use 'A' (SUBSD HOUSING S- 8) = 7+ unit apartment",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Suffolk County",
   "jurisdiction_city": "Boston, MA",
   "resolution_method": "postal_fallback",
   "geocode": {
@@ -7955,6 +8290,7 @@
   "units_min": 5,
   "units_basis": "NJ property class 4C = apartment building with 5+ units",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Essex County",
   "jurisdiction_city": "Newark, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -7982,6 +8318,7 @@
   "units_min": 5,
   "units_basis": "NJ property class 4C = apartment building with 5+ units",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Essex County",
   "jurisdiction_city": "Newark, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -8009,6 +8346,7 @@
   "units_min": 6,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Middlesex County",
   "jurisdiction_city": "Cambridge, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -8036,6 +8374,7 @@
   "units_min": 8,
   "units_basis": "parsed from building description '4B-8U-BA'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Hoboken, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -8063,6 +8402,7 @@
   "units_min": 5,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Middlesex County",
   "jurisdiction_city": "Cambridge, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -8090,6 +8430,7 @@
   "units_min": 6,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Middlesex County",
   "jurisdiction_city": "Cambridge, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -8117,6 +8458,7 @@
   "units_min": 8,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Middlesex County",
   "jurisdiction_city": "Cambridge, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -8144,6 +8486,7 @@
   "units_min": 10,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -8171,6 +8514,7 @@
   "units_min": 7,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Diego County",
   "jurisdiction_city": "San Diego, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -8181,7 +8525,9 @@
    "place": "San Diego city",
    "place_geoid": "0666000",
    "status": "matched"
-  }
+  },
+  "year_built_max": 1952,
+  "year_built_max_basis": "SANDAG parcel effective year 1952 (APN 4451710700); built in or before that year"
  },
  {
   "address_id": "A0305",
@@ -8198,6 +8544,7 @@
   "units_min": 5,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -8225,6 +8572,7 @@
   "units_min": 17,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Middlesex County",
   "jurisdiction_city": "Cambridge, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -8252,6 +8600,7 @@
   "units_min": 5,
   "units_basis": "NJ property class 4C = apartment building with 5+ units",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Essex County",
   "jurisdiction_city": "Newark, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -8279,6 +8628,7 @@
   "units_min": 11,
   "units_basis": "parsed from building description '5B-11U-H-BA-G'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Hoboken, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -8306,6 +8656,7 @@
   "units_min": 6,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -8333,6 +8684,7 @@
   "units_min": 7,
   "units_basis": "Boston land use 'A' (APT 7-30 UNITS) = 7+ unit apartment",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Suffolk County",
   "jurisdiction_city": "Boston, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -8360,6 +8712,7 @@
   "units_min": 5,
   "units_basis": "NJ property class 4C = apartment building with 5+ units",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Essex County",
   "jurisdiction_city": "Newark, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -8387,6 +8740,7 @@
   "units_min": 7,
   "units_basis": "Boston land use 'A' (SUBSD HOUSING S- 8) = 7+ unit apartment",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Suffolk County",
   "jurisdiction_city": "Boston, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -8414,6 +8768,7 @@
   "units_min": 5,
   "units_basis": "NJ property class 4C = apartment building with 5+ units",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Essex County",
   "jurisdiction_city": "Newark, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -8441,6 +8796,7 @@
   "units_min": 7,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -8468,6 +8824,7 @@
   "units_min": 8,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -8495,6 +8852,7 @@
   "units_min": 8,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Diego County",
   "jurisdiction_city": "San Diego, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -8505,7 +8863,9 @@
    "place": "San Diego city",
    "place_geoid": "0666000",
    "status": "matched"
-  }
+  },
+  "year_built_max": 1931,
+  "year_built_max_basis": "SANDAG parcel effective year 1931 (APN 4456713100); built in or before that year"
  },
  {
   "address_id": "A0317",
@@ -8522,6 +8882,7 @@
   "units_min": 5,
   "units_basis": "use description 'Alameda County use code (5+ units)'",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Alameda County",
   "jurisdiction_city": "Berkeley, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -8549,6 +8910,7 @@
   "units_min": 5,
   "units_basis": "use description 'Alameda County use code (5+ units)'",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Alameda County",
   "jurisdiction_city": "Berkeley, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -8576,6 +8938,7 @@
   "units_min": 5,
   "units_basis": "use description 'Alameda County use code (5+ units)'",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Alameda County",
   "jurisdiction_city": "Berkeley, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -8603,6 +8966,7 @@
   "units_min": 6,
   "units_basis": "parsed from building description '4F-6U'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Hoboken, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -8630,6 +8994,7 @@
   "units_min": 7,
   "units_basis": "parsed from building description '3S-F-D-7U-NH'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Jersey City, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -8657,6 +9022,7 @@
   "units_min": 31,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Diego County",
   "jurisdiction_city": "San Diego, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -8667,7 +9033,9 @@
    "place": "San Diego city",
    "place_geoid": "0666000",
    "status": "matched"
-  }
+  },
+  "year_built_max": 1979,
+  "year_built_max_basis": "SANDAG parcel effective year 1979 (APN 6381201400); built in or before that year"
  },
  {
   "address_id": "A0323",
@@ -8684,6 +9052,7 @@
   "units_min": 5,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -8711,6 +9080,7 @@
   "units_min": 6,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -8738,6 +9108,7 @@
   "units_min": 21,
   "units_basis": "parsed from building description '4S-B-A-21U'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Jersey City, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -8765,6 +9136,7 @@
   "units_min": 5,
   "units_basis": "NJ property class 4C = apartment building with 5+ units",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Essex County",
   "jurisdiction_city": "Newark, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -8792,6 +9164,7 @@
   "units_min": 36,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -8819,6 +9192,7 @@
   "units_min": 6,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -8846,6 +9220,7 @@
   "units_min": 5,
   "units_basis": "NJ property class 4C = apartment building with 5+ units",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Essex County",
   "jurisdiction_city": "Newark, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -8873,6 +9248,7 @@
   "units_min": 24,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -8900,6 +9276,7 @@
   "units_min": 5,
   "units_basis": "NJ property class 4C = apartment building with 5+ units",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Essex County",
   "jurisdiction_city": "Newark, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -8927,6 +9304,7 @@
   "units_min": 7,
   "units_basis": "Boston land use 'A' (SUBSD HOUSING S- 8) = 7+ unit apartment",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Suffolk County",
   "jurisdiction_city": "Boston, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -8954,6 +9332,7 @@
   "units_min": 8,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Diego County",
   "jurisdiction_city": "San Diego, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -8964,7 +9343,9 @@
    "place": "San Diego city",
    "place_geoid": "0666000",
    "status": "matched"
-  }
+  },
+  "year_built_max": 1988,
+  "year_built_max_basis": "SANDAG parcel effective year 1988 (APN 4464922200); built in or before that year"
  },
  {
   "address_id": "A0334",
@@ -8981,6 +9362,7 @@
   "units_min": 5,
   "units_basis": "use description 'Alameda County use code (5+ units)'",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Alameda County",
   "jurisdiction_city": "Berkeley, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -9008,6 +9390,7 @@
   "units_min": 10,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -9035,6 +9418,7 @@
   "units_min": 468,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Middlesex County",
   "jurisdiction_city": "Cambridge, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -9062,6 +9446,7 @@
   "units_min": 5,
   "units_basis": "NJ property class 4C = apartment building with 5+ units",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Essex County",
   "jurisdiction_city": "Newark, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -9089,6 +9474,7 @@
   "units_min": 5,
   "units_basis": "NJ property class 4C = apartment building with 5+ units",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Essex County",
   "jurisdiction_city": "Newark, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -9116,6 +9502,7 @@
   "units_min": 8,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Middlesex County",
   "jurisdiction_city": "Cambridge, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -9143,6 +9530,7 @@
   "units_min": 50,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -9170,6 +9558,7 @@
   "units_min": 6,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Diego County",
   "jurisdiction_city": "San Diego, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -9180,7 +9569,9 @@
    "place": "San Diego city",
    "place_geoid": "0666000",
    "status": "matched"
-  }
+  },
+  "year_built_max": 1940,
+  "year_built_max_basis": "SANDAG parcel effective year 1940 (APN 4713420900); built in or before that year"
  },
  {
   "address_id": "A0342",
@@ -9197,6 +9588,7 @@
   "units_min": 6,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Middlesex County",
   "jurisdiction_city": "Cambridge, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -9224,6 +9616,7 @@
   "units_min": 5,
   "units_basis": "NJ property class 4C = apartment building with 5+ units",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Essex County",
   "jurisdiction_city": "Newark, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -9251,6 +9644,7 @@
   "units_min": 44,
   "units_basis": "parsed from building description '4S-B-44U'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Jersey City, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -9278,6 +9672,7 @@
   "units_min": 5,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -9305,6 +9700,7 @@
   "units_min": 8,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Diego County",
   "jurisdiction_city": "San Diego, CA",
   "resolution_method": "postal_fallback",
   "geocode": {
@@ -9326,6 +9722,7 @@
   "units_min": 9,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Diego County",
   "jurisdiction_city": "San Diego, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -9336,7 +9733,9 @@
    "place": "San Diego city",
    "place_geoid": "0666000",
    "status": "matched"
-  }
+  },
+  "year_built_max": 2025,
+  "year_built_max_basis": "SANDAG parcel effective year 2025 (APN 5331721000); built in or before that year"
  },
  {
   "address_id": "A0348",
@@ -9353,6 +9752,7 @@
   "units_min": 7,
   "units_basis": "parsed from building description '4F-7U'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Hoboken, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -9380,6 +9780,7 @@
   "units_min": 5,
   "units_basis": "use description 'Alameda County use code (5+ units)'",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Alameda County",
   "jurisdiction_city": "Berkeley, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -9407,6 +9808,7 @@
   "units_min": 6,
   "units_basis": "parsed from building description '3S-B-D-6U-NH'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Jersey City, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -9434,6 +9836,7 @@
   "units_min": 7,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -9461,6 +9864,7 @@
   "units_min": 5,
   "units_basis": "NJ property class 4C = apartment building with 5+ units",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Essex County",
   "jurisdiction_city": "Newark, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -9488,6 +9892,7 @@
   "units_min": 5,
   "units_basis": "use description 'Five or more apartments'",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -9515,6 +9920,7 @@
   "units_min": 7,
   "units_basis": "Boston land use 'A' (APT 7-30 UNITS) = 7+ unit apartment",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Suffolk County",
   "jurisdiction_city": "Boston, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -9542,6 +9948,7 @@
   "units_min": 7,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -9569,6 +9976,7 @@
   "units_min": 7,
   "units_basis": "Boston land use 'A' (APT 7-30 UNITS) = 7+ unit apartment",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Suffolk County",
   "jurisdiction_city": "Boston, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -9596,6 +10004,7 @@
   "units_min": 29,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -9623,6 +10032,7 @@
   "units_min": 5,
   "units_basis": "NJ property class 4C = apartment building with 5+ units",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Essex County",
   "jurisdiction_city": "Newark, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -9650,6 +10060,7 @@
   "units_min": 10,
   "units_basis": "parsed from building description '5B-10U-H-BA'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Hoboken, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -9677,6 +10088,7 @@
   "units_min": 14,
   "units_basis": "parsed from building description '3S-B-A-14U-H'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Jersey City, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -9704,6 +10116,7 @@
   "units_min": 6,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Middlesex County",
   "jurisdiction_city": "Cambridge, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -9731,6 +10144,7 @@
   "units_min": 7,
   "units_basis": "Boston land use 'A' (APT 7-30 UNITS) = 7+ unit apartment",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Suffolk County",
   "jurisdiction_city": "Boston, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -9758,6 +10172,7 @@
   "units_min": 5,
   "units_basis": "use description 'Alameda County use code (5+ units)'",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Alameda County",
   "jurisdiction_city": "Berkeley, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -9785,6 +10200,7 @@
   "units_min": 6,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -9812,6 +10228,7 @@
   "units_min": 12,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Diego County",
   "jurisdiction_city": "San Diego, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -9822,7 +10239,9 @@
    "place": "San Diego city",
    "place_geoid": "0666000",
    "status": "matched"
-  }
+  },
+  "year_built_max": 1961,
+  "year_built_max_basis": "SANDAG parcel effective year 1961 (APN 4457111900); built in or before that year"
  },
  {
   "address_id": "A0366",
@@ -9839,6 +10258,7 @@
   "units_min": 7,
   "units_basis": "Boston land use 'A' (LUXURY APARTMENT) = 7+ unit apartment",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Suffolk County",
   "jurisdiction_city": "Boston, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -9866,6 +10286,7 @@
   "units_min": 7,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Diego County",
   "jurisdiction_city": "San Diego, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -9876,7 +10297,9 @@
    "place": "San Diego city",
    "place_geoid": "0666000",
    "status": "matched"
-  }
+  },
+  "year_built_max": 1940,
+  "year_built_max_basis": "SANDAG parcel effective year 1940 (APN 5461630400); built in or before that year"
  },
  {
   "address_id": "A0368",
@@ -9893,6 +10316,7 @@
   "units_min": 12,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -9920,6 +10344,7 @@
   "units_min": 5,
   "units_basis": "use description 'Alameda County use code (5+ units)'",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Alameda County",
   "jurisdiction_city": "Berkeley, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -9947,6 +10372,7 @@
   "units_min": 6,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -9974,6 +10400,7 @@
   "units_min": 5,
   "units_basis": "NJ property class 4C = apartment building with 5+ units",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Essex County",
   "jurisdiction_city": "Newark, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -10001,6 +10428,7 @@
   "units_min": 7,
   "units_basis": "parsed from building description '4S-B-D-7U-NH-G'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Jersey City, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -10028,6 +10456,7 @@
   "units_min": 5,
   "units_basis": "use description 'Alameda County use code (5+ units)'",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Alameda County",
   "jurisdiction_city": "Berkeley, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -10055,6 +10484,7 @@
   "units_min": 15,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -10082,6 +10512,7 @@
   "units_min": 9,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -10109,6 +10540,7 @@
   "units_min": 7,
   "units_basis": "Boston land use 'A' (SUBSD HOUSING S- 8) = 7+ unit apartment",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Suffolk County",
   "jurisdiction_city": "Boston, MA",
   "resolution_method": "postal_fallback",
   "geocode": {
@@ -10130,6 +10562,7 @@
   "units_min": 14,
   "units_basis": "parsed from building description '5B-14U-H-BA'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Hoboken, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -10157,6 +10590,7 @@
   "units_min": 9,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Diego County",
   "jurisdiction_city": "San Diego, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -10167,7 +10601,9 @@
    "place": "San Diego city",
    "place_geoid": "0666000",
    "status": "matched"
-  }
+  },
+  "year_built_max": 1968,
+  "year_built_max_basis": "SANDAG parcel effective year 1968 (APN 4463610700); built in or before that year"
  },
  {
   "address_id": "A0379",
@@ -10184,6 +10620,7 @@
   "units_min": 12,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Diego County",
   "jurisdiction_city": "San Diego, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -10194,7 +10631,9 @@
    "place": "San Diego city",
    "place_geoid": "0666000",
    "status": "matched"
-  }
+  },
+  "year_built_max": 1995,
+  "year_built_max_basis": "SANDAG parcel effective year 1995 (APN 4363830400); built in or before that year"
  },
  {
   "address_id": "A0380",
@@ -10211,6 +10650,7 @@
   "units_min": 7,
   "units_basis": "Boston land use 'A' (SUBSD HOUSING S- 8) = 7+ unit apartment",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Suffolk County",
   "jurisdiction_city": "Boston, MA",
   "resolution_method": "postal_fallback",
   "geocode": {
@@ -10232,6 +10672,7 @@
   "units_min": 5,
   "units_basis": "NJ property class 4C = apartment building with 5+ units",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Essex County",
   "jurisdiction_city": "Newark, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -10259,6 +10700,7 @@
   "units_min": 10,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -10286,6 +10728,7 @@
   "units_min": 5,
   "units_basis": "use description 'Alameda County use code (5+ units)'",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Alameda County",
   "jurisdiction_city": "Berkeley, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -10313,6 +10756,7 @@
   "units_min": 7,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "postal_fallback",
   "geocode": {
@@ -10334,6 +10778,7 @@
   "units_min": 16,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -10361,6 +10806,7 @@
   "units_min": 7,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Diego County",
   "jurisdiction_city": "San Diego, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -10371,7 +10817,9 @@
    "place": "San Diego city",
    "place_geoid": "0666000",
    "status": "matched"
-  }
+  },
+  "year_built_max": 1987,
+  "year_built_max_basis": "SANDAG parcel effective year 1987 (APN 4532122500); built in or before that year"
  },
  {
   "address_id": "A0387",
@@ -10388,6 +10836,7 @@
   "units_min": 152,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Diego County",
   "jurisdiction_city": "San Diego, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -10415,6 +10864,7 @@
   "units_min": 6,
   "units_basis": "parsed from building description '3S-F-D-6U-H'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Jersey City, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -10442,6 +10892,7 @@
   "units_min": 10,
   "units_basis": "parsed from building description '5B-10U-H-BA'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Hoboken, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -10469,6 +10920,7 @@
   "units_min": 5,
   "units_basis": "NJ property class 4C = apartment building with 5+ units",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Essex County",
   "jurisdiction_city": "Newark, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -10496,6 +10948,7 @@
   "units_min": 9,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Diego County",
   "jurisdiction_city": "San Diego, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -10506,7 +10959,9 @@
    "place": "San Diego city",
    "place_geoid": "0666000",
    "status": "matched"
-  }
+  },
+  "year_built_max": 2006,
+  "year_built_max_basis": "SANDAG parcel effective year 2006 (APN 5354500100); built in or before that year"
  },
  {
   "address_id": "A0392",
@@ -10523,6 +10978,7 @@
   "units_min": 7,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Diego County",
   "jurisdiction_city": "San Diego, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -10550,6 +11006,7 @@
   "units_min": 21,
   "units_basis": "parsed from building description '4S-BA-21U-H'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Jersey City, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -10577,6 +11034,7 @@
   "units_min": 13,
   "units_basis": "parsed from building description '3S-B-A-13U-H'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Jersey City, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -10604,6 +11062,7 @@
   "units_min": 5,
   "units_basis": "use description 'Alameda County use code (5+ units)'",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Alameda County",
   "jurisdiction_city": "Berkeley, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -10631,6 +11090,7 @@
   "units_min": 6,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Diego County",
   "jurisdiction_city": "San Diego, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -10641,7 +11101,9 @@
    "place": "San Diego city",
    "place_geoid": "0666000",
    "status": "matched"
-  }
+  },
+  "year_built_max": 2025,
+  "year_built_max_basis": "SANDAG parcel effective year 2025 (APN 4253700800); built in or before that year"
  },
  {
   "address_id": "A0397",
@@ -10658,6 +11120,7 @@
   "units_min": 21,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -10685,6 +11148,7 @@
   "units_min": 5,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -10712,6 +11176,7 @@
   "units_min": 9,
   "units_basis": "parsed from building description '4B-9U'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Hoboken, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -10739,6 +11204,7 @@
   "units_min": 5,
   "units_basis": "NJ property class 4C = apartment building with 5+ units",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Essex County",
   "jurisdiction_city": "Newark, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -10766,6 +11232,7 @@
   "units_min": 6,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -10793,6 +11260,7 @@
   "units_min": 5,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -10820,6 +11288,7 @@
   "units_min": 7,
   "units_basis": "Boston land use 'A' (SUBSD HOUSING S- 8) = 7+ unit apartment",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Suffolk County",
   "jurisdiction_city": "Boston, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -10847,6 +11316,7 @@
   "units_min": 8,
   "units_basis": "parsed from building description '3S-F-D-8U-H'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Jersey City, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -10874,6 +11344,7 @@
   "units_min": 6,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -10901,6 +11372,7 @@
   "units_min": 7,
   "units_basis": "Boston land use 'A' (SUBSD HOUSING S- 8) = 7+ unit apartment",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Suffolk County",
   "jurisdiction_city": "Boston, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -10928,6 +11400,7 @@
   "units_min": 10,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -10955,6 +11428,7 @@
   "units_min": 23,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -10982,6 +11456,7 @@
   "units_min": 5,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Diego County",
   "jurisdiction_city": "San Diego, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -10992,7 +11467,9 @@
    "place": "San Diego city",
    "place_geoid": "0666000",
    "status": "matched"
-  }
+  },
+  "year_built_max": 1942,
+  "year_built_max_basis": "SANDAG parcel effective year 1942 (APN 4231711100); built in or before that year"
  },
  {
   "address_id": "A0410",
@@ -11009,6 +11486,7 @@
   "units_min": 21,
   "units_basis": "parsed from building description '4-S-BT-21U-H'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Jersey City, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -11036,6 +11514,7 @@
   "units_min": 5,
   "units_basis": "use description 'Alameda County use code (5+ units)'",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Alameda County",
   "jurisdiction_city": "Berkeley, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -11063,6 +11542,7 @@
   "units_min": 5,
   "units_basis": "NJ property class 4C = apartment building with 5+ units",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Essex County",
   "jurisdiction_city": "Newark, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -11090,6 +11570,7 @@
   "units_min": 8,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Diego County",
   "jurisdiction_city": "San Diego, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -11100,7 +11581,9 @@
    "place": "San Diego city",
    "place_geoid": "0666000",
    "status": "matched"
-  }
+  },
+  "year_built_max": 1970,
+  "year_built_max_basis": "SANDAG parcel effective year 1970 (APN 4242112800); built in or before that year"
  },
  {
   "address_id": "A0414",
@@ -11117,6 +11600,7 @@
   "units_min": 9,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -11144,6 +11628,7 @@
   "units_min": 46,
   "units_basis": "parsed from building description '4S-B-A-46U-H'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Jersey City, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -11171,6 +11656,7 @@
   "units_min": 21,
   "units_basis": "parsed from building description '5S-BT-B-C-21U-H'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Jersey City, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -11198,6 +11684,7 @@
   "units_min": 5,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -11225,6 +11712,7 @@
   "units_min": 12,
   "units_basis": "parsed from building description '3S-FD-12U-H'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Jersey City, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -11252,6 +11740,7 @@
   "units_min": 5,
   "units_basis": "use description 'Alameda County use code (5+ units)'",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Alameda County",
   "jurisdiction_city": "Berkeley, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -11279,6 +11768,7 @@
   "units_min": 10,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Diego County",
   "jurisdiction_city": "San Diego, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -11289,7 +11779,9 @@
    "place": "San Diego city",
    "place_geoid": "0666000",
    "status": "matched"
-  }
+  },
+  "year_built_max": 1972,
+  "year_built_max_basis": "SANDAG parcel effective year 1972 (APN 4451901100); built in or before that year"
  },
  {
   "address_id": "A0421",
@@ -11306,6 +11798,7 @@
   "units_min": 6,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -11333,6 +11826,7 @@
   "units_min": 6,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Middlesex County",
   "jurisdiction_city": "Cambridge, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -11360,6 +11854,7 @@
   "units_min": 7,
   "units_basis": "Boston land use 'A' (APT 7-30 UNITS) = 7+ unit apartment",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Suffolk County",
   "jurisdiction_city": "Boston, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -11387,6 +11882,7 @@
   "units_min": 8,
   "units_basis": "parsed from building description '4F-8U'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Hoboken, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -11414,6 +11910,7 @@
   "units_min": 23,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -11441,6 +11938,7 @@
   "units_min": 12,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Diego County",
   "jurisdiction_city": "San Diego, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -11451,7 +11949,9 @@
    "place": "San Diego city",
    "place_geoid": "0666000",
    "status": "matched"
-  }
+  },
+  "year_built_max": 1974,
+  "year_built_max_basis": "SANDAG parcel effective year 1974 (APN 4363831000); built in or before that year"
  },
  {
   "address_id": "A0427",
@@ -11468,6 +11968,7 @@
   "units_min": 15,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -11495,6 +11996,7 @@
   "units_min": 5,
   "units_basis": "NJ property class 4C = apartment building with 5+ units",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Essex County",
   "jurisdiction_city": "Newark, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -11522,6 +12024,7 @@
   "units_min": 7,
   "units_basis": "Boston land use 'A' (APT 7-30 UNITS) = 7+ unit apartment",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Suffolk County",
   "jurisdiction_city": "Boston, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -11549,6 +12052,7 @@
   "units_min": 5,
   "units_basis": "use description 'Alameda County use code (5+ units)'",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Alameda County",
   "jurisdiction_city": "Berkeley, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -11576,6 +12080,7 @@
   "units_min": 5,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Diego County",
   "jurisdiction_city": "San Diego, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -11586,7 +12091,9 @@
    "place": "San Diego city",
    "place_geoid": "0666000",
    "status": "matched"
-  }
+  },
+  "year_built_max": 1980,
+  "year_built_max_basis": "SANDAG parcel effective year 1980 (APN 5481610500); built in or before that year"
  },
  {
   "address_id": "A0432",
@@ -11603,6 +12110,7 @@
   "units_min": 23,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -11630,6 +12138,7 @@
   "units_min": 58,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -11657,6 +12166,7 @@
   "units_min": 8,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -11684,6 +12194,7 @@
   "units_min": 8,
   "units_basis": "parsed from building description '4B-8U-H'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Hoboken, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -11711,6 +12222,7 @@
   "units_min": 25,
   "units_basis": "parsed from building description '5B-6B-25U-H-BA'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Hoboken, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -11738,6 +12250,7 @@
   "units_min": 20,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -11765,6 +12278,7 @@
   "units_min": 12,
   "units_basis": "parsed from building description '3S-F-A-12U-H'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Jersey City, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -11792,6 +12306,7 @@
   "units_min": 7,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -11819,6 +12334,7 @@
   "units_min": 5,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -11846,6 +12362,7 @@
   "units_min": 6,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Diego County",
   "jurisdiction_city": "San Diego, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -11856,7 +12373,9 @@
    "place": "San Diego city",
    "place_geoid": "0666000",
    "status": "matched"
-  }
+  },
+  "year_built_max": 1930,
+  "year_built_max_basis": "SANDAG parcel effective year 1930 (APN 4463821000); built in or before that year"
  },
  {
   "address_id": "A0442",
@@ -11873,6 +12392,7 @@
   "units_min": 18,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -11900,6 +12420,7 @@
   "units_min": 16,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Diego County",
   "jurisdiction_city": "San Diego, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -11910,7 +12431,9 @@
    "place": "San Diego city",
    "place_geoid": "0666000",
    "status": "matched"
-  }
+  },
+  "year_built_max": 1985,
+  "year_built_max_basis": "SANDAG parcel effective year 1985 (APN 4760223400); built in or before that year"
  },
  {
   "address_id": "A0444",
@@ -11927,6 +12450,7 @@
   "units_min": 7,
   "units_basis": "Boston land use 'A' (APT 7-30 UNITS) = 7+ unit apartment",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Suffolk County",
   "jurisdiction_city": "Boston, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -11954,6 +12478,7 @@
   "units_min": 25,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -11981,6 +12506,7 @@
   "units_min": 7,
   "units_basis": "Boston land use 'A' (APT 7-30 UNITS) = 7+ unit apartment",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Suffolk County",
   "jurisdiction_city": "Boston, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -12008,6 +12534,7 @@
   "units_min": 35,
   "units_basis": "parsed from building description '5B-35U-G'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Hoboken, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -12035,6 +12562,7 @@
   "units_min": 5,
   "units_basis": "NJ property class 4C = apartment building with 5+ units",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Essex County",
   "jurisdiction_city": "Newark, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -12062,6 +12590,7 @@
   "units_min": 5,
   "units_basis": "NJ property class 4C = apartment building with 5+ units",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Essex County",
   "jurisdiction_city": "Newark, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -12089,6 +12618,7 @@
   "units_min": 6,
   "units_basis": "parsed from building description '3S-F-D-6U-NH'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Jersey City, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -12116,6 +12646,7 @@
   "units_min": 8,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -12143,6 +12674,7 @@
   "units_min": 8,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -12170,6 +12702,7 @@
   "units_min": 6,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Middlesex County",
   "jurisdiction_city": "Cambridge, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -12197,6 +12730,7 @@
   "units_min": 6,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -12224,6 +12758,7 @@
   "units_min": 17,
   "units_basis": "parsed from building description '4S-B-A-17U-H'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Jersey City, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -12251,6 +12786,7 @@
   "units_min": 17,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Diego County",
   "jurisdiction_city": "San Diego, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -12261,7 +12797,9 @@
    "place": "San Diego city",
    "place_geoid": "0666000",
    "status": "matched"
-  }
+  },
+  "year_built_max": 1948,
+  "year_built_max_basis": "SANDAG parcel effective year 1948 (APN 4496110100); built in or before that year"
  },
  {
   "address_id": "A0457",
@@ -12278,6 +12816,7 @@
   "units_min": 5,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -12305,6 +12844,7 @@
   "units_min": 6,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -12332,6 +12872,7 @@
   "units_min": 7,
   "units_basis": "parsed from building description '3S-F-7U'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Jersey City, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -12359,6 +12900,7 @@
   "units_min": 5,
   "units_basis": "NJ property class 4C = apartment building with 5+ units",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Essex County",
   "jurisdiction_city": "Newark, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -12386,6 +12928,7 @@
   "units_min": 5,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -12413,6 +12956,7 @@
   "units_min": 6,
   "units_basis": "parsed from building description '3S-F-D-6U'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Jersey City, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -12440,6 +12984,7 @@
   "units_min": 7,
   "units_basis": "Boston land use 'A' (SUBSD HOUSING S- 8) = 7+ unit apartment",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Suffolk County",
   "jurisdiction_city": "Boston, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -12467,6 +13012,7 @@
   "units_min": 7,
   "units_basis": "Boston land use 'A' (SUBSD HOUSING S- 8) = 7+ unit apartment",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Suffolk County",
   "jurisdiction_city": "Boston, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -12494,6 +13040,7 @@
   "units_min": 8,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Middlesex County",
   "jurisdiction_city": "Cambridge, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -12521,6 +13068,7 @@
   "units_min": 7,
   "units_basis": "Boston land use 'A' (APT 7-30 UNITS) = 7+ unit apartment",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Suffolk County",
   "jurisdiction_city": "Boston, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -12548,6 +13096,7 @@
   "units_min": 7,
   "units_basis": "Boston land use 'A' (SUBSD HOUSING S- 8) = 7+ unit apartment",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Suffolk County",
   "jurisdiction_city": "Boston, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -12575,6 +13124,7 @@
   "units_min": 6,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Middlesex County",
   "jurisdiction_city": "Cambridge, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -12602,6 +13152,7 @@
   "units_min": 5,
   "units_basis": "use description 'Alameda County use code (5+ units)'",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Alameda County",
   "jurisdiction_city": "Berkeley, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -12629,6 +13180,7 @@
   "units_min": 5,
   "units_basis": "use description 'Alameda County use code (5+ units)'",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Alameda County",
   "jurisdiction_city": "Berkeley, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -12656,6 +13208,7 @@
   "units_min": 10,
   "units_basis": "parsed from building description '4 1/2B-10U-BA'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Hoboken, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -12683,6 +13236,7 @@
   "units_min": 12,
   "units_basis": "parsed from building description '5B-12U-BA'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Hoboken, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -12710,6 +13264,7 @@
   "units_min": 7,
   "units_basis": "Boston land use 'A' (APT 7-30 UNITS) = 7+ unit apartment",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Suffolk County",
   "jurisdiction_city": "Boston, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -12737,6 +13292,7 @@
   "units_min": 8,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -12764,6 +13320,7 @@
   "units_min": 7,
   "units_basis": "parsed from building description '4B-7U-H'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Hoboken, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -12791,6 +13348,7 @@
   "units_min": 5,
   "units_basis": "NJ property class 4C = apartment building with 5+ units",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Essex County",
   "jurisdiction_city": "Newark, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -12818,6 +13376,7 @@
   "units_min": 19,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -12845,6 +13404,7 @@
   "units_min": 9,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Diego County",
   "jurisdiction_city": "San Diego, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -12855,7 +13415,9 @@
    "place": "San Diego city",
    "place_geoid": "0666000",
    "status": "matched"
-  }
+  },
+  "year_built_max": 1964,
+  "year_built_max_basis": "SANDAG parcel effective year 1964 (APN 4474712600); built in or before that year"
  },
  {
   "address_id": "A0479",
@@ -12872,6 +13434,7 @@
   "units_min": 8,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -12899,6 +13462,7 @@
   "units_min": 11,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Diego County",
   "jurisdiction_city": "San Diego, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -12909,7 +13473,9 @@
    "place": "San Diego city",
    "place_geoid": "0666000",
    "status": "matched"
-  }
+  },
+  "year_built_max": 1961,
+  "year_built_max_basis": "SANDAG parcel effective year 1961 (APN 4714513000); built in or before that year"
  },
  {
   "address_id": "A0481",
@@ -12926,6 +13492,7 @@
   "units_min": 63,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -12953,6 +13520,7 @@
   "units_min": 25,
   "units_basis": "parsed from building description '4S-B-A-25U-H'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Jersey City, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -12980,6 +13548,7 @@
   "units_min": 72,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -13007,6 +13576,7 @@
   "units_min": 5,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -13034,6 +13604,7 @@
   "units_min": 6,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Middlesex County",
   "jurisdiction_city": "Cambridge, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -13061,6 +13632,7 @@
   "units_min": 9,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -13088,6 +13660,7 @@
   "units_min": 11,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -13115,6 +13688,7 @@
   "units_min": 7,
   "units_basis": "Boston land use 'A' (APT 7-30 UNITS) = 7+ unit apartment",
   "jurisdiction_state": "MA",
+  "jurisdiction_county": "Suffolk County",
   "jurisdiction_city": "Boston, MA",
   "resolution_method": "census_place",
   "geocode": {
@@ -13142,6 +13716,7 @@
   "units_min": 30,
   "units_basis": "parsed from building description '6B-30U-G'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Hoboken, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -13169,6 +13744,7 @@
   "units_min": 10,
   "units_basis": "parsed from building description '4F-8U-C/3F-2U'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Hoboken, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -13196,6 +13772,7 @@
   "units_min": 5,
   "units_basis": "NJ property class 4C = apartment building with 5+ units",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Essex County",
   "jurisdiction_city": "Newark, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -13223,6 +13800,7 @@
   "units_min": 131,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -13250,6 +13828,7 @@
   "units_min": 10,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -13277,6 +13856,7 @@
   "units_min": 6,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Francisco County",
   "jurisdiction_city": "San Francisco, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -13304,6 +13884,7 @@
   "units_min": 6,
   "units_basis": "parsed from building description '3S-B-D-6U-NH'",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Hudson County",
   "jurisdiction_city": "Jersey City, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -13331,6 +13912,7 @@
   "units_min": 8,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Diego County",
   "jurisdiction_city": "San Diego, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -13341,7 +13923,9 @@
    "place": "San Diego city",
    "place_geoid": "0666000",
    "status": "matched"
-  }
+  },
+  "year_built_max": 1940,
+  "year_built_max_basis": "SANDAG parcel effective year 1940 (APN 5451221600); built in or before that year"
  },
  {
   "address_id": "A0497",
@@ -13358,6 +13942,7 @@
   "units_min": 5,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "San Diego County",
   "jurisdiction_city": "San Diego, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -13368,7 +13953,9 @@
    "place": "San Diego city",
    "place_geoid": "0666000",
    "status": "matched"
-  }
+  },
+  "year_built_max": 1928,
+  "year_built_max_basis": "SANDAG parcel effective year 1928 (APN 4531310600); built in or before that year"
  },
  {
   "address_id": "A0498",
@@ -13385,6 +13972,7 @@
   "units_min": 5,
   "units_basis": "NJ property class 4C = apartment building with 5+ units",
   "jurisdiction_state": "NJ",
+  "jurisdiction_county": "Essex County",
   "jurisdiction_city": "Newark, NJ",
   "resolution_method": "census_place",
   "geocode": {
@@ -13412,6 +14000,7 @@
   "units_min": 33,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {
@@ -13439,6 +14028,7 @@
   "units_min": 36,
   "units_basis": "assessor unit count",
   "jurisdiction_state": "CA",
+  "jurisdiction_county": "Los Angeles County",
   "jurisdiction_city": "Los Angeles, CA",
   "resolution_method": "census_place",
   "geocode": {

@@ -1,0 +1,9 @@
+{
+ "cell_status": "no_rule_stated",
+ "rules": [],
+ "no_rule_finding": {
+  "finding": "The LA City Council motion only instructs a city department to study the feasibility of banning algorithmic rent-setting software; no ordinance has been enacted in Los Angeles, unlike San Francisco which passed such a ban.",
+  "passage_id": "P2",
+  "quoted_span": "I THEREFORE MOVE that the City Council instruct the Los Angeles Housing Department to \nreport on the number of ownership and management entities that are using algorithm-based \nsoftware to establish rents and the feasibility of instituting a ban on the use of this software to set \nrents in the City."
+ }
+}

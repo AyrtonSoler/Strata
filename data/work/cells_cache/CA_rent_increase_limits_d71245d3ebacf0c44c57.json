@@ -1,0 +1,68 @@
+{
+ "cell_status": "rules_found",
+ "rules": [
+  {
+   "category": "rent_increase_limits",
+   "jurisdiction": "CA",
+   "level": "state",
+   "instrument_status": "enacted",
+   "title": "California Tenant Protection Act of 2019 (AB 1482) - Rent Increase Cap",
+   "requirement": "Landlords of covered rental properties cannot raise rent by more than 5% plus local cost-of-living increase, or 10%, whichever is lower, in a 12-month period.",
+   "key_value": "5% + CPI, max 10%",
+   "coverage_conditions": "Applies to residential real property/dwelling units, excluding mobilehome homeowners; subject to building age and other exemptions.",
+   "exemptions": "Does not apply to a homeowner of a mobilehome as defined in Section 798.9; units constructed within last 15 years on a rolling basis; deed-restricted affordable housing; certain dormitories.",
+   "effective_date": "2019-03-15",
+   "enacted_date": null,
+   "penalty": "Civil liability including injunctive relief, damages equal to overpayment, attorney's fees/costs, and treble damages for willful/oppressive/fraudulent/malicious violations; AG or city attorney/county counsel may enforce and seek injunctive relief.",
+   "citation": "Cal. Civ. Code § 1947.12",
+   "quoted_span": "This section shall apply to all rent increases subject to subdivision (a) occurring on or after March 15, 2019, except as provided in subdivision (i).",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": "certificate_of_occupancy",
+    "exclude_if_newer_than_years": 15,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": "whether the unit is subsidized/deed-restricted affordable housing or a dormitory",
+    "yields_to_local": true
+   },
+   "conflict_note": "This passage describes effective dates for the 2019 version; a later amendment appears to use a 2021 applicability date (February 18, 2021) in P2, suggesting the statute was amended with a new baseline period; both dates are referenced in the chunk.",
+   "confidence": 0.9,
+   "passage_id": "P6"
+  },
+  {
+   "category": "rent_increase_limits",
+   "jurisdiction": "CA",
+   "level": "state",
+   "instrument_status": "enacted",
+   "title": "California Tenant Protection Act - Rent Increase Cap (amended provisions referencing 2021 baseline)",
+   "requirement": "For rent increases between February 18, 2021 and January 1, 2022, the applicable rent baseline and catch-up increase rules apply under the same 5%+CPI/10% cap.",
+   "key_value": "5% + CPI, max 10%",
+   "coverage_conditions": "Applies to residential real property subject to subdivision (a); baseline rent calculations for increases occurring in this window.",
+   "exemptions": null,
+   "effective_date": "2021-02-18",
+   "enacted_date": null,
+   "penalty": "Civil liability including injunctive relief, damages equal to overpayment, attorney's fees/costs, and treble damages for willful/oppressive/fraudulent/malicious violations.",
+   "citation": "Cal. Civ. Code § 1947.12",
+   "quoted_span": "The applicable rent on January 1, 2022, shall be the rent as of February 18, 2021, plus the maximum permissible increase under subdivision (a).",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": true
+   },
+   "conflict_note": "This passage provides a different baseline date (February 18, 2021) than the earlier provision referencing March 15, 2019 (see P6); unclear if this is a separate amendment year's catch-up provision within the same statute rather than a conflicting effective date.",
+   "confidence": 0.75,
+   "passage_id": "P2"
+  }
+ ],
+ "no_rule_finding": null
+}

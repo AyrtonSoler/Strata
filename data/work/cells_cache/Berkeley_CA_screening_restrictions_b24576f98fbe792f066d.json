@@ -1,0 +1,37 @@
+{
+ "cell_status": "rules_found",
+ "rules": [
+  {
+   "category": "screening_restrictions",
+   "jurisdiction": "Berkeley, CA",
+   "level": "city",
+   "instrument_status": "enacted",
+   "title": "Ronald V. Dellums Fair Chance Access to Housing Ordinance",
+   "requirement": "Landlords in Berkeley cannot ask about or use criminal history or criminal background checks when advertising, screening, or deciding whether to rent to applicants or tenants, and cannot charge higher deposits/rent or deny family additions based on criminal history.",
+   "key_value": null,
+   "coverage_conditions": "Applies to rental housing providers in Berkeley; certain exceptions apply (not detailed in this passage).",
+   "exemptions": "Subject to certain exceptions (not detailed in this excerpt).",
+   "effective_date": null,
+   "enacted_date": "2020-04-14",
+   "penalty": "Administrative fines of at least $1,000 and up to $10,000 per violation, civil damages including actual damages or three times the amount of one month's rent, punitive damages, attorneys' fees and costs, and injunctive relief.",
+   "citation": "Berkeley Mun. Code ch. 13.106",
+   "quoted_span": "The Fair Chance Access to Housing Ordinance prohibits rental housing providers in Berkeley from asking about and using criminal history and/or criminal background checks in their rental housing advertising, applications, tenant selection process, or decision-making.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.9,
+   "passage_id": "P1"
+  }
+ ],
+ "no_rule_finding": null
+}

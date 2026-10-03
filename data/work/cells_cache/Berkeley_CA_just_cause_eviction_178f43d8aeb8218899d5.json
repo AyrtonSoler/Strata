@@ -1,0 +1,68 @@
+{
+ "cell_status": "rules_found",
+ "rules": [
+  {
+   "category": "just_cause_eviction",
+   "jurisdiction": "Berkeley, CA",
+   "level": "city",
+   "instrument_status": "enacted",
+   "title": "Berkeley Rent Stabilization and Good Cause/Just Cause for Eviction Ordinance (as amended by Measure BB)",
+   "requirement": "Landlords in Berkeley cannot evict tenants in covered units without a legally listed 'just cause.' Measure BB raised the minimum unpaid rent needed to evict for nonpayment, removed the ability to evict for refusing to sign a similar lease, and tightened the standard for evicting over a lease violation.",
+   "key_value": null,
+   "coverage_conditions": "Applies to tenants in units fully or partially covered by the Berkeley Rent Stabilization Ordinance, including most multifamily units built before 1980 (fully covered) and newer or partially covered unit types (partially covered).",
+   "exemptions": "Some unit types are fully exempt from just cause protections depending on unit type and subsidy status, as detailed in the Rent Board's coverage guide.",
+   "effective_date": null,
+   "enacted_date": null,
+   "penalty": null,
+   "citation": "Berkeley Mun. Code ch. 13.76 (Measure BB amendments)",
+   "quoted_span": "In Berkeley, tenants in units that are fully or partially covered by the Rent Ordinance cannot be evicted unless there is \"just cause\" (previously called \"good cause\"). Measure BB has changed some just causes, eliminated one just cause, added new requirements for eviction notices, and shortened the timeline for landlords to file copies of certain eviction-related documents with the Rent Board.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": "whether the unit is fully covered, partially covered, or exempt under the Rent Ordinance (based on building age, tenancy start date, condo status, or government subsidy type)",
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.85,
+   "passage_id": "P4"
+  },
+  {
+   "category": "just_cause_eviction",
+   "jurisdiction": "Berkeley, CA",
+   "level": "city",
+   "instrument_status": "enacted",
+   "title": "Berkeley Just Cause for Eviction - Nonpayment of Rent Threshold (Measure BB)",
+   "requirement": "A landlord may not evict a tenant for nonpayment of rent unless the tenant owes at least one month's worth of the HUD Fair Market Rent for a comparably sized unit in the Oakland-Fremont metro area.",
+   "key_value": "Minimum rental debt = 1 month of HUD Fair Market Rent (FMR) for unit size",
+   "coverage_conditions": "Applies to tenants in units covered by the Rent Ordinance's just cause protections.",
+   "exemptions": null,
+   "effective_date": null,
+   "enacted_date": null,
+   "penalty": null,
+   "citation": "Berkeley Mun. Code ch. 13.76 (Measure BB amendments)",
+   "quoted_span": "For a landlord to evict a tenant for nonpayment of rent, the tenant must owe an amount of rental debt equal to or greater than one month of the Fair Market Rent (FMR) value for a unit of equivalent size in the metro area Oakland-Fremont, CA HUD Metro FMR as determined by the US Department of Housing and Urban Development for the fiscal year in which the rent is demanded.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.85,
+   "passage_id": "P4"
+  }
+ ],
+ "no_rule_finding": null
+}

@@ -1,0 +1,68 @@
+{
+ "cell_status": "rules_found",
+ "rules": [
+  {
+   "category": "just_cause_eviction",
+   "jurisdiction": "Santa Ana, CA",
+   "level": "city",
+   "instrument_status": "enacted",
+   "title": "Just Cause Eviction Ordinance",
+   "requirement": "After 30 days of tenancy, a landlord must have a legally valid reason (just cause) to terminate a tenancy, stated in a written notice; no-fault terminations require relocation assistance or rent waiver.",
+   "key_value": null,
+   "coverage_conditions": "Applies to residential rental properties in Santa Ana not falling within listed exemptions.",
+   "exemptions": "Housing produced in the last 15 years; deed-restricted affordable housing; hotel and transient occupancy; hospital and care facilities; dormitories; and other shared living quarters.",
+   "effective_date": "2021-11-19",
+   "enacted_date": null,
+   "penalty": null,
+   "citation": "Santa Ana Just Cause Eviction Ordinance",
+   "quoted_span": "After 30 days, an owner shall not terminate a tenancy without just cause, which shall be stated in a written notice.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": 15,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": "whether the unit is deed-restricted affordable housing, hotel/transient occupancy, hospital/care facility, dormitory, or shared living quarters",
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.9,
+   "passage_id": "P4"
+  },
+  {
+   "category": "just_cause_eviction",
+   "jurisdiction": "Santa Ana, CA",
+   "level": "city",
+   "instrument_status": "enacted",
+   "title": "Just Cause Eviction Ordinance - no-fault relocation assistance",
+   "requirement": "If a landlord evicts a tenant for a no-fault reason, the landlord must provide 3 months of relocation assistance or waive the final 3 months of rent.",
+   "key_value": "3 months relocation assistance or rent waiver",
+   "coverage_conditions": "Applies to no-fault just cause terminations under the Just Cause Eviction Ordinance.",
+   "exemptions": "Housing produced in the last 15 years; deed-restricted affordable housing; hotel and transient occupancy; hospital and care facilities; dormitories; and other shared living quarters.",
+   "effective_date": "2021-11-19",
+   "enacted_date": null,
+   "penalty": null,
+   "citation": "Santa Ana Just Cause Eviction Ordinance",
+   "quoted_span": "Under a no-fault just cause termination, the owner shall either provide 3 months of relocation assistance or waive payment of rent for the final 3 months of the tenancy.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": 15,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": "whether the unit is deed-restricted affordable housing, hotel/transient occupancy, hospital/care facility, dormitory, or shared living quarters",
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.88,
+   "passage_id": "P1"
+  }
+ ],
+ "no_rule_finding": null
+}

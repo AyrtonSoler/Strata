@@ -13,7 +13,7 @@ from .paths import ROOT, WORK
 load_dotenv(ROOT / "backend" / ".env")
 
 MODEL = os.getenv("EXTRACT_MODEL", "claude-sonnet-5")
-BUDGET_USD = float(os.getenv("LLM_BUDGET_USD", "15"))
+BUDGET_USD = float(os.getenv("LLM_BUDGET_USD", "20"))
 # $ per 1M tokens (input, output) - Claude API first-party pricing.
 PRICES = {
     "claude-opus-5": (5.0, 25.0),

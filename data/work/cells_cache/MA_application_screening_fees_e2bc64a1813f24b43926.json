@@ -1,0 +1,68 @@
+{
+ "cell_status": "rules_found",
+ "rules": [
+  {
+   "category": "application_screening_fees",
+   "jurisdiction": "MA",
+   "level": "state",
+   "instrument_status": "enacted",
+   "title": "Limit on Charges at Commencement of Tenancy (Security Deposit Law)",
+   "requirement": "Landlords cannot require tenants to pay any amount beyond first month's rent, last month's rent, and a security deposit (or statutorily authorized fee-in-lieu) before a tenancy begins — this bars separate application or screening fees.",
+   "key_value": "No charges beyond first month, last month, security deposit (or authorized fee-in-lieu)",
+   "coverage_conditions": "Applies to all residential tenancies in Massachusetts at or prior to commencement of tenancy.",
+   "exemptions": null,
+   "effective_date": "2025-08-01",
+   "enacted_date": "2025-01-01",
+   "penalty": null,
+   "citation": "M.G.L. c. 186, § 15B(b)",
+   "quoted_span": "At or prior to the commencement of any tenancy, no lessor or agent of the lessor may require a tenant or prospective tenant to pay, to the lessor or to an agent of the lessor, any amount in excess of the following:",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": false
+   },
+   "conflict_note": "Section amended effective August 1, 2025 per 2025, 9, Secs. 54 and 55; prior text applied until that date.",
+   "confidence": 0.8,
+   "passage_id": "P6"
+  },
+  {
+   "category": "application_screening_fees",
+   "jurisdiction": "MA",
+   "level": "state",
+   "instrument_status": "enacted",
+   "title": "Restriction on Finding Dwelling Accommodations for a Fee (Broker Licensing Requirement)",
+   "requirement": "Only a licensed real estate broker or salesperson may charge a fee to find rental housing for a prospective tenant; any such fee must be paid by the party (landlord or tenant) who actually engaged the broker.",
+   "key_value": null,
+   "coverage_conditions": "Applies to any person engaging in the business of finding dwelling accommodations for prospective tenants for a fee.",
+   "exemptions": null,
+   "effective_date": "2025-08-01",
+   "enacted_date": null,
+   "penalty": null,
+   "citation": "M.G.L. c. 112, § 87DDD 1/2",
+   "quoted_span": "No person shall engage in the business of finding dwelling accommodations for prospective tenants for a fee unless such person is a licensed broker or salesman as defined in section eighty-seven PP of chapter one hundred and twelve.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": null,
+    "yields_to_local": false
+   },
+   "conflict_note": "Text amended effective August 1, 2025; earlier version (Section 87DDD1/2) effective until that date is substantively similar.",
+   "confidence": 0.6,
+   "passage_id": "P1"
+  }
+ ],
+ "no_rule_finding": null
+}

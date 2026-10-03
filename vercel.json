@@ -6,7 +6,7 @@
   "outputDirectory": "frontend/dist",
   "functions": {
     "api/index.py": {
-      "includeFiles": "{backend/app/**,backend/pipeline/**,submission/**,data/pack/dev/**,data/pack/corpus/**,data/extra/change_tests_extra.json,data/work/audit_log.jsonl,data/work/llm_spend.json}"
+      "includeFiles": "{backend/app/**,backend/pipeline/**,submission/**,data/pack/dev/**,data/pack/corpus/**,data/extra/change_tests_extra.json,data/extra/O*.txt,data/extension/*.json,data/work/audit_log.jsonl,data/work/llm_spend.json}"
     }
   },
   "rewrites": [

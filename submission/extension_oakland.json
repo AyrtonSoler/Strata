@@ -1,0 +1,1849 @@
+{
+ "as_of": "2026-10-01",
+ "jurisdiction": "Oakland, CA",
+ "note": "Extension sample (Alameda County Secured Tax Roll); not part of the supplied 500 addresses.",
+ "lookups": {
+  "OAK01": [
+   {
+    "team_rule_id": "r-0007",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction; caveat: Whether the business uses a 'common' algorithm (shared by multiple users and incorporating competitor data) versus a proprietary single-firm algorithm.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0004",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0002",
+    "result": "unknown",
+    "explanation": "State law in force. Excludes housing newer than 15 years; year built not in data. Whether the local rule displaces it depends on facts not in the data.",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0020",
+    "result": "unknown",
+    "explanation": "Oakland, CA ordinance in force. Excludes housing newer than 10 years; year built not in data; coverage depends on owner type, which is not in the data.",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0019",
+    "result": "applies",
+    "explanation": "Oakland, CA ordinance in force. Covers all residential rentals in this jurisdiction; caveat: whether the unit is a 'covered unit' under the Rent Adjustment Ordinance (exemptions may apply based on building age, type, or other statutory exemptions not detailed in this passage).",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0001",
+    "result": "superseded",
+    "explanation": "Covered by state law, but the local rule r-0019 governs here (This statewide rent cap yields to stricter local rent control ordinances (e.g., Berkeley, San Francisco, Oakland, Los Angeles, Santa Ana, San Diego) covering the same units.).",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0005",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0006",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction; caveat: whether a government rent subsidy (e.g., Section 8 voucher) applies to the tenancy.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0021",
+    "result": "applies",
+    "explanation": "Oakland, CA ordinance in force. Owner-based exemption limited to 1 or fewer units cannot apply; caveat: whether the unit is a single-family dwelling occupied by the owner as a principal residence, or is public housing subject to federal eligibility requirements.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0003",
+    "result": "applies",
+    "explanation": "State law in force. Owner-based exemption limited to 4 or fewer units cannot apply; caveat: whether the tenant is a service member, which affects allowable deposit amount and disclosure requirements.",
+    "conflict_flag": false
+   }
+  ],
+  "OAK02": [
+   {
+    "team_rule_id": "r-0007",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction; caveat: Whether the business uses a 'common' algorithm (shared by multiple users and incorporating competitor data) versus a proprietary single-firm algorithm.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0004",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0002",
+    "result": "unknown",
+    "explanation": "State law in force. Excludes housing newer than 15 years; year built not in data. Whether the local rule displaces it depends on facts not in the data.",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0020",
+    "result": "unknown",
+    "explanation": "Oakland, CA ordinance in force. Excludes housing newer than 10 years; year built not in data; coverage depends on owner type, which is not in the data.",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0019",
+    "result": "applies",
+    "explanation": "Oakland, CA ordinance in force. Covers all residential rentals in this jurisdiction; caveat: whether the unit is a 'covered unit' under the Rent Adjustment Ordinance (exemptions may apply based on building age, type, or other statutory exemptions not detailed in this passage).",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0001",
+    "result": "superseded",
+    "explanation": "Covered by state law, but the local rule r-0019 governs here (This statewide rent cap yields to stricter local rent control ordinances (e.g., Berkeley, San Francisco, Oakland, Los Angeles, Santa Ana, San Diego) covering the same units.).",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0005",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0006",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction; caveat: whether a government rent subsidy (e.g., Section 8 voucher) applies to the tenancy.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0021",
+    "result": "applies",
+    "explanation": "Oakland, CA ordinance in force. Owner-based exemption limited to 1 or fewer units cannot apply; caveat: whether the unit is a single-family dwelling occupied by the owner as a principal residence, or is public housing subject to federal eligibility requirements.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0003",
+    "result": "applies",
+    "explanation": "State law in force. Owner-based exemption limited to 4 or fewer units cannot apply; caveat: whether the tenant is a service member, which affects allowable deposit amount and disclosure requirements.",
+    "conflict_flag": false
+   }
+  ],
+  "OAK03": [
+   {
+    "team_rule_id": "r-0007",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction; caveat: Whether the business uses a 'common' algorithm (shared by multiple users and incorporating competitor data) versus a proprietary single-firm algorithm.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0004",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0002",
+    "result": "unknown",
+    "explanation": "State law in force. Excludes housing newer than 15 years; year built not in data. Whether the local rule displaces it depends on facts not in the data.",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0020",
+    "result": "unknown",
+    "explanation": "Oakland, CA ordinance in force. Excludes housing newer than 10 years; year built not in data; coverage depends on owner type, which is not in the data.",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0019",
+    "result": "applies",
+    "explanation": "Oakland, CA ordinance in force. Covers all residential rentals in this jurisdiction; caveat: whether the unit is a 'covered unit' under the Rent Adjustment Ordinance (exemptions may apply based on building age, type, or other statutory exemptions not detailed in this passage).",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0001",
+    "result": "superseded",
+    "explanation": "Covered by state law, but the local rule r-0019 governs here (This statewide rent cap yields to stricter local rent control ordinances (e.g., Berkeley, San Francisco, Oakland, Los Angeles, Santa Ana, San Diego) covering the same units.).",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0005",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0006",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction; caveat: whether a government rent subsidy (e.g., Section 8 voucher) applies to the tenancy.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0021",
+    "result": "applies",
+    "explanation": "Oakland, CA ordinance in force. Owner-based exemption limited to 1 or fewer units cannot apply; caveat: whether the unit is a single-family dwelling occupied by the owner as a principal residence, or is public housing subject to federal eligibility requirements.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0003",
+    "result": "applies",
+    "explanation": "State law in force. Owner-based exemption limited to 4 or fewer units cannot apply; caveat: whether the tenant is a service member, which affects allowable deposit amount and disclosure requirements.",
+    "conflict_flag": false
+   }
+  ],
+  "OAK04": [
+   {
+    "team_rule_id": "r-0007",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction; caveat: Whether the business uses a 'common' algorithm (shared by multiple users and incorporating competitor data) versus a proprietary single-firm algorithm.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0004",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0002",
+    "result": "unknown",
+    "explanation": "State law in force. Excludes housing newer than 15 years; year built not in data. Whether the local rule displaces it depends on facts not in the data.",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0020",
+    "result": "unknown",
+    "explanation": "Oakland, CA ordinance in force. Excludes housing newer than 10 years; year built not in data; coverage depends on owner type, which is not in the data.",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0019",
+    "result": "applies",
+    "explanation": "Oakland, CA ordinance in force. Covers all residential rentals in this jurisdiction; caveat: whether the unit is a 'covered unit' under the Rent Adjustment Ordinance (exemptions may apply based on building age, type, or other statutory exemptions not detailed in this passage).",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0001",
+    "result": "superseded",
+    "explanation": "Covered by state law, but the local rule r-0019 governs here (This statewide rent cap yields to stricter local rent control ordinances (e.g., Berkeley, San Francisco, Oakland, Los Angeles, Santa Ana, San Diego) covering the same units.).",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0005",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0006",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction; caveat: whether a government rent subsidy (e.g., Section 8 voucher) applies to the tenancy.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0021",
+    "result": "applies",
+    "explanation": "Oakland, CA ordinance in force. Owner-based exemption limited to 1 or fewer units cannot apply; caveat: whether the unit is a single-family dwelling occupied by the owner as a principal residence, or is public housing subject to federal eligibility requirements.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0003",
+    "result": "applies",
+    "explanation": "State law in force. Owner-based exemption limited to 4 or fewer units cannot apply; caveat: whether the tenant is a service member, which affects allowable deposit amount and disclosure requirements.",
+    "conflict_flag": false
+   }
+  ],
+  "OAK05": [
+   {
+    "team_rule_id": "r-0007",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction; caveat: Whether the business uses a 'common' algorithm (shared by multiple users and incorporating competitor data) versus a proprietary single-firm algorithm.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0004",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0002",
+    "result": "unknown",
+    "explanation": "State law in force. Excludes housing newer than 15 years; year built not in data. Whether the local rule displaces it depends on facts not in the data.",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0020",
+    "result": "unknown",
+    "explanation": "Oakland, CA ordinance in force. Excludes housing newer than 10 years; year built not in data; coverage depends on owner type, which is not in the data.",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0019",
+    "result": "applies",
+    "explanation": "Oakland, CA ordinance in force. Covers all residential rentals in this jurisdiction; caveat: whether the unit is a 'covered unit' under the Rent Adjustment Ordinance (exemptions may apply based on building age, type, or other statutory exemptions not detailed in this passage).",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0001",
+    "result": "superseded",
+    "explanation": "Covered by state law, but the local rule r-0019 governs here (This statewide rent cap yields to stricter local rent control ordinances (e.g., Berkeley, San Francisco, Oakland, Los Angeles, Santa Ana, San Diego) covering the same units.).",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0005",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0006",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction; caveat: whether a government rent subsidy (e.g., Section 8 voucher) applies to the tenancy.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0021",
+    "result": "applies",
+    "explanation": "Oakland, CA ordinance in force. Owner-based exemption limited to 1 or fewer units cannot apply; caveat: whether the unit is a single-family dwelling occupied by the owner as a principal residence, or is public housing subject to federal eligibility requirements.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0003",
+    "result": "applies",
+    "explanation": "State law in force. Owner-based exemption limited to 4 or fewer units cannot apply; caveat: whether the tenant is a service member, which affects allowable deposit amount and disclosure requirements.",
+    "conflict_flag": false
+   }
+  ],
+  "OAK06": [
+   {
+    "team_rule_id": "r-0007",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction; caveat: Whether the business uses a 'common' algorithm (shared by multiple users and incorporating competitor data) versus a proprietary single-firm algorithm.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0004",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0002",
+    "result": "unknown",
+    "explanation": "State law in force. Excludes housing newer than 15 years; year built not in data. Whether the local rule displaces it depends on facts not in the data.",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0020",
+    "result": "unknown",
+    "explanation": "Oakland, CA ordinance in force. Excludes housing newer than 10 years; year built not in data; coverage depends on owner type, which is not in the data.",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0019",
+    "result": "applies",
+    "explanation": "Oakland, CA ordinance in force. Covers all residential rentals in this jurisdiction; caveat: whether the unit is a 'covered unit' under the Rent Adjustment Ordinance (exemptions may apply based on building age, type, or other statutory exemptions not detailed in this passage).",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0001",
+    "result": "superseded",
+    "explanation": "Covered by state law, but the local rule r-0019 governs here (This statewide rent cap yields to stricter local rent control ordinances (e.g., Berkeley, San Francisco, Oakland, Los Angeles, Santa Ana, San Diego) covering the same units.).",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0005",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0006",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction; caveat: whether a government rent subsidy (e.g., Section 8 voucher) applies to the tenancy.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0021",
+    "result": "applies",
+    "explanation": "Oakland, CA ordinance in force. Owner-based exemption limited to 1 or fewer units cannot apply; caveat: whether the unit is a single-family dwelling occupied by the owner as a principal residence, or is public housing subject to federal eligibility requirements.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0003",
+    "result": "applies",
+    "explanation": "State law in force. Owner-based exemption limited to 4 or fewer units cannot apply; caveat: whether the tenant is a service member, which affects allowable deposit amount and disclosure requirements.",
+    "conflict_flag": false
+   }
+  ],
+  "OAK07": [
+   {
+    "team_rule_id": "r-0007",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction; caveat: Whether the business uses a 'common' algorithm (shared by multiple users and incorporating competitor data) versus a proprietary single-firm algorithm.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0004",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0002",
+    "result": "unknown",
+    "explanation": "State law in force. Excludes housing newer than 15 years; year built not in data.",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0001",
+    "result": "unknown",
+    "explanation": "State law in force. Excludes housing newer than 15 years; year built not in data.",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0005",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0006",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction; caveat: whether a government rent subsidy (e.g., Section 8 voucher) applies to the tenancy.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0003",
+    "result": "applies",
+    "explanation": "State law in force. Owner-based exemption limited to 4 or fewer units cannot apply; caveat: whether the tenant is a service member, which affects allowable deposit amount and disclosure requirements.",
+    "conflict_flag": false
+   }
+  ],
+  "OAK08": [
+   {
+    "team_rule_id": "r-0007",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction; caveat: Whether the business uses a 'common' algorithm (shared by multiple users and incorporating competitor data) versus a proprietary single-firm algorithm.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0004",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0002",
+    "result": "unknown",
+    "explanation": "State law in force. Excludes housing newer than 15 years; year built not in data. Whether the local rule displaces it depends on facts not in the data.",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0020",
+    "result": "unknown",
+    "explanation": "Oakland, CA ordinance in force. Excludes housing newer than 10 years; year built not in data; coverage depends on owner type, which is not in the data.",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0019",
+    "result": "applies",
+    "explanation": "Oakland, CA ordinance in force. Covers all residential rentals in this jurisdiction; caveat: whether the unit is a 'covered unit' under the Rent Adjustment Ordinance (exemptions may apply based on building age, type, or other statutory exemptions not detailed in this passage).",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0001",
+    "result": "superseded",
+    "explanation": "Covered by state law, but the local rule r-0019 governs here (This statewide rent cap yields to stricter local rent control ordinances (e.g., Berkeley, San Francisco, Oakland, Los Angeles, Santa Ana, San Diego) covering the same units.).",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0005",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0006",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction; caveat: whether a government rent subsidy (e.g., Section 8 voucher) applies to the tenancy.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0021",
+    "result": "applies",
+    "explanation": "Oakland, CA ordinance in force. Owner-based exemption limited to 1 or fewer units cannot apply; caveat: whether the unit is a single-family dwelling occupied by the owner as a principal residence, or is public housing subject to federal eligibility requirements.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0003",
+    "result": "applies",
+    "explanation": "State law in force. Owner-based exemption limited to 4 or fewer units cannot apply; caveat: whether the tenant is a service member, which affects allowable deposit amount and disclosure requirements.",
+    "conflict_flag": false
+   }
+  ],
+  "OAK09": [
+   {
+    "team_rule_id": "r-0007",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction; caveat: Whether the business uses a 'common' algorithm (shared by multiple users and incorporating competitor data) versus a proprietary single-firm algorithm.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0004",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0002",
+    "result": "unknown",
+    "explanation": "State law in force. Excludes housing newer than 15 years; year built not in data. Whether the local rule displaces it depends on facts not in the data.",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0020",
+    "result": "unknown",
+    "explanation": "Oakland, CA ordinance in force. Excludes housing newer than 10 years; year built not in data; coverage depends on owner type, which is not in the data.",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0019",
+    "result": "applies",
+    "explanation": "Oakland, CA ordinance in force. Covers all residential rentals in this jurisdiction; caveat: whether the unit is a 'covered unit' under the Rent Adjustment Ordinance (exemptions may apply based on building age, type, or other statutory exemptions not detailed in this passage).",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0001",
+    "result": "superseded",
+    "explanation": "Covered by state law, but the local rule r-0019 governs here (This statewide rent cap yields to stricter local rent control ordinances (e.g., Berkeley, San Francisco, Oakland, Los Angeles, Santa Ana, San Diego) covering the same units.).",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0005",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0006",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction; caveat: whether a government rent subsidy (e.g., Section 8 voucher) applies to the tenancy.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0021",
+    "result": "applies",
+    "explanation": "Oakland, CA ordinance in force. Owner-based exemption limited to 1 or fewer units cannot apply; caveat: whether the unit is a single-family dwelling occupied by the owner as a principal residence, or is public housing subject to federal eligibility requirements.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0003",
+    "result": "applies",
+    "explanation": "State law in force. Owner-based exemption limited to 4 or fewer units cannot apply; caveat: whether the tenant is a service member, which affects allowable deposit amount and disclosure requirements.",
+    "conflict_flag": false
+   }
+  ],
+  "OAK10": [
+   {
+    "team_rule_id": "r-0007",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction; caveat: Whether the business uses a 'common' algorithm (shared by multiple users and incorporating competitor data) versus a proprietary single-firm algorithm.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0004",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0002",
+    "result": "unknown",
+    "explanation": "State law in force. Excludes housing newer than 15 years; year built not in data. Whether the local rule displaces it depends on facts not in the data.",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0020",
+    "result": "unknown",
+    "explanation": "Oakland, CA ordinance in force. Excludes housing newer than 10 years; year built not in data; coverage depends on owner type, which is not in the data.",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0019",
+    "result": "applies",
+    "explanation": "Oakland, CA ordinance in force. Covers all residential rentals in this jurisdiction; caveat: whether the unit is a 'covered unit' under the Rent Adjustment Ordinance (exemptions may apply based on building age, type, or other statutory exemptions not detailed in this passage).",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0001",
+    "result": "superseded",
+    "explanation": "Covered by state law, but the local rule r-0019 governs here (This statewide rent cap yields to stricter local rent control ordinances (e.g., Berkeley, San Francisco, Oakland, Los Angeles, Santa Ana, San Diego) covering the same units.).",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0005",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0006",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction; caveat: whether a government rent subsidy (e.g., Section 8 voucher) applies to the tenancy.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0021",
+    "result": "applies",
+    "explanation": "Oakland, CA ordinance in force. Owner-based exemption limited to 1 or fewer units cannot apply; caveat: whether the unit is a single-family dwelling occupied by the owner as a principal residence, or is public housing subject to federal eligibility requirements.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0003",
+    "result": "applies",
+    "explanation": "State law in force. Owner-based exemption limited to 4 or fewer units cannot apply; caveat: whether the tenant is a service member, which affects allowable deposit amount and disclosure requirements.",
+    "conflict_flag": false
+   }
+  ],
+  "OAK11": [
+   {
+    "team_rule_id": "r-0007",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction; caveat: Whether the business uses a 'common' algorithm (shared by multiple users and incorporating competitor data) versus a proprietary single-firm algorithm.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0004",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0002",
+    "result": "unknown",
+    "explanation": "State law in force. Excludes housing newer than 15 years; year built not in data. Whether the local rule displaces it depends on facts not in the data.",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0020",
+    "result": "unknown",
+    "explanation": "Oakland, CA ordinance in force. Excludes housing newer than 10 years; year built not in data; coverage depends on owner type, which is not in the data.",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0019",
+    "result": "applies",
+    "explanation": "Oakland, CA ordinance in force. Covers all residential rentals in this jurisdiction; caveat: whether the unit is a 'covered unit' under the Rent Adjustment Ordinance (exemptions may apply based on building age, type, or other statutory exemptions not detailed in this passage).",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0001",
+    "result": "superseded",
+    "explanation": "Covered by state law, but the local rule r-0019 governs here (This statewide rent cap yields to stricter local rent control ordinances (e.g., Berkeley, San Francisco, Oakland, Los Angeles, Santa Ana, San Diego) covering the same units.).",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0005",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0006",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction; caveat: whether a government rent subsidy (e.g., Section 8 voucher) applies to the tenancy.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0021",
+    "result": "applies",
+    "explanation": "Oakland, CA ordinance in force. Owner-based exemption limited to 1 or fewer units cannot apply; caveat: whether the unit is a single-family dwelling occupied by the owner as a principal residence, or is public housing subject to federal eligibility requirements.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0003",
+    "result": "applies",
+    "explanation": "State law in force. Owner-based exemption limited to 4 or fewer units cannot apply; caveat: whether the tenant is a service member, which affects allowable deposit amount and disclosure requirements.",
+    "conflict_flag": false
+   }
+  ],
+  "OAK12": [
+   {
+    "team_rule_id": "r-0007",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction; caveat: Whether the business uses a 'common' algorithm (shared by multiple users and incorporating competitor data) versus a proprietary single-firm algorithm.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0004",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0002",
+    "result": "unknown",
+    "explanation": "State law in force. Excludes housing newer than 15 years; year built not in data. Whether the local rule displaces it depends on facts not in the data.",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0020",
+    "result": "unknown",
+    "explanation": "Oakland, CA ordinance in force. Excludes housing newer than 10 years; year built not in data; coverage depends on owner type, which is not in the data.",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0019",
+    "result": "applies",
+    "explanation": "Oakland, CA ordinance in force. Covers all residential rentals in this jurisdiction; caveat: whether the unit is a 'covered unit' under the Rent Adjustment Ordinance (exemptions may apply based on building age, type, or other statutory exemptions not detailed in this passage).",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0001",
+    "result": "superseded",
+    "explanation": "Covered by state law, but the local rule r-0019 governs here (This statewide rent cap yields to stricter local rent control ordinances (e.g., Berkeley, San Francisco, Oakland, Los Angeles, Santa Ana, San Diego) covering the same units.).",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0005",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0006",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction; caveat: whether a government rent subsidy (e.g., Section 8 voucher) applies to the tenancy.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0021",
+    "result": "applies",
+    "explanation": "Oakland, CA ordinance in force. Owner-based exemption limited to 1 or fewer units cannot apply; caveat: whether the unit is a single-family dwelling occupied by the owner as a principal residence, or is public housing subject to federal eligibility requirements.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0003",
+    "result": "applies",
+    "explanation": "State law in force. Owner-based exemption limited to 4 or fewer units cannot apply; caveat: whether the tenant is a service member, which affects allowable deposit amount and disclosure requirements.",
+    "conflict_flag": false
+   }
+  ],
+  "OAK13": [
+   {
+    "team_rule_id": "r-0007",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction; caveat: Whether the business uses a 'common' algorithm (shared by multiple users and incorporating competitor data) versus a proprietary single-firm algorithm.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0004",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0002",
+    "result": "unknown",
+    "explanation": "State law in force. Excludes housing newer than 15 years; year built not in data. Whether the local rule displaces it depends on facts not in the data.",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0020",
+    "result": "unknown",
+    "explanation": "Oakland, CA ordinance in force. Excludes housing newer than 10 years; year built not in data; coverage depends on owner type, which is not in the data.",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0019",
+    "result": "applies",
+    "explanation": "Oakland, CA ordinance in force. Covers all residential rentals in this jurisdiction; caveat: whether the unit is a 'covered unit' under the Rent Adjustment Ordinance (exemptions may apply based on building age, type, or other statutory exemptions not detailed in this passage).",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0001",
+    "result": "superseded",
+    "explanation": "Covered by state law, but the local rule r-0019 governs here (This statewide rent cap yields to stricter local rent control ordinances (e.g., Berkeley, San Francisco, Oakland, Los Angeles, Santa Ana, San Diego) covering the same units.).",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0005",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0006",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction; caveat: whether a government rent subsidy (e.g., Section 8 voucher) applies to the tenancy.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0021",
+    "result": "applies",
+    "explanation": "Oakland, CA ordinance in force. Owner-based exemption limited to 1 or fewer units cannot apply; caveat: whether the unit is a single-family dwelling occupied by the owner as a principal residence, or is public housing subject to federal eligibility requirements.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0003",
+    "result": "applies",
+    "explanation": "State law in force. Owner-based exemption limited to 4 or fewer units cannot apply; caveat: whether the tenant is a service member, which affects allowable deposit amount and disclosure requirements.",
+    "conflict_flag": false
+   }
+  ],
+  "OAK14": [
+   {
+    "team_rule_id": "r-0007",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction; caveat: Whether the business uses a 'common' algorithm (shared by multiple users and incorporating competitor data) versus a proprietary single-firm algorithm.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0004",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0002",
+    "result": "unknown",
+    "explanation": "State law in force. Excludes housing newer than 15 years; year built not in data. Whether the local rule displaces it depends on facts not in the data.",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0020",
+    "result": "unknown",
+    "explanation": "Oakland, CA ordinance in force. Excludes housing newer than 10 years; year built not in data; coverage depends on owner type, which is not in the data.",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0019",
+    "result": "applies",
+    "explanation": "Oakland, CA ordinance in force. Covers all residential rentals in this jurisdiction; caveat: whether the unit is a 'covered unit' under the Rent Adjustment Ordinance (exemptions may apply based on building age, type, or other statutory exemptions not detailed in this passage).",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0001",
+    "result": "superseded",
+    "explanation": "Covered by state law, but the local rule r-0019 governs here (This statewide rent cap yields to stricter local rent control ordinances (e.g., Berkeley, San Francisco, Oakland, Los Angeles, Santa Ana, San Diego) covering the same units.).",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0005",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0006",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction; caveat: whether a government rent subsidy (e.g., Section 8 voucher) applies to the tenancy.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0021",
+    "result": "applies",
+    "explanation": "Oakland, CA ordinance in force. Owner-based exemption limited to 1 or fewer units cannot apply; caveat: whether the unit is a single-family dwelling occupied by the owner as a principal residence, or is public housing subject to federal eligibility requirements.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0003",
+    "result": "applies",
+    "explanation": "State law in force. Owner-based exemption limited to 4 or fewer units cannot apply; caveat: whether the tenant is a service member, which affects allowable deposit amount and disclosure requirements.",
+    "conflict_flag": false
+   }
+  ],
+  "OAK15": [
+   {
+    "team_rule_id": "r-0007",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction; caveat: Whether the business uses a 'common' algorithm (shared by multiple users and incorporating competitor data) versus a proprietary single-firm algorithm.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0004",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0002",
+    "result": "unknown",
+    "explanation": "State law in force. Excludes housing newer than 15 years; year built not in data. Whether the local rule displaces it depends on facts not in the data.",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0020",
+    "result": "unknown",
+    "explanation": "Oakland, CA ordinance in force. Excludes housing newer than 10 years; year built not in data; coverage depends on owner type, which is not in the data.",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0019",
+    "result": "applies",
+    "explanation": "Oakland, CA ordinance in force. Covers all residential rentals in this jurisdiction; caveat: whether the unit is a 'covered unit' under the Rent Adjustment Ordinance (exemptions may apply based on building age, type, or other statutory exemptions not detailed in this passage).",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0001",
+    "result": "superseded",
+    "explanation": "Covered by state law, but the local rule r-0019 governs here (This statewide rent cap yields to stricter local rent control ordinances (e.g., Berkeley, San Francisco, Oakland, Los Angeles, Santa Ana, San Diego) covering the same units.).",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0005",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0006",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction; caveat: whether a government rent subsidy (e.g., Section 8 voucher) applies to the tenancy.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0021",
+    "result": "applies",
+    "explanation": "Oakland, CA ordinance in force. Owner-based exemption limited to 1 or fewer units cannot apply; caveat: whether the unit is a single-family dwelling occupied by the owner as a principal residence, or is public housing subject to federal eligibility requirements.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0003",
+    "result": "applies",
+    "explanation": "State law in force. Owner-based exemption limited to 4 or fewer units cannot apply; caveat: whether the tenant is a service member, which affects allowable deposit amount and disclosure requirements.",
+    "conflict_flag": false
+   }
+  ],
+  "OAK16": [
+   {
+    "team_rule_id": "r-0007",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction; caveat: Whether the business uses a 'common' algorithm (shared by multiple users and incorporating competitor data) versus a proprietary single-firm algorithm.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0004",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0002",
+    "result": "unknown",
+    "explanation": "State law in force. Excludes housing newer than 15 years; year built not in data. Whether the local rule displaces it depends on facts not in the data.",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0020",
+    "result": "unknown",
+    "explanation": "Oakland, CA ordinance in force. Excludes housing newer than 10 years; year built not in data; coverage depends on owner type, which is not in the data.",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0019",
+    "result": "applies",
+    "explanation": "Oakland, CA ordinance in force. Covers all residential rentals in this jurisdiction; caveat: whether the unit is a 'covered unit' under the Rent Adjustment Ordinance (exemptions may apply based on building age, type, or other statutory exemptions not detailed in this passage).",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0001",
+    "result": "superseded",
+    "explanation": "Covered by state law, but the local rule r-0019 governs here (This statewide rent cap yields to stricter local rent control ordinances (e.g., Berkeley, San Francisco, Oakland, Los Angeles, Santa Ana, San Diego) covering the same units.).",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0005",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0006",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction; caveat: whether a government rent subsidy (e.g., Section 8 voucher) applies to the tenancy.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0021",
+    "result": "applies",
+    "explanation": "Oakland, CA ordinance in force. Owner-based exemption limited to 1 or fewer units cannot apply; caveat: whether the unit is a single-family dwelling occupied by the owner as a principal residence, or is public housing subject to federal eligibility requirements.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0003",
+    "result": "applies",
+    "explanation": "State law in force. Owner-based exemption limited to 4 or fewer units cannot apply; caveat: whether the tenant is a service member, which affects allowable deposit amount and disclosure requirements.",
+    "conflict_flag": false
+   }
+  ],
+  "OAK17": [
+   {
+    "team_rule_id": "r-0007",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction; caveat: Whether the business uses a 'common' algorithm (shared by multiple users and incorporating competitor data) versus a proprietary single-firm algorithm.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0004",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0002",
+    "result": "unknown",
+    "explanation": "State law in force. Excludes housing newer than 15 years; year built not in data. Whether the local rule displaces it depends on facts not in the data.",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0020",
+    "result": "unknown",
+    "explanation": "Oakland, CA ordinance in force. Excludes housing newer than 10 years; year built not in data; coverage depends on owner type, which is not in the data.",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0019",
+    "result": "applies",
+    "explanation": "Oakland, CA ordinance in force. Covers all residential rentals in this jurisdiction; caveat: whether the unit is a 'covered unit' under the Rent Adjustment Ordinance (exemptions may apply based on building age, type, or other statutory exemptions not detailed in this passage).",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0001",
+    "result": "superseded",
+    "explanation": "Covered by state law, but the local rule r-0019 governs here (This statewide rent cap yields to stricter local rent control ordinances (e.g., Berkeley, San Francisco, Oakland, Los Angeles, Santa Ana, San Diego) covering the same units.).",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0005",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0006",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction; caveat: whether a government rent subsidy (e.g., Section 8 voucher) applies to the tenancy.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0021",
+    "result": "applies",
+    "explanation": "Oakland, CA ordinance in force. Owner-based exemption limited to 1 or fewer units cannot apply; caveat: whether the unit is a single-family dwelling occupied by the owner as a principal residence, or is public housing subject to federal eligibility requirements.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0003",
+    "result": "applies",
+    "explanation": "State law in force. Owner-based exemption limited to 4 or fewer units cannot apply; caveat: whether the tenant is a service member, which affects allowable deposit amount and disclosure requirements.",
+    "conflict_flag": false
+   }
+  ],
+  "OAK18": [
+   {
+    "team_rule_id": "r-0007",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction; caveat: Whether the business uses a 'common' algorithm (shared by multiple users and incorporating competitor data) versus a proprietary single-firm algorithm.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0004",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0002",
+    "result": "unknown",
+    "explanation": "State law in force. Excludes housing newer than 15 years; year built not in data. Whether the local rule displaces it depends on facts not in the data.",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0020",
+    "result": "unknown",
+    "explanation": "Oakland, CA ordinance in force. Excludes housing newer than 10 years; year built not in data; coverage depends on owner type, which is not in the data.",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0019",
+    "result": "applies",
+    "explanation": "Oakland, CA ordinance in force. Covers all residential rentals in this jurisdiction; caveat: whether the unit is a 'covered unit' under the Rent Adjustment Ordinance (exemptions may apply based on building age, type, or other statutory exemptions not detailed in this passage).",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0001",
+    "result": "superseded",
+    "explanation": "Covered by state law, but the local rule r-0019 governs here (This statewide rent cap yields to stricter local rent control ordinances (e.g., Berkeley, San Francisco, Oakland, Los Angeles, Santa Ana, San Diego) covering the same units.).",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0005",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0006",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction; caveat: whether a government rent subsidy (e.g., Section 8 voucher) applies to the tenancy.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0021",
+    "result": "applies",
+    "explanation": "Oakland, CA ordinance in force. Owner-based exemption limited to 1 or fewer units cannot apply; caveat: whether the unit is a single-family dwelling occupied by the owner as a principal residence, or is public housing subject to federal eligibility requirements.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0003",
+    "result": "applies",
+    "explanation": "State law in force. Owner-based exemption limited to 4 or fewer units cannot apply; caveat: whether the tenant is a service member, which affects allowable deposit amount and disclosure requirements.",
+    "conflict_flag": false
+   }
+  ],
+  "OAK19": [
+   {
+    "team_rule_id": "r-0007",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction; caveat: Whether the business uses a 'common' algorithm (shared by multiple users and incorporating competitor data) versus a proprietary single-firm algorithm.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0004",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0002",
+    "result": "unknown",
+    "explanation": "State law in force. Excludes housing newer than 15 years; year built not in data. Whether the local rule displaces it depends on facts not in the data.",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0020",
+    "result": "unknown",
+    "explanation": "Oakland, CA ordinance in force. Excludes housing newer than 10 years; year built not in data; coverage depends on owner type, which is not in the data.",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0019",
+    "result": "applies",
+    "explanation": "Oakland, CA ordinance in force. Covers all residential rentals in this jurisdiction; caveat: whether the unit is a 'covered unit' under the Rent Adjustment Ordinance (exemptions may apply based on building age, type, or other statutory exemptions not detailed in this passage).",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0001",
+    "result": "superseded",
+    "explanation": "Covered by state law, but the local rule r-0019 governs here (This statewide rent cap yields to stricter local rent control ordinances (e.g., Berkeley, San Francisco, Oakland, Los Angeles, Santa Ana, San Diego) covering the same units.).",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0005",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0006",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction; caveat: whether a government rent subsidy (e.g., Section 8 voucher) applies to the tenancy.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0021",
+    "result": "applies",
+    "explanation": "Oakland, CA ordinance in force. Owner-based exemption limited to 1 or fewer units cannot apply; caveat: whether the unit is a single-family dwelling occupied by the owner as a principal residence, or is public housing subject to federal eligibility requirements.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0003",
+    "result": "applies",
+    "explanation": "State law in force. Owner-based exemption limited to 4 or fewer units cannot apply; caveat: whether the tenant is a service member, which affects allowable deposit amount and disclosure requirements.",
+    "conflict_flag": false
+   }
+  ],
+  "OAK20": [
+   {
+    "team_rule_id": "r-0007",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction; caveat: Whether the business uses a 'common' algorithm (shared by multiple users and incorporating competitor data) versus a proprietary single-firm algorithm.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0004",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0002",
+    "result": "unknown",
+    "explanation": "State law in force. Excludes housing newer than 15 years; year built not in data. Whether the local rule displaces it depends on facts not in the data.",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0020",
+    "result": "unknown",
+    "explanation": "Oakland, CA ordinance in force. Excludes housing newer than 10 years; year built not in data; coverage depends on owner type, which is not in the data.",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0019",
+    "result": "applies",
+    "explanation": "Oakland, CA ordinance in force. Covers all residential rentals in this jurisdiction; caveat: whether the unit is a 'covered unit' under the Rent Adjustment Ordinance (exemptions may apply based on building age, type, or other statutory exemptions not detailed in this passage).",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0001",
+    "result": "superseded",
+    "explanation": "Covered by state law, but the local rule r-0019 governs here (This statewide rent cap yields to stricter local rent control ordinances (e.g., Berkeley, San Francisco, Oakland, Los Angeles, Santa Ana, San Diego) covering the same units.).",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0005",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0006",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction; caveat: whether a government rent subsidy (e.g., Section 8 voucher) applies to the tenancy.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0021",
+    "result": "applies",
+    "explanation": "Oakland, CA ordinance in force. Owner-based exemption limited to 1 or fewer units cannot apply; caveat: whether the unit is a single-family dwelling occupied by the owner as a principal residence, or is public housing subject to federal eligibility requirements.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0003",
+    "result": "applies",
+    "explanation": "State law in force. Owner-based exemption limited to 4 or fewer units cannot apply; caveat: whether the tenant is a service member, which affects allowable deposit amount and disclosure requirements.",
+    "conflict_flag": false
+   }
+  ],
+  "OAK21": [
+   {
+    "team_rule_id": "r-0007",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction; caveat: Whether the business uses a 'common' algorithm (shared by multiple users and incorporating competitor data) versus a proprietary single-firm algorithm.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0004",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0002",
+    "result": "unknown",
+    "explanation": "State law in force. Excludes housing newer than 15 years; year built not in data. Whether the local rule displaces it depends on facts not in the data.",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0020",
+    "result": "unknown",
+    "explanation": "Oakland, CA ordinance in force. Excludes housing newer than 10 years; year built not in data; coverage depends on owner type, which is not in the data.",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0019",
+    "result": "applies",
+    "explanation": "Oakland, CA ordinance in force. Covers all residential rentals in this jurisdiction; caveat: whether the unit is a 'covered unit' under the Rent Adjustment Ordinance (exemptions may apply based on building age, type, or other statutory exemptions not detailed in this passage).",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0001",
+    "result": "superseded",
+    "explanation": "Covered by state law, but the local rule r-0019 governs here (This statewide rent cap yields to stricter local rent control ordinances (e.g., Berkeley, San Francisco, Oakland, Los Angeles, Santa Ana, San Diego) covering the same units.).",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0005",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0006",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction; caveat: whether a government rent subsidy (e.g., Section 8 voucher) applies to the tenancy.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0021",
+    "result": "applies",
+    "explanation": "Oakland, CA ordinance in force. Owner-based exemption limited to 1 or fewer units cannot apply; caveat: whether the unit is a single-family dwelling occupied by the owner as a principal residence, or is public housing subject to federal eligibility requirements.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0003",
+    "result": "applies",
+    "explanation": "State law in force. Owner-based exemption limited to 4 or fewer units cannot apply; caveat: whether the tenant is a service member, which affects allowable deposit amount and disclosure requirements.",
+    "conflict_flag": false
+   }
+  ],
+  "OAK22": [
+   {
+    "team_rule_id": "r-0007",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction; caveat: Whether the business uses a 'common' algorithm (shared by multiple users and incorporating competitor data) versus a proprietary single-firm algorithm.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0004",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0002",
+    "result": "unknown",
+    "explanation": "State law in force. Excludes housing newer than 15 years; year built not in data. Whether the local rule displaces it depends on facts not in the data.",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0020",
+    "result": "unknown",
+    "explanation": "Oakland, CA ordinance in force. Excludes housing newer than 10 years; year built not in data; coverage depends on owner type, which is not in the data.",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0019",
+    "result": "applies",
+    "explanation": "Oakland, CA ordinance in force. Covers all residential rentals in this jurisdiction; caveat: whether the unit is a 'covered unit' under the Rent Adjustment Ordinance (exemptions may apply based on building age, type, or other statutory exemptions not detailed in this passage).",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0001",
+    "result": "superseded",
+    "explanation": "Covered by state law, but the local rule r-0019 governs here (This statewide rent cap yields to stricter local rent control ordinances (e.g., Berkeley, San Francisco, Oakland, Los Angeles, Santa Ana, San Diego) covering the same units.).",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0005",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0006",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction; caveat: whether a government rent subsidy (e.g., Section 8 voucher) applies to the tenancy.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0021",
+    "result": "applies",
+    "explanation": "Oakland, CA ordinance in force. Owner-based exemption limited to 1 or fewer units cannot apply; caveat: whether the unit is a single-family dwelling occupied by the owner as a principal residence, or is public housing subject to federal eligibility requirements.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0003",
+    "result": "applies",
+    "explanation": "State law in force. Owner-based exemption limited to 4 or fewer units cannot apply; caveat: whether the tenant is a service member, which affects allowable deposit amount and disclosure requirements.",
+    "conflict_flag": false
+   }
+  ],
+  "OAK23": [
+   {
+    "team_rule_id": "r-0007",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction; caveat: Whether the business uses a 'common' algorithm (shared by multiple users and incorporating competitor data) versus a proprietary single-firm algorithm.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0004",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0002",
+    "result": "unknown",
+    "explanation": "State law in force. Excludes housing newer than 15 years; year built not in data. Whether the local rule displaces it depends on facts not in the data.",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0020",
+    "result": "unknown",
+    "explanation": "Oakland, CA ordinance in force. Excludes housing newer than 10 years; year built not in data; coverage depends on owner type, which is not in the data.",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0019",
+    "result": "applies",
+    "explanation": "Oakland, CA ordinance in force. Covers all residential rentals in this jurisdiction; caveat: whether the unit is a 'covered unit' under the Rent Adjustment Ordinance (exemptions may apply based on building age, type, or other statutory exemptions not detailed in this passage).",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0001",
+    "result": "superseded",
+    "explanation": "Covered by state law, but the local rule r-0019 governs here (This statewide rent cap yields to stricter local rent control ordinances (e.g., Berkeley, San Francisco, Oakland, Los Angeles, Santa Ana, San Diego) covering the same units.).",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0005",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0006",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction; caveat: whether a government rent subsidy (e.g., Section 8 voucher) applies to the tenancy.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0021",
+    "result": "applies",
+    "explanation": "Oakland, CA ordinance in force. Owner-based exemption limited to 1 or fewer units cannot apply; caveat: whether the unit is a single-family dwelling occupied by the owner as a principal residence, or is public housing subject to federal eligibility requirements.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0003",
+    "result": "applies",
+    "explanation": "State law in force. Owner-based exemption limited to 4 or fewer units cannot apply; caveat: whether the tenant is a service member, which affects allowable deposit amount and disclosure requirements.",
+    "conflict_flag": false
+   }
+  ],
+  "OAK24": [
+   {
+    "team_rule_id": "r-0007",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction; caveat: Whether the business uses a 'common' algorithm (shared by multiple users and incorporating competitor data) versus a proprietary single-firm algorithm.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0004",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0002",
+    "result": "unknown",
+    "explanation": "State law in force. Excludes housing newer than 15 years; year built not in data. Whether the local rule displaces it depends on facts not in the data.",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0020",
+    "result": "unknown",
+    "explanation": "Oakland, CA ordinance in force. Excludes housing newer than 10 years; year built not in data; coverage depends on owner type, which is not in the data.",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0019",
+    "result": "applies",
+    "explanation": "Oakland, CA ordinance in force. Covers all residential rentals in this jurisdiction; caveat: whether the unit is a 'covered unit' under the Rent Adjustment Ordinance (exemptions may apply based on building age, type, or other statutory exemptions not detailed in this passage).",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0001",
+    "result": "superseded",
+    "explanation": "Covered by state law, but the local rule r-0019 governs here (This statewide rent cap yields to stricter local rent control ordinances (e.g., Berkeley, San Francisco, Oakland, Los Angeles, Santa Ana, San Diego) covering the same units.).",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0005",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0006",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction; caveat: whether a government rent subsidy (e.g., Section 8 voucher) applies to the tenancy.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0021",
+    "result": "applies",
+    "explanation": "Oakland, CA ordinance in force. Owner-based exemption limited to 1 or fewer units cannot apply; caveat: whether the unit is a single-family dwelling occupied by the owner as a principal residence, or is public housing subject to federal eligibility requirements.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0003",
+    "result": "applies",
+    "explanation": "State law in force. Owner-based exemption limited to 4 or fewer units cannot apply; caveat: whether the tenant is a service member, which affects allowable deposit amount and disclosure requirements.",
+    "conflict_flag": false
+   }
+  ],
+  "OAK25": [
+   {
+    "team_rule_id": "r-0007",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction; caveat: Whether the business uses a 'common' algorithm (shared by multiple users and incorporating competitor data) versus a proprietary single-firm algorithm.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0004",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0002",
+    "result": "unknown",
+    "explanation": "State law in force. Excludes housing newer than 15 years; year built not in data. Whether the local rule displaces it depends on facts not in the data.",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0020",
+    "result": "unknown",
+    "explanation": "Oakland, CA ordinance in force. Excludes housing newer than 10 years; year built not in data; coverage depends on owner type, which is not in the data.",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0019",
+    "result": "applies",
+    "explanation": "Oakland, CA ordinance in force. Covers all residential rentals in this jurisdiction; caveat: whether the unit is a 'covered unit' under the Rent Adjustment Ordinance (exemptions may apply based on building age, type, or other statutory exemptions not detailed in this passage).",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0001",
+    "result": "superseded",
+    "explanation": "Covered by state law, but the local rule r-0019 governs here (This statewide rent cap yields to stricter local rent control ordinances (e.g., Berkeley, San Francisco, Oakland, Los Angeles, Santa Ana, San Diego) covering the same units.).",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0005",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0006",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction; caveat: whether a government rent subsidy (e.g., Section 8 voucher) applies to the tenancy.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0021",
+    "result": "applies",
+    "explanation": "Oakland, CA ordinance in force. Owner-based exemption limited to 1 or fewer units cannot apply; caveat: whether the unit is a single-family dwelling occupied by the owner as a principal residence, or is public housing subject to federal eligibility requirements.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0003",
+    "result": "applies",
+    "explanation": "State law in force. Owner-based exemption limited to 4 or fewer units cannot apply; caveat: whether the tenant is a service member, which affects allowable deposit amount and disclosure requirements.",
+    "conflict_flag": false
+   }
+  ],
+  "OAK26": [
+   {
+    "team_rule_id": "r-0007",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction; caveat: Whether the business uses a 'common' algorithm (shared by multiple users and incorporating competitor data) versus a proprietary single-firm algorithm.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0004",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0002",
+    "result": "unknown",
+    "explanation": "State law in force. Excludes housing newer than 15 years; year built not in data. Whether the local rule displaces it depends on facts not in the data.",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0020",
+    "result": "unknown",
+    "explanation": "Oakland, CA ordinance in force. Excludes housing newer than 10 years; year built not in data; coverage depends on owner type, which is not in the data.",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0019",
+    "result": "applies",
+    "explanation": "Oakland, CA ordinance in force. Covers all residential rentals in this jurisdiction; caveat: whether the unit is a 'covered unit' under the Rent Adjustment Ordinance (exemptions may apply based on building age, type, or other statutory exemptions not detailed in this passage).",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0001",
+    "result": "superseded",
+    "explanation": "Covered by state law, but the local rule r-0019 governs here (This statewide rent cap yields to stricter local rent control ordinances (e.g., Berkeley, San Francisco, Oakland, Los Angeles, Santa Ana, San Diego) covering the same units.).",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0005",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0006",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction; caveat: whether a government rent subsidy (e.g., Section 8 voucher) applies to the tenancy.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0021",
+    "result": "applies",
+    "explanation": "Oakland, CA ordinance in force. Owner-based exemption limited to 1 or fewer units cannot apply; caveat: whether the unit is a single-family dwelling occupied by the owner as a principal residence, or is public housing subject to federal eligibility requirements.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0003",
+    "result": "applies",
+    "explanation": "State law in force. Owner-based exemption limited to 4 or fewer units cannot apply; caveat: whether the tenant is a service member, which affects allowable deposit amount and disclosure requirements.",
+    "conflict_flag": false
+   }
+  ],
+  "OAK27": [
+   {
+    "team_rule_id": "r-0007",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction; caveat: Whether the business uses a 'common' algorithm (shared by multiple users and incorporating competitor data) versus a proprietary single-firm algorithm.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0004",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0002",
+    "result": "unknown",
+    "explanation": "State law in force. Excludes housing newer than 15 years; year built not in data. Whether the local rule displaces it depends on facts not in the data.",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0020",
+    "result": "unknown",
+    "explanation": "Oakland, CA ordinance in force. Excludes housing newer than 10 years; year built not in data; coverage depends on owner type, which is not in the data.",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0019",
+    "result": "applies",
+    "explanation": "Oakland, CA ordinance in force. Covers all residential rentals in this jurisdiction; caveat: whether the unit is a 'covered unit' under the Rent Adjustment Ordinance (exemptions may apply based on building age, type, or other statutory exemptions not detailed in this passage).",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0001",
+    "result": "superseded",
+    "explanation": "Covered by state law, but the local rule r-0019 governs here (This statewide rent cap yields to stricter local rent control ordinances (e.g., Berkeley, San Francisco, Oakland, Los Angeles, Santa Ana, San Diego) covering the same units.).",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0005",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0006",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction; caveat: whether a government rent subsidy (e.g., Section 8 voucher) applies to the tenancy.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0021",
+    "result": "applies",
+    "explanation": "Oakland, CA ordinance in force. Owner-based exemption limited to 1 or fewer units cannot apply; caveat: whether the unit is a single-family dwelling occupied by the owner as a principal residence, or is public housing subject to federal eligibility requirements.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0003",
+    "result": "applies",
+    "explanation": "State law in force. Owner-based exemption limited to 4 or fewer units cannot apply; caveat: whether the tenant is a service member, which affects allowable deposit amount and disclosure requirements.",
+    "conflict_flag": false
+   }
+  ],
+  "OAK28": [
+   {
+    "team_rule_id": "r-0007",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction; caveat: Whether the business uses a 'common' algorithm (shared by multiple users and incorporating competitor data) versus a proprietary single-firm algorithm.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0004",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0002",
+    "result": "unknown",
+    "explanation": "State law in force. Excludes housing newer than 15 years; year built not in data. Whether the local rule displaces it depends on facts not in the data.",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0020",
+    "result": "unknown",
+    "explanation": "Oakland, CA ordinance in force. Excludes housing newer than 10 years; year built not in data; coverage depends on owner type, which is not in the data.",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0019",
+    "result": "applies",
+    "explanation": "Oakland, CA ordinance in force. Covers all residential rentals in this jurisdiction; caveat: whether the unit is a 'covered unit' under the Rent Adjustment Ordinance (exemptions may apply based on building age, type, or other statutory exemptions not detailed in this passage).",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0001",
+    "result": "superseded",
+    "explanation": "Covered by state law, but the local rule r-0019 governs here (This statewide rent cap yields to stricter local rent control ordinances (e.g., Berkeley, San Francisco, Oakland, Los Angeles, Santa Ana, San Diego) covering the same units.).",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0005",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0006",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction; caveat: whether a government rent subsidy (e.g., Section 8 voucher) applies to the tenancy.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0021",
+    "result": "applies",
+    "explanation": "Oakland, CA ordinance in force. Owner-based exemption limited to 1 or fewer units cannot apply; caveat: whether the unit is a single-family dwelling occupied by the owner as a principal residence, or is public housing subject to federal eligibility requirements.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0003",
+    "result": "applies",
+    "explanation": "State law in force. Owner-based exemption limited to 4 or fewer units cannot apply; caveat: whether the tenant is a service member, which affects allowable deposit amount and disclosure requirements.",
+    "conflict_flag": false
+   }
+  ],
+  "OAK29": [
+   {
+    "team_rule_id": "r-0007",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction; caveat: Whether the business uses a 'common' algorithm (shared by multiple users and incorporating competitor data) versus a proprietary single-firm algorithm.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0004",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0002",
+    "result": "unknown",
+    "explanation": "State law in force. Excludes housing newer than 15 years; year built not in data. Whether the local rule displaces it depends on facts not in the data.",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0020",
+    "result": "unknown",
+    "explanation": "Oakland, CA ordinance in force. Excludes housing newer than 10 years; year built not in data; coverage depends on owner type, which is not in the data.",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0019",
+    "result": "applies",
+    "explanation": "Oakland, CA ordinance in force. Covers all residential rentals in this jurisdiction; caveat: whether the unit is a 'covered unit' under the Rent Adjustment Ordinance (exemptions may apply based on building age, type, or other statutory exemptions not detailed in this passage).",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0001",
+    "result": "superseded",
+    "explanation": "Covered by state law, but the local rule r-0019 governs here (This statewide rent cap yields to stricter local rent control ordinances (e.g., Berkeley, San Francisco, Oakland, Los Angeles, Santa Ana, San Diego) covering the same units.).",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0005",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0006",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction; caveat: whether a government rent subsidy (e.g., Section 8 voucher) applies to the tenancy.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0021",
+    "result": "applies",
+    "explanation": "Oakland, CA ordinance in force. Owner-based exemption limited to 1 or fewer units cannot apply; caveat: whether the unit is a single-family dwelling occupied by the owner as a principal residence, or is public housing subject to federal eligibility requirements.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0003",
+    "result": "applies",
+    "explanation": "State law in force. Owner-based exemption limited to 4 or fewer units cannot apply; caveat: whether the tenant is a service member, which affects allowable deposit amount and disclosure requirements.",
+    "conflict_flag": false
+   }
+  ],
+  "OAK30": [
+   {
+    "team_rule_id": "r-0007",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction; caveat: Whether the business uses a 'common' algorithm (shared by multiple users and incorporating competitor data) versus a proprietary single-firm algorithm.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0004",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0002",
+    "result": "unknown",
+    "explanation": "State law in force. Excludes housing newer than 15 years; year built not in data. Whether the local rule displaces it depends on facts not in the data.",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0020",
+    "result": "unknown",
+    "explanation": "Oakland, CA ordinance in force. Excludes housing newer than 10 years; year built not in data; coverage depends on owner type, which is not in the data.",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0019",
+    "result": "applies",
+    "explanation": "Oakland, CA ordinance in force. Covers all residential rentals in this jurisdiction; caveat: whether the unit is a 'covered unit' under the Rent Adjustment Ordinance (exemptions may apply based on building age, type, or other statutory exemptions not detailed in this passage).",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0001",
+    "result": "superseded",
+    "explanation": "Covered by state law, but the local rule r-0019 governs here (This statewide rent cap yields to stricter local rent control ordinances (e.g., Berkeley, San Francisco, Oakland, Los Angeles, Santa Ana, San Diego) covering the same units.).",
+    "conflict_flag": true
+   },
+   {
+    "team_rule_id": "r-0005",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0006",
+    "result": "applies",
+    "explanation": "State law in force. Covers all residential rentals in this jurisdiction; caveat: whether a government rent subsidy (e.g., Section 8 voucher) applies to the tenancy.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0021",
+    "result": "applies",
+    "explanation": "Oakland, CA ordinance in force. Owner-based exemption limited to 1 or fewer units cannot apply; caveat: whether the unit is a single-family dwelling occupied by the owner as a principal residence, or is public housing subject to federal eligibility requirements.",
+    "conflict_flag": false
+   },
+   {
+    "team_rule_id": "r-0003",
+    "result": "applies",
+    "explanation": "State law in force. Owner-based exemption limited to 4 or fewer units cannot apply; caveat: whether the tenant is a service member, which affects allowable deposit amount and disclosure requirements.",
+    "conflict_flag": false
+   }
+  ]
+ }
+}

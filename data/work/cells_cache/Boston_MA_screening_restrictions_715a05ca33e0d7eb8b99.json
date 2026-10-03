@@ -1,0 +1,37 @@
+{
+ "cell_status": "rules_found",
+ "rules": [
+  {
+   "category": "screening_restrictions",
+   "jurisdiction": "Boston, MA",
+   "level": "city",
+   "instrument_status": "enacted",
+   "title": "Boston Fair Chance Tenant Selection Policy",
+   "requirement": "Housing providers that receive City of Boston Department of Neighborhood Development funding or land, or that have income-restricted units under the BPDA Inclusionary Development Policy, cannot use a blanket ban on arrests or convictions to deny housing; they must consider applicants case-by-case and may not consider arrests without conviction, convictions subject to judicial relief, juvenile records, or convictions more than 5 years old.",
+   "key_value": "5-year conviction lookback; no blanket criminal history denials",
+   "coverage_conditions": "Applies to housing providers receiving DND funding/land or with BPDA Inclusionary Development Policy income-restricted units",
+   "exemptions": "Exemption does not apply where there is a direct relationship between a conviction and the housing sought or an unreasonable risk of substantial harm to safety of others",
+   "effective_date": "2017-02",
+   "enacted_date": "2017-02",
+   "penalty": null,
+   "citation": "Boston Fair Chance Tenant Selection Policy (DND, Feb. 2017)",
+   "quoted_span": "The Developer/Agent (Agent) agrees to not consider any of the following categories when \ndetermining housing eligibility and or considering eviction: \n \na) Arrests that did not result in conviction. This includes dismissed charges, diversion \nprograms, and similar non-convictions.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": "whether the housing provider receives DND funding/land or has BPDA Inclusionary Development Policy income-restricted units",
+    "yields_to_local": false
+   },
+   "conflict_note": "This is a policy tied to DND funding/BPDA units rather than a generally applicable ordinance covering all multifamily buildings citywide.",
+   "confidence": 0.65,
+   "passage_id": "P3"
+  }
+ ],
+ "no_rule_finding": null
+}

@@ -1,0 +1,100 @@
+{
+ "items": [
+  {
+   "id": "r-0049",
+   "requirement_supported": "partial",
+   "citation_consistent": "yes",
+   "date_supported": "not_stated",
+   "status_supported": "yes",
+   "issue": "Passage supports the 1.5-month cap and 10% annual increase cap but does not mention the interest-bearing account or interest-return requirement."
+  },
+  {
+   "id": "r-0050",
+   "requirement_supported": "yes",
+   "citation_consistent": "yes",
+   "date_supported": "not_stated",
+   "status_supported": "yes",
+   "issue": "Passage does not state the 2026-05-01 effective date; it only describes an annual CPI adjustment schedule beginning the following January 1."
+  },
+  {
+   "id": "r-0051",
+   "requirement_supported": "yes",
+   "citation_consistent": "yes",
+   "date_supported": "not_stated",
+   "status_supported": "yes",
+   "issue": null
+  },
+  {
+   "id": "r-0052",
+   "requirement_supported": "partial",
+   "citation_consistent": "yes",
+   "date_supported": "not_stated",
+   "status_supported": "yes",
+   "issue": "Passage confirms the pre-offer inquiry ban but is cut off before showing the specific lookback periods (1-6 years) or exclusion of arrests/expunged records."
+  },
+  {
+   "id": "r-0053",
+   "requirement_supported": "yes",
+   "citation_consistent": "unclear",
+   "date_supported": "not_stated",
+   "status_supported": "unclear",
+   "issue": "Passage defines algorithmic device/coordinating function consistent with the requirement, but does not show the P.L.2026, c.43 citation or confirm enacted status/effective date."
+  },
+  {
+   "id": "r-0054",
+   "requirement_supported": "yes",
+   "citation_consistent": "yes",
+   "date_supported": "not_stated",
+   "status_supported": "yes",
+   "issue": "Effective date of 1985-10-01 is not mentioned in the passage."
+  },
+  {
+   "id": "r-0055",
+   "requirement_supported": "yes",
+   "citation_consistent": "yes",
+   "date_supported": "yes",
+   "status_supported": "yes",
+   "issue": null
+  },
+  {
+   "id": "r-0056",
+   "requirement_supported": "yes",
+   "citation_consistent": "yes",
+   "date_supported": "yes",
+   "status_supported": "yes",
+   "issue": null
+  },
+  {
+   "id": "r-0057",
+   "requirement_supported": "partial",
+   "citation_consistent": "yes",
+   "date_supported": "not_stated",
+   "status_supported": "yes",
+   "issue": "Passage confirms 1-4 unit exemption but does not detail the annual/capital-improvement/vacancy/hardship application process mentioned in the requirement."
+  },
+  {
+   "id": "r-0058",
+   "requirement_supported": "yes",
+   "citation_consistent": "yes",
+   "date_supported": "yes",
+   "status_supported": "yes",
+   "issue": null
+  },
+  {
+   "id": "r-0059",
+   "requirement_supported": "yes",
+   "citation_consistent": "yes",
+   "date_supported": "yes",
+   "status_supported": "yes",
+   "issue": null
+  },
+  {
+   "id": "r-0060",
+   "requirement_supported": "yes",
+   "citation_consistent": "yes",
+   "date_supported": "yes",
+   "status_supported": "yes",
+   "issue": null
+  }
+ ]
+}

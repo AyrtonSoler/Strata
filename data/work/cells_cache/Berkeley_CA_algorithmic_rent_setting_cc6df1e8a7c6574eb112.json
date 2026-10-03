@@ -1,0 +1,37 @@
+{
+ "cell_status": "rules_found",
+ "rules": [
+  {
+   "category": "algorithmic_rent_setting",
+   "jurisdiction": "Berkeley, CA",
+   "level": "city",
+   "instrument_status": "enacted",
+   "title": "Prohibition on the Sale or Use of Coordinated Pricing Algorithms to Set Rents or Manage Occupancy Levels for Residential Dwelling Units",
+   "requirement": "Landlords and vendors in Berkeley may not use or sell software that coordinates pricing among competing landlords by sharing nonpublic data to set rent or occupancy levels.",
+   "key_value": null,
+   "coverage_conditions": "Applies to residential dwelling units in the City of Berkeley where a coordinated pricing algorithm uses nonpublic competitor data between one Berkeley landlord and competitors.",
+   "exemptions": "Does not apply to products that only publish aggregated/anonymous rental data without recommending prices, products used to set affordable housing rent/income limits, or certain market research/financing data uses.",
+   "effective_date": "2026-01",
+   "enacted_date": null,
+   "penalty": null,
+   "citation": "Berkeley Mun. Code ch. 13.63",
+   "quoted_span": "This Chapter solely \nregulates the use and sale of the coordinated pricing algorithms, to prevent the harms \ndescribed above.",
+   "coverage": {
+    "min_units": null,
+    "max_units": null,
+    "built_on_or_before": null,
+    "built_after": null,
+    "age_cutoff_basis": null,
+    "exclude_if_newer_than_years": null,
+    "owner_exemption_max_units": null,
+    "owner_exemption_any_size": false,
+    "other_unknown_factor": "whether the unit is government-subsidized affordable housing with rent set under affordable housing guidelines (exempt)",
+    "yields_to_local": false
+   },
+   "conflict_note": null,
+   "confidence": 0.9,
+   "passage_id": "P2"
+  }
+ ],
+ "no_rule_finding": null
+}

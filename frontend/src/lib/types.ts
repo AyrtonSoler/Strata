@@ -87,6 +87,7 @@ export interface LookupAnswer {
   no_rule_findings: { jurisdiction: string; category: string; finding: string; quoted_span: string; source_url: string }[]
   categories_without_rules: { category: string; category_label: string }[]
   summary: Record<string, number>
+  what_if?: { edited: string[]; original: { year_built: number | null; units: number | null; units_min: number | null } }
 }
 
 export interface Rule {

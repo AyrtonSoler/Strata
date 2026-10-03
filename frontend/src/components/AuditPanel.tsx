@@ -50,7 +50,7 @@ export default function AuditPanel({ audit, penalty, s, onSource }: { audit: Aud
   const a = s.audit
   const f = audit.facts_used
   return (
-    <div className="mt-4 space-y-5 rounded-2xl bg-fill/70 p-5">
+    <div className="expand mt-4 space-y-5 rounded-2xl bg-fill/70 p-5">
       <div className="grid gap-5 sm:grid-cols-2">
         <Section title={a.source}>
           <p className="text-[13px] text-ink-2">

@@ -73,8 +73,8 @@ export default function RulesView({ s, categories }: { s: Strings; categories: R
         <span className="px-2 text-[13px] text-muted">{shown.length} rules</span>
       </div>
       <div className="grid gap-4 md:grid-cols-2">
-        {shown.map((r) => (
-          <Card key={r.team_rule_id} className="flex flex-col p-6">
+        {shown.map((r, i) => (
+          <Card key={r.team_rule_id} className="stagger flex flex-col p-6" style={{ animationDelay: `${Math.min(i, 12) * 50}ms` }}>
             <div className="flex items-center justify-between gap-3">
               <LayerTag level={r.level as 'state' | 'city'}>{r.jurisdiction}</LayerTag>
               <span className={`rounded-full px-2.5 py-0.5 text-[11px] font-semibold ${STATUS[r.status] ?? ''}`}>{r.status.replace(/_/g, ' ')}</span>

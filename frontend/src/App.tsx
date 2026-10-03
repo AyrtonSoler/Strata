@@ -1,32 +1,57 @@
-import { useEffect, useState } from 'react'
+import { useCallback, useEffect, useState } from 'react'
 import AuditView from './components/AuditView'
 import ChangesView from './components/ChangesView'
 import LookupView from './components/LookupView'
 import RulesView from './components/RulesView'
-import TimeMachine from './components/TimeMachine'
+import TimeMachine, { type TimeState } from './components/TimeMachine'
 import { Segmented, StrataMark } from './components/ui'
 import { api } from './lib/api'
 import { t, type Lang } from './lib/i18n'
 import type { Meta } from './lib/types'
 
 type Tab = 'lookup' | 'time' | 'changes' | 'rules' | 'audit'
+const TABS: Tab[] = ['lookup', 'time', 'changes', 'rules', 'audit']
+const DEFAULT_AS_OF = '2026-10-01'
+
+// Shareable links: the URL carries the view, e.g. ?a=A0016&asOf=2027-07-02&lang=es
+// or ?tab=time&date=2026-01-02&lens=algorithmic_rent_setting&region=CA
+const initial = new URLSearchParams(window.location.search)
 
 export default function App() {
-  const [lang, setLang] = useState<Lang>('en')
-  const [tab, setTab] = useState<Tab>('lookup')
+  const [lang, setLang] = useState<Lang>(initial.get('lang') === 'es' ? 'es' : 'en')
+  const [tab, setTab] = useState<Tab>(TABS.includes(initial.get('tab') as Tab) ? (initial.get('tab') as Tab) : 'lookup')
   const [meta, setMeta] = useState<Meta | null>(null)
-  const [asOf, setAsOf] = useState('2026-10-01')
-  const [selected, setSelected] = useState<string | null>(null)
+  const [asOf, setAsOf] = useState(initial.get('asOf') || DEFAULT_AS_OF)
+  const [selected, setSelected] = useState<string | null>(initial.get('a'))
+  const [rights, setRights] = useState(initial.get('rights') === '1')
+  const [timeState, setTimeState] = useState<TimeState | null>(null)
+  const onTimeChange = useCallback((st: TimeState) => setTimeState(st), [])
   const s = t(lang)
 
   useEffect(() => {
     api<Meta>('/meta')
       .then((m) => {
         setMeta(m)
-        setAsOf(m.default_as_of)
+        if (!initial.get('asOf')) setAsOf(m.default_as_of)
       })
       .catch(() => setMeta(null))
   }, [])
+
+  useEffect(() => {
+    const q = new URLSearchParams()
+    if (tab !== 'lookup') q.set('tab', tab)
+    if (tab === 'lookup' && selected && selected !== 'live') q.set('a', selected)
+    if (tab === 'lookup' && asOf !== DEFAULT_AS_OF) q.set('asOf', asOf)
+    if (tab === 'lookup' && rights && selected) q.set('rights', '1')
+    if (tab === 'time' && timeState) {
+      q.set('date', timeState.date)
+      q.set('lens', timeState.lens)
+      q.set('region', timeState.region)
+    }
+    if (lang === 'es') q.set('lang', 'es')
+    const url = `${window.location.pathname}${q.toString() ? `?${q}` : ''}`
+    window.history.replaceState(null, '', url)
+  }, [tab, selected, asOf, rights, timeState, lang])
 
   const openAddress = (id: string) => {
     setSelected(id)
@@ -101,9 +126,35 @@ export default function App() {
 
       <div className="border-b border-black/[0.04] bg-[#fbfbfd] py-2 text-center text-[12px] text-muted">{s.disclaimer}</div>
 
-      <main className="mx-auto min-h-[72vh] max-w-[1200px] px-5 py-10">
-        {tab === 'lookup' && <LookupView s={s} lang={lang} asOf={asOf} selectedId={selected} onSelect={setSelected} />}
-        {tab === 'time' && <TimeMachine s={s} categories={meta?.categories ?? {}} onOpenAddress={openAddress} />}
+      <main key={tab} className="page-in mx-auto min-h-[72vh] max-w-[1200px] px-5 py-10">
+        {tab === 'lookup' && (
+          <LookupView
+            s={s}
+            lang={lang}
+            asOf={asOf}
+            selectedId={selected}
+            onSelect={setSelected}
+            initialRights={rights}
+            onRightsChange={setRights}
+            onTimeMachine={() => {
+              setTab('time')
+              window.scrollTo({ top: 0 })
+            }}
+          />
+        )}
+        {tab === 'time' && (
+          <TimeMachine
+            s={s}
+            categories={meta?.categories ?? {}}
+            onOpenAddress={openAddress}
+            initial={{
+              date: initial.get('date') ?? undefined,
+              lens: initial.get('lens') ?? undefined,
+              region: (initial.get('region') ?? undefined) as TimeState['region'] | undefined,
+            }}
+            onChange={onTimeChange}
+          />
+        )}
         {tab === 'changes' && <ChangesView s={s} onOpenAddress={openAddress} />}
         {tab === 'rules' && <RulesView s={s} categories={meta?.categories ?? {}} />}
         {tab === 'audit' && <AuditView s={s} />}

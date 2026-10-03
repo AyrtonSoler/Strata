@@ -48,8 +48,8 @@ export default function CoverageMatrix({ grid, rules, categories, onPick }: Prop
             </tr>
           </thead>
           <tbody className="divide-y divide-hairline/50">
-            {jurs.map((j) => (
-              <tr key={j}>
+            {jurs.map((j, ri) => (
+              <tr key={j} className="stagger" style={{ animationDelay: `${150 + ri * 45}ms` }}>
                 <td className="whitespace-nowrap px-5 py-2 font-medium">
                   <span className={`mr-2 inline-block h-2 w-2 rounded-[3px] ${j.includes(',') ? 'bg-layer-city' : 'bg-layer-state'}`} />
                   {j}

@@ -134,3 +134,138 @@ input[type="range"].timeline::-moz-range-thumb {
   .rights-sheet { box-shadow: none !important; max-width: none !important; padding: 0 !important; }
   .no-print { display: none !important; }
 }
+
+/* ---------- Landing motion ---------- */
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(28px); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes layer-drop {
+  0% { opacity: 0; transform: translateY(-70px) scaleX(0.92); }
+  70% { opacity: 1; transform: translateY(4px) scaleX(1); }
+  100% { opacity: 1; transform: none; }
+}
+@keyframes floaty {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+@keyframes cue {
+  0%, 100% { transform: translateY(0); opacity: 0.5; }
+  50% { transform: translateY(8px); opacity: 1; }
+}
+@keyframes sweep {
+  from { background-size: 0% 100%; }
+  to { background-size: 100% 100%; }
+}
+@keyframes turn-on {
+  from { background-color: #0a84ff; }
+  to { background-color: #30d158; }
+}
+
+.anim-fade-up { opacity: 0; animation: fade-up 0.9s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
+.anim-layer { opacity: 0; animation: layer-drop 1s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
+.anim-float { animation: floaty 6s ease-in-out infinite; }
+.anim-cue { animation: cue 2s ease-in-out infinite; }
+
+/* Scroll reveal (class "in" is added by an IntersectionObserver) */
+.reveal { opacity: 0; transform: translateY(36px); transition: opacity 0.9s cubic-bezier(0.16, 1, 0.3, 1), transform 0.9s cubic-bezier(0.16, 1, 0.3, 1); }
+.reveal.in { opacity: 1; transform: none; }
+
+/* Highlight that draws itself across a quote */
+.sweep {
+  background-image: linear-gradient(transparent 55%, #ffe58f 55%);
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+}
+.in .sweep { animation: sweep 1.6s 0.4s cubic-bezier(0.65, 0, 0.35, 1) forwards; }
+
+/* Time Machine teaser: buildings switching on */
+.tm-dot { background-color: #0a84ff; }
+.in .tm-dot { animation: turn-on 0.5s ease forwards; }
+
+@media (prefers-reduced-motion: reduce) {
+  .anim-fade-up, .anim-layer { animation: none; opacity: 1; }
+  .anim-float, .anim-cue { animation: none; }
+  .reveal { opacity: 1; transform: none; transition: none; }
+  .in .sweep { animation: none; background-size: 100% 100%; }
+  .in .tm-dot { animation: none; background-color: #30d158; }
+}
+
+/* Full-bleed sections inside the centered layout */
+.bleed { width: 100vw; margin-left: calc(50% - 50vw); }
+html, body { overflow-x: clip; }
+
+/* ---------- App-wide motion ---------- */
+@keyframes page-in {
+  from { opacity: 0; transform: translateY(14px); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes sheet-up {
+  from { opacity: 0; transform: translateY(40px) scale(0.98); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes backdrop-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes expand {
+  from { opacity: 0; transform: translateY(-6px); clip-path: inset(0 0 100% 0 round 16px); }
+  to { opacity: 1; transform: none; clip-path: inset(0 0 0 0 round 16px); }
+}
+.page-in { animation: page-in 0.5s cubic-bezier(0.16, 1, 0.3, 1) both; }
+.stagger { opacity: 0; animation: page-in 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
+.sheet-up { animation: sheet-up 0.45s cubic-bezier(0.16, 1, 0.3, 1) both; }
+.backdrop-in { animation: backdrop-in 0.3s ease both; }
+.expand { animation: expand 0.45s cubic-bezier(0.16, 1, 0.3, 1) both; }
+
+/* ---------- Time Machine points ---------- */
+.tm-pt {
+  display: block;
+  width: 14px;
+  height: 14px;
+  border-radius: 9999px;
+  border: 1.5px solid #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  transition: transform 0.2s ease;
+}
+.tm-pt:hover { transform: scale(1.4); }
+@keyframes tm-pop {
+  0% { transform: scale(0.6); filter: brightness(1.6); }
+  45% { transform: scale(1.9); filter: brightness(1.25); }
+  100% { transform: scale(1); filter: none; }
+}
+@keyframes tm-ripple {
+  from { transform: translate(-50%, -50%) scale(0.4); opacity: 0.85; }
+  to { transform: translate(-50%, -50%) scale(4.2); opacity: 0; }
+}
+.tm-changed .tm-pt { animation: tm-pop 0.9s cubic-bezier(0.34, 1.56, 0.64, 1) both; }
+.tm-changed::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 14px;
+  height: 14px;
+  border-radius: 9999px;
+  border: 2px solid var(--ring, #30d158);
+  animation: tm-ripple 1.3s ease-out both;
+  pointer-events: none;
+}
+.tm-wrap { position: relative; width: 14px; height: 14px; }
+@keyframes toast-in {
+  from { opacity: 0; transform: translate(-50%, 16px) scale(0.96); }
+  to { opacity: 1; transform: translate(-50%, 0); }
+}
+.toast-in { animation: toast-in 0.45s cubic-bezier(0.16, 1, 0.3, 1) both; }
+@keyframes playhead-glow {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(0, 113, 227, 0.35); }
+  50% { box-shadow: 0 0 0 8px rgba(0, 113, 227, 0); }
+}
+.playhead-glow { animation: playhead-glow 1.6s ease-in-out infinite; }
+
+@media (prefers-reduced-motion: reduce) {
+  .page-in, .stagger, .sheet-up, .backdrop-in, .expand, .toast-in { animation: none; opacity: 1; }
+  .tm-changed .tm-pt, .tm-changed::after, .playhead-glow { animation: none; }
+}
+
+.tm-icon { background: none !important; border: none !important; }

@@ -36,10 +36,10 @@ export default function EvidenceSheet({ ruleId, s, onClose }: { ruleId: string; 
   }, [onClose])
 
   return (
-    <div className="fixed inset-0 z-[1000] flex items-end justify-center bg-black/30 backdrop-blur-sm sm:items-center sm:p-6" onClick={onClose}>
+    <div className="backdrop-in fixed inset-0 z-[1000] flex items-end justify-center bg-black/30 backdrop-blur-sm sm:items-center sm:p-6" onClick={onClose}>
       <div
         onClick={(e) => e.stopPropagation()}
-        className="flex max-h-[88vh] w-full max-w-3xl flex-col overflow-hidden rounded-t-[28px] bg-white shadow-2xl sm:rounded-[28px]"
+        className="sheet-up flex max-h-[88vh] w-full max-w-3xl flex-col overflow-hidden rounded-t-[28px] bg-white shadow-2xl sm:rounded-[28px]"
       >
         <header className="flex items-start justify-between gap-4 border-b border-hairline/70 px-7 pb-5 pt-6">
           <div className="min-w-0">

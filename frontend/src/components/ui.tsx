@@ -20,9 +20,9 @@ const PILL: Record<Result, string> = {
   superseded: 'bg-superseded-bg text-superseded',
 }
 
-export function ResultBadge({ result, label }: { result: Result; label: string }) {
+export function ResultBadge({ result, label, title }: { result: Result; label: string; title?: string }) {
   return (
-    <span className={`inline-flex shrink-0 items-center gap-1.5 rounded-full px-2.5 py-1 text-[12px] font-semibold ${PILL[result]}`}>
+    <span title={title} className={`inline-flex shrink-0 cursor-help items-center gap-1.5 rounded-full px-2.5 py-1 text-[12px] font-semibold ${PILL[result]}`}>
       <span className="h-1.5 w-1.5 rounded-full" style={{ background: RESULT_COLOR[result] }} />
       {label}
     </span>
@@ -38,8 +38,12 @@ export function LayerTag({ level, children }: { level: 'state' | 'city'; childre
   )
 }
 
-export function Card({ children, className = '' }: { children: ReactNode; className?: string }) {
-  return <div className={`card ${className}`}>{children}</div>
+export function Card({ children, className = '', style }: { children: ReactNode; className?: string; style?: React.CSSProperties }) {
+  return (
+    <div className={`card ${className}`} style={style}>
+      {children}
+    </div>
+  )
 }
 
 export function Spinner({ label }: { label: string }) {

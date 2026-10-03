@@ -32,11 +32,11 @@ export default function ChangesView({ s, onOpenAddress }: { s: Strings; onOpenAd
         </p>
       </section>
       <div className="grid gap-5 md:grid-cols-2">
-        {tests.map((c) => {
+        {tests.map((c, i) => {
           const id = c.test.test_id
           const flagged = new Set(c.conflict_flag_address_ids)
           return (
-            <Card key={id} className="flex flex-col p-7">
+            <Card key={id} className="stagger flex flex-col p-7" style={{ animationDelay: `${150 + i * 90}ms` }}>
               <div className="flex items-start justify-between gap-4">
                 <div>
                   <p className="eyebrow">

@@ -51,8 +51,8 @@ export default function RightsSheet({
   const text = (r: ResultItem) => (lang === 'es' && r.requirement_es ? r.requirement_es : r.requirement)
 
   return (
-    <div className="rights-overlay fixed inset-0 z-[1000] flex items-start justify-center overflow-y-auto bg-black/30 p-4 backdrop-blur-sm sm:p-8" onClick={onClose}>
-      <div onClick={(e) => e.stopPropagation()} className="rights-sheet w-full max-w-2xl rounded-[28px] bg-white p-8 shadow-2xl sm:p-10">
+    <div className="backdrop-in rights-overlay fixed inset-0 z-[1000] flex items-start justify-center overflow-y-auto bg-black/30 p-4 backdrop-blur-sm sm:p-8" onClick={onClose}>
+      <div onClick={(e) => e.stopPropagation()} className="sheet-up rights-sheet w-full max-w-2xl rounded-[28px] bg-white p-8 shadow-2xl sm:p-10">
         <div className="flex items-start justify-between gap-4">
           <div className="flex items-center gap-2 text-[15px] font-semibold">
             <StrataMark size={18} /> Strata

@@ -218,11 +218,28 @@ def search_addresses(q: str = "", city: str | None = None, limit: int = 30):
 
 
 @app.get("/api/lookup")
-def lookup_address(address_id: str, as_of: str | None = None):
+def lookup_address(address_id: str, as_of: str | None = None, year_built: int | None = None,
+                   units: int | None = None):
+    """Lookup for a sample address. year_built / units are a "what if": they replace
+    the public-record facts so the user can see which missing fact decides an answer."""
     addr = next((a for a in addresses() if a["address_id"] == address_id), None)
     if not addr:
         raise HTTPException(404, "unknown address_id")
-    return _answer(addr, _as_of(as_of))
+    if year_built is None and units is None:
+        return _answer(addr, _as_of(as_of))
+    what_if = dict(addr)
+    edited = []
+    if year_built is not None:
+        what_if.update(year_built=year_built, year_built_max=None)
+        edited.append("year_built")
+    if units is not None:
+        what_if.update(units=units, units_min=units, units_basis="entered in what-if")
+        edited.append("units")
+    answer = _answer(what_if, _as_of(as_of))
+    answer["what_if"] = {"edited": edited, "original": {"year_built": addr.get("year_built"),
+                                                         "units": addr.get("units"),
+                                                         "units_min": addr.get("units_min")}}
+    return answer
 
 
 @app.get("/api/lookup_free")

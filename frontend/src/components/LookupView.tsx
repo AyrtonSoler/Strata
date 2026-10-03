@@ -4,6 +4,7 @@ import { catLabel, type Lang, type Strings } from '../lib/i18n'
 import type { AddressHit, LookupAnswer, ResultItem } from '../lib/types'
 import AuditPanel, { ChecksList } from './AuditPanel'
 import EvidenceSheet from './EvidenceSheet'
+import Landing, { StrataVisual } from './Landing'
 import RightsSheet from './RightsSheet'
 import { Card, ErrorNote, LayerTag, ResultBadge, Spinner } from './ui'
 
@@ -13,11 +14,15 @@ interface Props {
   asOf: string
   selectedId: string | null
   onSelect: (id: string) => void
+  initialRights?: boolean
+  onRightsChange?: (open: boolean) => void
+  onTimeMachine?: () => void
 }
 
 const RANK: Record<ResultItem['result'], number> = { applies: 0, unknown: 1, not_yet_effective: 2, pending: 3, superseded: 4 }
 
-export default function LookupView({ s, lang, asOf, selectedId, onSelect }: Props) {
+export default function LookupView({ s, lang, asOf, selectedId, onSelect, initialRights, onRightsChange, onTimeMachine }: Props) {
+  const inputRef = useRef<HTMLInputElement>(null)
   const [q, setQ] = useState('')
   const [focused, setFocused] = useState(false)
   const [hits, setHits] = useState<AddressHit[]>([])
@@ -27,7 +32,12 @@ export default function LookupView({ s, lang, asOf, selectedId, onSelect }: Prop
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState<string | null>(null)
   const [evidence, setEvidence] = useState<string | null>(null)
-  const [rights, setRights] = useState(false)
+  const [rights, setRightsState] = useState(!!initialRights)
+  const setRights = (open: boolean) => {
+    setRightsState(open)
+    onRightsChange?.(open)
+  }
+  const [whatIf, setWhatIf] = useState<{ year?: number; units?: number } | null>(null)
   const boxRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
@@ -41,11 +51,16 @@ export default function LookupView({ s, lang, asOf, selectedId, onSelect }: Prop
     if (!selectedId || selectedId === 'live') return
     setLoading(true)
     setError(null)
-    api<LookupAnswer>(`/lookup?address_id=${selectedId}&as_of=${asOf}`)
+    const params = new URLSearchParams({ address_id: selectedId, as_of: asOf })
+    if (whatIf?.year) params.set('year_built', String(whatIf.year))
+    if (whatIf?.units) params.set('units', String(whatIf.units))
+    api<LookupAnswer>(`/lookup?${params}`)
       .then(setAnswer)
       .catch((e) => setError(String(e)))
       .finally(() => setLoading(false))
-  }, [selectedId, asOf])
+  }, [selectedId, asOf, whatIf])
+
+  useEffect(() => setWhatIf(null), [selectedId])
 
   useEffect(() => {
     const close = (e: MouseEvent) => boxRef.current && !boxRef.current.contains(e.target as Node) && setFocused(false)
@@ -77,20 +92,48 @@ export default function LookupView({ s, lang, asOf, selectedId, onSelect }: Prop
 
   return (
     <div className="space-y-10">
-      <section className={`mx-auto max-w-3xl text-center transition-all ${answer ? 'pt-2' : 'pt-14'}`}>
+      <section
+        className={
+          answer
+            ? 'mx-auto max-w-3xl pt-2 text-center'
+            : 'relative -mt-10 grid min-h-[calc(100svh-6.5rem)] items-center gap-16 pb-24 pt-10 lg:grid-cols-[1.2fr_0.8fr]'
+        }
+      >
+        <div className={answer ? '' : 'text-center lg:text-left'}>
         {!answer && (
           <>
-            <h1 className="text-[44px] font-semibold leading-[1.05] tracking-[-0.03em] sm:text-[56px]">{s.heroTitle}</h1>
-            <p className="mx-auto mt-4 max-w-xl text-[19px] leading-snug text-muted">{s.heroSub}</p>
+            <p className="anim-fade-up eyebrow text-accent">{s.heroTitle}</p>
+            <h1
+              className="anim-fade-up mt-4 text-[48px] font-semibold leading-[1.02] tracking-[-0.04em] sm:text-[72px] xl:text-[80px]"
+              style={{ animationDelay: '120ms' }}
+            >
+              {s.tagline.split('. ').map((part, i, arr) => (
+                <span key={i} className="block">
+                  {part}
+                  {i < arr.length - 1 ? '.' : ''}
+                </span>
+              ))}
+            </h1>
+            <p
+              className="anim-fade-up mx-auto mt-7 max-w-xl text-[20px] leading-relaxed text-muted lg:mx-0"
+              style={{ animationDelay: '260ms' }}
+            >
+              {s.heroSub}
+            </p>
           </>
         )}
-        <div ref={boxRef} className={`relative mx-auto max-w-2xl text-left ${answer ? '' : 'mt-10'}`}>
+        <div
+          ref={boxRef}
+          className={`relative text-left ${answer ? 'mx-auto max-w-2xl' : 'anim-fade-up mx-auto mt-12 max-w-xl lg:mx-0'}`}
+          style={answer ? undefined : { animationDelay: '400ms' }}
+        >
           <div className="flex items-center gap-3 rounded-2xl border border-hairline bg-white px-5 shadow-[0_2px_12px_rgba(0,0,0,0.05)] transition focus-within:border-accent focus-within:ring-4 focus-within:ring-accent/15">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#86868b" strokeWidth="2.2" strokeLinecap="round">
               <circle cx="11" cy="11" r="7" />
               <path d="m20 20-3.5-3.5" />
             </svg>
             <input
+              ref={inputRef}
               value={q}
               onChange={(e) => setQ(e.target.value)}
               onFocus={() => setFocused(true)}
@@ -115,7 +158,21 @@ export default function LookupView({ s, lang, asOf, selectedId, onSelect }: Prop
               ))}
             </ul>
           )}
-          <div className="mt-3 text-center">
+          {!answer && (
+            <div className="mt-6 flex flex-wrap items-center justify-center gap-2 lg:justify-start">
+              <span className="text-[13px] text-faint">{s.tryLabel}:</span>
+              {s.examples.map((ex) => (
+                <button
+                  key={ex.id}
+                  onClick={() => choose(ex.id)}
+                  className="rounded-full border border-hairline bg-white px-3.5 py-1.5 text-[13px] font-medium text-ink-2 shadow-[0_1px_2px_rgba(0,0,0,0.04)] transition hover:border-accent hover:text-accent"
+                >
+                  {ex.label}
+                </button>
+              ))}
+            </div>
+          )}
+          <div className={`mt-4 text-center ${answer ? '' : 'lg:-ml-3 lg:text-left'}`}>
             <button onClick={() => setShowAny(!showAny)} className="btn-ghost">
               {s.anyAddress} {showAny ? '↑' : '↓'}
             </button>
@@ -147,11 +204,52 @@ export default function LookupView({ s, lang, asOf, selectedId, onSelect }: Prop
             </div>
           )}
         </div>
+        </div>
+        {!answer && (
+          <div className="relative hidden lg:block">
+            <div className="pointer-events-none absolute left-1/2 top-1/2 h-[460px] w-[460px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[radial-gradient(circle,rgba(88,86,214,0.16),rgba(10,158,143,0.08)_45%,transparent_70%)]" />
+            <div className="relative scale-[1.35]">
+              <StrataVisual />
+            </div>
+          </div>
+        )}
+        {!answer && (
+          <button
+            onClick={() => document.getElementById('landing')?.scrollIntoView({ behavior: 'smooth' })}
+            className="anim-fade-up absolute bottom-6 left-1/2 flex -translate-x-1/2 flex-col items-center gap-1 text-[12px] font-medium text-faint hover:text-ink"
+            style={{ animationDelay: '1400ms' }}
+          >
+            {s.landing.scroll}
+            <span className="anim-cue text-[18px]">↓</span>
+          </button>
+        )}
       </section>
 
+      {!answer && !loading && (
+        <div id="landing">
+          <Landing
+            s={s}
+            onExample={choose}
+            onTimeMachine={() => onTimeMachine?.()}
+            onSearch={() => {
+              window.scrollTo({ top: 0, behavior: 'smooth' })
+              setTimeout(() => inputRef.current?.focus(), 500)
+            }}
+          />
+        </div>
+      )}
       {error && <ErrorNote message={error} />}
       {loading && <Spinner label={s.loading} />}
-      {!loading && answer && <AnswerPanel answer={answer} s={s} lang={lang} onEvidence={setEvidence} onRights={() => setRights(true)} />}
+      {!loading && answer && (
+        <AnswerPanel
+          answer={answer}
+          s={s}
+          lang={lang}
+          onEvidence={setEvidence}
+          onRights={() => setRights(true)}
+          whatIf={selectedId !== 'live' ? setWhatIf : undefined}
+        />
+      )}
       {evidence && <EvidenceSheet ruleId={evidence} s={s} onClose={() => setEvidence(null)} />}
       {rights && answer && (
         <div className="rights-host">
@@ -168,14 +266,19 @@ function AnswerPanel({
   lang,
   onEvidence,
   onRights,
+  whatIf,
 }: {
   answer: LookupAnswer
   s: Strings
   lang: Lang
   onEvidence: (id: string) => void
   onRights: () => void
+  whatIf?: (v: { year?: number; units?: number } | null) => void
 }) {
   const a = answer.address
+  const [editing, setEditing] = useState(false)
+  const [draft, setDraft] = useState({ year: '', units: '' })
+  const unknownN = answer.summary.unknown ?? 0
   const groups = useMemo(() => {
     const m = new Map<string, ResultItem[]>()
     for (const r of answer.results) m.set(r.category_label, [...(m.get(r.category_label) ?? []), r])
@@ -188,7 +291,7 @@ function AnswerPanel({
 
   return (
     <div className="space-y-6">
-      <Card className="p-8">
+      <Card className="page-in p-8">
         <div className="flex flex-wrap items-end justify-between gap-4">
           <div>
             <p className="eyebrow">
@@ -207,7 +310,7 @@ function AnswerPanel({
             {(Object.entries(answer.summary) as [ResultItem['result'], number][])
               .sort((x, y) => RANK[x[0]] - RANK[y[0]])
               .map(([k, v]) => (
-                <ResultBadge key={k} result={k} label={`${v} ${s.results[k]}`} />
+                <ResultBadge key={k} result={k} label={`${v} ${s.results[k]}`} title={s.tips[k]} />
               ))}
             </div>
           </div>
@@ -248,12 +351,64 @@ function AnswerPanel({
               {a.units_basis}
               {a.use_description ? ` · ${a.use_description}` : ''}
             </p>
+            {whatIf && !editing && (
+              <button onClick={() => setEditing(true)} className="btn-ghost -ml-3 mt-1">
+                {s.whatIf}
+              </button>
+            )}
+            {whatIf && editing && (
+              <div className="mt-3 rounded-2xl bg-fill p-3">
+                <p className="text-[12px] text-muted">{s.whatIfHint}</p>
+                <div className="mt-2 flex flex-wrap gap-2">
+                  <input
+                    value={draft.year}
+                    onChange={(e) => setDraft({ ...draft, year: e.target.value.replace(/\D/g, '').slice(0, 4) })}
+                    placeholder={s.yearBuilt}
+                    className="field w-28 py-2 text-[14px]"
+                  />
+                  <input
+                    value={draft.units}
+                    onChange={(e) => setDraft({ ...draft, units: e.target.value.replace(/\D/g, '').slice(0, 4) })}
+                    placeholder={s.units}
+                    className="field w-24 py-2 text-[14px]"
+                  />
+                  <button
+                    onClick={() =>
+                      whatIf({ year: draft.year ? Number(draft.year) : undefined, units: draft.units ? Number(draft.units) : undefined })
+                    }
+                    disabled={!draft.year && !draft.units}
+                    className="btn-primary px-4 py-2 text-[13px]"
+                  >
+                    {s.whatIfApply}
+                  </button>
+                </div>
+              </div>
+            )}
           </div>
         </div>
       </Card>
 
-      {groups.map(([label, items]) => (
-        <Card key={label} className="overflow-hidden">
+      {answer.what_if && (
+        <div className="flex flex-wrap items-center justify-between gap-3 rounded-2xl bg-future-bg px-5 py-3 text-[14px] text-future">
+          <span>{s.whatIfBanner}</span>
+          <button
+            onClick={() => {
+              whatIf?.(null)
+              setEditing(false)
+              setDraft({ year: '', units: '' })
+            }}
+            className="font-semibold hover:underline"
+          >
+            {s.whatIfReset}
+          </button>
+        </div>
+      )}
+      {!answer.what_if && unknownN > 0 && whatIf && (
+        <p className="rounded-2xl bg-unknown-bg px-5 py-3 text-[14px] text-unknown">{s.unknownHint(unknownN)}</p>
+      )}
+
+      {groups.map(([label, items], gi) => (
+        <Card key={label} className="stagger overflow-hidden" style={{ animationDelay: `${120 + gi * 70}ms` }}>
           <div className="flex items-center justify-between px-8 pb-2 pt-6">
             <h3 className="text-[21px] font-semibold tracking-tight">{catLabel(label, lang)}</h3>
             <ResultBadge result={items[0].result} label={s.results[items[0].result]} />
@@ -346,9 +501,10 @@ function RuleRow({ r, s, lang, onEvidence }: { r: ResultItem; s: Strings; lang: 
         {audit && <AuditPanel audit={r.audit} penalty={r.penalty} s={s} onSource={() => onEvidence(r.team_rule_id)} />}
       </div>
       <div className="flex flex-row items-start gap-3 sm:flex-col sm:items-end">
-        <ResultBadge result={r.result} label={s.results[r.result]} />
+        <ResultBadge result={r.result} label={s.results[r.result]} title={s.tips[r.result]} />
         {keyValue && <p className="max-w-[220px] text-[15px] font-semibold leading-snug sm:text-right">{keyValue}</p>}
       </div>
     </div>
   )
 }
+

@@ -42,7 +42,7 @@ export default function AuditView({ s }: { s: Strings }) {
       </section>
       <div className="grid gap-4 md:grid-cols-5">
         {STEPS.map(([title, body], i) => (
-          <Card key={title} className="p-6">
+          <Card key={title} className="stagger p-6" style={{ animationDelay: `${150 + i * 90}ms` }}>
             <p className="text-[13px] font-semibold tabular-nums text-accent">0{i + 1}</p>
             <p className="mt-1 text-[19px] font-semibold tracking-tight">{title}</p>
             <p className="mt-2 text-[13px] leading-relaxed text-muted">{body}</p>

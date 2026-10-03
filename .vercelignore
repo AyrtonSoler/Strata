@@ -1,0 +1,21 @@
+# Secrets and local environments
+.env
+.env.*
+!backend/.env.example
+**/.env
+**/.env.local
+backend/.venv
+node_modules
+frontend/node_modules
+.idea
+# Not needed at runtime / not ours to redistribute
+docs
+data/extra/*.txt
+data/drive_latest
+data/rehearsal
+data/work/extract_cache
+data/work/reconcile_cache
+data/work/translate_cache
+data/work/dates_cache
+data/work/geocode_cache.json
+frontend/dist

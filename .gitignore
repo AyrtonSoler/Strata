@@ -33,3 +33,6 @@ data/work/extract_run.log
 
 # Organizer briefs (not ours to redistribute)
 docs/challenges/
+
+.vercel
+.env*

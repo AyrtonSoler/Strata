@@ -282,8 +282,75 @@ def changes():
     for t in _load(extra, []) or []:
         tests[t["test_id"]] = t
     results = _load(CHANGES_OUT, {})
-    return [{"test": tests.get(tid, {"test_id": tid}), **{k: v for k, v in res.items() if k != "detail"},
-             "detail": res.get("detail", {})} for tid, res in results.items()]
+    sample = _load(ADDRESSES_RESOLVED, [])  # the 500 supplied addresses only
+    city_of = {a["address_id"]: a.get("jurisdiction_city") or a["state"] for a in sample}
+    rules = {r["team_rule_id"]: r for r in rules_doc()["rules"]}
+    out = []
+    for tid, res in results.items():
+        test = tests.get(tid, {"test_id": tid})
+        affected = res.get("affected_address_ids", [])
+        flagged = res.get("conflict_flag_address_ids", [])
+        expected, expected_flags = _expected_sets(test, sample)
+        exp_ok = set(affected) == expected and (not expected_flags or set(flagged) == expected_flags)
+        out.append({
+            "test": test, **{k: v for k, v in res.items() if k != "detail"},
+            "by_city": dict(Counter(city_of.get(a, "?") for a in affected).most_common()),
+            "flagged_by_city": dict(Counter(city_of.get(a, "?") for a in flagged).most_common()),
+            "groups": {c: sorted(a for a in affected if city_of.get(a, "?") == c)
+                       for c, _ in Counter(city_of.get(a, "?") for a in affected).most_common()},
+            "transition": _transition(test, res, rules),
+            "check": {"expected_count": len(expected), "matches": exp_ok},
+            "detail": res.get("detail", {}),
+        })
+    return out
+
+
+_CITY_CODE = {"HOB": "Hoboken, NJ", "JC": "Jersey City, NJ", "NWK": "Newark, NJ", "SF": "San Francisco, CA",
+              "LA": "Los Angeles, CA", "SD": "San Diego, CA", "BER": "Berkeley, CA", "BOS": "Boston, MA",
+              "CAM": "Cambridge, MA", "OAK": "Oakland, CA"}
+
+
+def _expected_sets(test: dict, sample: list[dict]) -> tuple[set, set]:
+    """Address sets implied by the supplied test definition (same reading as selfcheck)."""
+    states = set(test.get("states") or [])
+    in_states = {a["address_id"] for a in sample if a["state"] in states}
+    kind = test.get("type")
+    if kind == "negative":
+        return set(), set()
+    if kind == "boundary":
+        cities = {_CITY_CODE.get(r.split("-")[0]) for r in test.get("rule_ids", [])}
+        return {a["address_id"] for a in sample if a.get("jurisdiction_city") in cities}, set()
+    flags = set()
+    if test.get("conflict_with"):
+        cities = {_CITY_CODE.get(r.split("-")[0]) for r in test["conflict_with"]}
+        flags = {a["address_id"] for a in sample if a.get("jurisdiction_city") in cities}
+    return in_states, flags
+
+
+def _transition(test: dict, res: dict, rules: dict) -> dict:
+    """A compact before -> after summary for the UI."""
+    kind = test.get("type")
+    if kind == "as_of":
+        before = after = None
+        for d in res.get("detail", {}).values():
+            if d.get("before") is not None and d.get("after"):
+                before = next(iter(d["before"].values()), "absent") if d["before"] else "absent"
+                after = next(iter(d["after"].values()))
+                break
+        return {"kind": "as_of", "from": before or "not_yet_effective", "to": after or "applies",
+                "from_date": test.get("as_of_before"), "to_date": test.get("as_of_after")}
+    if kind == "boundary":
+        # Unique affected addresses per city of the state, including cities with none (e.g. Newark).
+        sample = _load(ADDRESSES_RESOLVED, [])
+        city_of = {a["address_id"]: a.get("jurisdiction_city") for a in sample}
+        states = {rules[i]["jurisdiction"].split(", ")[-1] for ids in res.get("mapped_rules", {}).values()
+                  for i in ids if i in rules}
+        cities = sorted({a.get("jurisdiction_city") for a in sample if a["state"] in states and a.get("jurisdiction_city")})
+        hits = Counter(city_of.get(a) for a in res.get("affected_address_ids", []))
+        return {"kind": "boundary", "rules": [{"jurisdiction": c, "count": hits.get(c, 0)} for c in cities]}
+    if kind == "pending":
+        return {"kind": "pending", "from": "pending", "to": "applies"}
+    return {"kind": kind or "other", "from": "failed", "to": "never"}
 
 
 @app.get("/api/audit")

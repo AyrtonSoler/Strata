@@ -123,6 +123,18 @@ export interface ChangeTest {
   notes: string
   mapped_rules: Record<string, string[]>
   detail: Record<string, Record<string, unknown>>
+  by_city: Record<string, number>
+  flagged_by_city: Record<string, number>
+  groups: Record<string, string[]>
+  check: { expected_count: number; matches: boolean }
+  transition: {
+    kind: string
+    from?: string
+    to?: string
+    from_date?: string
+    to_date?: string
+    rules?: { jurisdiction: string; count: number }[]
+  }
 }
 
 export interface Meta {

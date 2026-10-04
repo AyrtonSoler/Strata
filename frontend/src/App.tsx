@@ -73,7 +73,7 @@ export default function App() {
       <header className="glass sticky top-0 z-[900] border-b border-black/[0.06]">
         <div className="mx-auto flex h-14 max-w-[1200px] items-center gap-6 px-5">
           <button onClick={() => setTab('lookup')} className="flex items-center gap-2">
-            <StrataMark />
+            <StrataMark size={26} />
             <span className="text-[19px] font-semibold tracking-[-0.02em]">{s.brand}</span>
           </button>
           <nav className="hidden flex-1 items-center justify-center gap-1 md:flex">
@@ -171,7 +171,7 @@ export default function App() {
       <footer className="border-t border-black/[0.06] bg-[#fbfbfd]">
         <div className="mx-auto flex max-w-[1200px] flex-wrap items-center justify-between gap-3 px-5 py-6 text-[12px] text-faint">
           <span className="flex items-center gap-2">
-            <StrataMark size={14} /> Strata · Hack-Nation 7 · Challenge 2
+            <StrataMark size={16} /> Strata · Hack-Nation 7 · Challenge 2
           </span>
           <span>
             {meta ? `${meta.n_rules} rules · ${meta.n_addresses} properties · ` : ''}Public data only · Census Geocoder · RealPage starter corpus

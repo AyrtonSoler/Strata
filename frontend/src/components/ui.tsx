@@ -87,12 +87,26 @@ export function Segmented<T extends string>({
   )
 }
 
+// Three isometric strata (state, county, city) with the address on top.
+const SLABS: [number, string, string, string][] = [
+  [12.4, '#3a3a3c', '#1d1d1f', '#000000'],
+  [6.2, '#7d7bf0', '#4a48c4', '#3b39a8'],
+  [0, '#22c3b2', '#08897c', '#06705f'],
+]
+
 export function StrataMark({ size = 22 }: { size?: number }) {
   return (
-    <svg width={size} height={size} viewBox="0 0 24 24" aria-hidden="true">
-      <rect x="2" y="3" width="20" height="5" rx="2.5" fill="#5856d6" />
-      <rect x="5" y="9.5" width="17" height="5" rx="2.5" fill="#0a9e8f" />
-      <rect x="8" y="16" width="14" height="5" rx="2.5" fill="#1d1d1f" />
+    <svg width={size} height={size} viewBox="0 0 32 32" aria-hidden="true">
+      <g strokeWidth="1.2" strokeLinejoin="round">
+        {SLABS.map(([dy, top, left, right]) => (
+          <g key={dy} transform={`translate(0 ${dy})`}>
+            <path d="M4 10 L16 16 L16 18.6 L4 12.6 Z" fill={left} stroke={left} />
+            <path d="M28 10 L16 16 L16 18.6 L28 12.6 Z" fill={right} stroke={right} />
+            <path d="M16 4 L28 10 L16 16 L4 10 Z" fill={top} stroke={top} />
+          </g>
+        ))}
+      </g>
+      <circle cx="16" cy="10" r="2.2" fill="#fff" />
     </svg>
   )
 }

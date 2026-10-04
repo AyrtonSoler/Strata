@@ -55,7 +55,7 @@ export default function RightsSheet({
       <div onClick={(e) => e.stopPropagation()} className="sheet-up rights-sheet w-full max-w-2xl rounded-[28px] bg-white p-8 shadow-2xl sm:p-10">
         <div className="flex items-start justify-between gap-4">
           <div className="flex items-center gap-2 text-[15px] font-semibold">
-            <StrataMark size={18} /> Strata
+            <StrataMark size={22} /> Strata
           </div>
           <div className="no-print flex gap-2">
             <button onClick={() => window.print()} className="btn-primary px-4 py-2 text-[13px]">

@@ -38,3 +38,20 @@ docs/challenges/
 .vercel
 .env*
 docs/participant-final-no-hour16/
+
+# Video production: keep scripts, not renders, captures or upload responses
+media/out/
+media/rec/
+media/shots/
+media/ai/
+media/up/
+media/*.json
+media/*.wav
+media/*.jpg
+media/terminal.html
+media/selfcheck.txt
+media/logo/compare.*
+media/edit/build_*.js
+media/edit/patch*.py
+media/edit/cmd_*.sh
+media/edit/mkcmd.py

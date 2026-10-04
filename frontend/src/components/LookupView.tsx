@@ -320,6 +320,15 @@ function AnswerPanel({
           <div>
             <p className="eyebrow">{s.jurisdiction}</p>
             <div className="mt-3 space-y-1.5">
+              {/* Legal city with no rules in the corpus (e.g. Emeryville behind an Oakland mailing address). */}
+              {!answer.jurisdiction_stack.some((j) => j.includes(',') && !j.includes('County')) && a.census_place?.endsWith(' city') && (
+                <div className="flex items-center justify-between rounded-xl border border-dashed border-layer-city/60 bg-layer-city/10 px-4 py-2.5 text-[15px] font-medium text-layer-city">
+                  <span>
+                    {a.census_place.replace(/ city$/, '')}, {a.state}
+                  </span>
+                  <span className="text-[12px] font-normal opacity-80">{s.cityNoRules}</span>
+                </div>
+              )}
               {[...answer.jurisdiction_stack].reverse().map((j) => {
                 const isCounty = j.includes('County')
                 const isCity = j.includes(',') && !isCounty

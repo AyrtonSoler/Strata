@@ -212,7 +212,7 @@ html, body { overflow-x: clip; }
   from { opacity: 0; transform: translateY(-6px); clip-path: inset(0 0 100% 0 round 16px); }
   to { opacity: 1; transform: none; clip-path: inset(0 0 0 0 round 16px); }
 }
-.page-in { animation: page-in 0.5s cubic-bezier(0.16, 1, 0.3, 1) both; }
+.page-in { animation: page-in 0.5s cubic-bezier(0.16, 1, 0.3, 1) backwards; }
 .stagger { opacity: 0; animation: page-in 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
 .sheet-up { animation: sheet-up 0.45s cubic-bezier(0.16, 1, 0.3, 1) both; }
 .backdrop-in { animation: backdrop-in 0.3s ease both; }

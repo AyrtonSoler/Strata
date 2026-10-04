@@ -4,7 +4,6 @@ import ChangesView from './components/ChangesView'
 import LookupView from './components/LookupView'
 import RulesView from './components/RulesView'
 import TimeMachine, { type TimeState } from './components/TimeMachine'
-import { DatePicker } from './components/controls'
 import { Segmented, StrataMark } from './components/ui'
 import { api } from './lib/api'
 import { t, type Lang } from './lib/i18n'
@@ -54,6 +53,19 @@ export default function App() {
     window.history.replaceState(null, '', url)
   }, [tab, selected, asOf, rights, timeState, lang])
 
+  // Logo, or the Lookup tab while already on it: back to the hero.
+  const goHome = () => {
+    setSelected(null)
+    setRights(false)
+    setTab('lookup')
+    window.scrollTo({ top: 0 })
+  }
+  const pickTab = (id: Tab) => {
+    if (id === 'lookup' && tab === 'lookup') return goHome()
+    setTab(id)
+    window.scrollTo({ top: 0 })
+  }
+
   const openAddress = (id: string) => {
     setSelected(id)
     setTab('lookup')
@@ -71,16 +83,16 @@ export default function App() {
   return (
     <div className="min-h-screen">
       <header className="glass sticky top-0 z-[900] border-b border-black/[0.06]">
-        <div className="mx-auto flex h-14 max-w-[1200px] items-center gap-6 px-5">
-          <button onClick={() => setTab('lookup')} className="flex items-center gap-2">
+        <div className="mx-auto grid h-14 max-w-[1200px] grid-cols-[1fr_auto] items-center gap-6 px-5 md:grid-cols-[1fr_auto_1fr]">
+          <button onClick={goHome} className="flex items-center gap-2 justify-self-start">
             <StrataMark size={26} />
             <span className="text-[19px] font-semibold tracking-[-0.02em]">{s.brand}</span>
           </button>
-          <nav className="hidden flex-1 items-center justify-center gap-1 md:flex">
+          <nav className="hidden items-center justify-center gap-1 md:flex">
             {tabs.map(([id, label]) => (
               <button
                 key={id}
-                onClick={() => setTab(id)}
+                onClick={() => pickTab(id)}
                 className={`rounded-full px-3.5 py-1.5 text-[13px] font-medium transition ${
                   tab === id ? 'bg-ink text-white' : 'text-ink-2 hover:bg-black/5'
                 }`}
@@ -89,25 +101,7 @@ export default function App() {
               </button>
             ))}
           </nav>
-          <div className="ml-auto flex items-center gap-3 md:ml-0">
-            {tab === 'lookup' && (
-              <div className="hidden items-center gap-2 text-[13px] text-muted sm:flex">
-                {s.asOf}
-                <DatePicker
-                  value={asOf}
-                  onChange={setAsOf}
-                  lang={lang}
-                  min="2024-01-01"
-                  max="2028-12-31"
-                  presets={[
-                    ['2026-10-01', lang === 'es' ? 'Fecha base' : 'Default date'],
-                    ['2025-12-31', 'Dec 31, 2025'],
-                    ['2026-01-02', 'Jan 2, 2026'],
-                    ['2027-07-02', 'Jul 2, 2027'],
-                  ]}
-                />
-              </div>
-            )}
+          <div className="flex items-center justify-self-end">
             <Segmented
               size="sm"
               value={lang}
@@ -123,7 +117,7 @@ export default function App() {
           {tabs.map(([id, label]) => (
             <button
               key={id}
-              onClick={() => setTab(id)}
+              onClick={() => pickTab(id)}
               className={`whitespace-nowrap rounded-full px-3 py-1 text-[13px] font-medium ${tab === id ? 'bg-ink text-white' : 'text-ink-2'}`}
             >
               {label}
@@ -140,6 +134,8 @@ export default function App() {
             s={s}
             lang={lang}
             asOf={asOf}
+            onAsOfChange={setAsOf}
+            onReset={goHome}
             selectedId={selected}
             onSelect={setSelected}
             initialRights={rights}

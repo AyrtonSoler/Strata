@@ -6,12 +6,15 @@ import AuditPanel, { ChecksList } from './AuditPanel'
 import EvidenceSheet from './EvidenceSheet'
 import Landing, { StrataVisual } from './Landing'
 import RightsSheet from './RightsSheet'
+import { DatePicker } from './controls'
 import { Card, ErrorNote, LayerTag, ResultBadge, Spinner } from './ui'
 
 interface Props {
   s: Strings
   lang: Lang
   asOf: string
+  onAsOfChange: (v: string) => void
+  onReset: () => void
   selectedId: string | null
   onSelect: (id: string) => void
   initialRights?: boolean
@@ -21,7 +24,7 @@ interface Props {
 
 const RANK: Record<ResultItem['result'], number> = { applies: 0, unknown: 1, not_yet_effective: 2, pending: 3, superseded: 4 }
 
-export default function LookupView({ s, lang, asOf, selectedId, onSelect, initialRights, onRightsChange, onTimeMachine }: Props) {
+export default function LookupView({ s, lang, asOf, onAsOfChange, onReset, selectedId, onSelect, initialRights, onRightsChange, onTimeMachine }: Props) {
   const inputRef = useRef<HTMLInputElement>(null)
   const [q, setQ] = useState('')
   const [focused, setFocused] = useState(false)
@@ -62,6 +65,14 @@ export default function LookupView({ s, lang, asOf, selectedId, onSelect, initia
 
   useEffect(() => setWhatIf(null), [selectedId])
 
+  // Back to the start: drop the previous answer so the hero and landing return.
+  useEffect(() => {
+    if (selectedId) return
+    setAnswer(null)
+    setError(null)
+    setRightsState(false)
+  }, [selectedId])
+
   useEffect(() => {
     const close = (e: MouseEvent) => boxRef.current && !boxRef.current.contains(e.target as Node) && setFocused(false)
     document.addEventListener('mousedown', close)
@@ -100,9 +111,32 @@ export default function LookupView({ s, lang, asOf, selectedId, onSelect, initia
         }
       >
         <div className={answer ? '' : 'text-center lg:text-left'}>
+        {answer && (
+          <div className="mx-auto mb-5 flex max-w-2xl flex-wrap items-center justify-between gap-3">
+            <button onClick={onReset} className="btn-ghost -ml-3">
+              ← {s.startOver}
+            </button>
+            <span className="flex items-center gap-2 text-[13px] text-muted">
+              {s.asOf}
+              <DatePicker
+                value={asOf}
+                onChange={onAsOfChange}
+                lang={lang}
+                min="2024-01-01"
+                max="2028-12-31"
+                presets={[
+                  ['2026-10-01', lang === 'es' ? 'Fecha base' : 'Default date'],
+                  ['2025-12-31', 'Dec 31, 2025'],
+                  ['2026-01-02', 'Jan 2, 2026'],
+                  ['2027-07-02', 'Jul 2, 2027'],
+                ]}
+              />
+            </span>
+          </div>
+        )}
         {!answer && (
           <>
-            <p className="anim-fade-up eyebrow text-accent">{s.heroTitle}</p>
+            <p className="anim-fade-up mx-auto max-w-xl text-[17px] font-medium leading-snug text-accent lg:mx-0">{s.heroPurpose}</p>
             <h1
               className="anim-fade-up mt-4 text-[48px] font-semibold leading-[1.02] tracking-[-0.04em] sm:text-[72px] xl:text-[80px]"
               style={{ animationDelay: '120ms' }}

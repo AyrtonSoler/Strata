@@ -39,6 +39,8 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
+    /* Keep the scrollbar's space reserved so short and long pages share one layout width. */
+    scrollbar-gutter: stable;
   }
   body {
     @apply bg-canvas text-ink;

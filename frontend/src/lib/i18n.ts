@@ -5,7 +5,9 @@ const STRINGS = {
     brand: 'Strata',
     tagline: 'Every rule. Every address. Every date.',
     heroTitle: 'What applies at this address?',
-    heroSub: 'Strata reads state, county and city housing law and resolves it for one building, on any date, with the source text behind every answer.',
+    heroPurpose: 'Know which housing laws apply to any rental address, for renters, landlords and property managers.',
+    heroSub: 'Rent caps, eviction protections, deposits, screening fees and algorithmic-pricing bans, resolved across state, county and city law for any date, with the exact source passage behind every answer.',
+    startOver: 'Back to start',
     tryLabel: 'Try',
     examples: [
       { id: 'A0016', label: 'San Francisco · 1926 · 21 units' },
@@ -143,7 +145,9 @@ const STRINGS = {
     brand: 'Strata',
     tagline: 'Cada regla. Cada dirección. Cada fecha.',
     heroTitle: '¿Qué aplica en esta dirección?',
-    heroSub: 'Strata lee la ley de vivienda estatal, del condado y municipal y la resuelve para un edificio, en cualquier fecha, con el texto fuente detrás de cada respuesta.',
+    heroPurpose: 'Sepa qué leyes de vivienda aplican a cualquier dirección de renta, para inquilinos, propietarios y administradores.',
+    heroSub: 'Topes de renta, protección contra desalojos, depósitos, cuotas de evaluación y prohibiciones de precios algorítmicos, resueltos entre la ley estatal, del condado y municipal para cualquier fecha, con el pasaje exacto de la fuente detrás de cada respuesta.',
+    startOver: 'Volver al inicio',
     tryLabel: 'Pruebe',
     examples: [
       { id: 'A0016', label: 'San Francisco · 1926 · 21 unidades' },

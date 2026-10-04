@@ -31,13 +31,23 @@ from scratch (`media/edit/music.py`), so there are no third-party rights.
 | 52–59.5 | End card: logo, "AI reads. Code decides.", 287 model calls · ~$10, GitHub | "Reproducible, auditable, and about ten dollars of model calls. That's Strata." |
 
 ## Video 3: Team (≤ 60 s)
-Ayrton on camera (phone, landscape, 1080p, window light), reading the script below; the edit adds
-lower-thirds, real app b-roll, captions, the music bed and the end card.
+About Ayrton and why he picked this challenge, not a second product pitch. Ayrton on camera (phone,
+landscape, 1080p, window light, eye level). The edit adds a name lower-third, two or three short app
+cutaways, captions, the music bed and the end card. Fill in the [brackets] with your own words; keep the
+total around 130 words (about 50 seconds).
 
-> Hi, I'm Ayrton Soler, and I built Strata for Hack-Nation 7, Challenge 2 with RealPage.
-> Why housing law? Because renters and landlords make real decisions, a rent increase, an eviction notice,
-> a deposit, under rules they can't see. The law is split across state, county and city, and it changes on its own schedule.
-> In twenty-four hours I built a pipeline where AI reads the law and code decides: sixty verified rules,
-> five hundred addresses, every answer traced to the exact passage, in English and Spanish.
-> Next: a living map of housing law for every address in the country, so anyone can know their rights
-> before they sign, pay or move. Strata. Every rule. Every address. Every date.
+> Hi, I'm Ayrton Soler, [what you do: e.g. a software engineering student / a developer] from Mexico.
+> I usually build with Spring Boot and React, and I took on this challenge solo.
+>
+> I picked housing law because [your personal reason: e.g. the first time I rented, I signed a lease
+> without knowing which rules protected me, and finding out meant reading legal text I couldn't follow].
+> The answers exist, but they're scattered across state, county and city codes, and they keep changing.
+>
+> What hooked me is that it's a problem where AI helps but can't be trusted blindly. So I let the model
+> read the law, made plain code make every decision, and made every answer show its source.
+>
+> The hardest part was [your answer: e.g. getting the AI to quote the law exactly instead of paraphrasing it].
+> What I'm taking away is [one lesson]. Thanks for watching.
+
+Recording tips: two or three takes, pause one second before and after, look at the lens, and don't
+read the brackets literally; say it the way you would tell a friend.

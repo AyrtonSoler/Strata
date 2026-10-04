@@ -20,3 +20,7 @@ data/work/translate_cache
 data/work/dates_cache
 data/work/geocode_cache.json
 frontend/dist
+
+# Video production assets (local only)
+media/
+docs/

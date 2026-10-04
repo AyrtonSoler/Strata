@@ -1,5 +1,7 @@
 # Strata
 
+[![CI](https://github.com/AyrtonSoler/Strata/actions/workflows/ci.yml/badge.svg)](https://github.com/AyrtonSoler/Strata/actions/workflows/ci.yml)
+
 > Which housing rules apply at this address today, and how do the supplied changes affect the answer? Every answer is cited to the source text.
 
 At any address, housing law comes in **layers**: state, county and city. Some layers displace others, and each takes effect at a point in time. Strata works out those layers for one building on any date and shows the evidence behind every answer.
@@ -52,7 +54,7 @@ Full details, data sources and limits are in **[METHOD.md](METHOD.md)**.
 | Check | Result |
 |---|---|
 | Rule records valid against `rule_record.schema.json` | **60/60** |
-| Quoted spans found verbatim in their source document | **60/60** |
+| Quoted spans found verbatim in their source document | **60/60** (a fresh clone checks 49; the 11 link-only pages are not redistributed) |
 | Rules found independently by both extraction passes | 53/60 |
 | Verifier pass (others flagged for human review) | 59/60 |
 | Addresses with lookups | **500/500** |
@@ -80,6 +82,15 @@ uv run python -m pipeline.fetch_links && uv run python -m pipeline.oakland
 uv run python -m pipeline.run_all && uv run python -m pipeline.selfcheck
 ```
 
+## Continuous integration
+
+Every push runs [GitHub Actions](.github/workflows/ci.yml): the pipeline self-check on the committed outputs, API smoke tests
+(`backend/tests`, answers from the brief) and the frontend lint, typecheck and build. To run the tests locally:
+
+```bash
+cd backend && uv run --with pytest pytest -q tests
+```
+
 ## Outputs (`submission/`)
 
 | File | Contents |
@@ -96,4 +107,4 @@ React + Vite + TypeScript + Tailwind + Leaflet · FastAPI (Python 3.12, uv) · C
 
 ## Team
 
-- Ayrton Soler
+- Víctor Ayrton Soler, Computer Science, Tecnológico de Monterrey (Campus Puebla)

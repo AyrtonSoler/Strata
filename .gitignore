@@ -56,3 +56,5 @@ media/edit/mkcmd.py
 
 # Internal planning (challenge docs, video plan): local only
 docs/
+media/edit/put_*.url
+media/edit/run_*.sh

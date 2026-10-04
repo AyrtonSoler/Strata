@@ -49,6 +49,9 @@ def main() -> None:
     print(f"         {starter} from the starter corpus, {len(rules) - starter} from link-only sources fetched once")
     print(f"         by status: {dict(Counter(r['status'] for r in rules))}")
     print(f"         by category: {dict(Counter(r['category'] for r in rules))}")
+    open_q = [r for r in rules if r.get("open_questions")]
+    print(f"         open questions flagged for review: {len(open_q)} "
+          f"({', '.join(r['citation'] for r in open_q) or 'none'})")
     print(f"         jurisdictions: {len({r['jurisdiction'] for r in rules})} "
           f"({', '.join(sorted({r['jurisdiction'] for r in rules}))})")
 

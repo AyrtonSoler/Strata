@@ -19,6 +19,8 @@ from .engine import status_as_of
 from .extract import audit
 from .paths import WORK
 
+MONEY = re.compile(r"\$\d[\d,]*(?:\.\d+)?")
+
 STATES = ("CA", "NJ", "MA")
 CITIES = {
     "Los Angeles": "CA", "San Francisco": "CA", "San Diego": "CA", "Berkeley": "CA", "Santa Ana": "CA",
@@ -182,6 +184,10 @@ def _merge(primary: dict, members: list[dict], g: dict | None) -> dict:
     rec["merged_candidate_ids"] = [m["id"] for m in members]
     rec["origins"] = sorted({m.get("origin", "doc") for m in members})
     rec["penalty"] = rec.get("penalty") or next((m.get("penalty") for m in members if m.get("penalty")), None)
+    figures = defaultdict(set)
+    for m in members:
+        figures[m["source_doc_id"]].update(MONEY.findall(m.get("key_value") or ""))
+    rec["source_figures"] = {d: sorted(v) for d, v in figures.items() if v}
     return rec
 
 
@@ -249,6 +255,7 @@ def to_schema(rec: dict, rid: str, as_of: dt.date) -> dict:
         "span_match": rec.get("span_match"),
         "source_type": rec.get("source_type"),
         "supporting_sources": [{"doc_id": d, "url": u} for d, u in rec.get("supporting_sources", [])],
+        "source_figures": rec.get("source_figures") or {},
     }
 
 

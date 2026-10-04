@@ -10,7 +10,7 @@ import asyncio
 import datetime as dt
 import json
 
-from . import cells, dates, extract, llm, reconcile, translate, verify
+from . import cells, dates, extract, llm, open_questions, reconcile, translate, verify
 from .changes import run_test
 from .engine import lookup, parse_date, public_rows
 from .paths import (ADDRESSES_RESOLVED, CHANGE_TESTS, CHANGES_OUT, DEFAULT_AS_OF, EXTENSION_OUT,
@@ -41,6 +41,7 @@ async def main(as_of: str, use_llm: bool) -> None:
               f"flagged for review (spent ${llm.spent_usd():.2f})")
         await dates.classify(rules)
         await translate.add_spanish(rules)
+    print(f"open questions surfaced on {open_questions.flag(rules)} rules")
 
     SUBMISSION.mkdir(exist_ok=True)
     RULES_OUT.write_text(json.dumps({"as_of": as_of, "rules": rules, "no_rule_findings": no_rule,

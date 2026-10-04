@@ -212,11 +212,15 @@ def lookup(addr: dict, rules: list[dict], as_of: dt.date) -> list[dict]:
             continue
         same = [r for r in rows if r is not row and r["_rule"]["category"] == row["_rule"]["category"]
                 and r["_rule"]["level"] != row["_rule"]["level"] and r["result"] != "pending"]
-        if same and (row["_rule"].get("conflict_flag") or any(r["_rule"].get("conflict_flag") for r in same)):
+        if same and (_preempts(row["_rule"]) or any(_preempts(r["_rule"]) for r in same)):
             row["conflict_flag"] = True
 
     rows.sort(key=lambda r: (r["_rule"]["category"], RESULT_ORDER[r["result"]], r["team_rule_id"]))
     return rows
+
+
+def _preempts(rule: dict) -> bool:
+    return bool(rule.get("conflict_flag")) and not rule.get("open_questions")
 
 
 def public_rows(rows: list[dict]) -> list[dict]:

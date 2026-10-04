@@ -14,7 +14,7 @@
     "team_rule_id": "r-0004",
     "result": "applies",
     "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
-    "conflict_flag": false
+    "conflict_flag": true
    },
    {
     "team_rule_id": "r-0002",
@@ -76,7 +76,7 @@
     "team_rule_id": "r-0004",
     "result": "applies",
     "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
-    "conflict_flag": false
+    "conflict_flag": true
    },
    {
     "team_rule_id": "r-0002",
@@ -138,7 +138,7 @@
     "team_rule_id": "r-0004",
     "result": "applies",
     "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
-    "conflict_flag": false
+    "conflict_flag": true
    },
    {
     "team_rule_id": "r-0002",
@@ -200,7 +200,7 @@
     "team_rule_id": "r-0004",
     "result": "applies",
     "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
-    "conflict_flag": false
+    "conflict_flag": true
    },
    {
     "team_rule_id": "r-0002",
@@ -262,7 +262,7 @@
     "team_rule_id": "r-0004",
     "result": "applies",
     "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
-    "conflict_flag": false
+    "conflict_flag": true
    },
    {
     "team_rule_id": "r-0002",
@@ -324,7 +324,7 @@
     "team_rule_id": "r-0004",
     "result": "applies",
     "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
-    "conflict_flag": false
+    "conflict_flag": true
    },
    {
     "team_rule_id": "r-0002",
@@ -386,7 +386,7 @@
     "team_rule_id": "r-0004",
     "result": "applies",
     "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
-    "conflict_flag": false
+    "conflict_flag": true
    },
    {
     "team_rule_id": "r-0002",
@@ -430,7 +430,7 @@
     "team_rule_id": "r-0004",
     "result": "applies",
     "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
-    "conflict_flag": false
+    "conflict_flag": true
    },
    {
     "team_rule_id": "r-0002",
@@ -492,7 +492,7 @@
     "team_rule_id": "r-0004",
     "result": "applies",
     "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
-    "conflict_flag": false
+    "conflict_flag": true
    },
    {
     "team_rule_id": "r-0002",
@@ -554,7 +554,7 @@
     "team_rule_id": "r-0004",
     "result": "applies",
     "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
-    "conflict_flag": false
+    "conflict_flag": true
    },
    {
     "team_rule_id": "r-0002",
@@ -616,7 +616,7 @@
     "team_rule_id": "r-0004",
     "result": "applies",
     "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
-    "conflict_flag": false
+    "conflict_flag": true
    },
    {
     "team_rule_id": "r-0002",
@@ -678,7 +678,7 @@
     "team_rule_id": "r-0004",
     "result": "applies",
     "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
-    "conflict_flag": false
+    "conflict_flag": true
    },
    {
     "team_rule_id": "r-0002",
@@ -740,7 +740,7 @@
     "team_rule_id": "r-0004",
     "result": "applies",
     "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
-    "conflict_flag": false
+    "conflict_flag": true
    },
    {
     "team_rule_id": "r-0002",
@@ -802,7 +802,7 @@
     "team_rule_id": "r-0004",
     "result": "applies",
     "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
-    "conflict_flag": false
+    "conflict_flag": true
    },
    {
     "team_rule_id": "r-0002",
@@ -864,7 +864,7 @@
     "team_rule_id": "r-0004",
     "result": "applies",
     "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
-    "conflict_flag": false
+    "conflict_flag": true
    },
    {
     "team_rule_id": "r-0002",
@@ -926,7 +926,7 @@
     "team_rule_id": "r-0004",
     "result": "applies",
     "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
-    "conflict_flag": false
+    "conflict_flag": true
    },
    {
     "team_rule_id": "r-0002",
@@ -988,7 +988,7 @@
     "team_rule_id": "r-0004",
     "result": "applies",
     "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
-    "conflict_flag": false
+    "conflict_flag": true
    },
    {
     "team_rule_id": "r-0002",
@@ -1050,7 +1050,7 @@
     "team_rule_id": "r-0004",
     "result": "applies",
     "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
-    "conflict_flag": false
+    "conflict_flag": true
    },
    {
     "team_rule_id": "r-0002",
@@ -1112,7 +1112,7 @@
     "team_rule_id": "r-0004",
     "result": "applies",
     "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
-    "conflict_flag": false
+    "conflict_flag": true
    },
    {
     "team_rule_id": "r-0002",
@@ -1174,7 +1174,7 @@
     "team_rule_id": "r-0004",
     "result": "applies",
     "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
-    "conflict_flag": false
+    "conflict_flag": true
    },
    {
     "team_rule_id": "r-0002",
@@ -1236,7 +1236,7 @@
     "team_rule_id": "r-0004",
     "result": "applies",
     "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
-    "conflict_flag": false
+    "conflict_flag": true
    },
    {
     "team_rule_id": "r-0002",
@@ -1298,7 +1298,7 @@
     "team_rule_id": "r-0004",
     "result": "applies",
     "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
-    "conflict_flag": false
+    "conflict_flag": true
    },
    {
     "team_rule_id": "r-0002",
@@ -1360,7 +1360,7 @@
     "team_rule_id": "r-0004",
     "result": "applies",
     "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
-    "conflict_flag": false
+    "conflict_flag": true
    },
    {
     "team_rule_id": "r-0002",
@@ -1422,7 +1422,7 @@
     "team_rule_id": "r-0004",
     "result": "applies",
     "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
-    "conflict_flag": false
+    "conflict_flag": true
    },
    {
     "team_rule_id": "r-0002",
@@ -1484,7 +1484,7 @@
     "team_rule_id": "r-0004",
     "result": "applies",
     "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
-    "conflict_flag": false
+    "conflict_flag": true
    },
    {
     "team_rule_id": "r-0002",
@@ -1546,7 +1546,7 @@
     "team_rule_id": "r-0004",
     "result": "applies",
     "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
-    "conflict_flag": false
+    "conflict_flag": true
    },
    {
     "team_rule_id": "r-0002",
@@ -1608,7 +1608,7 @@
     "team_rule_id": "r-0004",
     "result": "applies",
     "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
-    "conflict_flag": false
+    "conflict_flag": true
    },
    {
     "team_rule_id": "r-0002",
@@ -1670,7 +1670,7 @@
     "team_rule_id": "r-0004",
     "result": "applies",
     "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
-    "conflict_flag": false
+    "conflict_flag": true
    },
    {
     "team_rule_id": "r-0002",
@@ -1732,7 +1732,7 @@
     "team_rule_id": "r-0004",
     "result": "applies",
     "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
-    "conflict_flag": false
+    "conflict_flag": true
    },
    {
     "team_rule_id": "r-0002",
@@ -1794,7 +1794,7 @@
     "team_rule_id": "r-0004",
     "result": "applies",
     "explanation": "State law in force. Covers all residential rentals in this jurisdiction.",
-    "conflict_flag": false
+    "conflict_flag": true
    },
    {
     "team_rule_id": "r-0002",

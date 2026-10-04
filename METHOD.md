@@ -25,6 +25,8 @@
 ## Uncertainty and responsible design
 "Unknown" when coverage depends on a fact not in the data (owner type, exact certificate-of-occupancy date, subsidy status). Conflicts and verifier disagreements are flagged for human review. Each answer shows its as-of date. Enacted, pending, not-yet-effective and failed laws are kept separate. Every LLM call (request id, tokens, cost), rejected quote, merge decision and set-aside record is in `data/work/audit_log.jsonl`. Every screen carries a not-legal-advice label.
 
+**Open questions in the law (guide §9).** A deterministic step compares our own sources and flags a rule for review, without changing its answer, when they disagree. It surfaces the New Jersey FAIR Act's possible preemption of the Jersey City and Hoboken bans, Berkeley's algorithmic ban (its 2026-01-01 date comes only from a law-firm alert; the ordinance text in the corpus states none) and California's screening-fee cap (sources give $30 and $68.96, so no single official figure). The second Los Angeles RSO date is not in our sources, so it is not flagged.
+
 ## Results (self-check; the judges' `score.py` is not shared with participants)
 60 rules, all valid against `rule_record.schema.json`, every quote found verbatim in its source. 53 of 60 were found independently by both passes, and 59 of 60 passed the verifier (1 flagged). 500/500 addresses have lookups, and **90 %** of "applies" answers cite a starter-corpus document. T1–T5 match the expected behavior (T3 with conflict flags on all 90 Jersey City / Hoboken addresses). 21/21 known-answer tests drawn from the brief and guide pass. LLM cost for the full build was about **$10** with every call cached, so reruns are free.
 

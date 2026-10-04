@@ -64,6 +64,7 @@
      "url": "https://oaklandca.prelive.opencities.com/files/assets/city/v/1/housing-comm-dev/documents/rental-laws/info-sheet_allowable-annual-rent-increase_en_10.6.24_final.pdf"
     }
    ],
+   "source_figures": {},
    "verification": {
     "date_in_source": "exact",
     "key_value_in_source": "all",
@@ -147,6 +148,7 @@
      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1946.2"
     }
    ],
+   "source_figures": {},
    "verification": {
     "date_in_source": "exact",
     "requirement_supported": "yes",
@@ -224,6 +226,7 @@
      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1950.5"
     }
    ],
+   "source_figures": {},
    "verification": {
     "date_in_source": "exact",
     "key_value_in_source": "all",
@@ -270,8 +273,8 @@
    "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1950.6",
    "quoted_span": "In no case shall the amount of the application screening fee charged by the landlord or their agent be greater than thirty dollars ($30) per applicant. The thirty dollar ($30) application screening fee may be adjusted annually by the landlord or their agent commensurate with an increase in the Consumer Price Index, beginning on January 1, 1998.",
    "confidence": 0.97,
-   "conflict_flag": false,
-   "conflict_note": "Base $30 cap (1998) is CPI-adjusted annually; 2026 cap reported as $68.96.",
+   "conflict_flag": true,
+   "conflict_note": "Base $30 cap (1998) is CPI-adjusted annually; 2026 cap reported as $68.96. Open question: sources state different amounts ($68.96 (D005) vs $30 (D017, D026)), so there is no single official figure; verify the current amount with the issuing agency.",
    "instrument_status": "enacted",
    "coverage": {
     "min_units": null,
@@ -307,6 +310,17 @@
      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1950.6"
     }
    ],
+   "source_figures": {
+    "D005": [
+     "$68.96"
+    ],
+    "D026": [
+     "$30"
+    ],
+    "D017": [
+     "$30"
+    ]
+   },
    "verification": {
     "date_in_source": "exact",
     "key_value_in_source": "all",
@@ -331,7 +345,10 @@
    "effective_date_note": "Existing screening fee cap with CPI adjustment",
    "title_es": "Límite de la tarifa de verificación de solicitud",
    "requirement_es": "Los propietarios pueden cobrar una tarifa para cubrir el costo de verificar a un solicitante de alquiler, pero la tarifa no puede exceder los costos reales de bolsillo y está limitada a $30 por solicitante (ajustable por inflación). Los propietarios deben seguir procedimientos específicos para considerar las solicitudes en orden y reembolsar las tarifas cuando los solicitantes no sean considerados, y deben proporcionar un recibo detallado.",
-   "key_value_es": "$30 por solicitante (ajustado por IPC desde 1998)"
+   "key_value_es": "$30 por solicitante (ajustado por IPC desde 1998)",
+   "open_questions": [
+    "Open question: sources state different amounts ($68.96 (D005) vs $30 (D017, D026)), so there is no single official figure; verify the current amount with the issuing agency."
+   ]
   },
   {
    "team_rule_id": "r-0005",
@@ -386,6 +403,7 @@
      "url": "https://calcivilrights.ca.gov/housing/"
     }
    ],
+   "source_figures": {},
    "verification": {
     "date_in_source": "absent",
     "requirement_supported": "yes",
@@ -469,6 +487,7 @@
      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=12955"
     }
    ],
+   "source_figures": {},
    "verification": {
     "date_in_source": "absent",
     "requirement_supported": "partial",
@@ -548,6 +567,7 @@
      "url": "https://www.clearygottlieb.com/news-and-insights/publication-listing/californias-antitrust-law-amendments-kick-in-targeting-algorithmic-pricing"
     }
    ],
+   "source_figures": {},
    "verification": {
     "date_in_source": "year_only",
     "requirement_supported": "yes",
@@ -632,6 +652,7 @@
      "url": "https://rentboard.berkeleyca.gov/sites/default/files/documents/Rent%20Ordinance%20Coverage%20by%20Unit%20Type.pdf"
     }
    ],
+   "source_figures": {},
    "verification": {
     "date_in_source": "exact",
     "key_value_in_source": "some",
@@ -717,6 +738,12 @@
      "url": "https://rentboard.berkeleyca.gov/sites/default/files/documents/Rent%20Ordinance%20Coverage%20by%20Unit%20Type.pdf"
     }
    ],
+   "source_figures": {
+    "D004": [
+     "$19,413",
+     "$6,471"
+    ]
+   },
    "verification": {
     "requirement_supported": "yes",
     "citation_consistent": "yes",
@@ -788,6 +815,7 @@
      "url": "https://rentboard.berkeleyca.gov/rights-responsibilities/security-deposits"
     }
    ],
+   "source_figures": {},
    "verification": {
     "requirement_supported": "yes",
     "citation_consistent": "yes",
@@ -858,6 +886,7 @@
      "url": "https://rentboard.berkeleyca.gov/laws-regulations/city-berkeley-ordinances-affecting-rental-properties/tenant-screening-and"
     }
    ],
+   "source_figures": {},
    "verification": {
     "requirement_supported": "yes",
     "citation_consistent": "yes",
@@ -927,6 +956,7 @@
      "url": "https://rentboard.berkeleyca.gov/Fair_Chance"
     }
    ],
+   "source_figures": {},
    "verification": {
     "requirement_supported": "yes",
     "citation_consistent": "yes",
@@ -968,8 +998,8 @@
    "source_url": "https://berkeleyca.gov/sites/default/files/documents/2025-12-02%20Item%2001%20Ordinance%207992.pdf",
    "quoted_span": "This Chapter solely \nregulates the use and sale of the coordinated pricing algorithms, to prevent the harms \ndescribed above.",
    "confidence": 0.97,
-   "conflict_flag": false,
-   "conflict_note": null,
+   "conflict_flag": true,
+   "conflict_note": "Open question: the effective date 2026-01-01 comes from a secondary source (D002); the official text in the corpus does not state it, so answers for dates near it need review.",
    "instrument_status": "enacted",
    "coverage": {
     "min_units": null,
@@ -1001,6 +1031,11 @@
      "url": "https://morganlewis.com/pubs/2026/08/algorithmic-rent-pricing-litigation-expands-under-new-state-and-local-laws"
     }
    ],
+   "source_figures": {
+    "D001": [
+     "$1,000"
+    ]
+   },
    "verification": {
     "date_in_source": "year_only",
     "requirement_supported": "yes",
@@ -1024,7 +1059,10 @@
    "effective_date_note": "New prohibition on algorithmic pricing tools",
    "title_es": "Prohibición de la venta o uso de algoritmos de fijación de precios coordinados para establecer alquileres o gestionar niveles de ocupación en unidades residenciales",
    "requirement_es": "Los propietarios y proveedores en Berkeley no pueden usar ni vender software que coordine precios entre propietarios competidores mediante el intercambio de datos no públicos para fijar niveles de alquiler u ocupación.",
-   "key_value_es": null
+   "key_value_es": null,
+   "open_questions": [
+    "Open question: the effective date 2026-01-01 comes from a secondary source (D002); the official text in the corpus does not state it, so answers for dates near it need review."
+   ]
   },
   {
    "team_rule_id": "r-0014",
@@ -1081,6 +1119,12 @@
      "url": "https://housing.lacity.gov/rso-rent-increase-calculator"
     }
    ],
+   "source_figures": {
+    "D042": [
+     "$1.61",
+     "$2.83"
+    ]
+   },
    "verification": {
     "date_in_source": "exact",
     "key_value_in_source": "all",
@@ -1162,6 +1206,16 @@
      "url": "https://housing.lacity.gov/wp-content/uploads/2026/08/Relocation-Assistance-Bulletins-A-and-B-Combined.pdf"
     }
    ],
+   "source_figures": {
+    "D043": [
+     "$11,000",
+     "$115,480",
+     "$14,400",
+     "$23,150",
+     "$27,400",
+     "$87,450"
+    ]
+   },
    "verification": {
     "date_in_source": "exact",
     "key_value_in_source": "all",
@@ -1243,6 +1297,7 @@
      "url": "https://housing.lacity.gov/residents/rso-overview"
     }
    ],
+   "source_figures": {},
    "verification": {
     "requirement_supported": "yes",
     "citation_consistent": "yes",
@@ -1314,6 +1369,7 @@
      "url": "https://members.aagla.org/news/city-of-la-security-deposit-interest-requirement"
     }
    ],
+   "source_figures": {},
    "verification": {
     "date_in_source": "exact",
     "requirement_supported": "yes",
@@ -1386,6 +1442,7 @@
      "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lamc/0-0-0-322208"
     }
    ],
+   "source_figures": {},
    "verification": {
     "requirement_supported": "yes",
     "citation_consistent": "yes",
@@ -1466,6 +1523,7 @@
      "url": "https://oaklandca.prelive.opencities.com/files/assets/city/v/1/housing-comm-dev/documents/tenants/13608-cms.pdf"
     }
    ],
+   "source_figures": {},
    "verification": {
     "date_in_source": "absent",
     "key_value_in_source": "some",
@@ -1548,6 +1606,7 @@
      "url": "https://oaklandca.prelive.opencities.com/files/assets/city/v/1/housing-comm-dev/documents/landlords/view-revised-supplemental-legislation-4242023.pdf"
     }
    ],
+   "source_figures": {},
    "verification": {
     "date_in_source": "exact",
     "requirement_supported": "yes",
@@ -1626,6 +1685,7 @@
      "url": "https://assets-002.noviams.com/novi-file-uploads/ebrha/pdfs-and-documents/ordinance_no__13581_c_m_s__o_m_c__8_25-cc6d7722.pdf"
     }
    ],
+   "source_figures": {},
    "verification": {
     "requirement_supported": "yes",
     "citation_consistent": "yes",
@@ -1703,6 +1763,7 @@
      "url": "https://www.lassd.org/resource/city-of-san-diego-tenant-protection-ordinance/"
     }
    ],
+   "source_figures": {},
    "verification": {
     "date_in_source": "exact",
     "requirement_supported": "yes",
@@ -1777,6 +1838,11 @@
      "url": "https://sandiego.gov/sites/default/files/2025-04/automated-rent-price-fixing-prohibition-ordinance-materials.pdf"
     }
    ],
+   "source_figures": {
+    "D076": [
+     "$1,000"
+    ]
+   },
    "verification": {
     "date_in_source": "year_only",
     "key_value_in_source": "all",
@@ -1861,6 +1927,7 @@
      "url": "https://www.sf.gov/reports--current-rates-including-rent-increase-relocation-sec-deposit"
     }
    ],
+   "source_figures": {},
    "verification": {
     "date_in_source": "exact",
     "key_value_in_source": "all",
@@ -1946,6 +2013,24 @@
      "url": "https://www.sf.gov/reports--current-rates-including-rent-increase-relocation-sec-deposit"
     }
    ],
+   "source_figures": {
+    "D082": [
+     "$11,110.05",
+     "$24,733.00",
+     "$33,330.13",
+     "$5,497.00",
+     "$7,443.90",
+     "$8,245.00"
+    ],
+    "D083": [
+     "$11,110.05",
+     "$24,733.00",
+     "$33,330.13",
+     "$5,497.00",
+     "$7,443.90",
+     "$8,245.00"
+    ]
+   },
    "verification": {
     "date_in_source": "year_only",
     "key_value_in_source": "all",
@@ -2021,6 +2106,7 @@
      "url": "https://www.sf.gov/reports--current-rates-including-rent-increase-relocation-sec-deposit"
     }
    ],
+   "source_figures": {},
    "verification": {
     "date_in_source": "exact",
     "key_value_in_source": "all",
@@ -2094,6 +2180,7 @@
      "url": "https://sf-hrc.org/fair-chance-ordinance"
     }
    ],
+   "source_figures": {},
    "verification": {
     "requirement_supported": "partial",
     "citation_consistent": "yes",
@@ -2163,6 +2250,7 @@
      "url": "https://www.sf.gov/news/new-law-prohibits-algorithmic-devices-used-set-rents-san-francisco"
     }
    ],
+   "source_figures": {},
    "verification": {
     "date_in_source": "exact",
     "requirement_supported": "yes",
@@ -2242,6 +2330,7 @@
      "url": "https://santa-ana.gov/santa-ana-city-council-adopts-rent-stabilization-and-just-cause-eviction-ordinances-effective-nov-19"
     }
    ],
+   "source_figures": {},
    "verification": {
     "date_in_source": "exact",
     "key_value_in_source": "all",
@@ -2323,6 +2412,7 @@
      "url": "https://santa-ana.gov/santa-ana-city-council-adopts-rent-stabilization-and-just-cause-eviction-ordinances-effective-nov-19"
     }
    ],
+   "source_figures": {},
    "verification": {
     "date_in_source": "exact",
     "requirement_supported": "yes",
@@ -2396,6 +2486,11 @@
      "url": "https://santa-ana.gov/departments/rent-stabilization"
     }
    ],
+   "source_figures": {
+    "D084": [
+     "$50"
+    ]
+   },
    "verification": {
     "key_value_in_source": "all",
     "requirement_supported": "yes",
@@ -2470,6 +2565,14 @@
      "url": "https://www.publicceo.com/2026/02/santa-ana-city-council-continues-to-strengthen-tenant-protections-by-banning-anticompetitive-rent-setting-software/"
     }
    ],
+   "source_figures": {
+    "D086": [
+     "$1,000"
+    ],
+    "D087": [
+     "$1,000"
+    ]
+   },
    "verification": {
     "date_in_source": "year_only",
     "key_value_in_source": "all",
@@ -2552,6 +2655,7 @@
      "url": "https://www.wbur.org/news/2026/06/23/massachusetts-high-court-rent-control-ballot-question-struck"
     }
    ],
+   "source_figures": {},
    "verification": {
     "key_value_in_source": "all",
     "requirement_supported": "yes",
@@ -2623,6 +2727,7 @@
      "url": "https://malegislature.gov/Laws/GeneralLaws/PartII/TitleI/Chapter186/Section11"
     }
    ],
+   "source_figures": {},
    "verification": {
     "key_value_in_source": "none",
     "requirement_supported": "yes",
@@ -2694,6 +2799,7 @@
      "url": "https://malegislature.gov/Laws/GeneralLaws/PartII/TitleI/Chapter186/Section15B"
     }
    ],
+   "source_figures": {},
    "verification": {
     "date_in_source": "exact",
     "key_value_in_source": "all",
@@ -2768,6 +2874,7 @@
      "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXVI/Chapter112/Section87DDD%201~2"
     }
    ],
+   "source_figures": {},
    "verification": {
     "date_in_source": "exact",
     "requirement_supported": "yes",
@@ -2845,6 +2952,7 @@
      "url": "https://masslandlords.net/can-massachusetts-landlords-charge-an-application-fee/"
     }
    ],
+   "source_figures": {},
    "verification": {
     "date_in_source": "exact",
     "requirement_supported": "yes",
@@ -2918,6 +3026,7 @@
      "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXXI/Chapter151B/Section4"
     }
    ],
+   "source_figures": {},
    "verification": {
     "requirement_supported": "yes",
     "citation_consistent": "yes",
@@ -2987,6 +3096,7 @@
      "url": "https://malegislature.gov/Bills/194/H5222"
     }
    ],
+   "source_figures": {},
    "verification": {
     "requirement_supported": "partial",
     "citation_consistent": "yes",
@@ -3061,6 +3171,7 @@
      "url": "https://malegislature.gov/Bills/194/S2983/BillHistory"
     }
    ],
+   "source_figures": {},
    "verification": {
     "requirement_supported": "partial",
     "citation_consistent": "yes",
@@ -3131,6 +3242,7 @@
      "url": "https://malegislature.gov/Bills/193/H3744"
     }
    ],
+   "source_figures": {},
    "verification": {
     "requirement_supported": "yes",
     "citation_consistent": "yes",
@@ -3204,6 +3316,7 @@
      "url": "https://www.boston.gov/sites/default/files/file/2020/11/Housing%20Stability%20Notification%20Act%20Tenant%20FAQs.pdf"
     }
    ],
+   "source_figures": {},
    "verification": {
     "date_in_source": "exact",
     "requirement_supported": "partial",
@@ -3278,6 +3391,7 @@
      "url": "https://malegislature.gov/Bills/193/H3744"
     }
    ],
+   "source_figures": {},
    "verification": {
     "requirement_supported": "partial",
     "citation_consistent": "yes",
@@ -3348,6 +3462,7 @@
      "url": "https://drive.google.com/file/d/1j4U3fDtmnYuwcUWhx5BMUcXc1bnKT8Ku/view?usp=sharing"
     }
    ],
+   "source_figures": {},
    "verification": {
     "date_in_source": "exact",
     "key_value_in_source": "all",
@@ -3421,6 +3536,7 @@
      "url": "https://www.cambridgema.gov/departments/humanrightscommission"
     }
    ],
+   "source_figures": {},
    "verification": {
     "requirement_supported": "yes",
     "citation_consistent": "unclear",
@@ -3490,6 +3606,7 @@
      "url": "https://www.cambridgeday.com/?p=158097"
     }
    ],
+   "source_figures": {},
    "verification": {
     "requirement_supported": "yes",
     "citation_consistent": "unclear",
@@ -3560,6 +3677,7 @@
      "url": "https://www.nj.gov/dca/codes/publications/pdf_lti/t_i_r.pdf"
     }
    ],
+   "source_figures": {},
    "verification": {
     "key_value_in_source": "all",
     "requirement_supported": "yes",
@@ -3631,6 +3749,7 @@
      "url": "https://www.nj.gov/dca/codes/publications/pdf_lti/t_i_r.pdf"
     }
    ],
+   "source_figures": {},
    "verification": {
     "key_value_in_source": "all",
     "requirement_supported": "yes",
@@ -3702,6 +3821,7 @@
      "url": "https://www.nj.gov/dca/codes/publications/pdf_lti/t_i_r.pdf"
     }
    ],
+   "source_figures": {},
    "verification": {
     "key_value_in_source": "some",
     "requirement_supported": "partial",
@@ -3773,6 +3893,11 @@
      "url": "https://pub.njleg.gov/bills/2024/PL25/405_.HTM"
     }
    ],
+   "source_figures": {
+    "D066": [
+     "$50"
+    ]
+   },
    "verification": {
     "date_in_source": "year_only",
     "key_value_in_source": "all",
@@ -3851,6 +3976,7 @@
      "url": "https://www.nj.gov/oag/dcr/downloads/kyrhousing02.pdf"
     }
    ],
+   "source_figures": {},
    "verification": {
     "requirement_supported": "yes",
     "citation_consistent": "yes",
@@ -3922,6 +4048,7 @@
      "url": "https://pub.njleg.gov/bills/2020/PL21/110_.HTM"
     }
    ],
+   "source_figures": {},
    "verification": {
     "date_in_source": "absent",
     "key_value_in_source": "all",
@@ -4001,6 +4128,7 @@
      "url": "https://pub.njleg.state.nj.us/Bills/2026/AL26/43_.HTM"
     }
    ],
+   "source_figures": {},
    "verification": {
     "date_in_source": "absent",
     "requirement_supported": "yes",
@@ -4075,6 +4203,7 @@
      "url": "https://ecode360.com/15252470"
     }
    ],
+   "source_figures": {},
    "verification": {
     "date_in_source": "exact",
     "key_value_in_source": "all",
@@ -4148,6 +4277,7 @@
      "url": "https://ecode360.com/46833413"
     }
    ],
+   "source_figures": {},
    "verification": {
     "date_in_source": "year_only",
     "key_value_in_source": "all",
@@ -4221,6 +4351,7 @@
      "url": "https://ecode360.com/46833413"
     }
    ],
+   "source_figures": {},
    "verification": {
     "date_in_source": "year_only",
     "requirement_supported": "yes",
@@ -4294,6 +4425,7 @@
      "url": "https://www.jerseycitynj.gov/landlordtenant"
     }
    ],
+   "source_figures": {},
    "verification": {
     "requirement_supported": "partial",
     "citation_consistent": "yes",
@@ -4364,6 +4496,11 @@
      "url": "https://www.morganlewis.com/pubs/2026/08/algorithmic-rent-pricing-litigation-expands-under-new-state-and-local-laws"
     }
    ],
+   "source_figures": {
+    "D037": [
+     "$2,000"
+    ]
+   },
    "verification": {
     "date_in_source": "exact",
     "key_value_in_source": "all",
@@ -4442,6 +4579,7 @@
      "url": "https://ecode360.com/36637822"
     }
    ],
+   "source_figures": {},
    "verification": {
     "date_in_source": "year_only",
     "key_value_in_source": "all",
@@ -4517,6 +4655,7 @@
      "url": "https://ecode360.com/36642000"
     }
    ],
+   "source_figures": {},
    "verification": {
     "date_in_source": "year_only",
     "requirement_supported": "yes",
@@ -4761,6 +4900,11 @@
      "url": "https://housing.lacity.gov/wp-content/uploads/2026/08/Relocation-Assistance-Bulletins-A-and-B-Combined.pdf"
     }
    ],
+   "source_figures": {
+    "D043": [
+     "$250,000"
+    ]
+   },
    "supplementary_reason": "cell pass already found the governing enacted rule"
   },
   {
@@ -4811,6 +4955,11 @@
      "url": "https://www.nj.gov/dca/codes/publications/pdf_lti/t_i_r.pdf"
     }
    ],
+   "source_figures": {
+    "D067": [
+     "$50,000,"
+    ]
+   },
    "supplementary_reason": "cell pass already found the governing enacted rule"
   },
   {
@@ -4861,6 +5010,7 @@
      "url": "https://www.nj.gov/dca/codes/publications/pdf_lti/t_i_r.pdf"
     }
    ],
+   "source_figures": {},
    "supplementary_reason": "cell pass already found the governing enacted rule"
   },
   {
@@ -4911,6 +5061,7 @@
      "url": "https://www.nj.gov/dca/codes/publications/pdf_lti/t_i_r.pdf"
     }
    ],
+   "source_figures": {},
    "supplementary_reason": "cell pass found no rule at this level"
   },
   {
@@ -4961,6 +5112,7 @@
      "url": "https://www.nj.gov/dca/codes/publications/pdf_lti/t_i_r.pdf"
     }
    ],
+   "source_figures": {},
    "supplementary_reason": "cell pass found no rule at this level"
   },
   {
@@ -5011,6 +5163,7 @@
      "url": "https://ecode360.com/46833413"
     }
    ],
+   "source_figures": {},
    "supplementary_reason": "cell pass already found the governing enacted rule"
   },
   {
@@ -5061,6 +5214,7 @@
      "url": "https://www.boston.gov/departments/fair-housing-and-equity/boston-fair-housing-regulations"
     }
    ],
+   "source_figures": {},
    "supplementary_reason": "cell pass already found the governing enacted rule"
   }
  ]

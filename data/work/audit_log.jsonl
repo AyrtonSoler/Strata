@@ -435,3 +435,27 @@
 {"event": "set_aside_supplementary", "jurisdiction": "NJ", "category": "rent_increase_limits", "citation": "N.J.S.A. 2A:18-61.31", "reason": "cell pass found no rule at this level"}
 {"event": "set_aside_supplementary", "jurisdiction": "Hoboken, NJ", "category": "rent_increase_limits", "citation": "Hoboken Code ch. 158, Art. I", "reason": "cell pass already found the governing enacted rule"}
 {"event": "set_aside_supplementary", "jurisdiction": "Boston, MA", "category": "screening_restrictions", "citation": "Boston Fair Housing Regulations - Source of Income Protection", "reason": "cell pass already found the governing enacted rule"}
+{"event": "candidate_rejected", "id": "c0100", "citation": "Mass. House/Senate Bill (pending, 2026 session)", "jurisdiction": "MA"}
+{"event": "set_aside_supplementary", "jurisdiction": "Los Angeles, CA", "category": "just_cause_eviction", "citation": "L.A.M.C. (Resident Protections Ordinance, Ord. Nos. 188481 & 188482)", "reason": "cell pass already found the governing enacted rule"}
+{"event": "set_aside_supplementary", "jurisdiction": "NJ", "category": "just_cause_eviction", "citation": "N.J.S.A. 2A:18-61.22 to -61.39", "reason": "cell pass already found the governing enacted rule"}
+{"event": "set_aside_supplementary", "jurisdiction": "NJ", "category": "just_cause_eviction", "citation": "N.J.S.A. 2A:42-10.10", "reason": "cell pass already found the governing enacted rule"}
+{"event": "set_aside_supplementary", "jurisdiction": "NJ", "category": "rent_increase_limits", "citation": "N.J.S.A. 2A:18-61.1 et seq.", "reason": "cell pass found no rule at this level"}
+{"event": "set_aside_supplementary", "jurisdiction": "NJ", "category": "rent_increase_limits", "citation": "N.J.S.A. 2A:18-61.31", "reason": "cell pass found no rule at this level"}
+{"event": "set_aside_supplementary", "jurisdiction": "Hoboken, NJ", "category": "rent_increase_limits", "citation": "Hoboken Code ch. 158, Art. I", "reason": "cell pass already found the governing enacted rule"}
+{"event": "set_aside_supplementary", "jurisdiction": "Boston, MA", "category": "screening_restrictions", "citation": "Boston Fair Housing Regulations - Source of Income Protection", "reason": "cell pass already found the governing enacted rule"}
+{"event": "candidate_rejected", "id": "c0100", "citation": "Mass. House/Senate Bill (pending, 2026 session)", "jurisdiction": "MA"}
+{"event": "set_aside_supplementary", "jurisdiction": "Los Angeles, CA", "category": "just_cause_eviction", "citation": "L.A.M.C. (Resident Protections Ordinance, Ord. Nos. 188481 & 188482)", "reason": "cell pass already found the governing enacted rule"}
+{"event": "set_aside_supplementary", "jurisdiction": "NJ", "category": "just_cause_eviction", "citation": "N.J.S.A. 2A:18-61.22 to -61.39", "reason": "cell pass already found the governing enacted rule"}
+{"event": "set_aside_supplementary", "jurisdiction": "NJ", "category": "just_cause_eviction", "citation": "N.J.S.A. 2A:42-10.10", "reason": "cell pass already found the governing enacted rule"}
+{"event": "set_aside_supplementary", "jurisdiction": "NJ", "category": "rent_increase_limits", "citation": "N.J.S.A. 2A:18-61.1 et seq.", "reason": "cell pass found no rule at this level"}
+{"event": "set_aside_supplementary", "jurisdiction": "NJ", "category": "rent_increase_limits", "citation": "N.J.S.A. 2A:18-61.31", "reason": "cell pass found no rule at this level"}
+{"event": "set_aside_supplementary", "jurisdiction": "Hoboken, NJ", "category": "rent_increase_limits", "citation": "Hoboken Code ch. 158, Art. I", "reason": "cell pass already found the governing enacted rule"}
+{"event": "set_aside_supplementary", "jurisdiction": "Boston, MA", "category": "screening_restrictions", "citation": "Boston Fair Housing Regulations - Source of Income Protection", "reason": "cell pass already found the governing enacted rule"}
+{"event": "candidate_rejected", "id": "c0100", "citation": "Mass. House/Senate Bill (pending, 2026 session)", "jurisdiction": "MA"}
+{"event": "set_aside_supplementary", "jurisdiction": "Los Angeles, CA", "category": "just_cause_eviction", "citation": "L.A.M.C. (Resident Protections Ordinance, Ord. Nos. 188481 & 188482)", "reason": "cell pass already found the governing enacted rule"}
+{"event": "set_aside_supplementary", "jurisdiction": "NJ", "category": "just_cause_eviction", "citation": "N.J.S.A. 2A:18-61.22 to -61.39", "reason": "cell pass already found the governing enacted rule"}
+{"event": "set_aside_supplementary", "jurisdiction": "NJ", "category": "just_cause_eviction", "citation": "N.J.S.A. 2A:42-10.10", "reason": "cell pass already found the governing enacted rule"}
+{"event": "set_aside_supplementary", "jurisdiction": "NJ", "category": "rent_increase_limits", "citation": "N.J.S.A. 2A:18-61.1 et seq.", "reason": "cell pass found no rule at this level"}
+{"event": "set_aside_supplementary", "jurisdiction": "NJ", "category": "rent_increase_limits", "citation": "N.J.S.A. 2A:18-61.31", "reason": "cell pass found no rule at this level"}
+{"event": "set_aside_supplementary", "jurisdiction": "Hoboken, NJ", "category": "rent_increase_limits", "citation": "Hoboken Code ch. 158, Art. I", "reason": "cell pass already found the governing enacted rule"}
+{"event": "set_aside_supplementary", "jurisdiction": "Boston, MA", "category": "screening_restrictions", "citation": "Boston Fair Housing Regulations - Source of Income Protection", "reason": "cell pass already found the governing enacted rule"}

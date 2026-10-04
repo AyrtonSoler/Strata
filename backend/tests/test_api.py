@@ -53,3 +53,11 @@ def test_change_cases():
     tests = client.get("/api/changes").json()
     assert len(tests) == 5
     assert all(t["check"]["matches"] for t in tests)
+
+
+def test_open_questions_are_flagged_without_changing_answers():
+    rules = {r["citation"]: r for r in client.get("/api/rules").json()["rules"]}
+    berkeley = rules["Berkeley Mun. Code ch. 13.63"]
+    assert berkeley["conflict_flag"] and berkeley["open_questions"]
+    assert results_by_citation("A0005")["Berkeley Mun. Code ch. 13.63"] == "applies"
+    assert rules["Cal. Civ. Code § 1950.6"]["open_questions"]

@@ -33,11 +33,9 @@ data/rehearsal/
 data/work/extract_run.log
 
 # Organizer briefs (not ours to redistribute)
-docs/challenges/
 
 .vercel
 .env*
-docs/participant-final-no-hour16/
 
 # Video production: keep scripts, not renders, captures or upload responses
 media/out/
@@ -55,3 +53,6 @@ media/edit/build_*.js
 media/edit/patch*.py
 media/edit/cmd_*.sh
 media/edit/mkcmd.py
+
+# Internal planning (challenge docs, video plan): local only
+docs/
